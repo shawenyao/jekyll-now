@@ -16,6 +16,22 @@ All plots are meant to be interactive. Drag to rotate and scroll to zoom in/out 
 
 
 ### Trend Stationary Model (without Drift)
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mi>X</mi>
+    <mi>t</mi>
+  </msub>
+  <mo>=</mo>
+  <msub>
+    <mi>X</mi>
+    <mn>0</mn>
+  </msub>
+  <mo>+</mo>
+  <msub>
+    <mi>&#x03F5;<!-- ϵ --></mi>
+    <mi>t</mi>
+  </msub>
+</math>
 <iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/01_tn1.html" style="border:none;height:500px;width:500px;"></iframe>
 
 ### Trend Stationary Model

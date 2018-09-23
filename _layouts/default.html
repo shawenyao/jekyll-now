@@ -19,13 +19,19 @@
     <!-- for maths formulas -->
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
+        jax: ["input/TeX", "output/HTML-CSS"],
         tex2jax: {
-          inlineMath: [['$','$'], ['\\(','\\)']],
-          processEscapes: true
+          inlineMath: [ ['$', '$'], ["\\(", "\\)"] ],
+          displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
         }
+        //,
+        //displayAlign: "left",
+        //displayIndent: "2em"
       });
     </script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
     
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>

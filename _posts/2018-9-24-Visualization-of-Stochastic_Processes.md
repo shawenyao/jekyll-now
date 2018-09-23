@@ -3,11 +3,9 @@ layout: post
 title: Visualization of Stochastic Processes
 ---
 
-
 Stochastic process makes for an excellent source of visualization.
 
 In this demo, I show the dynamics of stochastic processes along the three physical diemensions:
-
 * `t`: time
 * `x`: the value of the stochastic process at time `t`
 * `f(x)`: the probability density (or the probablity mass in the discrete case) of `x` at time `t`
@@ -19,7 +17,6 @@ All plots are meant to be interactive. Drag to rotate and scroll to zoom in/out 
 
 ### Trend Stationary Model (without Drift)
 <iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/01_tn1.html" style="border:none;height:500px;width:500px;"></iframe>
-
 ### Trend Stationary Model
 <iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/02_tn2.html" style="border:none;height:500px;width:500px;"></iframe>
 ### Brownian Motion (without Drift)

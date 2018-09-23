@@ -5,12 +5,12 @@ title: Visualization of Stochastic Processes
 
 Stochastic process makes for an excellent source of visualization.
 
-In this demo, I show the dynamics of stochastic processes along the three physical diemensions:
-* `t`: time
-* `x`: the value of the stochastic process at time `t`
-* `f(x)`: the probability density (or the probablity mass in the discrete case) of `x` at time `t`
+In this demo, I present the dynamics of stochastic processes along the three physical diemensions:
+* $t$: time
+* $x$: the value of the stochastic process at time $t$
+* $f(x)$: the probability density (or the probablity mass in the discrete case) of $x$ at time $t$
 
-Note that the expected value (or the closest permissible value in the discrete case) at each time `t` is also highlighted.
+Note that the expected value (or the closest permissible value in the discrete case) at each time $t$ is also highlighted.
 
 All plots are meant to be interactive. Drag to rotate and scroll to zoom in/out on WebGL-compatable devices. Certain feature like drift, dispersion, mean-reversion or non-negativeness might be more clearly visible from a different angle.
 

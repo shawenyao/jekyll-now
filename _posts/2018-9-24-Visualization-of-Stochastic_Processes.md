@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Visualization of Stochastic Processes
-tag: R "Stochastic Processes"
 ---
 
 Stochastic process makes for an excellent source of visualization.

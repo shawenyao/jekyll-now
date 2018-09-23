@@ -18,7 +18,7 @@ All plots are meant to be interactive. Drag to rotate and scroll to zoom in/out 
 
 
 ### Trend Stationary Model (without Drift)
-<iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/01_tn1.html" style="border:none;height:600px;width:600px;"></iframe>
+<iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/01_tn1.html" style="border:none;height:500px;width:500px;"></iframe>
 
 ### Trend Stationary Model
 <iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/02_tn2.html" style="border:none;height:600px;width:600px;"></iframe>
@@ -26,17 +26,23 @@ All plots are meant to be interactive. Drag to rotate and scroll to zoom in/out 
 ### Brownian Motion (without Drift)
 <iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/03_bm1.html" style="border:none;height:600px;width:600px;"></iframe>
 
-## Brownian Motion
+### Brownian Motion
 <iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/04_bm2.html" style="border:none;height:600px;width:600px;"></iframe>
 
 ## Brownian Bridge
+<iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/05_bb.html" style="border:none;height:600px;width:600px;"></iframe>
 
 ## Geometric Brownian Motion
+<iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/06_gb.html" style="border:none;height:600px;width:600px;"></iframe>
 
 ## Vasicek Model
+<iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/07_vasicek.html" style="border:none;height:600px;width:600px;"></iframe>
 
 ## Cox–Ingersoll–Ross Model
+<iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/08_CIR.html" style="border:none;height:600px;width:600px;"></iframe>
 
 ## Poisson Process
+<iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/09_poisson.html" style="border:none;height:600px;width:600px;"></iframe>
 
 ## Compensated Poisson Process
+<iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/10_comp_poisson.html" style="border:none;height:600px;width:600px;"></iframe>

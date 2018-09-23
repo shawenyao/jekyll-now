@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Visualization of Stochastic Processes
 ---

@@ -16,7 +16,7 @@ All plots are meant to be interactive. Drag to rotate and scroll to zoom in/out 
 
 
 ### Trend Stationary Model (without Drift)
-$X_t = X_0 + \epsilon_t$
+$$X_t = X_0 + \epsilon_t$$
 <iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/01_tn1.html" style="border:none;height:500px;width:500px;"></iframe>
 
 ### Trend Stationary Model

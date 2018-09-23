@@ -84,3 +84,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+ 
+ favicon:
+  source: favicon.png
+  path: /logos

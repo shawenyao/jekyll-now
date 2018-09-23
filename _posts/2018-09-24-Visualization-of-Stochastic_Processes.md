@@ -5,7 +5,7 @@ title: Visualization of Stochastic Processes
 
 Stochastic process makes for an excellent source of visualization.
 
-In this demo, I present the dynamics of stochastic processes along the three physical diemensions:
+In this demo, I show the dynamics of stochastic processes along the three physical diemensions:
 * $t$: time
 * $x$: the value of the stochastic process at time $t$
 * $f(x)$: the probability density (or the probablity mass in the discrete case) of $x$ at time $t$

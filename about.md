@@ -4,12 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[shawenyao@gmail.com](mailto:shawenyao@gmail.com)
+Powered by jekyll-now and hosted on Github Pages

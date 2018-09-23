@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Visualization of Stochastic Processes
+tag: R "Stochastic Processes"
 ---
 
 Stochastic process makes for an excellent source of visualization.
@@ -16,10 +17,10 @@ All plots are meant to be interactive. Drag to rotate and scroll to zoom in/out 
 
 
 ### Trend Stationary Model (without Drift)
-<iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/01_tn1.html" style="border:none;height:500px;width:500px;marginheight:0;"></iframe>
+<iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/01_tn1.html" style="border:none;height:500px;width:500px;"></iframe>
 
 ### Trend Stationary Model
-<iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/02_tn2.html" style="border:none;height:500px;width:500px;marginheight:0;"></iframe>
+<iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/02_tn2.html" style="border:none;height:500px;width:500px;"></iframe>
 
 ### Brownian Motion (without Drift)
 <iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/03_bm1.html" style="border:none;height:500px;width:500px;"></iframe>

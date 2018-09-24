@@ -25,6 +25,6 @@ remove_leading_zeros <- function(character_vector){
     as.character() %>%
     # extract character from the first non-zero element to the end
     # unless it's all 0s, in which case return the character unchanged
-    substr(start = regexpr("[^0]",.), stop = nchar(.))
+    substr(start = regexpr(pattern = "[^0]", text = .), stop = nchar(.))
 }
 ```

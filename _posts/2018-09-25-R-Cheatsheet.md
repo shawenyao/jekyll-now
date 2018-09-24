@@ -5,7 +5,7 @@ title: R Cheatsheet
 
 The R commands that has made my life easier.
 
-#### Fast copying-and-pasting to excel
+#### Fast copying-and-pasting to Microsoft Excel
 
 ```r
 %>% write.table("clipboard-128", row.names = FALSE, sep = "\t")

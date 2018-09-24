@@ -7,11 +7,15 @@ The R commands that has made my life easier.
 
 #### Fast copying-and-pasting to excel
 
-`%>% write.table("clipboard-128", row.names = FALSE, sep = "\t")`
+```
+%>% write.table("clipboard-128", row.names = FALSE, sep = "\t")
+```
 
 #### Globally disable string as factors
 
-`options(stringsAsFactors = FALSE)`
+```
+options(stringsAsFactors = FALSE)
+```
 
 #### Remove leading zeros in a character vector
 

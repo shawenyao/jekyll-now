@@ -28,3 +28,8 @@ remove_leading_zeros <- function(character_vector){
     substr(start = regexpr("[^0]",.), stop = nchar(.))
 }
 ```
+
+```javascript
+/* Some pointless Javascript */
+var rawr = ["r", "a", "w", "r"];
+```

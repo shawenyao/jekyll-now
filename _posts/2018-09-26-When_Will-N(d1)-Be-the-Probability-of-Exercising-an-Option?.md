@@ -11,7 +11,7 @@ $Call(0)$
 
 $={ \mathbb{ E } }^Q \left[ \frac{ { \left [ S(T)-K \right ] }^{ + } }{ B(T) } \right]$
 
-$={ \mathbb{ E } }^Q \left[ \frac{ { \left [ S(T)-K \right ] } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right]$
+$={ \mathbb{ E } }^Q \left[ \frac{ { \left [ S(T)-K \right ] } { \matbf{ 1 } _ { S(T)>K } } }{ B(T) } \right]$
 
 $={ { \mathbb{ E } }^Q \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } - { { \mathbb{ E } }^Q \left[ \frac{ {  K  } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] }$
 

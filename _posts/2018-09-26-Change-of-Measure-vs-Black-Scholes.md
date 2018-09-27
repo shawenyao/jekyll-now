@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Change of Measure VS Black-Scholes
+title: Change of Measure vs Black-Scholes
 ---
 
 Consider the value of a call option:

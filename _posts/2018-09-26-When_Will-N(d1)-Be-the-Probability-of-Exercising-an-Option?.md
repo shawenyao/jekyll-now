@@ -29,15 +29,19 @@ $={ { \mathbb{ P } }^S \left[ S(T)>K \right] S(0) } - { K { \mathbb{ P } }^T \le
 
 $={ { \mathbb{ P } }^S \left[ S(T)>K \right] S(0) } - { { \mathbb{ P } }^T \left[ S(T)>K \right] K P(0,T) }$
 
-Compare with the Black-Scholes formula:
-
-$Call(0)={ N(d_1)S(0) }-{ N(d_2)K e^{ -rT } }$
-
-and assuming constant interest rate:
+Assuming constant interest rate:
 
 $P(0,T)=e^{ -rT }$
 
-then we have:
+we have:
+
+$Call(0)={ { \mathbb{ P } }^S \left[ S(T)>K \right] S(0) } - { { \mathbb{ P } }^T \left[ S(T)>K \right] K e^{ -rT } }$
+
+Compare this with the Black-Scholes formula:
+
+$Call(0)={ N(d_1)S(0) }-{ N(d_2)K e^{ -rT } }$
+
+Since both formulas should hold for any choice of parameters, we have:
 
 $N(d_1)={ \mathbb{ P } }^S \left[ S(T)>K \right]$
 

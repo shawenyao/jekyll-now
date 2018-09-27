@@ -11,17 +11,17 @@ $Call(0)$
 
 $={ \mathbb{ E } }^Q \left[ \frac{ { \left [ S(T)-K \right ] }^{ + } }{ B(T) } \right]$
 
-$={ \mathop{ \mathbb{ E } } }^Q \left[ \frac{ { \left [ S(T)-K \right ] } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right]$
+$={ \mathbb{ E } }^Q \left[ \frac{ { \left [ S(T)-K \right ] } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right]$
 
-$={ E^Q \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } - { E^Q \left[ \frac{ {  K  } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] }$
+$={ { \mathbb{ E } }^Q \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } - { { \mathbb{ E } }^Q \left[ \frac{ {  K  } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] }$
 
-$={ E^Q \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } - { K E^Q \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] }$
+$={ { \mathbb{ E } }^Q \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } - { K { \mathbb{ E } }^Q \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] }$
 
-$={ E^Q \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] B(0) } - { K E^Q \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] B(0) }$
+$={ { \mathbb{ E } }^Q \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] B(0) } - { K { \mathbb{ E } }^Q \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] B(0) }$
 
-$={ E^S \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ S(T) } \right] S(0) } - { K E^{ Q^T } \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ P(T,T) } \right] P(0,T) }$
+$={ { \mathbb{ E } }^S \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ S(T) } \right] S(0) } - { K { \mathbb{ E } }^{ Q^T } \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ P(T,T) } \right] P(0,T) }$
 
-$={ E^S \left[ { \textbf{ 1 } _ { S(T)>K } } \right] S(0) } - { K E^{ Q^T }\left[ { \textbf{ 1 } _ { S(T)>K } } \right] P(0,T) }$
+$={ { \mathbb{ E } }^S \left[ { \textbf{ 1 } _ { S(T)>K } } \right] S(0) } - { K { \mathbb{ E } }^{ Q^T }\left[ { \textbf{ 1 } _ { S(T)>K } } \right] P(0,T) }$
 
 $={ Q^S \left[ S(T)>K \right] S(0) } - { K Q^T \left[ S(T)>K \right] P(0,T) }$
 

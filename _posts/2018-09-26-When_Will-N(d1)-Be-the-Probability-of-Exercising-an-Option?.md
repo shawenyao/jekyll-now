@@ -23,9 +23,9 @@ $={ { \mathbb{ E } }^S \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ S
 
 $={ { \mathbb{ E } }^S \left[ { \textbf{ 1 } _ { S(T)>K } } \right] S(0) } - { K { \mathbb{ E } }^{ Q^T }\left[ { \textbf{ 1 } _ { S(T)>K } } \right] P(0,T) }$
 
-$={ Q^S \left[ S(T)>K \right] S(0) } - { K Q^T \left[ S(T)>K \right] P(0,T) }$
+$={ { \mathbb{ Pr } }^S \left[ S(T)>K \right] S(0) } - { K { \mathbb{ Pr } }^T \left[ S(T)>K \right] P(0,T) }$
 
-$={ Q^S \left[ S(T)>K \right] S(0) } - { Q^T \left[ S(T)>K \right] K P(0,T) }$
+$={ { \mathbb{ Pr } }^S \left[ S(T)>K \right] S(0) } - { { \mathbb{ Pr } }^T \left[ S(T)>K \right] K P(0,T) }$
 
 Compare with the Black-Scholes formula:
 
@@ -37,9 +37,9 @@ $P(0,T)=e^{ -rT }$
 
 then we have:
 
-$N(d_1)={ \mathbb{ P } }^S \left[ S(T)>K \right]$
+$N(d_1)={ \mathbb{ Pr } }^S \left[ S(T)>K \right]$
 
-$N(d_2)={ \Pr }^T \left[ S(T)>K \right]$
+$N(d_2)={ \mathbb{ Pr } }^T \left[ S(T)>K \right]$
 
 So $N(d_1)$ is the probability of exercising the option under the stock measure,
 

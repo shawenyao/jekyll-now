@@ -1,11 +1,11 @@
 ---
 layout: post
 title: When Will $N(d_1)$ Be the Probability of Exercising an Option?
+header-includes:
+   - \usepackage{bbm}
 ---
 
 A proof by comparing change of measure with the Black-Scholes formula.
-
-$\usepackage{bbm}$
 
 Consider the value of a call option:
 

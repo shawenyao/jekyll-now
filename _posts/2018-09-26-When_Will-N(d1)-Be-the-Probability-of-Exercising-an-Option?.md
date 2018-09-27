@@ -47,4 +47,4 @@ $N(d_1)={ \mathbb{ P } }^S \left[ S(T)>K \right]$
 
 $N(d_2)={ \mathbb{ P } }^T \left[ S(T)>K \right]$
 
-In other words, $N(d_1)$ is the probability of exercising the option under the stock measure, while $N(d_2)$ is the probability of exercising the option under the T-forward measure (and of course the risk-neutral measure as well).
+In other words, $N(d_1)$ is the probability of exercising the option under the stock measure, while $N(d_2)$ is the probability of exercising the option under the T-forward measure (and of course, the risk-neutral measure as well).

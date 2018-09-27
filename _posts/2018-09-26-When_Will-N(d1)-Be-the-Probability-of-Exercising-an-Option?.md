@@ -41,7 +41,7 @@ Compare this with the Black-Scholes formula:
 
 $Call(0)={ N(d_1)S(0) }-{ N(d_2)K e^{ -rT } }$
 
-Since both formulas should hold for any choice of parameters, we have:
+Since both formulas should hold for any choice of the parameters, we have:
 
 $N(d_1)={ \mathbb{ P } }^S \left[ S(T)>K \right]$
 

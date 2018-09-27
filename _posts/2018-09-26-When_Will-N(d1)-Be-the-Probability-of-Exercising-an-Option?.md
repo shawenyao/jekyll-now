@@ -1,6 +1,6 @@
 ---
 layout: post
-title: When will $N(d_1)$ be the probability of exercising an option?
+title: When Will $N(d_1)$ Be the Probability of Exercising an Option?
 ---
 
 A proof by comparing change of measure and Black-Scholes formula.
@@ -15,7 +15,7 @@ $=E^Q \left[ \frac{ { \left [ S(T)-K \right ] } { \textbf{ 1 }_{ S(T)>K } } }{ B
 
 $={ E^Q \left[ \frac{ { S(T) } { \textbf{ 1 }_{ S(T)>K } } }{ B(T) } \right] } - { E^Q \left[ \frac{ {  K  } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] }$
 
-$={ E^Q \left[ \frac{ { S(T) } { \textbf{ 1 }_{ S(T)>K } } }{ B(T) } \right] } - { { K } E^Q \left[ \frac{ { \textbf{ 1 }_{ S(T)>K } } }{ B(T) } \right] }$
+$={ E^Q \left[ \frac{ { S(T) } { \textbf{ 1 }_{ S(T)>K } } }{ B(T) } \right] } - { { K } { E^Q \left[ \frac{ { \textbf{ 1 }_{ S(T)>K } } }{ B(T) } \right] } }$
 
 $={ E^Q \left[ \frac{ { S(T) } { \textbf{ 1 }_{ S(T)>K } } }{ B(T) } \right] B(0) } - { K E^Q \left[ \frac{ { \textbf{ 1 }_{ S(T)>K } } }{ B(T) } \right] B(0) }$
 

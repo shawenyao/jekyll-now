@@ -37,9 +37,9 @@ $P(0,T)=e^{ -rT }$
 
 then we have:
 
-$N(d_1)=Q^S \left[ S(T)>K \right]$
+$N(d_1)={ \Pr }^S \left[ S(T)>K \right]$
 
-$N(d_2)=Q^T \left[ S(T)>K \right]$
+$N(d_2)={ \Pr }^T \left[ S(T)>K \right]$
 
 So $N(d_1)$ is the probability of exercising the option under the stock measure,
 

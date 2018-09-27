@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Change of Measure vs Black-Scholes
+title: When will $N(d_1)$ be the probability of exercising an option?
 ---
 
-When will $N(d_1)$ be the probability of option being exercised?
+A proof by comparing change of measure and Black-Scholes formula.
 
 Consider the value of a call option:
 

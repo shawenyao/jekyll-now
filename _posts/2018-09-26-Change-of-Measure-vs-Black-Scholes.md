@@ -3,7 +3,7 @@ layout: post
 title: Change of Measure vs Black-Scholes
 ---
 
-test
+When will $N(d_1)$ be the probability of option being exercised?
 
 Consider the value of a call option:
 

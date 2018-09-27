@@ -9,7 +9,7 @@ Consider the value of a call option:
 
 $Call(0)$
 
-$=E^Q \left[ \frac{ { \left [ S(T)-K \right ] }^{ + } }{ B(T) } \right]$
+$={ \mathbb{ E } }^Q \left[ \frac{ { \left [ S(T)-K \right ] }^{ + } }{ B(T) } \right]$
 
 $=E^Q \left[ \frac{ { \left [ S(T)-K \right ] } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right]$
 

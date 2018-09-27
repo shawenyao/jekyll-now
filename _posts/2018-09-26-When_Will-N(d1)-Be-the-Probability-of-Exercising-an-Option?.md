@@ -37,7 +37,7 @@ $P(0,T)=e^{ -rT }$
 
 then we have:
 
-$N(d_1)={ \Pr }^S \left[ S(T)>K \right]$
+$N(d_1)={ { \mathbb{ P } }^S \left[ S(T)>K \right]$
 
 $N(d_2)={ \Pr }^T \left[ S(T)>K \right]$
 

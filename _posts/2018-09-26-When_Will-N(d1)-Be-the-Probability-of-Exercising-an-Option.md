@@ -8,6 +8,7 @@ A proof by comparing change of measure with the Black-Scholes formula.
 Consider the value of a call option:
 
 \begin{align}
+
 Call(0) & = \mathbb{ E^Q } \left[ \frac{ { \left [ S(T)-K \right ] }^{ + } }{ B(T) } \right] \\
 
 & = \mathbb{ E^Q } \left[ \frac{ { \left [ S(T)-K \right ] } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] \\
@@ -25,6 +26,7 @@ Call(0) & = \mathbb{ E^Q } \left[ \frac{ { \left [ S(T)-K \right ] }^{ + } }{ B(
 & = { \mathbb{ P^S } \left[ S(T)>K \right] S(0) } - { K \ \mathbb{ P^{ Q^T } } \left[ S(T)>K \right] P(0,T) } \\
 
 & = { \mathbb{ P^S } \left[ S(T)>K \right] S(0) } - { \mathbb{ P^{ Q^T} } \left[ S(T)>K \right] K P(0,T) }
+
 \end{align}
 
 Assuming constant interest rate:

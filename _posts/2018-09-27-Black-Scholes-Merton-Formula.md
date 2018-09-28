@@ -86,5 +86,10 @@ Combine everything:
 $$\begin{align}
 \mathbb{ E }\left[ { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  } } \right]
  &= { e^{  - rt } }\int\limits_K^{  + \infty  } { S{ p_S }\left( S \right)dS }  - K{ e^{  - rt } }\int\limits_K^{  + \infty  } { { p_S }\left( S \right)dS } \\
- &= { S_0 }N\left( { { d_ +  } } \right) - K{ e^{  - rt } }N\left( { { d_ -  } } \right)
+ &= { S_0 }N\left( d_1 \right) - K{ e^{  - rt } }N\left( d_2 \right)
 \end{align}$$
+
+where
+
+$$ N\left( d_1 \right) =  $$
+$$ N\left( d_2 \right) = $$

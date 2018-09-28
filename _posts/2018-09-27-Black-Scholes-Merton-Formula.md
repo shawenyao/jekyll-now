@@ -81,7 +81,7 @@ $$\begin{align}
  &=  - K{ e^{  - rt } }N\left( { { d_ -  } } \right)
 \end{align}$$
 
-Combine everything:
+Combingh the two terms, we have:
 
 $$\begin{align}
 \mathbb{ E }\left[ { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  } } \right]

@@ -29,6 +29,7 @@ E\left[ { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  } } \right]
 \end{align}$$
 
 The first term:
+
 $$\begin{align}
 { e^{  - rt  }  }\int\limits_K^{  + \infty   } { S{ p_S  }\left( S \right)dS  }
  &= { e^{  - rt  }  }{ e^{ \mu  + { { \sigma { '^2  }  } \mathord{ \left/

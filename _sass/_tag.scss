@@ -9,6 +9,9 @@ a.tag_list_link{
   text-transform:lowercase;
 }
 
+a.tag_list_link:first-child{	
+  border:0;	
+}
 
 a.tag_list_link:hover{
   color:#444;

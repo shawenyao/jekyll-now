@@ -1,8 +1,6 @@
 ---
 layout: post
 title: When Will N(d1) Be the Probability of Exercising an Option?
-header-includes:
-   - \usepackage{bbm}
 ---
 
 A proof by comparing change of measure with the Black-Scholes formula.
@@ -25,7 +23,7 @@ $={ { \mathbb{ E } }^S \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ S
 
 $={ { \mathbb{ E } }^S \left[ { \textbf{ 1 } _ { S(T)>K } } \right] S(0) } - { K { \mathbb{ E } }^{ Q^T }\left[ { \textbf{ 1 } _ { S(T)>K } } \right] P(0,T) }$
 
-$={ { \textbf{ P } }^S \left[ S(T)>K \right] S(0) } - { K { \mathbb{ P } }^T \left[ S(T)>K \right] P(0,T) }$
+$=P^S \left[ S(T)>K \right] S(0) } - { K { \mathbb{ P } }^T \left[ S(T)>K \right] P(0,T) }$
 
 $={ { P }^S \left[ S(T)>K \right] S(0) } - { { \mathbb{ P } }^T \left[ S(T)>K \right] K P(0,T) }$
 

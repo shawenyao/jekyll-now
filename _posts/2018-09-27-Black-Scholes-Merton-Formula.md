@@ -35,7 +35,7 @@ $$\begin{align}
  &= \int\limits_{ \log K }^{  + \infty  } { \frac{ 1 }{ { \sigma '\sqrt { 2\pi  }  } }{ e^{  - \frac{ 1 }{ { 2\sigma { '^2 } } }{ { \left[ { y - \left( { \mu  + \sigma { '^2 } } \right) } \right] }^2 } } }{ e^{ \left( { \mu  + \frac{ 1 }{ 2 }\sigma { '^2 } } \right) } }dy } \\
  &= { e^{ \left( { \mu  + \frac{ 1 }{ 2 }\sigma { '^2 } } \right) } }\int\limits_{ \log K }^{  + \infty  } { \frac{ 1 }{ { \sigma '\sqrt { 2\pi  }  } }{ e^{  - \frac{ { { { \left[ { y - \left( { \mu  + \sigma { '^2 } } \right) } \right] }^2 } } }{ { 2\sigma { '^2 } } } } }dy } \\
  &= { e^{ \left( { \mu  + \frac{ 1 }{ 2 }\sigma { '^2 } } \right) } }\left[ { 1 - N\left( { \frac{ { \log K - \mu  - \sigma { '^2 } } }{ { \sigma ' } } } \right) } \right]\\
- &= { e^{ \left( { \mu  + \frac{ 1 }{ 2 }\sigma { '^2 } } \right) } }\left( -log K + \mu + \sigma { '^2 } \right)\\
+ &= { e^{ \left( { \mu  + \frac{ 1 }{ 2 }\sigma { '^2 } } \right) } }N\left( -log K + \mu + \sigma { '^2 } \right)\\
 \end{align}$$
 
 

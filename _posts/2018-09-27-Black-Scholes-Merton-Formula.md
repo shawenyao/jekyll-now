@@ -38,3 +38,55 @@ $$\begin{align}
  &= { e^{ \left( { \mu  + \frac{ 1 }{ 2 }\sigma { '^2 } } \right) } }\left( -log K + \mu + \sigma { '^2 } \right)\\
 \end{align}$$
 
+
+The price of a call option:
+
+$$\begin{align}
+E\left[ { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  } } \right]
+ &= \int\limits_{  - \infty  }^{  + \infty  } { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  }{ p_S }\left( S \right)dS } \\
+ &= \int\limits_{  - \infty  }^K { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  }{ p_S }\left( S \right)dS }  + \int\limits_K^{  + \infty  } { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  }{ p_S }\left( S \right)dS } \\
+ &= \int\limits_K^{  + \infty  } { { e^{  - rt } }\left( { S - K } \right){ p_S }\left( S \right)dS } \\
+ &= \int\limits_K^{  + \infty  } { { e^{  - rt } }S{ p_S }\left( S \right)dS }  - \int\limits_K^{  + \infty  } { { e^{  - rt } }K{ p_S }\left( S \right)dS } \\
+ &= { e^{  - rt } }\int\limits_K^{  + \infty  } { S{ p_S }\left( S \right)dS }  - K{ e^{  - rt } }\int\limits_K^{  + \infty  } { { p_S }\left( S \right)dS } 
+\end{align}$$
+
+The first term:
+$$\begin{align}
+{ e^{  - rt  }  }\int\limits_K^{  + \infty   } { S{ p_S  }\left( S \right)dS  }
+ &= { e^{  - rt  }  }{ e^{ \mu  + { { \sigma { '^2  }  } \mathord{ \left/
+ { \vphantom { { \sigma { '^2  }  } 2  }  } \right.
+ \kern-\nulldelimiterspace  } 2  }  }  }N\left( { \frac{ {  - \log K + \mu  + \sigma { '^2  }  }  }{ { \sigma '  }  }  } \right)\\
+ &= { e^{  - rt  }  }{ e^{ log{ S_0  } + \left( { r - \frac{ { { \sigma ^2  }  }  }{ 2  }  } \right)t + \frac{ { { \sigma ^2  }t  }  }{ 2  }  }  }N\left( { \frac{ 1  }{ { \sigma \sqrt t   }  }\left( {  - \log K + log{ S_0  } + \left( { r - { { { \sigma ^2  }  } \mathord{ \left/
+ { \vphantom { { { \sigma ^2  }  } 2  }  } \right.
+ \kern-\nulldelimiterspace  } 2  }  } \right)t + { \sigma ^2  }t  } \right)  } \right)\\
+ &= { S_0  }{ e^{  - rt + rt - { { { \sigma ^2  }  } \mathord{ \left/
+ { \vphantom { { { \sigma ^2  }  } 2  }  } \right.
+ \kern-\nulldelimiterspace  } 2  } + { { { \sigma ^2  }t  } \mathord{ \left/
+ { \vphantom { { { \sigma ^2  }t  } 2  }  } \right.
+ \kern-\nulldelimiterspace  } 2  }  }  }N\left( { \frac{ 1  }{ { \sigma \sqrt t   }  }\left( { log\frac{ { { S_0  }  }  }{ K  } + \left( { r + { { { \sigma ^2  }  } \mathord{ \left/
+ { \vphantom { { { \sigma ^2  }  } 2  }  } \right.
+ \kern-\nulldelimiterspace  } 2  }  } \right)t  } \right)  } \right)\\
+ &= { S_0  }N\left( { { d_ +   }  } \right)
+\end{align}$$
+
+
+The second term:
+
+$$\begin{align}
+ - K{ e^{  - rt } }\int\limits_K^{  + \infty  } { { p_S }\left( S \right)dS }
+ &=  - K{ e^{  - rt } }\left( { 1 - { F_S }\left( K \right) } \right)\\
+ &=  - K{ e^{  - rt } }\left( { 1 - N\left( { \frac{ { \log K - log{ S_0 } - \left( { r - \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } }{ { \sigma \sqrt t  } } } \right) } \right)\\
+ &=  - K{ e^{  - rt } }\left( { 1 - N\left( { \frac{ {  - log\frac{ { { S_0 } } }{ K } - \left( { r - { { { \sigma ^2 } } \mathord{ \left/
+ { \vphantom { { { \sigma ^2 } } 2 } } \right.
+ \kern-\nulldelimiterspace } 2 } } \right)t } }{ { \sigma \sqrt t  } } } \right) } \right)\\
+ &=  - K{ e^{  - rt } }\left( { 1 - N\left( {  - { d_ -  } } \right) } \right)\\
+ &=  - K{ e^{  - rt } }N\left( { { d_ -  } } \right)
+\end{align}$$
+
+Combine everything:
+
+$$\begin{align}
+E\left[ { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  } } \right]
+ &= { e^{  - rt } }\int\limits_K^{  + \infty  } { S{ p_S }\left( S \right)dS }  - K{ e^{  - rt } }\int\limits_K^{  + \infty  } { { p_S }\left( S \right)dS } \\
+ &= { S_0 }N\left( { { d_ +  } } \right) - K{ e^{  - rt } }N\left( { { d_ -  } } \right)
+\end{align}$$

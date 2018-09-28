@@ -8,7 +8,6 @@ layout: default
   {% if page.tags.size > 0 %}
   <div>
     <ul class="tag_list_in_post">
-      <emph> Tags: </emph>
       {% for tag in page.tags %}
       <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a>
       {% endfor %}

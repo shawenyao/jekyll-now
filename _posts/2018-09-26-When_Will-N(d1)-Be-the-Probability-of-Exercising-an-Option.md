@@ -8,13 +8,28 @@ A proof by comparing change of measure with the Black-Scholes formula.
 Consider the value of a call option:
 
 
+$$
+P(\mathbf{Y} = \mathbf{y}|\mathbf{X}) = exp[{\theta } ^{T} g(\mathbf{y},\mathbf{X})]/k(\theta )
+$$
+
+Block equations:
+
+$$
 \begin{align}
-\sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\\\
- & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\\\
- & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\\\
- & = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\\\
- & \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
+\mbox{Union: } & A\cup B = {x\mid x\in A \mbox{ or } x\in B} 
+\mbox{Concatenation: } & A\circ B = {xy\mid x\in A \mbox{ and } y\in B} 
+\mbox{Star: } & A^\star = {x_1x_2\ldots x_k \mid k\geq 0 \mbox{ and each } x_i\in A} 
 \end{align}
+$$
+
+Yet another set of block equations:s
+
+$$
+\begin{align_}
+2x - 5y &= 8 \
+3x + 9y &= -12
+\end{align_}
+$$
 
 \begin{align}
 

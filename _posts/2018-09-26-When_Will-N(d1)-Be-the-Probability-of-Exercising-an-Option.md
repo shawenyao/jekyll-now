@@ -8,7 +8,7 @@ A proof by comparing change of measure with the Black-Scholes formula.
 Consider the value of a vanilla European call option:
 
 $$\begin{align}
-Call(0) &=\mathbb{ E^Q } \left[ \frac{ { \left [ S(T)-K \right ] }^{ + } }{ B(T) } \right] \\
+\mathbb{ E^Q } \left[ \frac{ { \left [ S(T)-K \right ] }^{ + } }{ B(T) } \right] 
  &=\mathbb{ E^Q } \left[ \frac{ { \left [ S(T)-K \right ] } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] \\
  &={ \mathbb{ E^Q } \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } - { \mathbb{ E^Q } \left[ \frac{ {  K  } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } \\
  &={ \mathbb{ E^Q } \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } - { K \ \mathbb{ E^Q } \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } \\

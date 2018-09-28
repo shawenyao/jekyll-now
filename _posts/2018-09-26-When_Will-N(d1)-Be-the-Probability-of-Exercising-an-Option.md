@@ -21,7 +21,7 @@ $={ \mathbb{ E^Q } \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) 
 
 $={ \mathbb{ E^S } \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ S(T) } \right] S(0) } - { K \ \mathbb{ E^{ Q^T } } \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ P(T,T) } \right] P(0,T) }$
 
-$={ \mathbb{ E^S } \left[ { \textbf{ 1 } _ { S(T)>K } } \right] S(0) } - { K \ \mathbb{ E^{ Q^T } } }\left[ { \textbf{ 1 } _ { S(T)>K } } \right] P(0,T) }$
+$={ \mathbb{ E^S } \left[ { \textbf{ 1 } _ { S(T)>K } } \right] S(0) } - { K \ \mathbb{ E^{ Q^T } } \left[ { \textbf{ 1 } _ { S(T)>K } } \right] P(0,T) }$
 
 $={ \mathbb{ P^S } \left[ S(T)>K \right] S(0) } - { K \ \mathbb{ P^{ Q^T } } \left[ S(T)>K \right] P(0,T) }$
 

@@ -8,6 +8,16 @@ layout: default
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
+        {% if page.tags.size > 0 %}
+        <div>
+          <ul class="tag_list_in_post">
+            {% for tag in page.tags %}
+            <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif%}
+      
       <div class="entry">
         {{ post.excerpt }}
       </div>

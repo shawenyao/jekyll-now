@@ -9,9 +9,6 @@ a.tag_list_link{
   text-transform:lowercase;
 }
 
-a.tag_list_link:first-child{
-  border:0;
-}
 
 a.tag_list_link:hover{
   color:#444;
@@ -28,11 +25,3 @@ ul.tag_list_in_post{
   padding-bottom:0;
 }
 
-ul.tags{
-  float:right;width:280px;
-}
-
-ul.tag_list{
-  margin-left:52px;
-  padding-bottom:20px;
-}

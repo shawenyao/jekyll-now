@@ -1,6 +1,8 @@
 ---
 layout: post
 title: R Cheatsheet
+tag:
+  - r
 ---
 
 The R commands that has made my life easier.

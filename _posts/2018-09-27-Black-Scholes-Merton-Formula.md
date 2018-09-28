@@ -92,4 +92,5 @@ $$\begin{align}
 where
 
 $$ N\left( d_1 \right) =  $$
+
 $$ N\left( d_2 \right) = $$

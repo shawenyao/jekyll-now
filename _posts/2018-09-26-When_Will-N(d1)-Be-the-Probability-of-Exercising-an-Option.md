@@ -1,6 +1,9 @@
 ---
 layout: post
 title: When Will N(d1) Be the Probability of Exercising an Option?
+tag:
+ - maths
+ - finance
 ---
 
 A proof by comparing change of measure with the Black-Scholes formula.

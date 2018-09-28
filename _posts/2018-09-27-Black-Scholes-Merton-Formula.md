@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Black-Scholes-Merton Formula
+tags:
+ - maths
+ - finance
 ---
 
 A step-by-step derivation.

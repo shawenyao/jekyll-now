@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Visualization of Stochastic Processes
+tag:
+  - visualization
+  - maths
 ---
 
 Stochastic process makes for an excellent source of visualization.

@@ -7,51 +7,25 @@ A proof by comparing change of measure with the Black-Scholes formula.
 
 Consider the value of a call option:
 
+$Call(0)$
 
-$$
-P(\mathbf{Y} = \mathbf{y}|\mathbf{X}) = exp[{\theta } ^{T} g(\mathbf{y},\mathbf{X})]/k(\theta )
-$$
+$=\mathbb{ E^Q } \left[ \frac{ { \left [ S(T)-K \right ] }^{ + } }{ B(T) } \right]$
 
-Block equations:
+$=\mathbb{ E^Q } \left[ \frac{ { \left [ S(T)-K \right ] } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right]$
 
-$$
-\begin{align}
-\mbox{Union: } & A\cup B = {x\mid x\in A \mbox{ or } x\in B} 
-\mbox{Concatenation: } & A\circ B = {xy\mid x\in A \mbox{ and } y\in B} 
-\mbox{Star: } & A^\star = {x_1x_2\ldots x_k \mid k\geq 0 \mbox{ and each } x_i\in A} 
-\end{align}
-$$
+$={ \mathbb{ E^Q } \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } - { \mathbb{ E^Q } \left[ \frac{ {  K  } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] }$
 
-Yet another set of block equations:s
+$={ \mathbb{ E^Q } \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } - { K \ \mathbb{ E^Q } \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] }$
 
-$$
-\begin{align_}
-2x - 5y &= 8 \
-3x + 9y &= -12
-\end{align_}
-$$
+$={ \mathbb{ E^Q } \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] B(0) } - { K \ \mathbb{ E^Q } \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] B(0) }$
 
-\begin{align}
+$={ \mathbb{ E^S } \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ S(T) } \right] S(0) } - { K \ \mathbb{ E^{ Q^T } } \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ P(T,T) } \right] P(0,T) }$
 
-Call(0) & = \mathbb{ E^Q } \left[ \frac{ { \left [ S(T)-K \right ] }^{ + } }{ B(T) } \right] \\
+$={ \mathbb{ E^S } \left[ { \textbf{ 1 } _ { S(T)>K } } \right] S(0) } - { K \ \mathbb{ E^{ Q^T } } \left[ { \textbf{ 1 } _ { S(T)>K } } \right] P(0,T) }$
 
-& = \mathbb{ E^Q } \left[ \frac{ { \left [ S(T)-K \right ] } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] \\
+$={ \mathbb{ P^S } \left[ S(T)>K \right] S(0) } - { K \ \mathbb{ P^{ Q^T } } \left[ S(T)>K \right] P(0,T) }$
 
-& = { \mathbb{ E^Q } \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } - { \mathbb{ E^Q } \left[ \frac{ {  K  } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } \\
-
-& = { \mathbb{ E^Q } \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } - { K \ \mathbb{ E^Q } \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] } \\
-
-& = { \mathbb{ E^Q } \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] B(0) } - { K \ \mathbb{ E^Q } \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ B(T) } \right] B(0) } \\
-
-& = { \mathbb{ E^S } \left[ \frac{ { S(T) } { \textbf{ 1 } _ { S(T)>K } } }{ S(T) } \right] S(0) } - { K \ \mathbb{ E^{ Q^T } } \left[ \frac{ { \textbf{ 1 } _ { S(T)>K } } }{ P(T,T) } \right] P(0,T) } \\
-
-& = { \mathbb{ E^S } \left[ { \textbf{ 1 } _ { S(T)>K } } \right] S(0) } - { K \ \mathbb{ E^{ Q^T } } \left[ { \textbf{ 1 } _ { S(T)>K } } \right] P(0,T) } \\
-
-& = { \mathbb{ P^S } \left[ S(T)>K \right] S(0) } - { K \ \mathbb{ P^{ Q^T } } \left[ S(T)>K \right] P(0,T) } \\
-
-& = { \mathbb{ P^S } \left[ S(T)>K \right] S(0) } - { \mathbb{ P^{ Q^T} } \left[ S(T)>K \right] K P(0,T) }
-
-\end{align}
+$={ \mathbb{ P^S } \left[ S(T)>K \right] S(0) } - { \mathbb{ P^{ Q^T} } \left[ S(T)>K \right] K P(0,T) }$
 
 Assuming constant interest rate:
 

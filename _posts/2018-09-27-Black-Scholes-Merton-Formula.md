@@ -17,7 +17,16 @@ $$ { p_S } \left( S \right) = \frac{ 1 }{ { S\sigma' \sqrt { 2\pi } } }{ e^{ - \
 
 $$ { N_S }\left( S \right) = N \left( { \frac{ { \log S - \mu } }{ { \sigma' } } } \right) $$
 
+Consider the value of a vanilla European call option:
 
+$$\begin{align}
+E\left[ { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  } } \right]
+ &= \int\limits_{  - \infty  }^{  + \infty  } { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  }{ p_S }\left( S \right)dS } \\
+ &= \int\limits_{  - \infty  }^K { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  }{ p_S }\left( S \right)dS }  + \int\limits_K^{  + \infty  } { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  }{ p_S }\left( S \right)dS } \\
+ &= \int\limits_K^{  + \infty  } { { e^{  - rt } }\left( { S - K } \right){ p_S }\left( S \right)dS } \\
+ &= \int\limits_K^{  + \infty  } { { e^{  - rt } }S{ p_S }\left( S \right)dS }  - \int\limits_K^{  + \infty  } { { e^{  - rt } }K{ p_S }\left( S \right)dS } \\
+ &= { e^{  - rt } }\int\limits_K^{  + \infty  } { S{ p_S }\left( S \right)dS }  - K{ e^{  - rt } }\int\limits_K^{  + \infty  } { { p_S }\left( S \right)dS } 
+\end{align}$$
 
 $$\begin{align}
 \int\limits_K^{  + \infty  } { S{ p_S }\left( S \right)dS }
@@ -39,16 +48,7 @@ $$\begin{align}
 \end{align}$$
 
 
-The price of a call option:
 
-$$\begin{align}
-E\left[ { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  } } \right]
- &= \int\limits_{  - \infty  }^{  + \infty  } { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  }{ p_S }\left( S \right)dS } \\
- &= \int\limits_{  - \infty  }^K { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  }{ p_S }\left( S \right)dS }  + \int\limits_K^{  + \infty  } { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  }{ p_S }\left( S \right)dS } \\
- &= \int\limits_K^{  + \infty  } { { e^{  - rt } }\left( { S - K } \right){ p_S }\left( S \right)dS } \\
- &= \int\limits_K^{  + \infty  } { { e^{  - rt } }S{ p_S }\left( S \right)dS }  - \int\limits_K^{  + \infty  } { { e^{  - rt } }K{ p_S }\left( S \right)dS } \\
- &= { e^{  - rt } }\int\limits_K^{  + \infty  } { S{ p_S }\left( S \right)dS }  - K{ e^{  - rt } }\int\limits_K^{  + \infty  } { { p_S }\left( S \right)dS } 
-\end{align}$$
 
 The first term:
 $$\begin{align}

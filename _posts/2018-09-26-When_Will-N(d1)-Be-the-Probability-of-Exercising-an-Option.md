@@ -5,6 +5,14 @@ title: When Will N(d1) Be the Probability of Exercising an Option?
 
 A proof by comparing change of measure with the Black-Scholes formula.
 
+
+$$\begin{align}
+a &= b + c \tag{3}\label{eq3} \\
+x &= yz \tag{4}\label{eq4} \\
+l &= m - n \tag{5}\label{eq5}
+\end{align}$$
+
+
 Consider the value of a call option:
 
 $Call(0)$

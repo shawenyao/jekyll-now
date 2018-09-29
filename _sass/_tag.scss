@@ -1,5 +1,4 @@
 a.tag_list_link{
-  border-left: 1px solid #ccc;
   color:#888;
   font-size:18px;
   font-variant:small-caps;
@@ -7,10 +6,6 @@ a.tag_list_link{
   padding: 0 6px;
   text-transform:lowercase;
   cursor:auto;
-}
-
-a.tag_list_link:first-child{	
-  border:0;	
 }
 
 a.tag_list_link:hover{

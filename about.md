@@ -5,4 +5,4 @@ permalink: /about/
 ---
 
 
-Powered by jekyll-now and hosted on Github Pages
+Powered by `jekyll-now` and hosted on *Github Pages*

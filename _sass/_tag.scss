@@ -1,4 +1,5 @@
 a.tag_list_link{
+  border-left: 1px solid #ccc;
   color:#888;
   font-size:18px;
   font-variant:small-caps;
@@ -13,7 +14,6 @@ a.tag_list_link:hover{
 }
 
 ul.tag_list_in_post{
-  border-left:1px solid #bbb;
   display:inline;
   margin-left:15px;
   padding:0 0 0 10px;

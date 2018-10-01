@@ -51,7 +51,7 @@ $$\begin{align}
 { e^{  - rt } }\int\limits_K^{  + \infty  } { S{ f_S }\left( S \right)dS }
  &= { e^{  - rt } }\int\limits_K^{  + \infty  } { S\frac{ 1 }{ { S\sigma '\sqrt { 2\pi  }  } }{ e^{  - \frac{ { { { \left( { \log S - \mu  } \right) }^2 } } }{ { 2\sigma { '^2 } } } } }dS } \\
  &= { e^{  - rt } }\int\limits_K^{  + \infty  } { \frac{ 1 }{ { \sigma '\sqrt { 2\pi  }  } }{ e^{  - \frac{ { { { \left( { \log S - \mu  } \right) }^2 } } }{ { 2\sigma { '^2 } } } } }dS } \\
- &\stackrel{ \small{ y = \log S } }{ = }{ e^{  - rt } }\int\limits_{ \log K }^{  + \infty  } { \frac{ 1 }{ { \sigma '\sqrt { 2\pi  }  } }{ e^{  - \frac{ { { { \left( { y - \mu  } \right) }^2 } } }{ { 2\sigma { '^2 } } } } }d\left( { { e^y } } \right) } \\
+ &\stackrel{ \small{ y\ =\ \log S } }{ = }{ e^{  - rt } }\int\limits_{ \log K }^{  + \infty  } { \frac{ 1 }{ { \sigma '\sqrt { 2\pi  }  } }{ e^{  - \frac{ { { { \left( { y - \mu  } \right) }^2 } } }{ { 2\sigma { '^2 } } } } }d\left( { { e^y } } \right) } \\
  &= { e^{  - rt } }\int\limits_{ \log K }^{  + \infty  } { \frac{ { { e^y } } }{ { \sigma '\sqrt { 2\pi  }  } }{ e^{  - \frac{ { { { \left( { y - \mu  } \right) }^2 } } }{ { 2\sigma { '^2 } } } } }dy } \\
  &= { e^{  - rt } }\int\limits_{ \log K }^{  + \infty  } { \frac{ 1 }{ { \sigma '\sqrt { 2\pi  }  } }{ e^{  - \frac{ { { { \left( { y - \mu  } \right) }^2 } } }{ { 2\sigma { '^2 } } } + y } }dy } \\
  &= { e^{  - rt } }\int\limits_{ \log K }^{  + \infty  } { \frac{ 1 }{ { \sigma '\sqrt { 2\pi  }  } }{ e^{  - \frac{ 1 }{ { 2\sigma { '^2 } } }\left( { { y^2 } - 2y\mu  + { \mu ^2 } - 2\sigma { '^2 }y } \right) } }dy } \\

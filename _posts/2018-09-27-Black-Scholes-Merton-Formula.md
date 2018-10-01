@@ -35,7 +35,7 @@ $$ { F_S }\left( S \right) = N \left( { \frac{ { \log S - \mu } }{ { \sigma' } }
 Consider the value of a vanilla European call option:
 
 $$\begin{align}
-\mathbb{ E }\left[ { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  } } \right]
+\mathbb{ E^Q }\left[ { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  } } \right]
  &= \int\limits_{  - \infty  }^{  + \infty  } { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  }{ f_S }\left( S \right)dS } \\
  &= \int\limits_{  - \infty  }^K { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  }{ f_S }\left( S \right)dS }  + \int\limits_K^{  + \infty  } { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  }{ f_S }\left( S \right)dS } \\
  &= \int\limits_K^{  + \infty  } { { e^{  - rt } }\left( { S - K } \right){ f_S }\left( S \right)dS } \\
@@ -81,7 +81,7 @@ $$\begin{align}
 Combing the two terms, we have:
 
 $$\begin{align}
-\mathbb{ E }\left[ { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  } } \right]
+\mathbb{ E^Q }\left[ { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  } } \right]
  &= { e^{  - rt } }\int\limits_K^{  + \infty  } { S{ f_S }\left( S \right)dS }  - K{ e^{  - rt } }\int\limits_K^{  + \infty  } { { f_S }\left( S \right)dS } \\
  &= { S_0 }N\left( d_1 \right) - K{ e^{  - rt } }N\left( d_2 \right)
 \end{align}$$

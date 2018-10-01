@@ -26,7 +26,7 @@ $$ \mu  = log{ S_0 } + \left( {r - \frac{ { { \sigma ^2} } }{ 2 } } \right) t $$
 
 $$ \sigma' = \sigma \sqrt t $$
 
-then the probability desnity function $f_S(S)$ and cumulative distribution function $F_S(S)$ can be written as:
+the probability desnity function $f_S(S)$ and cumulative distribution function $F_S(S)$ can be written as:
 
 $$ { f_S } \left( S \right) = \frac{ 1 }{ { S\sigma' \sqrt { 2\pi } } }{ e^{ - \frac{ { { { \left( { \log S - \mu } \right) }^2} } }{ { 2 { \sigma' } ^2 } } } } $$
 

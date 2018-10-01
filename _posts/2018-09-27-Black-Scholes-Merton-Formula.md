@@ -62,9 +62,9 @@ $$\begin{align}
  &= { e^{  - rt } }{ e^{ \left( { \mu  + \frac{ 1 }{ 2 }\sigma { '^2 } } \right) } }\int\limits_{ \log K }^{  + \infty  } { \frac{ 1 }{ { \sigma '\sqrt { 2\pi  }  } }{ e^{  - \frac{ { { { \left[ { y - \left( { \mu  + \sigma { '^2 } } \right) } \right] }^2 } } }{ { 2\sigma { '^2 } } } } }dy } \\
  &= { e^{ \left( { -rt + \mu  + \frac{ 1 }{ 2 }\sigma { '^2 } } \right) } }\left[ { 1 - N\left( { \frac{ { \log K - \mu  - \sigma { '^2 } } }{ { \sigma ' } } } \right) } \right]\\
  &= { e^{ \left( { -rt + \mu  + \frac{ 1 }{ 2 }\sigma { '^2 } } \right) } }N\left( \frac{ -\log K + \mu + \sigma { '^2 } }{ \sigma' } \right)\\
- &= {e^{ - rt + log{S_0} + \left( {r - \frac{{{\sigma ^2}}}{2}} \right)t + \frac{{{\sigma ^2}t}}{2}}}N\left[ {\frac{1}{{\sigma \sqrt t }}\left( { - \log K + log{S_0} + \left( {r - \frac{{{\sigma ^2}}}{2}} \right)t + {\sigma ^2}t} \right)} \right]\\
- &= {S_0}{e^{ - rt + rt - \frac{{{\sigma ^2}t}}{2} + \frac{{{\sigma ^2}t}}{2}}}N\left[ {\frac{1}{{\sigma \sqrt t }}\left( {log\frac{{{S_0}}}{K} + \left( {r + \frac{{{\sigma ^2}}}{2}} \right)t} \right)} \right]\\
- &= {S_0}N\left[ {\frac{1}{{\sigma \sqrt t }}\left( {log\frac{{{S_0}}}{K} + \left( {r + \frac{{{\sigma ^2}}}{2}} \right)t} \right)} \right]
+ &= { e^{ - rt + log{ S_0 } + \left( { r - \frac{ { { \sigma ^2 } } }{ 2 } } \right)t + \frac{ { { \sigma ^2 }t } }{ 2 } } }N\left[ { \frac{ 1 }{ { \sigma \sqrt t  } }\left( {  - \log K + log{ S_0 } + \left( { r - \frac{ { { \sigma ^2 } } }{ 2 } } \right)t + { \sigma ^2 }t } \right) } \right]\\
+ &= { S_0 }{ e^{ - rt + rt - \frac{ { { \sigma ^2 }t } }{ 2 } + \frac{ { { \sigma ^2 }t } }{ 2 } } }N\left[ { \frac{ 1 }{ { \sigma \sqrt t  } }\left( { log\frac{ { { S_0 } } }{ K } + \left( { r + \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } \right) } \right]\\
+ &= { S_0 }N\left[ { \frac{ 1 }{ { \sigma \sqrt t  } }\left( { log\frac{ { { S_0 } } }{ K } + \left( { r + \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } \right) } \right]
 \end{align}$$
 
 

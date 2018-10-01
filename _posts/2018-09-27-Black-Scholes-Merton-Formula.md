@@ -8,9 +8,17 @@ tags:
 
 A step-by-step derivation.
 
+Given:
+
 $$ S = { S_0 }{ e^{ \left( { r - \frac{ { { \sigma^2 } } }{ 2 }} \right) t + \sigma \sqrt t x}} $$
 
-$$ \log S = log{ S_0 } + \left( { r - \frac{ { { \sigma^2} } }{ 2 } } \right)t + \sigma \sqrt t x $$
+where
+
+$$x \sim N(0,1)$$
+
+we have:
+
+$$ \log S = \log{ S_0 } + \left( { r - \frac{ { { \sigma^2} } }{ 2 } } \right)t + \sigma \sqrt t x $$
 
 Let $ \mu  = log{ S_0 } + \left( {r - \frac{ { { \sigma ^2} } }{ 2 } } \right) t $ and $ \sigma' = \sigma \sqrt t $, the probability desnity function $f_S(S)$ and cumulative distribution function $F_S(S)$ can be written as:
 

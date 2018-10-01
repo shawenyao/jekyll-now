@@ -7,6 +7,8 @@ tag:
 
 The R commands that has made my life easier.
 
+<br />
+
 #### Hassle-free data.frame copying-and-pasting (into Microsoft Excel)
 
 ```r

@@ -73,16 +73,14 @@ $$\begin{align}
 
 The second term:
 
-$$\begin{align}
- - K{ e^{  - rt } }\int\limits_K^{  + \infty  } { { p_S }\left( S \right)dS }
- &=  - K{ e^{  - rt } }\left( { 1 - { F_S }\left( K \right) } \right)\\
- &=  - K{ e^{  - rt } }\left( { 1 - N\left( { \frac{ { \log K - log{ S_0 } - \left( { r - \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } }{ { \sigma \sqrt t  } } } \right) } \right)\\
- &=  - K{ e^{  - rt } }\left( { 1 - N\left( { \frac{ {  - log\frac{ { { S_0 } } }{ K } - \left( { r - { { { \sigma ^2 } } \mathord{ \left/
- { \vphantom { { { \sigma ^2 } } 2 } } \right.
- \kern-\nulldelimiterspace } 2 } } \right)t } }{ { \sigma \sqrt t  } } } \right) } \right)\\
- &=  - K{ e^{  - rt } }\left( { 1 - N\left( {  - { d_ -  } } \right) } \right)\\
- &=  - K{ e^{  - rt } }N\left( { { d_ -  } } \right)
-\end{align}$$
+$$\begin{ align }
+ - K{ e^{  - rt } }\int\limits_K^{  + \infty  } { { p_S }\left( S \right)dS } 
+ &=  - K{ e^{  - rt } }\left[ { 1 - { F_S }\left( K \right) } \right] \\
+ &=  - K{ e^{  - rt } }\left[ { 1 - N\left( { \frac{ { \log K - log{ S_0 } - \left( { r - \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } }{ { \sigma \sqrt t  } } } \right) } \right] \\
+ &=  - K{ e^{  - rt } }\left( { 1 - N\left[ { \frac{ {  - log\frac{ { { S_0 } } }{ K } - \left( { r - \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } }{ { \sigma \sqrt t  } } } \right) } \right] \\
+ &=  - K{ e^{  - rt } }\left[ { 1 - N\left( {  - { d_2 } } \right) } \right] \\
+ &=  - K{ e^{  - rt } }N\left( { { d_2 } } \right)
+\end{ align }$$
 
 Combingh the two terms, we have:
 

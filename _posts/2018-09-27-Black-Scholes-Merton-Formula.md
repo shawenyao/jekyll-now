@@ -22,7 +22,7 @@ $$ \log S = \log{ S_0 } + \left( { r - \frac{ { { \sigma^2} } }{ 2 } } \right)t 
 
 Let 
 
-$$ \mu  = log{ S_0 } + \left( {r - \frac{ { { \sigma ^2} } }{ 2 } } \right) t $$ 
+$$ \mu  = \log{ S_0 } + \left( {r - \frac{ { { \sigma ^2} } }{ 2 } } \right) t $$ 
 
 $$ \sigma' = \sigma \sqrt t $$
 
@@ -63,8 +63,8 @@ $$\begin{align}
  &= { e^{ \left( { -rt + \mu  + \frac{ 1 }{ 2 }\sigma { '^2 } } \right) } }\left[ { 1 - N\left( { \frac{ { \log K - \mu  - \sigma { '^2 } } }{ { \sigma ' } } } \right) } \right]\\
  &= { e^{ \left( { -rt + \mu  + \frac{ 1 }{ 2 }\sigma { '^2 } } \right) } }N\left( \frac{ -\log K + \mu + \sigma { '^2 } }{ \sigma' } \right)\\
  &= { e^{ - rt + log{ S_0 } + \left( { r - \frac{ { { \sigma ^2 } } }{ 2 } } \right)t + \frac{ { { \sigma ^2 }t } }{ 2 } } }N\left[ { \frac{ 1 }{ { \sigma \sqrt t  } }\left( {  - \log K + log{ S_0 } + \left( { r - \frac{ { { \sigma ^2 } } }{ 2 } } \right)t + { \sigma ^2 }t } \right) } \right]\\
- &= { S_0 }{ e^{ - rt + rt - \frac{ { { \sigma ^2 }t } }{ 2 } + \frac{ { { \sigma ^2 }t } }{ 2 } } }N\left[ { \frac{ 1 }{ { \sigma \sqrt t  } }\left( { log\frac{ { { S_0 } } }{ K } + \left( { r + \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } \right) } \right]\\
- &= { S_0 }N\left[ { \frac{ 1 }{ { \sigma \sqrt t  } }\left( { log\frac{ { { S_0 } } }{ K } + \left( { r + \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } \right) } \right]
+ &= { S_0 }{ e^{ - rt + rt - \frac{ { { \sigma ^2 }t } }{ 2 } + \frac{ { { \sigma ^2 }t } }{ 2 } } }N\left[ { \frac{ 1 }{ { \sigma \sqrt t  } }\left( { \log\frac{ { { S_0 } } }{ K } + \left( { r + \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } \right) } \right]\\
+ &= { S_0 }N\left[ { \frac{ 1 }{ { \sigma \sqrt t  } }\left( { \log\frac{ { { S_0 } } }{ K } + \left( { r + \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } \right) } \right]
 \end{align}$$
 
 
@@ -75,7 +75,7 @@ $$\begin{align}
  &=  - K{ e^{  - rt } }\left[ { 1 - { F_S }\left( K \right) } \right] \\
  &=  - K{ e^{  - rt } }\left[ { 1 - N\left[ { \frac{ 1 }{ { \sigma \sqrt t  } } }\left( { \log K - \log{ S_0 } - \left( { r - \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } \right) \right] } \right] \\
  &=  - K{ e^{  - rt } }\left[ { 1 - N\left[ { \frac{ 1 }{ { \sigma \sqrt t  } } }\left( { \log{ \frac{ K }{ S_0 } } - \left( { r - \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } \right) \right] } \right] \\
- &=  - K{ e^{  - rt } }N\left[\frac{ 1 }{ { \sigma \sqrt t } }\left( { log\frac{ S_0 }{ K } + \left( r - \frac{ \sigma ^2 }{ 2 } \right)t } \right) \right]
+ &=  - K{ e^{  - rt } }N\left[\frac{ 1 }{ { \sigma \sqrt t } }\left( { \log\frac{ S_0 }{ K } + \left( r - \frac{ \sigma ^2 }{ 2 } \right)t } \right) \right]
 \end{align}$$
 
 Combing the two terms, we have:
@@ -88,6 +88,6 @@ $$\begin{align}
 
 where
 
-$${d_1} = \frac{1}{ { \sigma \sqrt t } }\left[ { log\frac{ S_0 }{ K } + \left( r + \frac{ \sigma ^2 }{ 2 } \right)t } \right]$$
+$${d_1} = \frac{1}{ { \sigma \sqrt t } }\left[ { \log\frac{ S_0 }{ K } + \left( r + \frac{ \sigma ^2 }{ 2 } \right)t } \right]$$
 
-$${d_2} = \frac{1}{ { \sigma \sqrt t } }\left[ { log\frac{ S_0 }{ K } + \left( r - \frac{ \sigma ^2 }{ 2 } \right)t } \right]$$
+$${d_2} = \frac{1}{ { \sigma \sqrt t } }\left[ { \log\frac{ S_0 }{ K } + \left( r - \frac{ \sigma ^2 }{ 2 } \right)t } \right]$$

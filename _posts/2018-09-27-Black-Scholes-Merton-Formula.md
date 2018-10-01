@@ -90,5 +90,4 @@ where
 
 $${d_1} = \frac{1}{ { \sigma \sqrt t } }\left[ { log\frac{ S_0 }{ K } + \left( r + \frac{ \sigma ^2 }{ 2 } \right)t } \right]$$
 
-$${d_1} = \frac{1}{ { \sigma \sqrt t } }\left[ { log\frac{ S_0 }{ K } + \left( r - \frac{ \sigma ^2 }{ 2 } \right)t } \right]$$
-
+$${d_2} = \frac{1}{ { \sigma \sqrt t } }\left[ { log\frac{ S_0 }{ K } + \left( r - \frac{ \sigma ^2 }{ 2 } \right)t } \right]$$

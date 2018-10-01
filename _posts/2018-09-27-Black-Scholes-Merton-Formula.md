@@ -73,14 +73,14 @@ $$\begin{align}
 
 The second term:
 
-$$\begin{ align }
+$$\begin{align}
  - K{ e^{  - rt } }\int\limits_K^{  + \infty  } { { p_S }\left( S \right)dS } 
  &=  - K{ e^{  - rt } }\left[ { 1 - { F_S }\left( K \right) } \right] \\
  &=  - K{ e^{  - rt } }\left[ { 1 - N\left( { \frac{ { \log K - log{ S_0 } - \left( { r - \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } }{ { \sigma \sqrt t  } } } \right) } \right] \\
  &=  - K{ e^{  - rt } }\left( { 1 - N\left[ { \frac{ {  - log\frac{ { { S_0 } } }{ K } - \left( { r - \frac{ { { \sigma ^2 } } }{ 2 } } \right)t } }{ { \sigma \sqrt t  } } } \right) } \right] \\
  &=  - K{ e^{  - rt } }\left[ { 1 - N\left( {  - { d_2 } } \right) } \right] \\
  &=  - K{ e^{  - rt } }N\left( { { d_2 } } \right)
-\end{ align }$$
+\end{align}$$
 
 Combingh the two terms, we have:
 
@@ -92,6 +92,7 @@ $$\begin{align}
 
 where
 
-$$ N\left( d_1 \right) =  $$
+$${d_1} = \frac{1}{{\sigma \sqrt t }}\left[ {log\frac{{{S_0}}}{K} + \left( {r + \frac{{{\sigma ^2}}}{2}} \right)t} \right]$$
 
-$$ N\left( d_2 \right) = $$
+$${d_2} = \frac{1}{{\sigma \sqrt t }}\left[ {log\frac{{{S_0}}}{K} + \left( {r - \frac{{{\sigma ^2}}}{2}} \right)t} \right]$$
+

@@ -78,7 +78,7 @@ $$\begin{align}
  &=  - K{ e^{  - rt } }N\left[\frac{ 1 }{ { \sigma \sqrt t } }\left( { log\frac{ S_0 }{ K } + \left( r - \frac{ \sigma ^2 }{ 2 } \right)t } \right) \right]
 \end{align}$$
 
-Combingh the two terms, we have:
+Combing the two terms, we have:
 
 $$\begin{align}
 \mathbb{ E }\left[ { { e^{  - rt } }{ { \left( { S - K } \right) }^ +  } } \right]

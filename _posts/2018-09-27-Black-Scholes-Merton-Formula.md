@@ -23,6 +23,7 @@ $$ \log S = \log{ S_0 } + \left( { r - \frac{ { { \sigma^2} } }{ 2 } } \right)t 
 Let 
 
 $$ \mu  = log{ S_0 } + \left( {r - \frac{ { { \sigma ^2} } }{ 2 } } \right) t $$ 
+
 $$ \sigma' = \sigma \sqrt t $$
 
 then the probability desnity function $f_S(S)$ and cumulative distribution function $F_S(S)$ can be written as:

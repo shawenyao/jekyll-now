@@ -8,7 +8,7 @@ tags:
 
 A step-by-step derivation.
 
-Given:
+Given that:
 
 $$ S = { S_0 }{ e^{ \left( { r - \frac{ { { \sigma^2 } } }{ 2 }} \right) t + \sigma \sqrt t x}} $$
 
@@ -20,7 +20,12 @@ we have:
 
 $$ \log S = \log{ S_0 } + \left( { r - \frac{ { { \sigma^2} } }{ 2 } } \right)t + \sigma \sqrt t x $$
 
-Let $ \mu  = log{ S_0 } + \left( {r - \frac{ { { \sigma ^2} } }{ 2 } } \right) t $ and $ \sigma' = \sigma \sqrt t $, the probability desnity function $f_S(S)$ and cumulative distribution function $F_S(S)$ can be written as:
+Let 
+
+$$ \mu  = log{ S_0 } + \left( {r - \frac{ { { \sigma ^2} } }{ 2 } } \right) t $$ 
+$$ \sigma' = \sigma \sqrt t $$
+
+then the probability desnity function $f_S(S)$ and cumulative distribution function $F_S(S)$ can be written as:
 
 $$ { f_S } \left( S \right) = \frac{ 1 }{ { S\sigma' \sqrt { 2\pi } } }{ e^{ - \frac{ { { { \left( { \log S - \mu } \right) }^2} } }{ { 2 { \sigma' } ^2 } } } } $$
 

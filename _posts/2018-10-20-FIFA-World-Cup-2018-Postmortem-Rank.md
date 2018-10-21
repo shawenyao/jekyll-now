@@ -10,11 +10,11 @@ Power ranking all 32 teams' performance based on Massey's method and Colley's me
 
 <br />
 
-|Rank|Massey's Method|Colley's Method
-| --- | --- | --- 
+|Rank|Massey's Method|Colley's Method|
+|---|---|---|
 |1|France|France
 |2|Denmark|Belgium|
-|3|Peru|Uruguay||
+|3|Peru|Uruguay|
 |4|Croatia|Croatia|
 |5|Belgium|Denmark|
 |6|Australia|Brazil|

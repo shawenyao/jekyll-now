@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FIFA World Cup 2018 Postmortem Rank
+title: FIFA World Cup 2018 Postmortem Report
 tag:
   - maths
   - football

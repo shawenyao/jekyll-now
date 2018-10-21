@@ -5,7 +5,7 @@ tag:
   - r
 ---
 
-The R commands that has made my life easier.
+The R commands that have made my life easier.
 
 <br />
 

@@ -6,7 +6,7 @@ tag:
   - football
 ---
 
-Power ranking the 32 teams' performance based on Massey's method and Colley's method
+Power ranking all 32 teams' performance based on Massey's method and Colley's method
 
 <br />
 

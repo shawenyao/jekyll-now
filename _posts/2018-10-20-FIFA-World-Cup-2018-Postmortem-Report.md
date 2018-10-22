@@ -8,8 +8,6 @@ tag:
 
 Power ranking all 32 teams' performance based on Massey's method and Colley's method.
 
-<br />
-
 |Rank|Massey's Method|Colley's Method|
 |---|---|---|
 |1|France|France

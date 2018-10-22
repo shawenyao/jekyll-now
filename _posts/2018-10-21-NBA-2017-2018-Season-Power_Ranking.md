@@ -8,8 +8,6 @@ tag:
 
 Power ranking all 30 teams' performance based on Massey's method and Colley's method.
 
-Last updated on `10/21/2018`.
-
 |Rank|Massey's Method|Colley's Method|
 |---|---|---|
 |1|NOP|DEN|
@@ -42,3 +40,5 @@ Last updated on `10/21/2018`.
 |28|MIN|WAS|
 |29|CHI|OKC|
 |30|CLE|CLE|
+
+Last updated on `10/21/2018`.

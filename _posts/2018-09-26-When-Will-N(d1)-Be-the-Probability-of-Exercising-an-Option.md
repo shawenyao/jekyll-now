@@ -8,8 +8,6 @@ tag:
 
 A proof by comparing change of measure with the Black-Scholes formula.
 
-<br />
-
 Consider the value of a vanilla European call option:
 
 $$\begin{align}

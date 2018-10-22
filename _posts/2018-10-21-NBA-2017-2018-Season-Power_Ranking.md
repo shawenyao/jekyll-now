@@ -10,7 +10,7 @@ Power ranking all 30 teams' performance based on Massey's method and Colley's me
 
 <br />
 
-Last updated on `10/21/2018`
+Last updated on `10/21/2018`.
 
 |Rank|Massey's Method|Colley's Method|
 |---|---|---|

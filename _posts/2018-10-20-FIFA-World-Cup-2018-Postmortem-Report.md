@@ -3,7 +3,7 @@ layout: post
 title: FIFA World Cup 2018 Postmortem Report
 tag:
   - maths
-  - football
+  - sports
 ---
 
 Power ranking all 32 teams' performance based on Massey's method and Colley's method.

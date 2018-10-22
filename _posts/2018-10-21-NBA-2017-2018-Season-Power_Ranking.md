@@ -10,7 +10,8 @@ Power ranking all 32 teams' performance based on Massey's method and Colley's me
 
 <br />
 
-Rank|Massey's Method|Colley's Method|
+|Rank|Massey's Method|Colley's Method|
+|---|---|---|
 |1|NOP|DEN|
 |2|DEN|MIL|
 |3|MIL|TOR|

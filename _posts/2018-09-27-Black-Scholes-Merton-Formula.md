@@ -8,8 +8,6 @@ tags:
 
 A step-by-step derivation.
 
-<br />
-
 Given that:
 
 $$ S = { S_0 }{ e^{ \left( { r - \frac{ { { \sigma^2 } } }{ 2 }} \right) t + \sigma \sqrt t x}} $$

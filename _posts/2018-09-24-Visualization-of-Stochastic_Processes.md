@@ -9,8 +9,6 @@ tag:
 
 Stochastic process makes for an excellent source of visualization.
 
-<br />
-
 In this demo, I show the dynamics of stochastic processes along the three physical diemensions:
 * $t$: time
 * $x$: the value of the stochastic process at time $t$

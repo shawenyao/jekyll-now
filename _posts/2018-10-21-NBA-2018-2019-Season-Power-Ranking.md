@@ -6,7 +6,7 @@ tag:
   - sports
 ---
 
-Power ranking all 30 teams' performance based on Massey's method and Colley's method.
+The evolution of power ranking based on and Colley's method.
 
 ![NBA Power Ranking - Colley's Method](https://shawenyao.github.io/Who-is-number-1/output/NBA_Ranking.png "NBA Power Ranking - Colley's Method")
 

@@ -41,4 +41,6 @@ Power ranking all 30 teams' performance based on Massey's method and Colley's me
 |29|CLE|OKC|
 |30|CHI|LAL|
 
+![NBA Power Ranking - Colley's Method](https://shawenyao.github.io/Who-is-number-1/output/NBA_Ranking.png "NBA Power Ranking - Colley's Method")
+
 Last updated on `10/23/2018`.

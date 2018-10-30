@@ -5,7 +5,7 @@ tag:
   - visualization
 ---
 
-Stations and routes of the *Bay Area Rapid Transit* system.
+Routes and stations from the *Bay Area Rapid Transit* system.
 
 ![BART](https://shawenyao.github.io/BART/output/BART.svg)
 

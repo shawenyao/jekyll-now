@@ -1,11 +1,11 @@
 ---
 layout: post
-title: BART System Map
+title: Map of BART
 tag:
   - visualization
 ---
 
-Stations and routes of *Bay Area Rapid Transit* .
+Stations and routes of the *Bay Area Rapid Transit* system.
 
 ![BART](https://shawenyao.github.io/BART/output/BART.svg)
 

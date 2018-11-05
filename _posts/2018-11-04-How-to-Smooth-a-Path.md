@@ -6,7 +6,7 @@ tag:
   - maths
 ---
 
-Context-aware interpolation.
+Context-aware interpolation even when spline fails.
 
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/plot1.svg" />

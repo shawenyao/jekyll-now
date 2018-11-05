@@ -9,5 +9,4 @@ tag:
 Routes and stations from the *Bay Area Rapid Transit* system.
 
 <object type="image/svg+xml" data="https://shawenyao.github.io/BART/output/BART.svg" style="width:100%;height:100%;">
-  <img src="https://shawenyao.github.io/BART/output/BART.svg" />
 </object>

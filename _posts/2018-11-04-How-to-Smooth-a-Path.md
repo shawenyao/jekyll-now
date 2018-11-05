@@ -44,7 +44,7 @@ $$\begin{cases}
 Intuitively, the position of point $P$ is a function of several factors:
 * how big $\lambda$ is
 * how big $\angle{ABC}$ is
-* how big $\| \overrightarrow{ AB } \|$ is
+* how big $$\| \overrightarrow{ AB } \|$$ is
 
 ## Extension
 What if we want more than one point between point $A$ and $B$? Naturally, after solving for point $P$, it can be viewed as part of the given path, so any level of interpolation can be achieved iteratively.

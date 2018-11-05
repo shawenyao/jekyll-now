@@ -12,7 +12,7 @@ Context-aware interpolation.
   <img src="https://shawenyao.github.io/R/output/plot1.svg" />
 </p>
 
-In some cases, a `spline` function would be able to solve the problem efficiently. However, it is not inconceivable to have a path so twisted that a function (in the mathematical sense) simply fails to characterize the trajectory, and this is where computational algorithm.
+In some cases, the `spline` function alone would already solve the problem. However, it is not inconceivable to have a path so twisted that a function (in the mathematical sense) simply fails to characterize all the trajectories, and this is where computational algorithm.
 
 ## Problem Formulation
 

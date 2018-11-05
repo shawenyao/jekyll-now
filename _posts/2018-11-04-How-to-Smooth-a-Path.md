@@ -12,7 +12,7 @@ Context-aware interpolation even when spline fails.
   <img src="https://shawenyao.github.io/R/output/plot1.svg" />
 </p>
 
-In some cases, the `spline` function alone would already solve the problem. However, it is not inconceivable to have a path so twisted that a function (in the mathematical sense) simply fails to characterize all the trajectories, and this is where an alternative approach is needed.
+In some cases, the `spline` function alone would have already solved the problem. However, it is not inconceivable to have a path so twisted that a function (in the mathematical sense) simply fails to characterize all the trajectories, and this is where an alternative approach is needed.
 
 ## Problem Formulation
 
@@ -20,7 +20,7 @@ In some cases, the `spline` function alone would already solve the problem. Howe
 
 $$\overrightarrow{ D } = \frac{ 1 }{ 2 } (\overrightarrow{ A } + \overrightarrow{ B })$$
 
-$$\overrightarrow{ D' } = \overrightarrow{ D } + \lambda \| \overrightarrow{ AB } \| \left( 1 + \frac{ \overrightarrow{ BA } \cdot \overrightarrow{ BC } }{ \| \overrightarrow{ BA } \| \| \overrightarrow{ BC } \| } \right) \frac{ \overrightarrow{ CE } }{ \| \overrightarrow{ CE } \| }$$
+$$\overrightarrow{ P } = \overrightarrow{ D } + \lambda \| \overrightarrow{ AB } \| \left( 1 + \frac{ \overrightarrow{ BA } \cdot \overrightarrow{ BC } }{ \| \overrightarrow{ BA } \| \| \overrightarrow{ BC } \| } \right) \frac{ \overrightarrow{ CE } }{ \| \overrightarrow{ CE } \| }$$
 
 ## Discussion
 

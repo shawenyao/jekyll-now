@@ -49,7 +49,7 @@ Intuitively, the position of point $P$ is a function of several factors:
 * how long $\overrightarrow{ AB }$ is
 
 ## Extension
-What if we want do the same for segment $BC$? The simplest way would be to start all over again for the reversed path $CBA$. In fact, applying the algorithm twice (once forward and once backward) has at least one interesting concequence: by taking the average between the two sets of interpolated points, we are essentilly taking into account the curvature defined by the points ahead as well as those behind. This is arguably superior than running the algorithm in either directions alone.
+What if we want do the same for segment $BC$? The simplest way would be to start all over again for the reversed path $CBA$. In fact, applying the algorithm twice (once forward and once backward) has at least one interesting concequence: by taking the average between the two sets of interpolated points, we are essentilly taking into account the curvature defined by the points ahead as well as those behind. This is arguably superior to running the algorithm in either direction alone.
 
 ## Putting It All Together
 <p align="center">

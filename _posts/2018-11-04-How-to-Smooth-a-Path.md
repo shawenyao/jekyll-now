@@ -12,7 +12,7 @@ Context-aware interpolation even when *spline* fails.
   <img src="https://shawenyao.github.io/R/output/plot1.svg" />
 </p>
 
-In some cases, the *spline* function would have solved the problem already. However, it is not inconceivable to have a path so twisted that a function (in the mathematical sense) would not be adequate to characterize all its the trajectories, and this is where an alternative approach is needed.
+In some cases, the *spline* function would have solved the problem already. However, it is not inconceivable to have a path so twisted that no functions (in the mathematical sense) would be adequate to characterize all its trajectories, and this is where an alternative approach is needed.
 
 ## Problem Formulation
 Given a path $ABC$, find the optimal point $P$ such that path $APBC$ is visually smooth.
@@ -25,11 +25,9 @@ Given a path $ABC$, find the optimal point $P$ such that path $APBC$ is visually
   <img src="https://shawenyao.github.io/R/output/plot_heuristic_solution.svg" />
 </p>
 
-
-
 $$\overrightarrow{ P } = \overrightarrow{ D } + \lambda \| \overrightarrow{ AB } \| \left( 1 + \frac{ \overrightarrow{ BA } \cdot \overrightarrow{ BC } }{ \| \overrightarrow{ BA } \| \| \overrightarrow{ BC } \| } \right) \frac{ \overrightarrow{ CE } }{ \| \overrightarrow{ CE } \| }$$
 
-where point $D$ is the middle point of point $A$ and point $B$:
+where point $D$ is the midpoint between point $A$ and point $B$:
 
 $$\overrightarrow{ D } = \frac{ 1 }{ 2 } (\overrightarrow{ A } + \overrightarrow{ B })$$
 
@@ -46,10 +44,12 @@ $$\begin{cases}
 Intuitively, the position of point $P$ is a function of several factors:
 * how big $\lambda$ is
 * how big $\angle{ABC}$ is
-* how long $\overrightarrow{ AB }$ is
+* how big $\| \overrightarrow{ AB } \|$ is
 
 ## Extension
-What if we want do the same for segment $BC$? The simplest way would be to start all over again for the reversed path $CBA$. In fact, applying the algorithm twice (once forward and once backward) has at least one interesting concequence: by taking the average between the two sets of interpolated points, we are essentilly taking into account the curvature defined by the points ahead as well as those behind. This is arguably superior to running the algorithm in either direction alone.
+What if we want more than one point between point $A$ and $B$? Naturally, after solving for point $P$, it can be viewed as part of the given path, so any level of interpolation can achieved iteratively.
+
+What if we want to interpolate segment $BC$? The simplest way would be to start all over again for the reversed path $CBA$. In fact, applying the algorithm twice (once forward and once backward) has at least one interesting concequence: by taking the average between the two sets of interpolated points, we are further taking into account the curvature defined by the points behind as well as those ahead. This is arguably superior to running the algorithm in either direction alone.
 
 ## Putting It All Together
 <p align="center">

@@ -8,7 +8,9 @@ tag:
 
 Context-aware interpolation.
 
-![plot1](https://shawenyao.github.io/R/output/plot1.svg)
+<p align="center">
+  ![plot1](https://shawenyao.github.io/R/output/plot1.svg)
+</p>
 
 In some cases, a `spline` function would be able to solve the problem efficiently. However, it is not inconceivable to have a path so twisted that a function (in the mathematical sense) simply fails to characterize the trajectory, and this is where computational algorithm.
 
@@ -25,4 +27,6 @@ $$\overrightarrow{ D' } = \overrightarrow{ D } + \lambda \| \overrightarrow{ AB 
 ## Extension
 
 ## Examples
-![example](https://shawenyao.github.io/R/output/plot_example.svg)
+<p align="center">
+  ![example](https://shawenyao.github.io/R/output/plot_example.svg)
+</p>

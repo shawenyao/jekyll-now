@@ -8,6 +8,6 @@ tag:
 
 Context-aware interpolation.
 
-$$\vec{ D } = \frac{ 1 }{ 2 } (\vec{ A } + \vec{ B })$$
+$$\overrightarrow{ D } = \frac{ 1 }{ 2 } (\vec{ A } + \overrightarrow{ B })$$
 
-$$\vec{ D' } = \vec{ D } + \lambda \| \vec{ AB } \|$$
+$$\overrightarrow{ D' } = \vec{ D } + \lambda \| \overrightarrow{ AB } \|$$

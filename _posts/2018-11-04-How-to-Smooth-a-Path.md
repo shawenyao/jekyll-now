@@ -43,9 +43,10 @@ $$\begin{cases}
 ($k$ is a constant)
 
 ## Discussion
-The position of point $P$ is a function of several factors:
-* the size of $\ang{ABC}$
-* the length of $\overrightarrow{ AB }$
+Intuitively, the position of point $P$ is a function of several factors:
+* how big $\angle{ABC}$ is
+* how long $\overrightarrow{ AB }$ is
+* how big $\lambda$ is
 
 ## Extension
 

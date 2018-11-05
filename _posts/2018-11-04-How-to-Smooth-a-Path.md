@@ -29,7 +29,7 @@ Given path $ABC$, find the optimal point $P$ such that path $APBC$ is visually s
 
 $$\overrightarrow{ P } = \overrightarrow{ D } + \lambda \| \overrightarrow{ AB } \| \left( 1 + \cos \angle{ABC} \right) \frac{ \overrightarrow{ CE } }{ \| \overrightarrow{ CE } \| }$$
 
-where $\cos \angle{ABC}$ is given by
+where $\cos \angle{ABC}$ is given by:
 
 $$\cos \angle{ABC} = \frac{ \overrightarrow{ BA } \cdot \overrightarrow{ BC } }{ \| \overrightarrow{ BA } \| \| \overrightarrow{ BC } \| }$$
 

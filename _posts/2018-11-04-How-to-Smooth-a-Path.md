@@ -12,7 +12,7 @@ Context-aware interpolation even when *spline* fails.
   <img src="https://shawenyao.github.io/R/output/plot1.svg" />
 </p>
 
-In some cases, the *spline* function alone would have solved the problem already. However, it is not inconceivable to have a path so twisted that a function (in the mathematical sense) would not be adequate to characterize its the trajectories, and this is where an alternative approach is needed.
+In some cases, the *spline* function alone would have solved the problem already. However, it is not inconceivable to have a path so twisted that a function (in the mathematical sense) would not be adequate to characterize all its the trajectories, and this is where an alternative approach is needed.
 
 ## Problem Formulation
 Given a path $ABC$, find the optimal point $P$ such that path $APBC$ is visually smooth.
@@ -49,7 +49,7 @@ Intuitively, the position of point $P$ is a function of several factors:
 * how long $\overrightarrow{ AB }$ is
 
 ## Extension
-What if we want do the same for segment $BC$? The simplest way would be to start all over again for the reversed path $CBA$. In fact, applying the algorithm twice (once forward and once backward) has at least one interesting concequence: by taking the average between the two sets of interpolated points, we are essentilly taking into account the curvature defined by the points ahead as well as those behind.
+What if we want do the same for segment $BC$? The simplest way would be to start all over again for the reversed path $CBA$. In fact, applying the algorithm twice (once forward and once backward) has at least one interesting concequence: by taking the average between the two sets of interpolated points, we are essentilly taking into account the curvature defined by the points ahead as well as those behind. This is arguably superior than running the algorithm in either directions alone.
 
 ## Putting It All Together
 <p align="center">

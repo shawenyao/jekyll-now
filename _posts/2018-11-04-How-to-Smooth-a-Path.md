@@ -12,7 +12,7 @@ Context-aware interpolation even when *spline* fails.
   <img src="https://shawenyao.github.io/R/output/plot1.svg" />
 </p>
 
-In some cases, the *spline* function would have solved the problem already. However, it is not inconceivable to have a path so twisted that no function (in the mathematical sense) would be adequate to characterize all its trajectories, and this is where an alternative approach is needed.
+In some cases, the *spline* method would have solved the problem already. However, it is not inconceivable to have a path so twisted that no function (in the mathematical sense) would be adequate to characterize all its trajectories, and this is where an alternative approach is needed.
 
 ## Problem Formulation
 Given path $ABC$, find the optimal point $P$ such that path $APBC$ is visually smooth.

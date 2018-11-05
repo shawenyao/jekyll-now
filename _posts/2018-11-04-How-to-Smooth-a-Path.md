@@ -6,4 +6,8 @@ tag:
   - maths
 ---
 
+Context-aware interpolation.
+
 $$\vec{ D } = \frac{ 1 }{ 2 } (\vec{ A } + \vec{ B })$$
+
+$$\vec{ D' } = \vec{ D } + \lamda \mid{ \vec{ AB } } $ (1 + \frac{ \vec{ BA } \cdot \vec{ BC } }{ \mid{\vec{ BA }} \mid{\vec{ BC }} }) \frac{ \vec{ CE } }{ \mid{ \vec{ CE } } }$$

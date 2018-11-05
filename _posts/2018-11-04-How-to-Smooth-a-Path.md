@@ -49,8 +49,9 @@ Intuitively, the position of point $P$ is a function of several factors:
 * how big $\lambda$ is
 
 ## Extension
+What if we want do the same for segment $BC$? The simplest way would be to do the same for path $CBA$. In fact, applying the algorithm twice (once forward and once backward) can have an interesting concequence: by taking the average between the two sets of interpolated points, we are essentilly taking into account the curvature between the points ahead as well as those behind.
 
-## Examples
+## Putting It All Together
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/plot_example.svg" />
 </p>

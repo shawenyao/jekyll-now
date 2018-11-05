@@ -14,7 +14,7 @@ One issue I initially ran into when creating [Map of BART](/Map-of-BART/) was, l
   <img src="https://shawenyao.github.io/R/output/plot1.svg" />
 </p>
 
-In some cases, the *spline* method would have solved the problem already. However, it is not inconceivable to have a path so twisted that no function (in the mathematical sense) would be adequate to characterize the trajectories in its entirety, and this is where an alternative approach is needed.
+In some cases, the [*spline interpolation*](https://en.wikipedia.org/wiki/Spline_interpolation) method would come in handy. However, it is not inconceivable to have a path so twisted that no function (in the mathematical sense) would be adequate to characterize the trajectories in its entirety, and this is where an alternative approach is needed.
 
 ## Problem Formulation
 Given path $ABC$, find the optimal point $P$ such that path $APBC$ is visually smooth.

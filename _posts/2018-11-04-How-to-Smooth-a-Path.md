@@ -10,4 +10,4 @@ Context-aware interpolation.
 
 $$\vec{ D } = \frac{ 1 }{ 2 } (\vec{ A } + \vec{ B })$$
 
-$$\vec{ D' } = \vec{ D } + \lambda \left| \vec{ AB } \right\|$$
+$$\vec{ D' } = \vec{ D } + \lambda \| \vec{ AB } \|$$

@@ -33,7 +33,7 @@ where point $D$ is the middle point of point $A$ and point $B$:
 
 $$\overrightarrow{ D } = \frac{ 1 }{ 2 } (\overrightarrow{ A } + \overrightarrow{ B })$$
 
-and point $E$ is the projection of $C$ on line $AB$:
+and point $E$ is the projection of point $C$ on line $AB$:
 
 $$\begin{cases}
 \overrightarrow{ CE } \cdot \overrightarrow{ AB } = 0\\ 

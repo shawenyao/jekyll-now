@@ -24,4 +24,4 @@ $$\overrightarrow{ D' } = \overrightarrow{ D } + \lambda \| \overrightarrow{ AB 
 ## Extension
 
 ## Examples
-
+![example](https://shawenyao.github.io/R/output/plot_example.svg)

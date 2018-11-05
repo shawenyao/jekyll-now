@@ -8,7 +8,7 @@ tag:
 
 Context-aware interpolation even when *spline* fails.
 
-One of the issues I initially ran into when creating [Map of BART](/Map-of-BART/) was, literally connecting the dots wasn't able to produce paths as aesthetically pleasing as I had hoped for. They are a bit too edgy for my taste, especially at the connection points.
+One of the issues I initially ran into when creating [Map of BART](/Map-of-BART/) was, literally connecting the dots wasn't able to produce paths as aesthetically pleasing as I had hoped for. They are a bit too edgy for my taste, especially around the connection points.
 
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/plot1.svg" />

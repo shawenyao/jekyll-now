@@ -27,9 +27,13 @@ Given path $ABC$, find the optimal point $P$ such that path $APBC$ is visually s
   <img src="https://shawenyao.github.io/R/output/plot_heuristic_solution.svg" />
 </p>
 
-$$\overrightarrow{ P } = \overrightarrow{ D } + \lambda \| \overrightarrow{ AB } \| \left( 1 + \frac{ \overrightarrow{ BA } \cdot \overrightarrow{ BC } }{ \| \overrightarrow{ BA } \| \| \overrightarrow{ BC } \| } \right) \frac{ \overrightarrow{ CE } }{ \| \overrightarrow{ CE } \| }$$
+$$\overrightarrow{ P } = \overrightarrow{ D } + \lambda \| \overrightarrow{ AB } \| \left( 1 + \cos \angle{ABC} }{ \| \overrightarrow{ BA } \| \| \overrightarrow{ BC } \| } \right) \frac{ \overrightarrow{ CE } }{ \| \overrightarrow{ CE } \| }$$
 
-where point $D$ is the midpoint between point $A$ and point $B$:
+where $\cos \angle{ABC}$ is given by
+
+$$\cos \angle{ABC} = \frac{ \overrightarrow{ BA } \cdot \overrightarrow{ BC }$$
+
+point $D$ is the midpoint between point $A$ and point $B$:
 
 $$\overrightarrow{ D } = \frac{ 1 }{ 2 } (\overrightarrow{ A } + \overrightarrow{ B })$$
 

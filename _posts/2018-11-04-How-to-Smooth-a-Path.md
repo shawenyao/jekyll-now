@@ -11,7 +11,7 @@ Context-aware interpolation even when *spline* fails.
 One of the issues I initially ran into when creating [Map of BART](/Map-of-BART/) was, literally connecting the dots wasn't able to produce paths as aesthetically pleasing as I had hoped for. They are a bit too edgy for my taste, especially around the connection points.
 
 <p align="center">
-  <img src="https://shawenyao.github.io/R/output/plot1.svg" />
+  <img src="https://shawenyao.github.io/R/output/smooth_path/plot1.svg" />
 </p>
 
 In some cases, the [*spline interpolation*](https://en.wikipedia.org/wiki/Spline_interpolation) method could come in handy. However, it is not inconceivable to have a path so twisted that no function (in the mathematical sense) would be adequate to characterize the trajectories in its entirety, and this is where an alternative approach is needed.
@@ -19,12 +19,12 @@ In some cases, the [*spline interpolation*](https://en.wikipedia.org/wiki/Spline
 ## Problem Formulation
 Given path $ABC$, find the optimal point $P$ such that path $APBC$ is visually smoother.
 <p align="center">
-  <img src="https://shawenyao.github.io/R/output/plot_problem_formulation.svg" />
+  <img src="https://shawenyao.github.io/R/output/smooth_path/plot_problem_formulation.svg" />
 </p>
 
 ## A Heuristic Solution
 <p align="center">
-  <img src="https://shawenyao.github.io/R/output/plot_heuristic_solution.svg" />
+  <img src="https://shawenyao.github.io/R/output/smooth_path/plot_heuristic_solution.svg" />
 </p>
 
 $$\overrightarrow{ P } = \overrightarrow{ D } + \lambda \| \overrightarrow{ AB } \| \left( 1 + \cos \angle{ABC} \right) \frac{ \overrightarrow{ CE } }{ \| \overrightarrow{ CE } \| }$$
@@ -59,5 +59,5 @@ What about the last segment $BC$ where there's no more point ahead? The simplest
 
 ## Putting It All Together
 <p align="center">
-  <img src="https://shawenyao.github.io/R/output/plot_example.svg" />
+  <img src="https://shawenyao.github.io/R/output/smooth_path/plot_example.svg" />
 </p>

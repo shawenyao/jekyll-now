@@ -63,4 +63,7 @@ What about the last segment $BC$ where there's no more point ahead? The simplest
 </p>
 
 ## Final Thought: the Effect of $\lambda$
-
+$\lambda$ controls how sensitive the interpolated point $P$ is to the change in $\angle{ABC}$ and $$\| \overrightarrow{ AB } \|$$. So is there an optimal choice of $\lambda$?
+<p align="center">
+  <img src="https://shawenyao.github.io/R/output/smooth_path/plot_lambda.svg" />
+</p>

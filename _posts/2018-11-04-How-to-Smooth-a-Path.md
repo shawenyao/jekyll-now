@@ -8,7 +8,7 @@ tag:
 
 Context-aware interpolation even when *spline* fails.
 
-One of the issues I initially ran into when creating [Map of BART](/Map-of-BART/) was, literally connecting the dots wasn't able to produce paths as aesthetically pleasing as I had hoped for. They are a bit too edgy for my taste, especially around the connection points.
+One of the issues I initially ran into when creating [Map of BART](/Map-of-BART/) was, literally connecting the dots wasn't able to produce paths as aesthetically pleasing as I had hoped for. They are a bit too edgy for my taste, especially where the lines connect.
 
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/smooth_path/plot1.svg" />
@@ -53,7 +53,7 @@ Intuitively, the position of point $P$ is a function of several factors:
 * how big $$\| \overrightarrow{ AB } \|$$ is
 
 ## Extension
-What if we want more than one point between point $A$ and $B$? Naturally, after solving for point $P$, it can be viewed as part of the given path, so any level of interpolation can be achieved **iteratively**.
+What if we want more than one point between point $A$ and $B$? Naturally, after solving for point $P$, it becomes part of the given path, so any level of interpolation can be achieved **iteratively**.
 
 What about the last segment $BC$ where there's no more point ahead? The simplest answer would be to start all over again for the reversed path $CBA$. In fact, applying the algorithm twice (once **forward** and once **backward**) has at least one practical implication: by taking the **average** between the two sets of interpolated points, we are further taking into account the curvature defined by the points behind as well as those ahead. This is arguably superior to interpolation along either direction alone.
 
@@ -62,8 +62,10 @@ What about the last segment $BC$ where there's no more point ahead? The simplest
   <img src="https://shawenyao.github.io/R/output/smooth_path/plot_example.svg" />
 </p>
 
+As the name indicates, there's not much the forward/backward-looking interpolation can do when it comes the last/first segment on the path, and this is where the average method shines.
+
 ## Final Thought: the Effect of $\lambda$
-$\lambda$ controls how sensitive the interpolated point $P$ is to the change in $\angle{ABC}$ and $$\| \overrightarrow{ AB } \|$$. So is there an optimal choice of $\lambda$?
+$\lambda$ determines how sensitive the interpolated point $P$ is to the change in $\angle{ABC}$ and $$\| \overrightarrow{ AB } \|$$. So how does the choice of $\lambda$ affect the outcome? A small $\lambda$ probably won't be very useful as it is going to produce something too similar to the original path, whereas  a large $\lambda$ will break the interpolation in a different way by overstating the curvature. Somewhere in between lies the optimal choice of $\lambda$, which in my case turns out to be 0.25.
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/smooth_path/plot_lambda.svg" />
 </p>

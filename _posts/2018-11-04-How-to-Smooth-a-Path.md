@@ -61,3 +61,6 @@ What about the last segment $BC$ where there's no more point ahead? The simplest
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/smooth_path/plot_example.svg" />
 </p>
+
+## Final Thought: the Effect of $\lambda$
+

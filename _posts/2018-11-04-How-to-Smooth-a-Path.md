@@ -65,7 +65,7 @@ What about the last segment $BC$ where there's no more point ahead? The simplest
 As the name indicates, there's not much the forward/backward-looking interpolation can do when it comes the last/first segment on the path, and this is where the average method shines.
 
 ## Final Thought: the Effect of $\lambda$
-$\lambda$ determines how sensitive the interpolated point $P$ is to the change in $\angle{ABC}$ and $$\| \overrightarrow{ AB } \|$$. So how does the choice of $\lambda$ affect the outcome? A small $\lambda$ probably won't be very useful as it is going to produce something too similar to the original path, whereas a large $\lambda$ will break the interpolation in a different way by overstating the curvature. Somewhere in between lies the optimal value, which turns out to be $0.25$ in my case.
+$\lambda$ determines how sensitive the interpolated point $P$ is to the change in $\angle{ABC}$ and $$\| \overrightarrow{ AB } \|$$. So how does the choice of $\lambda$ affect the outcome? A small $\lambda$ probably won't be very useful as it is going to produce something too similar to the original path, whereas a large $\lambda$ will break the interpolation in the opposite way by overstating the curvature. Somewhere in between lies the optimal value, which turns out to be $0.25$ in my case.
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/smooth_path/plot_lambda.svg" />
 </p>

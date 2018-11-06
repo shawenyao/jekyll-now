@@ -53,7 +53,7 @@ Intuitively, the position of point $P$ is a function of several factors:
 * how big $$\| \overrightarrow{ AB } \|$$ is
 
 ## Extension
-What if we want more than one point between point $A$ and $B$? Naturally, after solving for point $P$, it can be viewed as part of the given path, so any level of interpolation can be achieved iteratively.
+What if we want more than one point between point $A$ and $B$? Naturally, after solving for point $P$, it can be viewed as part of the given path, so any level of interpolation can be achieved **iteratively**.
 
 What about the last segment $BC$ where there's no more point ahead? The simplest answer would be to start all over again for the reversed path $CBA$. In fact, applying the algorithm twice (once **forward** and once **backward**) has at least one interesting implication: by taking the **average** between the two sets of interpolated points, we are further taking into account the curvature defined by the points behind as well as those ahead. This is arguably superior to interpolation along either direction alone.
 

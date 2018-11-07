@@ -6,7 +6,7 @@ tag:
   - maths
 ---
 
-Random thoughts on spiral functions.
+Randomized spiral functions.
 
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/typhoon/typhoon.svg" />

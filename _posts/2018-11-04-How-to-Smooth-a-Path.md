@@ -54,7 +54,7 @@ Intuitively, the position of point $P$ is a function of several factors:
 * how big $$\| \overrightarrow{ AB } \|$$ is
 
 ## Extension
-What if we want more than one point between point $A$ and $B$? Naturally, after solving for point $P$, it becomes part of the given path, so any level of interpolation can be achieved **iteratively**.
+What if we want more than one point between point $A$ and $B$? After solving for point $P$, it naturally becomes part of the given path, so any level of interpolation can be achieved **iteratively**.
 
 What about the last segment $BC$ where there's no more point ahead? The simplest answer would be to start all over again for the reversed path $CBA$. In fact, applying the algorithm twice (once **forward** and once **backward**) has at least one practical implication: by taking the **average** between the two sets of interpolated points, we are further taking into account the curvature defined by the points behind as well as those ahead. This is arguably superior to interpolation along either direction alone.
 
@@ -63,7 +63,7 @@ What about the last segment $BC$ where there's no more point ahead? The simplest
   <img src="https://shawenyao.github.io/R/output/smooth_path/plot_example.svg" />
 </p>
 
-As the name indicates, there's not much the forward/backward-looking approach can do when it comes to the last/first segment of the path, and this is where the average method shines the brightest.
+As the name indicates, there isn't much the forward/backward-looking approach can do when it comes to the last/first segment of the path, and this is where the average method shines the brightest.
 
 ## Final Thoughts: the Effect of $\lambda$
 $\lambda$ determines how sensitive the position of the interpolated point $P$ is to the change in $\angle{ABC}$ and $$\| \overrightarrow{ AB } \|$$, so how does the choice of $\lambda$ affect the outcome? A small $\lambda$ probably won't be very useful as it is going to produce something too similar to the original path. Meanwhile a large $\lambda$ will break the interpolation in a different way by overstating the curvature. Somewhere in between lies the sweet spot, which turns out to be $0.25$ in my case.

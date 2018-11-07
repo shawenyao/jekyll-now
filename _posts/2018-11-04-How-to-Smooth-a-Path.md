@@ -8,7 +8,7 @@ tag:
 
 Context-aware interpolation even when *spline* fails.
 
-One of the issues I initially ran into when creating [Map of BART](/Map-of-BART/) was, literally connecting the dots wasn't able to produce paths as aesthetically pleasing as I had hoped for. They are a bit too edgy for my taste, especially where the lines connect.
+One of the issues I ran into when creating [Map of BART](/Map-of-BART/) was, literally connecting the dots wasn't able to produce paths as aesthetically pleasing as I had hoped for. They are a bit too edgy for my taste, especially where the lines connect.
 
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/smooth_path/plot1.svg" />
@@ -17,7 +17,8 @@ One of the issues I initially ran into when creating [Map of BART](/Map-of-BART/
 In some cases, the [*spline interpolation*](https://en.wikipedia.org/wiki/Spline_interpolation) method could come in handy. However, it is not inconceivable to have a path so twisted that no function (in the mathematical sense) would be adequate to characterize the trajectories in its entirety, and this is where an alternative approach is needed.
 
 ## Problem Formulation
-Given path $ABC$, find the optimal point $P$ such that path $APBC$ is visually smoother.
+Given path $ABC$, find the optimal point $P$ such that path $APBC$ is visually smooth.
+
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/smooth_path/plot_problem_formulation.svg" />
 </p>
@@ -66,6 +67,7 @@ As the name indicates, there's not much the forward/backward-looking approach ca
 
 ## Final Thoughts: the Effect of $\lambda$
 $\lambda$ determines how sensitive the position of the interpolated point $P$ is to the change in $\angle{ABC}$ and $$\| \overrightarrow{ AB } \|$$, so how does the choice of $\lambda$ affect the outcome? A small $\lambda$ probably won't be very useful as it is going to produce something too similar to the original path. Meanwhile a large $\lambda$ will break the interpolation in a different way by overstating the curvature. Somewhere in between lies the sweet spot, which turns out to be $0.25$ in my case.
+
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/smooth_path/plot_lambda.svg" />
 </p>

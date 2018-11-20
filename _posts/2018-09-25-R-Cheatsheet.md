@@ -13,6 +13,12 @@ The R commands that have made my life easier.
 %>% write.table("clipboard-128", row.names = FALSE, sep = "\t")
 ```
 
+#### Set working directory to the place where the source file is saved
+
+```r
+setwd(dirname(sys.frame(1)$ofile))
+```
+
 #### Globally disable string as factors
 
 ```r

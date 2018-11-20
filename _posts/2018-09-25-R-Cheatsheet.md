@@ -7,7 +7,7 @@ tag:
 
 The R commands that have made my life easier.
 
-#### Hassle-free data.frame copying-and-pasting (into Microsoft Excel)
+#### Hassle-free data.frame copy-and-paste (into Microsoft Excel)
 
 ```r
 %>% write.table("clipboard-128", row.names = FALSE, sep = "\t")

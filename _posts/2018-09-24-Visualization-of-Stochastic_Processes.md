@@ -10,7 +10,7 @@ comments: true
 
 Stochastic process makes for an excellent source of visualization.
 
-In this demo, the dynamics of stochastic processes are shown along the three physical diemensions:
+In this demo, the dynamics of stochastic processes are shown along the three physical diemensions of:
 * $t$: time
 * $x$: the value of the stochastic process at time $t$
 * $f(x)$: the probability density (or the probablity mass in the discrete case) of $x$ at time $t$

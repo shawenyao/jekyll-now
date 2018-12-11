@@ -13,7 +13,7 @@ layout: default
       {% endfor %}
     </ul>
   </div>
-  {% endif%}
+  {% endif %}
   
   <div class="entry">
     {{ page.excerpt }}
@@ -31,5 +31,7 @@ layout: default
   
   <br><br>
 
-  {% if page.comments include disqus.html %}
+  {% if page.comments %}
+  {% include disqus.html %}
+  {% endif %}
 </article>

@@ -4,6 +4,7 @@ title: How to Smooth a Path
 tag:
   - visualization
   - maths
+comments: true
 ---
 
 Context-aware interpolation even when *spline* fails.

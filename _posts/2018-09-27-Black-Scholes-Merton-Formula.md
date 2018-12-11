@@ -4,6 +4,7 @@ title: Black-Scholes-Merton Formula
 tags:
  - maths
  - finance
+comments: true
 ---
 
 A step-by-step derivation.

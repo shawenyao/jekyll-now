@@ -5,6 +5,7 @@ tag:
   - visualization
   - maths
   - sports
+comments: true
 ---
 
 Visualizing the evolution of performance ranking based on Colley's method.

@@ -4,6 +4,7 @@ title: Map of BART
 tag:
   - visualization
   - r
+comments: true
 ---
 
 Routes and stations from the *Bay Area Rapid Transit* system.

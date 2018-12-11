@@ -3,6 +3,7 @@ layout: post
 title: R Cheatsheet
 tag:
   - r
+comments: false
 ---
 
 The R commands that have made my life easier.

@@ -4,7 +4,7 @@ title: Typhoon Plot
 tag:
   - visualization
   - maths
-comments: false
+comments: true
 ---
 
 Randomized spiral functions.

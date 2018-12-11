@@ -5,6 +5,7 @@ tag:
   - visualization
   - maths
   - r
+comments: true
 ---
 
 Stochastic process makes for an excellent source of visualization.

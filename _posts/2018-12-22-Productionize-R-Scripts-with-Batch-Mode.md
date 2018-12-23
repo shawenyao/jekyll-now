@@ -85,7 +85,6 @@ And the window will remain open indefinitely, until user presses `CTRL + C` on t
 ## Putting It All Together
 For non-interactive/production use of R scripts:
 * call `rscript` from command line to run them in batch mode, either sequentially (without `start`) or parallelly (with `start`)
-* use `commandArgs` to parse the arguments into a character vector, and you get to choose how to use it
-* distinguish between batch and interactive mode in the beginning of the script to retain compatability with running in RStudio
+* use `commandArgs` in R to parse the arguments into a character vector, and you get to choose how to use it
+* distinguish between batch and interactive mode in the beginning of the script to retain compatability with RStudio
 * put a blocking operation at the end to avoid auto-exit
-

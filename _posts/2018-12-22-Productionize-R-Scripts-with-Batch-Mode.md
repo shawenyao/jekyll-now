@@ -26,6 +26,8 @@ Note that Windows' `start` command enables each subsequent command to be execute
 
 This is working already, but there are a few more things that would make the experience smoother.
 
+<br>
+
 ## Parsing Arguments
 Parsing arguments in R mainly revolves around the use of `commandArgs` function. It does one simple job - converting all (space-delimited) arguments specified in the batch call to a character vector, and it's up to the users to decide what to do with them.
 ```r
@@ -46,6 +48,8 @@ for(i in seq_along(args_names)){
   assign(x = args_names[i], value = args_values[i], envir = .GlobalEnv)
 }
 ```
+
+<br>
   
 ## Compatability with RStudio/Interactive Mode
 Batch mode is practically useless when it comes to debugging. In order not to lose the compatability with RStudio/interactive mode, a conditional statement can be put in the very beginning to differentiate the two approaches.
@@ -70,6 +74,8 @@ if(batch_mode_on){
 
 # start your job here
 ```
+
+<br>
 
 ## Preventing Auto-Exit
 To prevent the command line window from automatically closing itself upon completion, put a blocking operation at the end of the script.

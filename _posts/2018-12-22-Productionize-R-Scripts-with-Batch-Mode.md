@@ -32,7 +32,7 @@ Parsing arguments in R mainly revolves around the use of `commandArgs` function.
 args <- commandArgs(trailingOnly = TRUE)
 ```
 
-For example, suppose all arguments comes in "-arg value" pairs, i.e., odd elements stand for argument names and even ones are the values.
+For example, suppose all arguments comes in `-arg value` pairs, i.e., odd elements stand for argument names and even ones are the values.
 ```r
 # odd elements are the names of the arguments (without the leading "-")
 args_names <- gsub("-", "", args[c(TRUE, FALSE)])

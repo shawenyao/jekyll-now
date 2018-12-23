@@ -2,8 +2,8 @@
 layout: post
 title: Productionizing R Scripts with Batch Mode
 tag:
-  - r
   - windows
+  - r
 comments: true
 ---
 
@@ -11,7 +11,6 @@ And parse argument at the same time.
 
 
 ### Objective
-
 ```bash
 :: set path for the executable file
 set rscript=path-to-rscript.exe
@@ -25,12 +24,12 @@ pause
 Note that `start` command enables all R script to be executed in a parallel fashion.
 
 ### Running R Script with Arguments
-Parsing arguments in R mainly revolves around the use of `commandArgs` function. It simply converts all arguments (space-delimited) specified in the batch call to a character vector, and it's up to the users to decide what to do with them.
+Parsing arguments in R mainly revolves around the use of `commandArgs` function. It does one simple job: converting all arguments (space-delimited) specified in the batch call to a character vector, and it's up to the users to decide what to do with them.
 ```r
 args <- commandArgs(trailingOnly = TRUE)
 ```
 
-For example, suppose all arguments follow the "-arg value" format. As a result, odd elements stand for argument names, whereas even elements are the values.
+For example, suppose all arguments comes in the "-arg value" pairs, meaning odd elements stand for argument names and even ones are the values.
 ```r
 # odd elements are the names of the arguments (without the leading "-")
 args_names <- gsub("-", "", args[c(TRUE, FALSE)])
@@ -38,25 +37,26 @@ args_names <- gsub("-", "", args[c(TRUE, FALSE)])
 args_values <- args[c(FALSE, TRUE)]
 ```
 
-The. It's also important to assign them in the global environment if 
+The `assign` function can then be used for dynamical variable declaration. It's also important to assign them in the global environment if you plan to wrap the whole argument processing chunk into a function.
 ```r
-# loop over the arguments to assign values
 for(i in seq_along(args_names)){
   assign(x = args_names[i], value = args_values[i], envir = .GlobalEnv)
 }
 ```
   
 ### Compatability with RStudio/Interactive Mode
-In order not to lose the compatability with RStudio/interactive mode,
+Batch mode practically useless when it comes to debugging. In order not to lose the compatability with RStudio/interactive mode, a conditional statement can be put in the very beginning to differentiate the two modes in which the script is supposed to be run.
 ```r
 # detect if whether R script is launched in batch mode or RStudio mode
 batch_mode_on <- is.na(Sys.getenv("RSTUDIO", unset = NA))
 
-# assign args values accordingly
+# assign args values according to the mode
 if(batch_mode_on){
   cat("Running in batch mode\r\n")
   
   # assign args passed from batch call
+  # put everything in the previous section here
+  # or wrap them into a function/package
   parse_args()  
   
 }else{
@@ -71,7 +71,7 @@ if(batch_mode_on){
 # start your job
 ```
 
-### Prevent Auto-Exit
+### Preventing Auto-Exit
 To prevent the command line window from auto-exit, put a blocking operation at the end of the script.
 ```r
 if(batch_mode_on){

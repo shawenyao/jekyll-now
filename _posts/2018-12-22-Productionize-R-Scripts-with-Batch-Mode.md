@@ -24,7 +24,7 @@ pause
 ```
 Note that Windows' `start` command enables each subsequent command to be executed in a parallel fashion. Without `start`, sequential execution would be assumed instead.
 
-This is working already, but there are a few more things that would make the experience smoother.
+This is working *already*, but there are a few more things that would make the experience smoother.
 
 ## Parsing Arguments
 Parsing arguments in R mainly revolves around the use of `commandArgs` function. It does one simple job - converting all (space-delimited) arguments specified in the batch call to a character vector, and it's up to the users to decide what to do with them.

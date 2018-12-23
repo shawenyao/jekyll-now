@@ -76,7 +76,7 @@ To prevent the command line window from automatically closing itself upon comple
 ```r
 if(batch_mode_on){
   cat("Job finished. Press CTRL + C to exit.\r\n")
-  invisible(readLines(file("stdin"), 1))
+  readLines(con = "stdin", n = 1)
 }
 ```
 

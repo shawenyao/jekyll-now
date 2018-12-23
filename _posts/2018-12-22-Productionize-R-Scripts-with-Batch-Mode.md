@@ -7,25 +7,26 @@ tag:
 comments: true
 ---
 
-And parse argument at the same time.
+Sometimes R is better off without RStudio.
 
 <p align="center">
   <img src="https://shawenyao.github.io/R/images/cmd_example.png" />
 </p>
 
-### Objective: Running R Scripts in Batch Mode (with Arguments)
+### Summary
 
+
+### Objective: Running R Scripts in Batch Mode (with Arguments)
+R supports batch mode right out of box. All it takes is to start an R script with the `rscript` executable.
 ```bash
-:: set path for the executable file
-set rscript=path-to-rscript.exe
-:: run rscripts in parallel
+set rscript=full-path-of-rscript.exe
 start %rscript% cmd_example.R -arg1 job1 -arg2 value1 -arg3 value1
 start %rscript% cmd_example.R -arg1 job2 -arg2 value2 -arg3 value2
 start %rscript% cmd_example.R -arg1 job3 -arg2 value3 -arg3 value3
 :: prevent the main batch window from auto-exit
 pause
 ```
-Note that Windows' `start` command enables all R script to be executed in a parallel fashion. Without `start`, sequential execution would be assumed instead.
+Note that Windows' `start` command enables each subsequent command to be executed in a parallel fashion. Without `start`, sequential execution would be assumed instead.
 
 ### Parsing/Assigning Arguments in R
 Parsing arguments in R mainly revolves around the use of `commandArgs` function. It does one simple job: converting all arguments (space-delimited) specified in the batch call to a character vector, and it's up to the users to decide what to do with them.
@@ -54,25 +55,23 @@ Batch mode is practically useless when it comes to debugging. In order not to lo
 # detect if whether R script is launched in batch mode or RStudio mode
 batch_mode_on <- is.na(Sys.getenv("RSTUDIO", unset = NA))
 
-# assign args values according to the mode
 if(batch_mode_on){
   cat("Running in batch mode\r\n")
   
   # assign args passed from batch call
-  # put everything in the previous section here
-  # or wrap them into a function/package
+  # or wrap them into a function
   parse_args()  
   
 }else{
-  cat("Running in RStudio mode\r\n")
+  cat("Running in iteractive mode\r\n")
   
   # assign args manually
-  arg1 <- "m1"
-  arg2 <- "m2"
-  arg3 <- "m3"
+  arg1 <- "some value"
+  arg2 <- "some value"
+  arg3 <- "some value"
 }
 
-# start your job
+# start your job here
 ```
 
 ### Preventing Auto-Exit
@@ -83,4 +82,3 @@ if(batch_mode_on){
   invisible(readLines(file("stdin"), 1))
 }
 ```
-

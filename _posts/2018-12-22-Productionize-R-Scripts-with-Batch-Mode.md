@@ -14,7 +14,7 @@ Sometimes R is better off without RStudio.
 </p>
 
 ## Objective: Running R Scripts in Batch Mode
-R supports batch mode out of box. All it takes is to start an R script with the `rscript.exe`.
+R supports batch mode out of box. All it takes is to launch R script with the `rscript.exe` in command line.
 ```bash
 set rscript=full-path-of-rscript.exe
 start %rscript% cmd_example.R -arg1 job1 -arg2 value1 -arg3 value1
@@ -26,8 +26,8 @@ Note that Windows' `start` command enables each subsequent command to be execute
 
 This is working already, but there are a few more things that would make the experience smoother.
 
-## Parsing Arguments in R
-Parsing arguments in R mainly revolves around the use of `commandArgs` function. It does one simple job: converting all (space-delimited) arguments specified in the batch call to a character vector, and it's up to the users to decide what to do with them.
+## Parsing Arguments
+Parsing arguments in R mainly revolves around the use of `commandArgs` function. It does one simple job - converting all (space-delimited) arguments specified in the batch call to a character vector, and it's up to the users to decide what to do with them.
 ```r
 args <- commandArgs(trailingOnly = TRUE)
 ```
@@ -79,3 +79,5 @@ if(batch_mode_on){
   invisible(readLines(file("stdin"), 1))
 }
 ```
+
+And the window will remain open indefinitely, untill CTRL + C is detected.

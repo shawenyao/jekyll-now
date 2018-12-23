@@ -14,7 +14,7 @@ And parse argument at the same time.
 # arg1 <- "value1"
 # arg2 <- "value2"
 # arg3 <- "value3"
-parse_args <- function(print_on = TRUE){
+parse_args <- function(){
   
   args <- commandArgs(trailingOnly = TRUE)
   
@@ -26,12 +26,6 @@ parse_args <- function(print_on = TRUE){
   # loop over the arguments to assign values
   for(i in seq_along(args_names)){
     assign(x = args_names[i], value = args_values[i], envir = .GlobalEnv)
-    
-    if(isTRUE(print_on)){
-      print(
-        paste0(args_names[i], " = ", get(x = args_names[i], envir = .GlobalEnv))
-      )
-    }
   }
   
   invisible(args_names)
@@ -48,7 +42,7 @@ if(batch_mode_on){
   cat("Running in batch mode\r\n")
   
   # assign args passed from batch call
-  parse_args(print_on = FALSE)  
+  parse_args()  
   
 }else{
   cat("Running in RStudio mode\r\n")

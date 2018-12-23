@@ -9,20 +9,11 @@ comments: true
 And parse argument at the same time.
 
 ```r
-#' parse argument name/value pairs passed from batch call
-#' and assign them accordingly in the global environment
-#'
-#' @param print_on switch to turn on printing parsed name/value pairs to console
-#' 
-#' @description 
-#' "-arg1 value1 -arg2 value2 -arg3 value3"
-#' will be equivalent to
-#' arg1 <- "value1"
-#' arg2 <- "value2"
-#' arg3 <- "value3"
-#' 
-#' @return (invisible) the names of the assigned arguments
-#' 
+# "-arg1 value1 -arg2 value2 -arg3 value3"
+# will be equivalent to
+# arg1 <- "value1"
+# arg2 <- "value2"
+# arg3 <- "value3"
 parse_args <- function(print_on = TRUE){
   
   args <- commandArgs(trailingOnly = TRUE)
@@ -37,7 +28,9 @@ parse_args <- function(print_on = TRUE){
     assign(x = args_names[i], value = args_values[i], envir = .GlobalEnv)
     
     if(isTRUE(print_on)){
-      print(paste0(args_names[i], " = ", get(x = args_names[i], envir = .GlobalEnv)))
+      print(
+        paste0(args_names[i], " = ", get(x = args_names[i], envir = .GlobalEnv))
+      )
     }
   }
   
@@ -81,7 +74,7 @@ if(batch_mode_on){
 ```
 
 Note that `start` command enables all R script to be executed in a parallel fashion.
-```cmd
+```bash
 :: set path for the rscript.exe file
 set rscript=path\to\rscript.exe
 :: run rscripts in parallel

@@ -80,4 +80,4 @@ if(batch_mode_on){
 }
 ```
 
-And the window will remain open indefinitely, untill CTRL + C is detected.
+And the window will remain open indefinitely, until user presses `CTRL + C` on the keyboard.

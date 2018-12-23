@@ -40,7 +40,7 @@ args_names <- gsub("-", "", args[c(TRUE, FALSE)])
 args_values <- args[c(FALSE, TRUE)]
 ```
 
-The `assign` function can then be used for dynamical variable declaration. It's also important to assign them in the global environment if you plan to wrap the whole argument processing chunk into a function.
+The `assign` function can then be used to dynamically declare variables. It's also important to assign them in the global environment if you plan to wrap the whole argument processing chunk into a function.
 ```r
 for(i in seq_along(args_names)){
   assign(x = args_names[i], value = args_values[i], envir = .GlobalEnv)

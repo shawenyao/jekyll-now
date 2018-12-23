@@ -57,7 +57,7 @@ if(batch_mode_on){
   cat("Running in batch mode\r\n")
   
   # assign args passed from batch call
-  # or wrap them into a function
+  # or wrap it into a function
   parse_args()
 }else{
   cat("Running in iteractive mode\r\n")

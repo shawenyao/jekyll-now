@@ -8,29 +8,40 @@ comments: true
 
 And parse argument at the same time.
 
+
+### Objective
+
+```bash
+:: set path for the rscript.exe file
+set rscript=path-to-rscript.exe
+:: run rscripts in parallel
+start %rscript% cmd_example.R -arg1 job1 -arg2 value1.2 -arg3 value1.3
+start %rscript% cmd_example.R -arg1 job2 -arg2 value2.2 -arg3 value2.3
+start %rscript% cmd_example.R -arg1 job3 -arg2 value3.2 -arg3 value3.3
+:: prevent the main batch window from auto-exit
+pause
+```
+Note that `start` command enables all R script to be executed in a parallel fashion.
+
+
 ```r
-# "-arg1 value1 -arg2 value2 -arg3 value3"
-# will be equivalent to
-# arg1 <- "value1"
-# arg2 <- "value2"
-# arg3 <- "value3"
-parse_args <- function(){
-  
-  args <- commandArgs(trailingOnly = TRUE)
-  
-  # odd elements are the names of the arguments (without the leading "-")
-  args_names <- gsub("-", "", args[c(TRUE, FALSE)])
-  # even elements are the values of the arguments
-  args_values <- args[c(FALSE, TRUE)]
-  
-  # loop over the arguments to assign values
-  for(i in seq_along(args_names)){
-    assign(x = args_names[i], value = args_values[i], envir = .GlobalEnv)
-  }
-  
-  invisible(args_names)
+args <- commandArgs(trailingOnly = TRUE)
+```
+
+```r
+# odd elements are the names of the arguments (without the leading "-")
+args_names <- gsub("-", "", args[c(TRUE, FALSE)])
+# even elements are the values of the arguments
+args_values <- args[c(FALSE, TRUE)]
+```
+
+```r
+# loop over the arguments to assign values
+for(i in seq_along(args_names)){
+  assign(x = args_names[i], value = args_values[i], envir = .GlobalEnv)
 }
 ```
+  
 
 In order not to lose the compatability with RStudio/interactive mode,
 ```r
@@ -53,11 +64,6 @@ if(batch_mode_on){
   arg3 <- "m3"
 }
 
-# validate args values
-print(paste0("arg1 = ", arg1))
-print(paste0("arg2 = ", arg2))
-print(paste0("arg3 = ", arg3))
-
 # start your job
 ```
 
@@ -69,14 +75,3 @@ if(batch_mode_on){
 }
 ```
 
-Note that `start` command enables all R script to be executed in a parallel fashion.
-```bash
-:: set path for the rscript.exe file
-set rscript=path-to-rscript.exe
-:: run rscripts in parallel
-start %rscript% cmd_example.R -arg1 job1 -arg2 value1.2 -arg3 value1.3
-start %rscript% cmd_example.R -arg1 job2 -arg2 value2.2 -arg3 value2.3
-start %rscript% cmd_example.R -arg1 job3 -arg2 value3.2 -arg3 value3.3
-:: prevent the main batch window from auto-exit
-pause
-```

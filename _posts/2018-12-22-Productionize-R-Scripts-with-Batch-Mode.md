@@ -9,7 +9,9 @@ comments: true
 
 And parse argument at the same time.
 
-
+<p align="center">
+  <img src="https://shawenyao.github.io/R/images/cmd_example.png" />
+</p>
 
 ### Objective: Running R Scripts in Batch Mode (with Arguments)
 

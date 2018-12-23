@@ -3,6 +3,7 @@ layout: post
 title: Productionizing R Scripts with Batch Mode
 tag:
   - r
+  - windows
 comments: true
 ---
 
@@ -12,22 +13,24 @@ And parse argument at the same time.
 ### Objective
 
 ```bash
-:: set path for the rscript.exe file
+:: set path for the executable file
 set rscript=path-to-rscript.exe
 :: run rscripts in parallel
-start %rscript% cmd_example.R -arg1 job1 -arg2 value1.2 -arg3 value1.3
-start %rscript% cmd_example.R -arg1 job2 -arg2 value2.2 -arg3 value2.3
-start %rscript% cmd_example.R -arg1 job3 -arg2 value3.2 -arg3 value3.3
+start %rscript% cmd_example.R -arg1 job1 -arg2 value1 -arg3 value1
+start %rscript% cmd_example.R -arg1 job2 -arg2 value2 -arg3 value2
+start %rscript% cmd_example.R -arg1 job3 -arg2 value3 -arg3 value3
 :: prevent the main batch window from auto-exit
 pause
 ```
 Note that `start` command enables all R script to be executed in a parallel fashion.
 
-
+### Running R Script with Arguments
+Parsing arguments in R mainly revolves around the use of `commandArgs` function. It simply converts all arguments (space-delimited) specified in the batch call to a character vector, and it's up to the users to decide what to do with them.
 ```r
 args <- commandArgs(trailingOnly = TRUE)
 ```
 
+For example, suppose all arguments follow the "-arg value" format. As a result, odd elements stand for argument names, whereas even elements are the values.
 ```r
 # odd elements are the names of the arguments (without the leading "-")
 args_names <- gsub("-", "", args[c(TRUE, FALSE)])
@@ -35,6 +38,7 @@ args_names <- gsub("-", "", args[c(TRUE, FALSE)])
 args_values <- args[c(FALSE, TRUE)]
 ```
 
+The. It's also important to assign them in the global environment if 
 ```r
 # loop over the arguments to assign values
 for(i in seq_along(args_names)){
@@ -42,7 +46,7 @@ for(i in seq_along(args_names)){
 }
 ```
   
-
+### Compatability with RStudio/Interactive Mode
 In order not to lose the compatability with RStudio/interactive mode,
 ```r
 # detect if whether R script is launched in batch mode or RStudio mode
@@ -67,6 +71,7 @@ if(batch_mode_on){
 # start your job
 ```
 
+### Prevent Auto-Exit
 To prevent the command line window from auto-exit, put a blocking operation at the end of the script.
 ```r
 if(batch_mode_on){

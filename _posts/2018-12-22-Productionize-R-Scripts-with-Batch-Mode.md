@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Productionizing R Scripts with Batch Mode
+title: Productionize R Scripts with Batch Mode
 tag:
   - windows
   - r
@@ -10,7 +10,9 @@ comments: true
 And parse argument at the same time.
 
 
-### Objective
+
+### Objective: Running R Scripts in Batch Mode (with Arguments)
+
 ```bash
 :: set path for the executable file
 set rscript=path-to-rscript.exe
@@ -21,9 +23,9 @@ start %rscript% cmd_example.R -arg1 job3 -arg2 value3 -arg3 value3
 :: prevent the main batch window from auto-exit
 pause
 ```
-Note that `start` command enables all R script to be executed in a parallel fashion.
+Note that Windows' `start` command enables all R script to be executed in a parallel fashion. Without `start`, sequential execution would be assumed instead.
 
-### Running R Script with Arguments
+### Parsing/Assigning Arguments in R
 Parsing arguments in R mainly revolves around the use of `commandArgs` function. It does one simple job: converting all arguments (space-delimited) specified in the batch call to a character vector, and it's up to the users to decide what to do with them.
 ```r
 args <- commandArgs(trailingOnly = TRUE)
@@ -45,7 +47,7 @@ for(i in seq_along(args_names)){
 ```
   
 ### Compatability with RStudio/Interactive Mode
-Batch mode practically useless when it comes to debugging. In order not to lose the compatability with RStudio/interactive mode, a conditional statement can be put in the very beginning to differentiate the two modes in which the script is supposed to be run.
+Batch mode is practically useless when it comes to debugging. In order not to lose the compatability with RStudio/interactive mode, a conditional statement can be put in the very beginning to differentiate the two.
 ```r
 # detect if whether R script is launched in batch mode or RStudio mode
 batch_mode_on <- is.na(Sys.getenv("RSTUDIO", unset = NA))
@@ -72,10 +74,10 @@ if(batch_mode_on){
 ```
 
 ### Preventing Auto-Exit
-To prevent the command line window from auto-exit, put a blocking operation at the end of the script.
+To prevent the command line window from automatically closing itself upon completion, put a blocking operation at the end of the script.
 ```r
 if(batch_mode_on){
-  cat("Job finished. Press CTRL + C to exit\r\n")
+  cat("Job finished. Press CTRL + C to exit.\r\n")
   invisible(readLines(file("stdin"), 1))
 }
 ```

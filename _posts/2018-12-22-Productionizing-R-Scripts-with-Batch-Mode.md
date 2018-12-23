@@ -34,10 +34,10 @@ parse_args <- function(){
 
 In order not to lose the compatability with RStudio/interactive mode,
 ```r
-#detect if whether R script is launched in batch mode or RStudio mode
+# detect if whether R script is launched in batch mode or RStudio mode
 batch_mode_on <- is.na(Sys.getenv("RSTUDIO", unset = NA))
 
-#assign args values accordingly
+# assign args values accordingly
 if(batch_mode_on){
   cat("Running in batch mode\r\n")
   
@@ -53,10 +53,12 @@ if(batch_mode_on){
   arg3 <- "m3"
 }
 
-#validate args values
+# validate args values
 print(paste0("arg1 = ", arg1))
 print(paste0("arg2 = ", arg2))
 print(paste0("arg3 = ", arg3))
+
+# start your job
 ```
 
 To prevent the command line window from auto-exit, put a blocking operation at the end of the script.

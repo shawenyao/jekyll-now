@@ -50,7 +50,7 @@ for(i in seq_along(args_names)){
 ## Compatability with RStudio/Interactive Mode
 Batch mode is practically useless when it comes to debugging. In order not to lose the compatability with RStudio/interactive mode, a conditional statement can be put in the very beginning to differentiate the two approaches.
 ```r
-# detect if whether R script is launched in batch mode or RStudio mode
+# detect whether R script is launched in batch mode or RStudio mode
 batch_mode_on <- is.na(Sys.getenv("RSTUDIO", unset = NA))
 
 if(batch_mode_on){

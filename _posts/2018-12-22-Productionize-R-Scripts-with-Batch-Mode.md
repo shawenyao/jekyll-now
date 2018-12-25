@@ -72,7 +72,7 @@ if(batch_mode_on){
 ```
 
 ## Preventing Auto-Exit
-In batch mode, the command-line window automatically closes itself upon completion. To prevent this, put a blocking operation at the end of the script.
+In batch mode, the command-line window automatically closes itself upon completion. If this is undesirable, put a blocking operation at the end of the script.
 ```r
 if(batch_mode_on){
   cat("Job finished. Press CTRL + C to exit.\r\n")

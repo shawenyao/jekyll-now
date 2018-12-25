@@ -22,7 +22,7 @@ start %rscript% cmd_example.R -arg1 job2 -arg2 value2 -arg3 value2
 start %rscript% cmd_example.R -arg1 job3 -arg2 value3 -arg3 value3
 pause
 ```
-Note that Windows' `start` command enables each subsequent command to be executed in a parallel fashion. Without `start`, sequential execution would be assumed instead.
+Note that Windows' `start` command enables each subsequent operation to be executed in a parallel fashion. Without `start`, sequential execution would be assumed instead.
 
 This is working *already*, but there are a few more things that would make the experience smoother.
 
@@ -72,7 +72,7 @@ if(batch_mode_on){
 ```
 
 ## Preventing Auto-Exit
-In batch mode, the command line window automatically closes itself upon completion. To prevent this, put a blocking operation at the end of the script.
+In batch mode, the command-line window automatically closes itself upon completion. To prevent this, put a blocking operation at the end of the script.
 ```r
 if(batch_mode_on){
   cat("Job finished. Press CTRL + C to exit.\r\n")

@@ -12,4 +12,4 @@ Visualizing the evolution of performance ranking based on Colley's method.
 
 ![NBA Power Ranking - Colley's Method](https://shawenyao.github.io/Who-is-number-1/output/NBA_Ranking_2018-2019.svg)
 
-Last updated on `12/23/2018`.
+Last updated on `12/30/2018`.

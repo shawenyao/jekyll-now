@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NBA 2018-2019 Season Power Ranking (Live Update)
+title: NBA 2018-2019 Season Power Ranking (Weekly Update)
 tag:
   - visualization
   - maths

@@ -5,6 +5,7 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
   
+    {% comment %} skip posts marked as draft {% endcomment %}
     {% if post.draft %}
         {% continue %}
     {% endif %}

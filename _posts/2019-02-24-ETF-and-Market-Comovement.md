@@ -9,6 +9,5 @@ draft: true
 
 The Capital Asset Pricing Model forsees a world where everybody holds the optimal risky asset known as the market portfolio.
 
-One of the intriguing attributes of the financial market is its dynamism. Unlike physics where the law of nature is (to some extent) independent of the human awarness, the market responds, adapts and evolves based on what we know about it.
-
+One of the most intriguing cases of financial market is its dynamism. Unlike physics where the law of nature is (to some extent) independent of human awarness, the market responds, adapts and evolves based on what we know about it.
 

@@ -7,7 +7,8 @@ comments: true
 draft: true
 ---
 
-The Capital Asset Pricing Model forsees a world where everybody holds the optimal risky asset known as the market portfolio.
+How does the promised land look like?
 
-One of the most intriguing cases of financial market is its dynamism. Unlike physics where the law of nature is (to some extent) independent of human awarness, the market responds, adapts and evolves based on what we know about it.
+One of the most intriguing phenomena of financial market is its dynamism. Unlike physics where the law of nature is (to a large extent) independent of human awarness, market responds, adapts and evolves based on what we know about it. Fama and French's discovery of value and size effect led to a new fashion under the brand named factor investing; likewise, we have never looked at options the same way since Black, Scholes and Merton uncovered the world of geometric Brownian motion; more commonly, arbitrageurs sniff around on a daily basis, exploiting mispricing until it goes way. In all of these instance, it is the knowledge we possess that decides what action is taken, leaving a permanent mark on how market behaves.
 
+One of such curious cases is the modern portfolio theory, where Harry Markowitz forsees a world where everybody holds the optimal risky asset known as the market portfolio.

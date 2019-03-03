@@ -72,4 +72,5 @@ or pointing to three directions as far away as possible in the case of a equilat
 where $\rho = \cos(120^\text{o}) = -0.5$.
 
 ## Final Thoughts
-Both approaches can be easily extended to the 4-random-variable case. In the algebraic solution, all it takes is to include the constraint of the 4th leading minor in the system of inequalities; in the graphical approach, the equilateral triangle becomes a regular tetrahedron.
+Both approaches can be easily extended to the 4-random-variable case. In the algebraic solution, all it takes is to include the constraint of the 4th leading minor in the system of inequalities; in the graphical one, the equilateral triangle becomes a regular tetrahedron. For 5 random variables and beyond, the former seems to be the superior solution due to my inability of further visualizing, but feel free to leave a comment if you believe otherwise.
+

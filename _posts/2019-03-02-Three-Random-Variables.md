@@ -12,7 +12,7 @@ Three random variables have the same pairwise correlation. What values can such 
 The short answer is no. To see why, I present two solutions in this post. Note that the absence of references is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors from the past.
 
 ## Problem Formulation
-Random variable $x$, $y$ and $z$ have the same pairwise correlation $\rho$. Find the upper and lower bound of such $\rho$.
+Three random variables $x$, $y$ and $z$ have the same pairwise correlation $\rho$. Find the upper and lower bound of such $\rho$.
 
 ## Solution 1: the Algebraic Approach
 The correlation matrix of $x$, $y$ and $z$ can be written as:

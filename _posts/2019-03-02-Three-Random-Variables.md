@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ETF and Market Comovement
+title: Three Random Variables
 tag:
   - maths
 comments: true

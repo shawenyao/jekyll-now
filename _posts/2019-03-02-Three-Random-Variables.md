@@ -80,7 +80,7 @@ These three vectors can be pointing to the same direction:
 
 where $\rho = \cos(0^\text{o}) = 1$.
 
-In the other extreme, they can be pointing to three directions as far off as possible in the case of a equilateral triangle:
+In the other extreme, they can be pointing to three directions as far off as possible in the case of a equilateral triangle in the $N-1$-dimensional hyperplane:
 
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/three_random_variables/min_rho.svg" />

@@ -70,7 +70,7 @@ $$
 \end{align}
 $$
 
-These vectors can be pointing to the same direction to maximize cosine similarity:
+These vectors can point to the same direction to maximize cosine similarity:
 
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/three_random_variables/max_rho.svg" />
@@ -78,7 +78,7 @@ These vectors can be pointing to the same direction to maximize cosine similarit
 
 where $\rho = \cos(0^\text{o}) = 1$.
 
-Or they can be pointing to three different directions as far off as possible in the case of a equilateral triangle on the hyperplane:
+Or they can point to three different directions as far off as possible in the case of a equilateral triangle on the hyperplane:
 
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/three_random_variables/min_rho.svg" />

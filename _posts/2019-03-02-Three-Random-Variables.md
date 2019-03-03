@@ -35,7 +35,7 @@ m_2 = 1- { \rho } ^ 2 \\
 m_3 = 2 {\rho} ^ 3 - 3 {\rho} ^ 2 + 1 = (\rho - 1) ^ 2 (2 \rho + 1)
 $$
 
-Solving the system of inequalities
+Solving the system of inequalities:
 
 $$
 \begin{cases}

@@ -60,14 +60,15 @@ Y = y - \bar{y} \\
 Z = z - \bar{z}
 $$
 
-Substracting a constant has no impact on the correlation, so $\rho$ is still the pairwise correlation of $X$, $Y$ and $Z$. This suggests that if we think of the $X$, $Y$ and $Z$ as three vectors $\vec{X}$, $\vec{Y}$ and $\vec{Z}$ in an N dimensional space, $\rho$ is numerically equal to the cosine similarity between any two of them:
+Substracting a constant has no impact on the correlation. This suggests that if we think of the $X$, $Y$ and $Z$ as three vectors $\vec{X}$, $\vec{Y}$ and $\vec{Z}$ in an $N$ dimensional space, $\rho$ is numerically equal to the cosine similarity between any two of them:
 
 $$
 \begin{align}
 \rho &= \frac{ \sum_{i = 1}^N X_i Y_i }{ \sqrt{ \sum_{i = 1}^N X_i } \sqrt{ \sum_{i = 1}^N Y_i } } \\
 &= \frac{ \vec{X} \cdot \vec{Y} }{ \lVert \vec{X} \rVert \lVert \vec{Y} \rVert } \\
 &= \frac{ \vec{X} \cdot \vec{Z} }{ \lVert \vec{X} \rVert \lVert \vec{Z} \rVert } \\
-&= \frac{ \vec{Y} \cdot \vec{Z} }{ \lVert \vec{Y} \rVert \lVert \vec{Z} \rVert }
+&= \frac{ \vec{Y} \cdot \vec{Z} }{ \lVert \vec{Y} \rVert \lVert \vec{Z} \rVert } \\
+&= \cos{\theta}
 \end{align}
 $$
 

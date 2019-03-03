@@ -7,9 +7,9 @@ comments: true
 ---
 Can everything be negatively correlated?
 
-Three random variables have the same pairwise correlation. What values can such correlation take? Obviously, 1 needs to be there, so is 0. -1 seems a stretch, but what about -0.9, -0.5 or even -0.0001? If one is negatively correlated with the rest two, is it necessary for the others to have positive correlation?
+Three random variables have the same pairwise correlation. What values can such correlation take? Obviously, 1 needs to be there, so is 0. -1 seems a stretch, but what about -0.9, -0.5 or even -0.0001? The bigger question here is, if one is negatively correlated with the rest two, is it necessary for the others to have positive correlation?
 
-To see the answer, I present two solutions in this post. Note that the absence of reference is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors in the past.
+The short answer is no. To see why, I present two solutions in this post. Note that the absence of reference is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors in the past.
 
 ## Problem Formulation
 Random variable $x$, $y$ and $z$ have the same pairwise correlation $\rho$. Find the upper and lower bound of such $\rho$.
@@ -52,7 +52,7 @@ $$
 $$
 
 ## Solution 2: the Graphical Approach
-Let three new random variables $X$, $Y$ and $Z$ be the demeaned versions of $x$, $y$ and $z$:
+Let three new random variables $X$, $Y$ and $Z$ be the demeaned version of $x$, $y$ and $z$:
 
 $$
 X = x - \bar{x} \\
@@ -60,7 +60,7 @@ Y = y - \bar{y} \\
 Z = z - \bar{z}
 $$
 
-Substracting a constant has no impact on the correlation. This suggests that if we think of the $X$, $Y$ and $Z$ as three vectors $\vec{X}$, $\vec{Y}$ and $\vec{Z}$ in an $N$ dimensional space, $\rho$ is numerically equal to the cosine similarity between any two of them:
+Substracting a constant has no impact on the correlation. This suggests that if we think of the $X$, $Y$ and $Z$ as three vectors $\vec{X}$, $\vec{Y}$ and $\vec{Z}$ in an $N$ dimensional space, $\rho$ is numerically equal to the cosine similarity between any pair of them:
 
 $$
 \begin{align}

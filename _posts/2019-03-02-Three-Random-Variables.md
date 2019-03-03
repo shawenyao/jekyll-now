@@ -72,11 +72,19 @@ $$
 \end{align}
 $$
 
-The three vectors can be pointing to the same direction where the correlation is maximized
+The three vectors can be pointing to the same direction where the correlation is maximized:
 
 where $\rho = \cos(0^\text{o}) = 1$,
 
-or pointing to three directions as far away as possible in the case of a equilateral triangle
+<p align="center">
+  <img src="https://shawenyao.github.io/R/output/three_random_variables/max_rho.svg" />
+</p>
+
+or pointing to three directions as far away as possible in the case of a equilateral triangle:
+
+<p align="center">
+  <img src="https://shawenyao.github.io/R/output/three_random_variables/min_rho.svg" />
+</p>
 
 where $\rho = \cos(120^\text{o}) = -0.5$.
 

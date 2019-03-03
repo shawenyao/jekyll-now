@@ -7,12 +7,12 @@ comments: true
 ---
 Can everything be negatively correlated?
 
-Three random variables have the same pairwise correlation. What's the possible range of such correlation? Intuitively, 1 needs to be there, so is 0. -1 seems to be a stretch, but what about -0.9? -0.5? or -0.001? If one is negatively correlated with the rest two, is it necessary for the other two to exihibit positive correlation?
+Three random variables have the same pairwise correlation. What values can such correlation take? Obviously, 1 needs to be there, so is 0. -1 seems a stretch, but what about -0.9? -0.5? or -0.001? If one is negatively correlated with the rest two, is it necessary for the other two to have positive correlation?
 
-Two solutions are presented in this post. Note that the absence of reference is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors.
+To see the answer, I present two solutions in this post. Note that the absence of reference is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors.
 
 ## Problem Formulation
-Random variable $x$, $y$ and $z$ have the same pairwise correlation $\rho$. What's the upper and lower bound of $\rho$?
+Random variable $x$, $y$ and $z$ have the same pairwise correlation $\rho$. Find the upper and lower bound of such $\rho$.
 
 ## Solution 1: the Algebraic Approach
 The correlation matrix of random variables $x$, $y$ and $z$ can be written as:
@@ -45,7 +45,7 @@ $$
 \end{cases}
 $$
 
-will give us the possible range of $\rho$:
+will give us the permissible range of $\rho$:
 
 $$
 -0.5 \leq \rho \leq 1
@@ -72,7 +72,7 @@ $$
 \end{align}
 $$
 
-These three vectors can be pointing to the same direction:
+These three vectors can be pointing to the same direction to maximize cosine similarity:
 
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/three_random_variables/max_rho.svg" />
@@ -80,7 +80,7 @@ These three vectors can be pointing to the same direction:
 
 where $\rho = \cos(0^\text{o}) = 1$.
 
-In the other extreme, they can be pointing to three directions as far off as possible in the case of a equilateral triangle in the $N-1$-dimensional hyperplane:
+Or they can be pointing to three different directions as far off as possible in the case of a equilateral triangle on the hyperplane:
 
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/three_random_variables/min_rho.svg" />
@@ -89,5 +89,4 @@ In the other extreme, they can be pointing to three directions as far off as pos
 where $\rho = \cos(120^\text{o}) = -0.5$.
 
 ## Final Thoughts
-Both approaches can be easily extended to the 4-random-variable case. In the algebraic solution, all it takes is to include the constraint of the 4th leading minor in the system of inequalities; in the graphical one, the equilateral triangle becomes a regular tetrahedron. For 5 random variables and beyond, the former seems to be the superior solution due to my inability of further visualization, but feel free to leave a comment if you believe otherwise.
-
+Both approaches can be easily extended to the 4-random-variable case. In the algebraic solution, all it takes is to include the constraint of the 4th leading minor in the system of inequalities; in the graphical one, the equilateral triangle becomes a regular tetrahedron. For 5 random variables and beyond, the former seems to be the superior solution due to my inability of further mental visualization, but feel free to leave a comment if you believe otherwise.

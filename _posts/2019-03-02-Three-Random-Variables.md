@@ -7,7 +7,7 @@ comments: true
 ---
 Can everything be negatively correlated?
 
-Three random variables have the same pairwise correlation. What values can such correlation take? Obviously, 1 needs to be there, so is 0. -1 seems a stretch, but what about -0.9? -0.5? or -0.001? If one is negatively correlated with the rest two, is it necessary for the other two to have positive correlation?
+Three random variables have the same pairwise correlation. What values can such correlation take? Obviously, 1 needs to be there, so is 0. -1 seems a stretch, but what about -0.9, -0.5 or even -0.0001? If one is negatively correlated with the rest two, is it necessary for the others to have positive correlation?
 
 To see the answer, I present two solutions in this post. Note that the absence of reference is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors.
 

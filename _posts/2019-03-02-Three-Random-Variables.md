@@ -62,7 +62,7 @@ Substracting a constant has no impact on the correlation. This suggests that if 
 
 $$
 \begin{align}
-\rho &= \frac{ \sum_{i = 1}^N X_i Y_i }{ \sqrt{ \sum_{i = 1}^N X_i } \sqrt{ \sum_{i = 1}^N Y_i } } \\
+\rho &= \frac{ \sum_{i = 1}^N X_i Y_i }{ \sqrt{ \sum_{i = 1}^N X_i^2 } \sqrt{ \sum_{i = 1}^N Y_i^2 } } \\
 &= \frac{ \vec{X} \cdot \vec{Y} }{ \lVert \vec{X} \rVert \lVert \vec{Y} \rVert } \\
 &= \frac{ \vec{X} \cdot \vec{Z} }{ \lVert \vec{X} \rVert \lVert \vec{Z} \rVert } \\
 &= \frac{ \vec{Y} \cdot \vec{Z} }{ \lVert \vec{Y} \rVert \lVert \vec{Z} \rVert } \\

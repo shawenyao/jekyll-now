@@ -7,9 +7,9 @@ comments: true
 ---
 How can everything be negatively correlated?
 
-Three random variables have the same pairwise correlation. What's the possible range of the correlation?
+Three random variables have the same pairwise correlation. What's the possible range of such correlation? Intuitively, 1 needs to be there, so is 0. -1 seems to be a stretch, but what about -0.9? -0.5? or -0.001? If one is negatively correlated with the rest two, is it necessary for the other two to exihibit positive correlation?
 
-Two solutions are presented in this post. Note that the lack of reference is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors.
+Two solutions are presented in this post. Note that the absence of reference is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors.
 
 ## Problem Formulation
 Random variable $x$, $y$ and $z$ have the same pairwise correlation $\rho$. What's the upper and lower bound of $\rho$?
@@ -52,5 +52,23 @@ $$
 $$
 
 ## Solution 2: the Graphical Approach
-Three random variables can be viewed as three vectors in a N dimensional space, and rho is the cosine of the angle between them. They can be pointing to the same direction where the correlation is maximized - cosine(0)=1, or pointing to three directions as far away as possible in the case of a equilateral triangle - cosine(120)=-0.5
-This can be extended to the 4-random-variable case easily, where the equilateral triangle becomes a regular tetrahedron.
+Let three new random variables $X$, $Y$ and $Z$ be the demeaned versions of $x$, $y$ and $z$:
+
+$$
+X = x - \bar{x} \\
+Y = y - \bar{y} \\
+Z = z - \bar{z}
+$$
+
+Substracting a constant has no impact on the correlation, so $M$ is still the correlation matrix of the new random variables.
+
+
+Now, if we think of the $X$, $Y$ and $Z$ as three vectors $\vec{X}$, $\vec{Y}$ and $\vec{Z}$ in an N dimensional space, $\rho$ is numerically equal to the cosine similarity between any two of them. The three vectors can be pointing to the same direction where the correlation is maximized
+
+where $\rho = \cos(0^\text{o}) = 1$:
+
+or pointing to three directions as far away as possible in the case of a equilateral triangle
+
+where $\rho = \cos(120^\text{o}) = -0.5$.
+
+This approach can be easily extended to the 4-random-variable case, where the equilateral triangle becomes a regular tetrahedron.

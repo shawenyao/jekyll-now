@@ -65,7 +65,7 @@ Substracting a constant has no impact on the correlation, so $\rho$ is still the
 $$
 \begin{align}
 \rho &= \frac{ \sum_{i = 1}^N X_i Y_i }{ \sqrt{ \sum_{i = 1}^N X_i } \sqrt{ \sum_{i = 1}^N Y_i } } \\
-&= \frac{ \vec{X} \dot \vec{Y} }{ \lVert \vec{X} v\rVert \lVert \vec{Y} v\rVert }
+&= \frac{ \vec{ X } \dot \vec{ Y } }{ \lVert \vec{ X } \rVert \lVert \vec{ Y } \rVert }
 \end{align}
 $$
 

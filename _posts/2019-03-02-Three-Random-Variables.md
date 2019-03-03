@@ -5,7 +5,7 @@ tag:
   - maths
 comments: true
 ---
-How can everything be negatively correlated?
+Can everything be negatively correlated?
 
 Three random variables have the same pairwise correlation. What's the possible range of such correlation? Intuitively, 1 needs to be there, so is 0. -1 seems to be a stretch, but what about -0.9? -0.5? or -0.001? If one is negatively correlated with the rest two, is it necessary for the other two to exihibit positive correlation?
 
@@ -65,7 +65,7 @@ Substracting a constant has no impact on the correlation, so $\rho$ is still the
 $$
 \begin{align}
 \rho &= \frac{ \sum_{i = 1}^N X_i Y_i }{ \sqrt{ \sum_{i = 1}^N X_i } \sqrt{ \sum_{i = 1}^N Y_i } } \\
-&= \frac{ \vec{X} \cdot \vec{Y} }{ \lVert \vec{X} \rVert \lVert Y \rVert }
+&= \frac{ \vec{X} \cdot \vec{Y} }{ \lVert \vec{X} \rVert \lVert \vec{Y} \rVert }
 \end{align}
 $$
 

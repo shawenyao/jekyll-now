@@ -9,13 +9,13 @@ Can everything be negatively correlated?
 
 Three random variables have the same pairwise correlation. What values can such correlation take? Obviously, 1 needs to be there, so is 0. -1 seems a stretch, but what about -0.9, -0.5 or even -0.0001? If one is negatively correlated with the rest two, is it necessary for the others to have positive correlation?
 
-To see the answer, I present two solutions in this post. Note that the absence of reference is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors.
+To see the answer, I present two solutions in this post. Note that the absence of reference is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors in the past.
 
 ## Problem Formulation
 Random variable $x$, $y$ and $z$ have the same pairwise correlation $\rho$. Find the upper and lower bound of such $\rho$.
 
 ## Solution 1: the Algebraic Approach
-The correlation matrix of random variables $x$, $y$ and $z$ can be written as:
+The correlation matrix of $x$, $y$ and $z$ can be written as:
 
 $$
 M = \begin{bmatrix} 
@@ -25,7 +25,7 @@ M = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-From [covariance matrix's properties](https://en.wikipedia.org/wiki/Covariance_matrix#Which_matrices_are_covariance_matrices?), we know that being a covariance matrix is equivalent to being symmetric and positive semi-definite. Additionaly, from [matrix definitiveness' properties](https://en.wikipedia.org/wiki/Definiteness_of_a_matrix#Characterizations), it can be proven that being positive semi-definite is equivalent to all leading principal minors being positive.
+From [covariance matrix's properties](https://en.wikipedia.org/wiki/Covariance_matrix#Which_matrices_are_covariance_matrices?), we know that being a covariance matrix is equivalent to being symmetric and positive semi-definite. Additionaly, from [matrix definitiveness' properties](https://en.wikipedia.org/wiki/Definiteness_of_a_matrix#Characterizations), it can be proven that being positive semi-definite is equivalent to all leading principal minors being non-negative.
 
 In the case of a $3 \times 3$ correlation matrix, the three leading principal minors are:
 

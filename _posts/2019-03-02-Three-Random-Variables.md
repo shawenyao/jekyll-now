@@ -9,7 +9,7 @@ How can everything be negatively correlated?
 
 Three random variables have the same pairwise correlation. What's the possible range of the correlation?
 
-Two solutions are presented in this post. Note that the lack of reference is by no means indicative of the idea's originality. In fact, I owe 
+Two solutions are presented in this post. Note that the lack of reference is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors.
 
 ## Problem Formulation
 Random variable $x$, $y$ and $z$ have the same pairwise correlation $\rho$. What's the upper and lower bound of $\rho$?

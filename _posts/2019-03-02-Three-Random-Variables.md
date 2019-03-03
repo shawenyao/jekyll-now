@@ -9,7 +9,7 @@ Can everything be negatively correlated?
 
 Three random variables have the same pairwise correlation. What values can such correlation take? Obviously, 1 needs to be there, so is 0. -1 seems a stretch, but what about -0.9, -0.5 or even -0.0001? The bigger question here is, if one is negatively correlated with the rest two, is it necessary for the others to have positive correlation?
 
-The short answer is no. To see why, I present two solutions in this post. Note that the absence of reference is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors in the past.
+The short answer is no. To see why, I present two solutions in this post. Note that the absence of references is by no means indicative of the idea's originality. In fact, I owe it to many of my friends and professors in the past.
 
 ## Problem Formulation
 Random variable $x$, $y$ and $z$ have the same pairwise correlation $\rho$. Find the upper and lower bound of such $\rho$.

@@ -26,9 +26,9 @@ From [covariance matrix's properties](https://en.wikipedia.org/wiki/Covariance_m
 In the case of a $3 \times 3$ correlation matrix, the three leading principal minors are:
 
 $$
-1st leading principal minor = 1
-2nd leading principal minor = 1- { \rho } ^ 2
-3nd leading principal minor = 
+1st leading principal minor = 1 \\
+2nd leading principal minor = 1- { \rho } ^ 2 \\
+3nd leading principal minor = \\
 $$
 
 ## Solution 2: the Graphical Approach

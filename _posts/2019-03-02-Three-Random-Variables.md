@@ -70,7 +70,7 @@ $$
 \end{align}
 $$
 
-These three vectors can be pointing to the same direction to maximize cosine similarity:
+These vectors can be pointing to the same direction to maximize cosine similarity:
 
 <p align="center">
   <img src="https://shawenyao.github.io/R/output/three_random_variables/max_rho.svg" />

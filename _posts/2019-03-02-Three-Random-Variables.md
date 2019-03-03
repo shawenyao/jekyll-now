@@ -23,7 +23,7 @@ $$
 
 From [covariance matrix's properties](https://en.wikipedia.org/wiki/Covariance_matrix#Which_matrices_are_covariance_matrices?), we know that being a covariance matrix is equivalent to being symmetric and positive semi-definite. Additionaly, from [matrix definitiveness' properties](https://en.wikipedia.org/wiki/Definiteness_of_a_matrix#Characterizations), it can be proven that being positive semi-definite is equivalent to all leading principal minors being positive.
 
-In the case of a $3 \multiply 3$ correlation matrix, the three leading principal minors are:
+In the case of a $3 \times 3$ correlation matrix, the three leading principal minors are:
 
 $$
 1st leading principal minor = 1

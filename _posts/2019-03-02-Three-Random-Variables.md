@@ -60,13 +60,16 @@ Y = y - \bar{y} \\
 Z = z - \bar{z}
 $$
 
-Substracting a constant has no impact on the correlation, so $\rho$ is still the pairwise correlation of $X$, $Y$ and $Z$.
+Substracting a constant has no impact on the correlation, so $\rho$ is still the pairwise correlation of $X$, $Y$ and $Z$. This suggests that if we think of the $X$, $Y$ and $Z$ as three vectors $\vec{X}$, $\vec{Y}$ and $\vec{Z}$ in an N dimensional space, $\rho$ is numerically equal to the cosine similarity between any two of them:
 
 $$
-\rho = \frac{ \sum_{i = 1}^N X_i \times Y_i }{ \sqrt{ \sum_{i = 1}^N X_i } \sqrt{ \sum_{i = 1}^N Y_i } }
+\begin{align}
+\rho &= \frac{ \sum_{i = 1}^N X_i Y_i }{ \sqrt{ \sum_{i = 1}^N X_i } \sqrt{ \sum_{i = 1}^N Y_i } } \\
+&= \frac{ \vec{X} \dot \vec{Y} }{ \lVert \vec{X} v\rVert \lVert \vec{Y} v\rVert }
+\end{align}
 $$
 
-Thas implies that if we think of the $X$, $Y$ and $Z$ as three vectors $\vec{X}$, $\vec{Y}$ and $\vec{Z}$ in an N dimensional space, $\rho$ is numerically equal to the cosine similarity between any two of them. The three vectors can be pointing to the same direction where the correlation is maximized
+The three vectors can be pointing to the same direction where the correlation is maximized
 
 where $\rho = \cos(0^\text{o}) = 1$,
 

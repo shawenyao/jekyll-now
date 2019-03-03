@@ -58,7 +58,7 @@ Y = y - \bar{y} \\
 Z = z - \bar{z}
 $$
 
-Correlation-wise, substracting a constant doesn't change anything. This suggests that if we think of the $X$, $Y$ and $Z$ as three vectors $\vec{X}$, $\vec{Y}$ and $\vec{Z}$ in an $N$ dimensional space, $\rho$ is numerically equal to the cosine similarity between any pair of them:
+Correlation-wise, substracting a constant doesn't change anything. This suggests that if we think of $X$, $Y$ and $Z$ as three vectors $\vec{X}$, $\vec{Y}$ and $\vec{Z}$ in an $N$ dimensional space, $\rho$ is numerically equal to the cosine similarity between any pair of them:
 
 $$
 \begin{align}

@@ -16,6 +16,7 @@ Random variable $x$, $y$ and $z$ have the same pairwise correlation $\rho$. What
 
 ## Solution 1: the Algebraic Approach
 The correlation matrix of random variables $x$, $y$ and $z$ can be written as:
+
 $$
 M = \begin{bmatrix} 1 & \rho & \rho \\ \rho & 1 & \rho \\ \rho & \rho & 1 \end{bmatrix}
 $$

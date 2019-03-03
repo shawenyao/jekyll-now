@@ -8,7 +8,7 @@ tag:
 comments: true
 ---
 
-Stochastic process makes for an excellent source of graphical beauty .
+Stochastic process makes for an excellent source of graphical beauty.
 
 In this demo, the dynamics of stochastic processes are shown along the three physical diemensions of:
 * $t$: time

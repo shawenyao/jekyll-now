@@ -58,11 +58,11 @@ Y = y - \bar{y} \\
 Z = z - \bar{z}
 $$
 
-Correlation-wise, substracting a constant doesn't change anything. This suggests that if we think of $X$, $Y$ and $Z$ as three vectors $\vec{X}$, $\vec{Y}$ and $\vec{Z}$ in an $N$ dimensional space, $\rho$ is numerically equal to the [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) between any two of them:
+Correlation-wise, substracting a constant doesn't change anything. This suggests that if we think of $X$, $Y$ and $Z$ as three vectors $\vec{X}$, $\vec{Y}$ and $\vec{Z}$ in an $D$ dimensional space, $\rho$ is numerically equal to the [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity) between any two of them:
 
 $$
 \begin{align}
-\rho &= \frac{ \sum_{i = 1}^N X_i Y_i }{ \sqrt{ \sum_{i = 1}^N X_i^2 } \sqrt{ \sum_{i = 1}^N Y_i^2 } } \\
+\rho &= \frac{ \sum_{i = 1}^D X_i Y_i }{ \sqrt{ \sum_{i = 1}^D X_i^2 } \sqrt{ \sum_{i = 1}^D Y_i^2 } } \\
 &= \frac{ \vec{X} \cdot \vec{Y} }{ \lVert \vec{X} \rVert \lVert \vec{Y} \rVert } \\
 &= \frac{ \vec{X} \cdot \vec{Z} }{ \lVert \vec{X} \rVert \lVert \vec{Z} \rVert } \\
 &= \frac{ \vec{Y} \cdot \vec{Z} }{ \lVert \vec{Y} \rVert \lVert \vec{Z} \rVert } \\

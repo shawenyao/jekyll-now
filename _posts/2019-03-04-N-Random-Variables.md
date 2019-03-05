@@ -10,5 +10,5 @@ Three Random Variables Part II.
 In [Part I](/Three-Random-Variables/), I presented the algebraic solution to the question of what's the possible range of correlation given that three random variables have the same pairwise correlation.
 
 $$
-m_n = (1 - \rho) ^ {n - 1} [(n - 1) \rho + 1]
+m_N = (1 - \rho) ^ {N - 1} [(N - 1) \rho + 1]
 $$

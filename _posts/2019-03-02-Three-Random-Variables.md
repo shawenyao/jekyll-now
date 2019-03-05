@@ -30,7 +30,7 @@ From [covariance matrix's properties](https://en.wikipedia.org/wiki/Covariance_m
 $$
 m_1 = 1 \\
 m_2 = 1- { \rho } ^ 2 \\
-m_3 = 2 {\rho} ^ 3 - 3 {\rho} ^ 2 + 1 = (\rho - 1) ^ 2 (2 \rho + 1)
+m_3 = 2 {\rho} ^ 3 - 3 {\rho} ^ 2 + 1 = (1 - \rho) ^ 2 (2 \rho + 1)
 $$
 
 Solving the system of inequalities:
@@ -39,7 +39,7 @@ $$
 \begin{cases}
 1 \geq 0 \\ 
 1- { \rho } ^ 2 \geq 0 \\
-(\rho - 1) ^ 2 (2 \rho + 1) \geq 0 \\
+(1 - \rho) ^ 2 (2 \rho + 1) \geq 0 \\
 \end{cases}
 $$
 

@@ -51,7 +51,6 @@ m_{N + 1} &= {begin{vmatrix}
 \rho   & \rho   & \rho   & \cdots & \rho   & 1      & \rho   \\
 \rho   & \rho   & \rho   & \cdots & \rho   & \rho   & 1      \\
 \end{vmatrix}}_{(N + 1) \times (N + 1)} \\
-&=
 \end{align}$$
 
 

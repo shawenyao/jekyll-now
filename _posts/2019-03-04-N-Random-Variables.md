@@ -42,7 +42,7 @@ $$
 **Inductive Step**: Suppose the equation holds for some value of $N \geq 1$, we have:
 
 $$
-m_{N + 1} = {begin{vmatrix} 
+m_{N + 1} = {\begin{vmatrix} 
 1      & \rho   & \rho   & \cdots & \rho   & \rho   & \rho   \\
 \rho   & 1      & \rho   & \cdots & \rho   & \rho   & \rho   \\
 \rho   & \rho   & 1      & \cdots & \rho   & \rho   & \rho   \\
@@ -50,7 +50,7 @@ m_{N + 1} = {begin{vmatrix}
 \rho   & \rho   & \rho   & \cdots & 1      & \rho   & \rho   \\
 \rho   & \rho   & \rho   & \cdots & \rho   & 1      & \rho   \\
 \rho   & \rho   & \rho   & \cdots & \rho   & \rho   & 1      \\
-\end{vmatrix}}_{(N + 1) \times (N + 1)} \\
+\end{vmatrix}}_{(N+1) \times (N+1)}
 $$
 
 

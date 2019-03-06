@@ -16,7 +16,8 @@ $N$ random variables $x$, $y$ and $z$ have the same pairwise correlation $\rho$.
 The solution to the $N$ random variable is in spirit the same as the algebraic solution in the 3-variable case. Instead of solving the system of 3 inequalities, we do it for $N$ of them. Note that only the inequality of the highest order is the binding constraint.
 
 $$
-M = \begin{bmatrix} 
+M = {
+\begin{bmatrix} 
 1      & \rho   & \rho   & \cdots & \rho   & \rho   & \rho   \\
 \rho   & 1      & \rho   & \cdots & \rho   & \rho   & \rho   \\
 \rho   & \rho   & 1      & \cdots & \rho   & \rho   & \rho   \\
@@ -24,7 +25,7 @@ M = \begin{bmatrix}
 \rho   & \rho   & \rho   & \cdots & 1      & \rho   & \rho   \\
 \rho   & \rho   & \rho   & \cdots & \rho   & 1      & \rho   \\
 \rho   & \rho   & \rho   & \cdots & \rho   & \rho   & 1      \\
-\end{bmatrix}
+\end{bmatrix}}_{N \times N}
 $$
 
 ## Proof by Induction

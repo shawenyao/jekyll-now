@@ -33,12 +33,16 @@ $$
 m_N = (1 - \rho) ^ {N - 1} [(N - 1) \rho + 1]
 $$
 
-**Base Case** Showing the equation holds when $N = 1$ is trivial, as
+**Base Case**: Showing the equation holds when $N = 1$ is trivial, as
 
 $$
 m_1 = 1
 $$
 
-**Inductive Step**
+**Inductive Step**: Suppose the equation holds for some value of $N \geq 1$, we have:
+
+$$
+m_{N + 1} = 
+$$
 
 

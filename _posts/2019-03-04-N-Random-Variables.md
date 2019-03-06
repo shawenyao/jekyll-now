@@ -13,16 +13,17 @@ In [Part I](/Three-Random-Variables/), I presented the algebraic solution to the
 $N$ random variables $x$, $y$ and $z$ have the same pairwise correlation $\rho$. Find the upper and lower bound of such $\rho$.
 
 ## Solution
-The solution to the $N$ random variable is in spirit the same as the algebraic solution in the 3-variable case. Instead of solving the system of 3 inequalities, we do it for $N$ of them. Note that only the l
+The solution to the $N$ random variable is in spirit the same as the algebraic solution in the 3-variable case. Instead of solving the system of 3 inequalities, we do it for $N$ of them. Note that only the inequality  highest
 
 $$
 M = \begin{bmatrix} 
-1      & \rho   & \rho   & \cdots & \rho   & \rho   \\
-\rho   & 1      & \rho   & \cdots & \rho   & \rho   \\
-\rho   & \rho   & 1      & \cdots & \rho   & \rho   \\
-\vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
-\rho   & \rho   & \rho   & \cdots & 1      & \rho   \\
-\rho   & \rho   & \rho   & \cdots & \rho   & 1      \\
+1      & \rho   & \rho   & \cdots & \rho   & \rho   & \rho   \\
+\rho   & 1      & \rho   & \cdots & \rho   & \rho   & \rho   \\
+\rho   & \rho   & 1      & \cdots & \rho   & \rho   & \rho   \\
+\vdots & \vdots & \vdots & \ddots & \vdots & \vdots & \vdots \\
+\rho   & \rho   & \rho   & \cdots & 1      & \rho   \\ \rho  \\
+\rho   & \rho   & \rho   & \cdots & \rho   & 1      & \rho   \\
+\rho   & \rho   & \rho   & \cdots & \rho   & \rho   & 1      \\
 \end{bmatrix}
 $$
 

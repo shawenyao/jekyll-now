@@ -21,7 +21,7 @@ M = \begin{bmatrix}
 \rho   & 1      & \rho   & \cdots & \rho   & \rho   & \rho   \\
 \rho   & \rho   & 1      & \cdots & \rho   & \rho   & \rho   \\
 \vdots & \vdots & \vdots & \ddots & \vdots & \vdots & \vdots \\
-\rho   & \rho   & \rho   & \cdots & 1      & \rho   \\ \rho  \\
+\rho   & \rho   & \rho   & \cdots & 1      & \rho   & \rho   \\
 \rho   & \rho   & \rho   & \cdots & \rho   & 1      & \rho   \\
 \rho   & \rho   & \rho   & \cdots & \rho   & \rho   & 1      \\
 \end{bmatrix}

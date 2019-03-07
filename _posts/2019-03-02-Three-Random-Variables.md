@@ -18,7 +18,7 @@ Three random variables $x$, $y$ and $z$ have the same pairwise correlation $\rho
 The correlation matrix of $x$, $y$ and $z$ can be written as:
 
 $$
-M = \begin{bmatrix} 
+P = \begin{bmatrix} 
 1 & \rho & \rho \\
 \rho & 1 & \rho \\
 \rho & \rho & 1
@@ -28,9 +28,9 @@ $$
 From [covariance matrix's properties](https://en.wikipedia.org/wiki/Covariance_matrix#Which_matrices_are_covariance_matrices?), we know that being a covariance matrix is equivalent to being symmetric and positive semi-definite. Additionaly, from [matrix definitiveness' properties](https://en.wikipedia.org/wiki/Definiteness_of_a_matrix#Characterizations), it can be proven that being positive semi-definite is equivalent to all leading principal minors being non-negative. In the case of a $3 \times 3$ correlation matrix, the three leading principal minors are:
 
 $$
-m_1 = 1 \\
-m_2 = 1- { \rho } ^ 2 \\
-m_3 = 2 {\rho} ^ 3 - 3 {\rho} ^ 2 + 1 = (1 - \rho) ^ 2 (2 \rho + 1)
+M_1 = 1 \\
+M_2 = 1- { \rho } ^ 2 \\
+M_3 = 2 {\rho} ^ 3 - 3 {\rho} ^ 2 + 1 = (1 - \rho) ^ 2 (2 \rho + 1)
 $$
 
 Solving the system of inequalities:

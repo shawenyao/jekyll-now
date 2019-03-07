@@ -4,6 +4,7 @@ title: N Random Variables
 tag:
   - maths
 comments: true
+draft: true
 ---
 Three Random Variables Part II.
 

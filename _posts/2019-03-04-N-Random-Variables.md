@@ -8,7 +8,7 @@ draft: false
 ---
 Three Random Variables Part II.
 
-In [Part I](/Three-Random-Variables/), I presented the algebraic solution to the problem of what the possible range of correlation is given all three random variables have the same pairwise correlation. Things get a little more interesting when there are more of them, but the question still holds. 
+In [Part I](/Three-Random-Variables/), I presented the algebraic solution to the problem of what the possible range of correlation is given all three random variables have the same pairwise correlation. Things get a little more interesting when there are more of them, but the idea still holds. 
 
 ## Problem Formulation
 $N$ random variables $x_1$, $x_2$, ..., $x_N$ have the same pairwise correlation $\rho$. Find the upper and lower bound of such $\rho$.
@@ -28,7 +28,7 @@ P = {\begin{bmatrix}
 \end{bmatrix}}_{N \times N}
 $$
 
-Generally, $P$'s $i$th leading principal minor has the form of:
+Generally, $P$'s leading principal minor of order $i$ has the form of:
 
 $$
 M_{i} = {\begin{vmatrix} 

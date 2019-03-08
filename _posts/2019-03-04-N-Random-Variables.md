@@ -62,7 +62,7 @@ M_{i} &= {\begin{vmatrix}
 0        & 0        & 0        & \cdots & 0        & 0        & (i - 1) \rho + 1 \\
 \end{vmatrix}}_{i \times i} \\
 \\
-&= (1 - \rho) ^ {i} (i \rho + 1)
+&= (1 - \rho) ^ {i - 1} [(i - 1)  \rho + 1]
 \end{align}
 $$
 

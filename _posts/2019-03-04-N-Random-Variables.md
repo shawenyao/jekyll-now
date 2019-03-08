@@ -31,7 +31,6 @@ $$
 Generally, $P$'s $i$th leading principal minor has the form of:
 
 $$
-\begin{align}
 M_{i} &= {\begin{vmatrix} 
 1      & \rho   & \rho   & \cdots & \rho   & \rho   & \rho   \\
 \rho   & 1      & \rho   & \cdots & \rho   & \rho   & \rho   \\
@@ -41,8 +40,19 @@ M_{i} &= {\begin{vmatrix}
 \rho   & \rho   & \rho   & \cdots & \rho   & 1      & \rho   \\
 \rho   & \rho   & \rho   & \cdots & \rho   & \rho   & 1      \\
 \end{vmatrix}}_{i \times i} \\
-\\
-&= {\begin{vmatrix} 
+$$
+
+If $\rho = 1$, we have:
+
+$$
+M_{i} = 0
+$$
+
+If $\rho \neq 1$, we have:
+
+$$
+\begin{align}
+M_{i} &= {\begin{vmatrix} 
 1 - \rho & 0        & 0        & \cdots & 0        & 0        & \rho -1 \\
 0        & 1 - \rho & \rho     & \cdots & \rho     & \rho     & \rho -1 \\
 0        & 0        & 1 - \rho & \cdots & \rho     & \rho     & \rho -1 \\
@@ -52,9 +62,7 @@ M_{i} &= {\begin{vmatrix}
 \rho     & \rho     & \rho     & \cdots & \rho     & \rho     & 1       \\
 \end{vmatrix}}_{i \times i} \\
 \\
-&= \begin{cases}
-0, \rho = 1\\
-{\begin{vmatrix} 
+&= {\begin{vmatrix} 
 1 - \rho & 0        & 0        & \cdots & 0        & 0        & \rho -1          \\
 0        & 1 - \rho & \rho     & \cdots & \rho     & \rho     & \rho -1          \\
 0        & 0        & 1 - \rho & \cdots & \rho     & \rho     & \rho -1          \\
@@ -62,8 +70,7 @@ M_{i} &= {\begin{vmatrix}
 0        & 0        & 0        & \cdots & 1 - \rho & 0        & \rho -1          \\
 0        & 0        & 0        & \cdots & 0        & 1 - \rho & \rho -1          \\
 0        & 0        & 0        & \cdots & 0        & 0        & (i - 1) \rho + 1 \\
-\end{vmatrix}}_{i \times i}, \rho \neq 1 \\
-\end{cases}\\
+\end{vmatrix}}_{i \times i} \\
 \\
 &= (1 - \rho) ^ {i - 1} [(i - 1)  \rho + 1]
 \end{align}

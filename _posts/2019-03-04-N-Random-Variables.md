@@ -76,6 +76,8 @@ M_{i} &= {\begin{vmatrix}
 \end{align}
 $$
 
+Solving the system of inequalities:
+
 $$
 \begin{cases}
 (1 - \rho) ^ {1 - 1} [(1 - 1) \rho + 1] \geq 0 \\ 
@@ -87,8 +89,10 @@ $$
 \end{cases}
 $$
 
+will give us the permissible range of $\rho$:
+
 $$
-M_N = (1 - \rho) ^ {N - 1} [(N - 1) \rho + 1]
+-\frac{1}{N - 1} \leq \rho \leq 1
 $$
 
 

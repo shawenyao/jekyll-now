@@ -41,6 +41,7 @@ M_{i} &= {\begin{vmatrix}
 \rho   & \rho   & \rho   & \cdots & \rho   & 1      & \rho   \\
 \rho   & \rho   & \rho   & \cdots & \rho   & \rho   & 1      \\
 \end{vmatrix}}_{i \times i} \\
+\\
 &= {\begin{vmatrix} 
 1 - \rho & 0        & 0        & \cdots & 0        & 0        & \rho -1 \\
 0        & 1 - \rho & \rho     & \cdots & \rho     & \rho     & \rho -1 \\
@@ -50,6 +51,17 @@ M_{i} &= {\begin{vmatrix}
 0        & 0        & 0        & \cdots & 0        & 1 - \rho & \rho -1 \\
 \rho     & \rho     & \rho     & \cdots & \rho     & \rho     & 1       \\
 \end{vmatrix}}_{i \times i} \\
+\\
+&= {\begin{vmatrix} 
+1 - \rho & 0        & 0        & \cdots & 0        & 0        & \rho -1          \\
+0        & 1 - \rho & \rho     & \cdots & \rho     & \rho     & \rho -1          \\
+0        & 0        & 1 - \rho & \cdots & \rho     & \rho     & \rho -1          \\
+\vdots   & \vdots   & \vdots   & \ddots & \vdots   & \vdots   & \vdots           \\
+0        & 0        & 0        & \cdots & 1 - \rho & 0        & \rho -1          \\
+0        & 0        & 0        & \cdots & 0        & 1 - \rho & \rho -1          \\
+0        & 0        & 0        & \cdots & 0        & 0        & (i - 1) \rho + 1 \\
+\end{vmatrix}}_{i \times i} \\
+\\
 &= (1 - \rho) ^ {i} (i \rho + 1)
 \end{align}
 $$

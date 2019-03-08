@@ -4,7 +4,7 @@ title: N Random Variables
 tag:
   - maths
 comments: true
-draft: true
+draft: false
 ---
 Three Random Variables Part II.
 
@@ -48,7 +48,9 @@ $$
 M_{i} = 0
 $$
 
-If $\rho \neq 1$, we have:
+If $\rho \neq 1$, we can find the equivalent upper-triangle of $M_{i}$ by performing two [elementary row operations](https://en.wikipedia.org/wiki/Gaussian_elimination#Computing_determinants):
+* substract the last row from every other row
+* add every other row multiplied by $\frac{\rho}{\rho - 1}$ to the last row
 
 $$
 \begin{align}
@@ -78,7 +80,7 @@ $$
 
 which happens to be $0$ when $\rho = 1$.
 
-From [Part I](/Three-Random-Variables/), we know that all leading principal minors of $P$ are non-negative. Solving the system of inequalities:
+From [Part I](/Three-Random-Variables/), we know that all leading principal minors of $P$ need to be non-negative. Solving the system of inequalities:
 
 $$
 \begin{cases}

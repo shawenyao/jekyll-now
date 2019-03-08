@@ -31,7 +31,7 @@ $$
 Generally, $P$'s $i$th leading principal minor has the form of:
 
 $$
-M_{i} &= {\begin{vmatrix} 
+M_{i} = {\begin{vmatrix} 
 1      & \rho   & \rho   & \cdots & \rho   & \rho   & \rho   \\
 \rho   & 1      & \rho   & \cdots & \rho   & \rho   & \rho   \\
 \rho   & \rho   & 1      & \cdots & \rho   & \rho   & \rho   \\

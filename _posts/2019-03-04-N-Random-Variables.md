@@ -99,7 +99,7 @@ $$
 -\frac{1}{N - 1} \leq \rho \leq 1
 $$
 
-# Implication
+## Implication
 The general form of lower bound suggests that it is _always_ possible for every pair of random variables to have negative correlation, regardless of how many of them there are.
 
 Back to the graphical analogy, every vector will be pushed towards being perpendicular to each other in the limit.

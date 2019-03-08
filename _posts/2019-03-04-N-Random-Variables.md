@@ -49,7 +49,7 @@ M_{i} &= {\begin{vmatrix}
 0        & 0        & 0        & \cdots & 1 - \rho & 0        & \rho -1 \\
 0        & 0        & 0        & \cdots & 0        & 1 - \rho & \rho -1 \\
 \rho     & \rho     & \rho     & \cdots & \rho     & \rho     & 1       \\
-\end{vmatrix}}_{i \times i}
+\end{vmatrix}}_{i \times i} \\
 &= (1 - \rho) ^ {i} (i \rho + 1)
 \end{align}
 $$

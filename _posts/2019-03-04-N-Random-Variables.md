@@ -76,7 +76,9 @@ M_{i} &= {\begin{vmatrix}
 \end{align}
 $$
 
-Solving the system of inequalities:
+which happens to be $0$ when $\rho = 0$.
+
+From [Part I](/Three-Random-Variables/), we know that all leading principal minors of $P$ are non-negative. Solving the system of inequalities:
 
 $$
 \begin{cases}

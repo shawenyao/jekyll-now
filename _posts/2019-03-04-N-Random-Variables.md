@@ -52,7 +52,9 @@ M_{i} &= {\begin{vmatrix}
 \rho     & \rho     & \rho     & \cdots & \rho     & \rho     & 1       \\
 \end{vmatrix}}_{i \times i} \\
 \\
-&= {\begin{vmatrix} 
+&= \begin{cases}
+0, \rho = 1\\
+{\begin{vmatrix} 
 1 - \rho & 0        & 0        & \cdots & 0        & 0        & \rho -1          \\
 0        & 1 - \rho & \rho     & \cdots & \rho     & \rho     & \rho -1          \\
 0        & 0        & 1 - \rho & \cdots & \rho     & \rho     & \rho -1          \\
@@ -60,12 +62,23 @@ M_{i} &= {\begin{vmatrix}
 0        & 0        & 0        & \cdots & 1 - \rho & 0        & \rho -1          \\
 0        & 0        & 0        & \cdots & 0        & 1 - \rho & \rho -1          \\
 0        & 0        & 0        & \cdots & 0        & 0        & (i - 1) \rho + 1 \\
-\end{vmatrix}}_{i \times i} \\
+\end{vmatrix}}_{i \times i}, \rho \neq 1 \\
+\end{cases}\\
 \\
 &= (1 - \rho) ^ {i - 1} [(i - 1)  \rho + 1]
 \end{align}
 $$
 
+$$
+\begin{cases}
+(1 - \rho) ^ {1 - 1} [(1 - 1) \rho + 1] \geq 0 \\ 
+(1 - \rho) ^ {2 - 1} [(2 - 1) \rho + 1] \geq 0 \\
+\cdots \\
+(1 - \rho) ^ {i - 1} [(i - 1) \rho + 1] \geq 0 \\
+\cdots \\
+(1 - \rho) ^ {N - 1} [(N - 1) \rho + 1] \geq 0 \\
+\end{cases}
+$$
 
 $$
 M_N = (1 - \rho) ^ {N - 1} [(N - 1) \rho + 1]

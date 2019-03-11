@@ -102,4 +102,4 @@ $$
 ## Implications
 The general form of lower bound suggests that it is _always_ possible for every pair of random variables to have negative correlation, regardless of how many of them there are.
 
-Back to the graphical analogy, the angle between each pair of vectors becomes $\arccos -(N - 1)^{-1}$, pushing them towards being orthogonal to each other in the limit.
+Back to the graphical analogy, the angle between each pair of vectors becomes $\arccos -1 / (N - 1)$, pushing them towards being orthogonal to each other in the limit.

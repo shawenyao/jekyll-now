@@ -76,7 +76,7 @@ These vectors can point to the same direction to maximize cosine similarity:
   <img src="https://shawenyao.github.io/R/output/three_random_variables/max_rho.svg" />
 </p>
 
-where $\rho = \cos(0^\text{o}) = 1$.
+where $\rho = \cos 0^\text{o} = 1$.
 
 Or they can point to three different directions as far off as possible in the case of a equilateral triangle on the hyperplane:
 

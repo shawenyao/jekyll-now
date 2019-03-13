@@ -11,7 +11,7 @@ Three Random Variables Part II.
 In [Part I](/Three-Random-Variables/), I presented the algebraic solution to the problem of what the possible range of correlation is given all three random variables have the same pairwise correlation. Things get a little more interesting when there are more of them, but the idea still holds. 
 
 ## Problem Formulation
-$N$ random variables $x_1$, $x_2$, ..., $x_N$ have the same pairwise correlation $\rho$. Find the upper and lower bound of such $\rho$.
+$N$ random variables $x_1$, $x_2$, ..., $x_N$ have the same pairwise correlation $\rho$, where $N \geq 2$. Find the upper and lower bound of such $\rho$.
 
 ## Solution
 The correlation matrix of $x_1$, $x_2$, ..., $x_N$ can be written as:

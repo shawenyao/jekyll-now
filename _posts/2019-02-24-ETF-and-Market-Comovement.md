@@ -19,6 +19,8 @@ One of such curious cases is the modern portfolio theory. Harry Markowitz forese
 
 However, the story doesn't end there.
 
+A market where everything moves in tandem presents tremendous arbitrage opportunities that cannot be sustainable in the long run.
+
 ## Empirical Evidence
 
 <p align="center">

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ETF and Market Comovement
+title: Market Comovement in Equilibrium 
 tag:
   - finance
 comments: true
@@ -19,11 +19,9 @@ Arguably, one of the most intriguing phenomena of the market is its _dynamism_. 
 
 One of such curious cases is the modern portfolio theory. Harry Markowitz foresees a world where everybody holds the optimal risky asset. As the separation property states, investors move along the capital allocation line based on their individual risk preferences, holding a combination of the risk-free asset and the tangency portfolio. In equilibrium, the total supply equals the total demand, so the tangency portfolio has to be the value-weighted portfolio of all risky assets - or simply put, the market portfolio.
 
-However, the story doesn't end there. Since the only way in which investors are willing to alter their exposure to risky assets is to adjust their positions in the market portfolio, every order placed on the market portfolio exerts equal buying or selling pressure on all of its constituents. Upon succesful fulfillment of such orders, each constituent's price goes up or down by identical amount percentage-wise, delivering the same return.
+However, the story doesn't end there. Since the only way in which investors are willing to alter their exposure to risky assets is to adjust their positions in the market portfolio, every order placed on the market portfolio exerts equal buying or selling pressure on all of its constituents. Upon succesful fulfillment of such orders, each constituent's price goes up or down by identical amount percentage-wise, and the market portfolio remains the value-weighted set of all risky assets.
 
-A market where everything moves homogeneously presents tremendous arbitrage opportunities that cannot be sustainable in the long run.
-
-In this paper, I present evidence
+A market where everything moves homogeneously presents tremendous arbitrage opportunities that cannot be sustainable in the long run. In this paper, I present evidence that the market is behaving increasingly along the lines that Harry Markowitz foretold, and where that leads in equilibrium.
 
 ## Empirical Evidence
 

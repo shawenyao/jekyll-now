@@ -9,9 +9,7 @@ draft: true
 
 A glimpse of the promised land.
 
-<p align="center">
-  <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier1.svg" />
-</p>
+![efficient frontier](https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier1.svg)
 
 ## Introduction
 

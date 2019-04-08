@@ -9,9 +9,9 @@ comments: true
 
 Sometimes R is better off without RStudio.
 
-<p align="center">
+<div align="center">
   <img src="https://shawenyao.github.io/R/images/cmd_example.png" />
-</p>
+</div>
 
 ## Objective: Running R Scripts in Batch Mode
 R supports batch mode out of the box. All it takes is to launch R script with `rscript.exe` in the command-line interface.

@@ -36,3 +36,4 @@ A market where everything moves in synchrony presents potential arbitrage opport
 <p align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study3_plot3_pre_post_distribution.svg" />
 </p>
+

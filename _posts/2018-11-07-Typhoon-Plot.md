@@ -9,14 +9,14 @@ comments: true
 
 Randomized spiral functions.
 
-<p align="center">
+<div align="center">
   <img src="https://shawenyao.github.io/R/output/typhoon/typhoon1.png" />
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="https://shawenyao.github.io/R/output/typhoon/typhoon2.png" />
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="https://shawenyao.github.io/R/output/typhoon/typhoon3.png" />
-</p>
+</div>

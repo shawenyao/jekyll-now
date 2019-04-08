@@ -72,17 +72,17 @@ $$
 
 These vectors can point to the same direction to maximize cosine similarity:
 
-<p align="center">
+<div align="center">
   <img src="https://shawenyao.github.io/R/output/three_random_variables/max_rho.svg" />
-</p>
+</div>
 
 where $\rho = \cos 0^\text{o} = 1$.
 
 Or they can point to three different directions as far off as possible in the case of a equilateral triangle on the hyperplane:
 
-<p align="center">
+<div align="center">
   <img src="https://shawenyao.github.io/R/output/three_random_variables/min_rho.svg" />
-</p>
+</div>
 
 where $\rho = \cos 120^\text{o} = -0.5$.
 

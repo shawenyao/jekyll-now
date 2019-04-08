@@ -21,7 +21,7 @@ One of such curious cases is the modern portfolio theory. Harry Markowitz forese
 
 However, the story doesn't end there. Since the only way in which investors are willing to alter their exposure to risky assets is to adjust their positions in the market portfolio, every order placed on the market portfolio exerts equal buying (or selling) pressure on all of its constituents. Upon succesful fulfillment of such orders, each constituent's price goes up (or down) by the identical amount percentage-wise and the market portfolio remains the value-weighted collection of all risky assets.
 
-A market where everything moves homogeneously presents tremendous arbitrage opportunities that cannot be sustainable in the long run. In this paper, I present evidence that the market is behaving increasingly along the lines that Harry Markowitz foretold, and where that leads us in equilibrium.
+A market where everything moves in synchrony presents tremendous arbitrage opportunities that cannot be sustainable in the long run. It is along these lines that I show in this paper the evidence that the market comovement is stronger than ever, and where it could lead us in equilibrium.
 
 ## Empirical Evidence
 

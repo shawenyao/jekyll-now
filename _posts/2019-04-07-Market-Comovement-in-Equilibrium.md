@@ -9,7 +9,9 @@ draft: true
 
 A glimpse of the promised land.
 
-![efficient frontier](https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier1.svg)
+<div align="center">
+  <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier1.svg" />
+</div>
 
 ## Introduction
 
@@ -23,15 +25,15 @@ A market where everything moves in synchrony presents potential arbitrage opport
 
 ## Empirical Evidence
 
-<p align="center">
+<div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study1_monthly_rho.svg" />
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study2_monthly_rho_distribution.svg" />
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study3_plot3_pre_post_distribution.svg" />
-</p>
+</div>
 

@@ -30,14 +30,22 @@ A market where everything moves in synchrony presents potential arbitrage opport
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study2_monthly_rho_distribution.svg" />
-</div>
-
-<div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study3_plot3_pre_post_distribution.svg" />
 </div>
 
+### Paired Two-sampe t-test
 
-||t-stat|p-value|degrees of freedom|
-|:---: |:---: |:---: |:---: |
-| paired two-sample t-tests | -8.1151 | 3.934e-15 | 358 |
+$$
+H_0: \overline{\rho_{before}} - \overline{\rho_{after}} \geq 0\\
+H_a: \overline{\rho_{before}} - \overline{\rho_{after}} < 0\\
+$$
+
+|t-stat|p-value|degrees of freedom|
+| :---: |:---: |:---: |
+| -8.1151 | 3.934e-15 | 358 |
+
+## Appendix
+
+<div align="center">
+  <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study2_monthly_rho_distribution.svg" />
+</div>

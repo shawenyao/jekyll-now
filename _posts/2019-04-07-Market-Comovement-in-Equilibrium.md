@@ -25,6 +25,11 @@ A market where everything moves in synchrony presents potential arbitrage opport
 
 ## Empirical Evidence
 
+### Average Asset Correlation: 1960 to 2018
+
+### Case Study: Correlation Before and After Inclusion in S&P500 Index
+
+
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study1_monthly_rho.svg" />
 </div>
@@ -33,7 +38,7 @@ A market where everything moves in synchrony presents potential arbitrage opport
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study3_plot3_pre_post_distribution.svg" />
 </div>
 
-### Paired Two-sampe t-test
+#### Paired Two-sampe t-test
 
 $$
 H_0: \overline{\rho_{before}} - \overline{\rho_{after}} \geq 0\\
@@ -43,6 +48,9 @@ $$
 |t-stat|p-value|degrees of freedom|
 | :---: |:---: |:---: |
 | -8.1151 | 3.934e-15 | 358 |
+
+## Market Comovement and Degeneration of Efficient Frontier
+
 
 ## Appendix
 

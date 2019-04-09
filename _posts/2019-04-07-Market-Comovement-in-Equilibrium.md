@@ -49,7 +49,9 @@ $$
 | :---: |:---: |:---: |
 | -8.1151 | 3.934e-15 | 358 |
 
-## Market Comovement and Degeneration of Efficient Frontier
+## A Comoving Market
+
+### Degeneration of the Efficient Frontier
 
 
 ## Appendix

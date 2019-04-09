@@ -37,3 +37,7 @@ A market where everything moves in synchrony presents potential arbitrage opport
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study3_plot3_pre_post_distribution.svg" />
 </div>
 
+
+||t-stat|p-value|degrees of freedom|
+|:---: |:---: |:---: |:---: |
+| paired two-sample t-tests | -8.1151 | 3.934e-15 | 358 |

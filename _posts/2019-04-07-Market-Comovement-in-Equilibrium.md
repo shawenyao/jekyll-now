@@ -27,7 +27,7 @@ A market where everything moves in synchrony presents potential arbitrage opport
 
 ### Average Asset Correlation: 1960 to 2018
 
-### Case Study: Correlation Before and After Inclusion in the S&P500 Index
+### Event Study: Correlation Before and After Inclusion in the S&P500 Index
 
 
 <div align="center">

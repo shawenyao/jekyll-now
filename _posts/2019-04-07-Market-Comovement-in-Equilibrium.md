@@ -31,7 +31,7 @@ A market where everything moves in synchrony presents potential arbitrage opport
 
 ### Event Study: Correlation Before and After Inclusion in the S&P500 Index
 
-The S&P 500 index, widely considered to be a proxy of the market portfolio, provides a unique look into how the behaviour of assets changes in terms of covariation upon becoming part of index trading universe.
+The S&P 500 index, widely considered to be a proxy of the market portfolio, provides a unique look at how differently an asset behaves in terms of covariation upon becoming part of index trading universe.
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study1_monthly_rho.svg" />

@@ -40,7 +40,7 @@ Index trading has been more accessible than ever since the creation of index fun
 where the average index correlation is defined as:
 
 $$
-\displaystyle \overline{\rho_{index}} = \frac{ \sum_{ i<j } \rho_{ij} }{ (N-1) N / 2 }
+\overline{\rho_{index}} = \frac{\displaystyle \sum_{ i<j } \rho_{ij} }{ (N-1) N / 2 }
 $$
 
 

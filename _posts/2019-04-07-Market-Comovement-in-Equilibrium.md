@@ -27,11 +27,19 @@ A market where everything moves in synchrony presents potential arbitrage opport
 
 ### Average Asset Correlation: 1960 to 2018
 
+### Index Trading and Return Covariation
 
+Index trading has been more accessible than ever thanks to creation of index fund. Today, three of the most popular S&P 500 index fund are SPY, IVV and VOO.
 
-### Event Study: Correlation Before and After Inclusion in the S&P500 Index
+| Ticker | Name | Inception Date | Asset under Management | Average Daily Volumn |
+| :---: |:---: |:---: | :---: | :---: |
+| SPY | SPDR S&P 500 ETF Trust | Jan 22, 1993 | $272.70B | $17.88B |
+| IVV | iShares Core S&P 500 ETF | May 15, 2000 | $175.07B | $1.04B |
+| VOO | Vanguard S&P 500 ETF | Sep 7, 2010 | $110.18B | $677.59M |
 
-The S&P 500 index, widely considered to be a proxy of the market portfolio, provides a unique look at how differently an asset would behave in terms of covariation upon joining the index trading universe.
+### Index Constituents and Return Covariation
+
+The S&P 500 index, widely considered to be a proxy of the market portfolio, provides a unique look at how differently an asset would behave upon joining the index trading universe in terms of covariation.
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study1_monthly_rho.svg" />
@@ -48,7 +56,7 @@ H_0: \overline{\rho_{before}} - \overline{\rho_{after}} \geq 0\\
 H_a: \overline{\rho_{before}} - \overline{\rho_{after}} < 0\\
 $$
 
-|t-stat|p-value|degrees of freedom|
+| t-stat | p-value | degrees of freedom |
 | :---: |:---: |:---: |
 | -8.1151 | 3.934e-15 | 358 |
 

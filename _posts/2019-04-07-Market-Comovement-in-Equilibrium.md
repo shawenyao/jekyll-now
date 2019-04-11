@@ -31,18 +31,18 @@ A market where everything moves in synchrony presents potential arbitrage opport
 
 Index trading has been more accessible than ever since the creation of index fund. Today, three of the most popular S&P 500 index fund are SPY, IVV and VOO.
 
-where the average index correlation is defined as:
-
-$$
-\displaystyle 
-\overline{\rho_{index}} = \frac{ \sum_{ i<j } \rho_{ij} }{ (N-1) N / 2 }
-$$
-
 | Ticker | Name | Inception Date | Asset under Management | Average Daily $ Volume |
 | --- | --- | --- | --- | --- |
 | SPY | SPDR S&P 500 ETF Trust | Jan 22, 1993 | $272.70B | $17.88B |
 | IVV | iShares Core S&P 500 ETF | May 15, 2000 | $175.07B | $1.04B |
 | VOO | Vanguard S&P 500 ETF | Sep 7, 2010 | $110.18B | $677.59M |
+
+where the average index correlation is defined as:
+
+$$
+\displaystyle \overline{\rho_{index}} = \frac{ \sum_{ i<j } \rho_{ij} }{ (N-1) N / 2 }
+$$
+
 
 ### Index Constituents and Return Covariation
 

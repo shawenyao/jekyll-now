@@ -31,7 +31,7 @@ A market where everything moves in synchrony presents potential arbitrage opport
 
 Index trading has been more accessible than ever thanks to creation of index fund. Today, three of the most popular S&P 500 index fund are SPY, IVV and VOO.
 
-| Ticker | Name | Inception Date | Asset under Management | Average Daily Dollar Volumn |
+| Ticker | Name | Inception Date | Asset under Management | Average Daily $ Volume |
 | --- | --- | --- | --- | --- |
 | SPY | SPDR S&P 500 ETF Trust | Jan 22, 1993 | $272.70B | $17.88B |
 | IVV | iShares Core S&P 500 ETF | May 15, 2000 | $175.07B | $1.04B |

@@ -29,7 +29,13 @@ A market where everything moves in synchrony presents potential arbitrage opport
 
 ### Index Trading and Return Covariation
 
-Index trading has been more accessible than ever thanks to creation of index fund. Today, three of the most popular S&P 500 index fund are SPY, IVV and VOO.
+Index trading has been more accessible than ever since the creation of index fund. Today, three of the most popular S&P 500 index fund are SPY, IVV and VOO.
+
+where the average index correlation is defined as:
+
+$$
+\overline{\rho_{index}} = \frac{ \sum_{ i<j } \rho_{ij} }{ (N-1) N / 2 }
+$$
 
 | Ticker | Name | Inception Date | Asset under Management | Average Daily $ Volume |
 | --- | --- | --- | --- | --- |

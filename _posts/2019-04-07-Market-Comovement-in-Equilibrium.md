@@ -37,10 +37,14 @@ Index trading has been more accessible than ever since the creation of index fun
 | IVV | iShares Core S&P 500 ETF | May 15, 2000 | $175.07B | $1.04B |
 | VOO | Vanguard S&P 500 ETF | Sep 7, 2010 | $110.18B | $677.59M |
 
+$$
+\overline{\rho_{index}} = \beta_0 + \beta_1 * DV + \epsilon
+$$
+
 where the average index correlation is defined as:
 
 $$
-\overline{\rho_{index}} = \frac{\displaystyle \sum_{ i<j } \rho_{ij} }{ (N-1) N / 2 }
+\overline{\rho_{index}} = \frac{ 1 }{ (N-1) N / 2 } \displaystyle \sum_{ i<j } \rho_{ij}
 $$
 
 

@@ -89,6 +89,7 @@ $$
 \quad \vdots \\
 (1 - \rho) ^ {i - 1} [(i - 1) \rho + 1] \geq 0 \\
 \quad \vdots \\
+(1 - \rho) ^ {N - 2} [(N - 2) \rho + 1] \geq 0 \\
 (1 - \rho) ^ {N - 1} [(N - 1) \rho + 1] \geq 0 \\
 \end{cases}
 $$

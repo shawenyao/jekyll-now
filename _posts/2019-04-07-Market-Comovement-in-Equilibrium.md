@@ -61,7 +61,7 @@ If the efficent frontier in such form looks unorthodox, that's because it is too
 
 Fortunately, market always finds a way to restore balance, by virtue of the collective efforts from the rational, diligent and profit-seeking investors. As with all arbitrage opportunities, exploiting them will casue them to diminish and eventually disappear. Price of overvalued assets will decrease, implying a higher expected return in the future so that people are going to be willing to hold them in their portfolios again; on the other hand, price of undervalued assets will rise and people will no longer find them as attractive and thus decide to reduce their holdings. 
 
-Along the path towards the new equilibrium, market continuously updates the view of what the expected return and volatility for each asset should be, until it reaches the point where all of them align on a straight line that begins from the risk-free asset. 
+Along the path towards the new equilibrium, market continuously updates the view of what the expected return and volatility for each asset should be, until it reaches the point where all of them align on a straight line that begins from the risk-free asset:
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier3.svg" />

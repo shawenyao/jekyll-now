@@ -59,7 +59,7 @@ The difference is small yet siginificant. The paired two-sampe t-test suggests t
 
 ## A Comoving Market
 
-What if we take the S&P 500 index trading case to the extreme? It is not inconeivable that we will be looking at something fairly similar to Harry Markowitz's conceptual world of equilibirm where
+The extreme case of the S&P 500 index trading example will lead us to something fairly similar to Harry Markowitz's conceptual world of equilibirm, where
 * every investor only holds the market portfolio
 * all transactions is done via trading the market potfolio
 

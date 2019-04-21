@@ -27,11 +27,11 @@ The S&P 500 index, widely considered to be a proxy of the market portfolio, prov
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study1_monthly_rho.svg" />
 </div>
 
+The difference is small yet siginificant. The paired two-sampe t-test suggests the sheer volume of index trading is strong enough to make a dent in the way the index constituents covary with the index itself. On average, once becoming a constituent, the correlation between the asset and the index rises from 0.458 (as in the year before) to 0.505 (as in the year after).
+
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study3_plot3_pre_post_distribution.svg" />
 </div>
-
-The difference is small yet siginificant. The paired two-sampe t-test suggests the sheer volume of index trading is strong enough to make a dent in the way the index constituents covary with the index itself. On average, once becoming a constituent, the correlation between the asset and the index rises from 0.458 (as in the year before) to 0.505 (as in the year after).
 
 ## A Comoving Market
 

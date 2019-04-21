@@ -52,7 +52,9 @@ $$
 
 ### Index Constituents and Return Covariation
 
-The S&P 500 index, widely considered to be a proxy of the market portfolio, provides a unique look at how differently an asset would behave upon joining the index trading universe in terms of covariation.
+The S&P 500 index, widely considered to be a proxy of the market portfolio, provides a unique look at how differently an asset would behave upon joining the index trading universe in terms of covariation. For each of the constitunets, we go back to the very date it was included in the index ($t = 0$) and examine its monthly correlation with the index in the preceding 12-month period ($-12 \leq t \eq -1$) as well as the subsequent 12-month period ($ 1 \leq t \leq 12$).
+
+The difference is small yet siginificant. The paired two-sampe t-test suggests the index trading crowd is strong enough to make a dent in the way the index constituents covary with the index itself. In the 12-month period after an asset joins the index, the average correlation between the asset and the index rises from 0.458 (as in the previous 12-month period) to 0.505.
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study1_monthly_rho.svg" />
@@ -74,6 +76,8 @@ $$
 | -8.1151 | 3.934e-15 | 358 |
 
 ## A Comoving Market
+
+What if 
 
 ### Degeneration of the Efficient Frontier
 

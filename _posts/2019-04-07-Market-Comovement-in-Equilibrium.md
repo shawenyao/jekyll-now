@@ -67,7 +67,7 @@ Along the path towards the new equilibrium, market continuously updates the view
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier3.svg" />
 </div>
 
-Or equivalently, they have the same Sharpe ratio
+Or equivalently, all assets have the same Sharpe ratio
 
 $$
 Sharpe\ Ratio = \frac{ E(r) - r_f }{ \sigma }

@@ -79,7 +79,17 @@ Holding everything else constant, we plug in the condition that every pairwise c
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier2.svg" />
 </div>
 
-If the efficent frontier in such form looks unorthodox, that's because it is.
+If the efficent frontier in such form looks unorthodox, that's because it is too good to be true. As it stands, at least two zero-volatility assets (the true risk-free asset and the synthetic one) coexist. Any possible return can be promised by borrowing at the lower "risk-free" rate and investing at the higher one, with abosulte zero uncertainty. The presence of guaranteed, risk-free and profitable arbitrage opportunity violates our premise that the market is in equilibrum in the first place.
+
+### A Market in Synchrony
+
+Fortunately, market always self-adjusts in order to bring balance back. 
+
+<div align="center">
+  <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier3.svg" />
+</div>
+
+This is the only form in which the market achieves tha state of equilibrium as well as being arbitrage-free.
 
 ## Appendix
 

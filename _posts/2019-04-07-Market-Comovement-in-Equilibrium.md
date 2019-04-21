@@ -59,6 +59,12 @@ The difference is small yet siginificant. The paired two-sampe t-test suggests t
 
 ## A Comoving Market
 
+The modern porfolio theory states that under the homogenous expectations assumption, every investor has the same view when it comes to estimating the expected return, volatility and correlation of all risky assets. Every investor then goes ahead and solves for the same mean-variance optimization problem and arrvies at the same answer - the efficient frontier.
+
+<div align="center">
+  <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier1.svg" />
+</div>
+
 The limiting case of the S&P 500 index trading example will lead us to something fairly similar to Harry Markowitz's conceptual world of equilibirm, where
 * every investor only holds the market portfolio
 * every transaction is done via trading the market potfolio
@@ -67,29 +73,23 @@ As mentioned earlier, the fact that market portfolio becomes the only trading ve
 
 ### Degeneration of the Efficient Frontier
 
-As the modern porfolio theory states, under the homogenous expectations assumption, every investor has the same view when it comes to estimating the expected return, volatility and correlation of all risky assets. Every investor then goes ahead and solves for the same mean-variance optimization problem and arrvies at the same answer - the efficient frontier.
-
-<div align="center">
-  <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier1.svg" />
-</div>
-
 Holding everything else constant, we plug in the condition that every pairwise correlation equals to 1. As long as there are at least two risky assets on the market, volatility can be completely diversified away by going long in one and short in the other with the appropriate weighting scheme. Should the resulting zero-volatility portfolio have an expected return not the same as the risk-free rate, the efficient frontier degenrates to a vertical line at volatility equals to 0.
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier2.svg" />
 </div>
 
-If the efficent frontier in such form looks unorthodox, that's because it is too good to be true. As it stands, at least two zero-volatility assets (the true risk-free asset and the synthetic one) coexist. Any possible return can be promised by borrowing at the lower "risk-free" rate and investing at the higher one, with abosulte zero uncertainty. The presence of guaranteed, risk-free and profitable arbitrage opportunity violates our premise that the market is in equilibrum in the first place.
+If the efficent frontier in such form looks unorthodox, that's because it is too good to be true. As it stands, at least two zero-volatility assets (the true risk-free asset and the synthetic one) coexist. Any possible return can be promised by borrowing at the lower "risk-free" rate and investing at the higher one, with abosulte zero uncertainty. The presence of guaranteed, risk-free and profitable arbitrage opportunity violates our premise of a market in equilibrum.
 
 ### A Market in Synchrony
 
-Fortunately, market always self-adjusts in order to bring balance back. 
+Fortunately, market always finds a way to bring balance back, by virtue of the collective efforts from the rational, diligent and profit-seeking investors. As with all arbitrage opportunities, exploiting them will casue them to diminish and eventually disappear. Price of overvalued assets will decrease, implying a higher expected return in the future so that people will be willing to hold them in their portfolios again; on the other hand, price of undervalued assets will rise to the point where people no longer find them as attractive and decide to reduce their holdings. 
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier3.svg" />
 </div>
 
-This is the only form in which the market achieves tha state of equilibrium as well as being arbitrage-free.
+This is the only form in which the market reaches tha state of equilibrium while staying arbitrage-free.
 
 ## Appendix
 

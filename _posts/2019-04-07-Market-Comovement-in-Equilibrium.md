@@ -54,8 +54,6 @@ $$
 
 The S&P 500 index, widely considered to be a proxy of the market portfolio, provides a unique look at how differently an asset would behave upon joining the index trading universe in terms of covariation. For each of the constitunets, we go back to the very date it was included in the index ($t = 0$) and examine its monthly correlation with the index in the preceding year ($-12 \leq t \leq 0$) as well as the subsequent year ($1 \leq t \leq 12$).
 
-The difference is small yet siginificant. The paired two-sampe t-test suggests the index trading crowd is strong enough to make a dent in the way the index constituents covary with the index itself. In the year after an asset joins the index, the average correlation between the asset and the index rises from 0.458 (as in the prior year) to 0.505.
-
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study1_monthly_rho.svg" />
 </div>
@@ -64,7 +62,18 @@ The difference is small yet siginificant. The paired two-sampe t-test suggests t
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study3_plot3_pre_post_distribution.svg" />
 </div>
 
-#### Paired Two-sampe t-test
+The difference is small yet siginificant. The paired two-sampe t-test suggests the index trading crowd is strong enough to make a dent in the way the index constituents covary with the index itself. On average, in the year after an asset joins the index, the correlation between the asset and the index rises from 0.458 (as in the prior year) to 0.505.
+
+## A Comoving Market
+
+What if 
+
+### Degeneration of the Efficient Frontier
+
+
+## Appendix
+
+### Paired Two-sampe t-test
 
 $$
 H_0: \overline{\rho_{before}} - \overline{\rho_{after}} \geq 0\\
@@ -75,14 +84,7 @@ $$
 | :---: |:---: |:---: |
 | -8.1151 | 3.934e-15 | 358 |
 
-## A Comoving Market
-
-What if 
-
-### Degeneration of the Efficient Frontier
-
-
-## Appendix
+### The Evolution of Average Monthly Correlation
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study2_monthly_rho_distribution.svg" />

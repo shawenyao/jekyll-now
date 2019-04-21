@@ -67,16 +67,16 @@ As mentioned earlier, the fact that market portfolio becomes the only trading ve
 
 ### Degeneration of the Efficient Frontier
 
-As the model porfolio theory states, under the homogenous expectations assumption, every investor has the same view when it comes to estimating the reutrn, volatility and correlation of all risky assets. Every investor then goes ahead and solves for the same mean-variance optimization problem and arrvies at the same answer - the efficient frontier:
+As the model porfolio theory states, under the homogenous expectations assumption, every investor has the same view when it comes to estimating the expected return, volatility and correlation of all risky assets. Every investor then goes ahead and solves for the same mean-variance optimization problem and arrvies at the same answer - the efficient frontier:
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier1.svg" />
 </div>
 
-Holding everything else constant, we plug in the condition that every pairwise correlation equals to 1.
+Holding everything else constant, we plug in the condition that every pairwise correlation equals to 1. As long as there are at least two assets with different expected returns, volatility can be completely eliminated by going long in one and short in the other. If the difference in their expected returns is somehow not the same as the risk-free rate, the efficient frontier degenrates to a vertical line at volatility equals to 0.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier1.svg" />
+  <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier2.svg" />
 </div>
 
 ## Appendix

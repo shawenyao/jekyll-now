@@ -89,9 +89,3 @@ $$
 | t-stat | p-value | degrees of freedom |
 | :---: |:---: |:---: |
 | -8.1151 | 3.934e-15 | 358 |
-
-### The Evolution of Average Monthly Correlation
-
-<div align="center">
-  <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study2_monthly_rho_distribution.svg" />
-</div>

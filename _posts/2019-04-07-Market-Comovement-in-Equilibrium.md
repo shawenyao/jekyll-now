@@ -59,21 +59,21 @@ If the efficent frontier in such form looks unorthodox, that's because it is too
 
 ### A Market in Synchrony
 
-Fortunately, market always finds a way to restore balance, by virtue of the collective efforts from the rational, diligent and profit-seeking investors. As with all arbitrage opportunities, exploiting them will casue them to diminish and eventually disappear. Price of overvalued assets will decrease, implying a higher expected return in the future so that people are going to be willing to hold them in their portfolios again; on the other hand, price of undervalued assets will rise to the point where people no longer find them as attractive and decide to reduce their holdings. 
+Fortunately, market always finds a way to restore balance, by virtue of the collective efforts from the rational, diligent and profit-seeking investors. As with all arbitrage opportunities, exploiting them will casue them to diminish and eventually disappear. Price of overvalued assets will decrease, implying a higher expected return in the future so that people are going to be willing to hold them in their portfolios again; on the other hand, price of undervalued assets will rise and people will no longer find them as attractive and thus decide to reduce their holdings. 
 
-The adjustment or a combination of both, until it reaches the true equilibrium state, where all assets align on a straight line that starts from the risk-free asset. 
+Along the path towards the new equilibrium, market continuously updates the view of what the expected return and volatility for each asset should be, until it reaches the point where all of them align on a straight line that begins from the risk-free asset. 
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier3.svg" />
 </div>
 
-Or, they have the same Sharpe ratio
+Or equivalently, they have the same Sharpe ratio
 
 $$
-Sharpe Ratio = \frac{ E(r) - rf }{ \sigma }
+Sharpe\ Ratio = \frac{ E(r) - r_f }{ \sigma }
 $$
 
-Despite all risky assets being perfectly correlated with each other, any synthesized zero-volatility portfolio will by design have the same expected return as the risk-free rate. At this point, every asset is fair game from a mean-variance standpoint. This is the only form in which the market reaches tha state of equilibrium while staying arbitrage-free.
+As such, despite all risky assets still being perfectly correlated with each other, any zero-volatility portfolio synthesized this way will by design have the same expected return as the risk-free rate. At this point, every risky asset is a fair game from a mean-variance optimization standpoint, but investors will continue to hold them through (and only through) holding the market portfolio. This is the only form in which the market reaches tha state of equilibrium while staying arbitrage-free.
 
 ## Appendix
 

@@ -73,7 +73,7 @@ As the model porfolio theory states, under the homogenous expectations assumptio
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier1.svg" />
 </div>
 
-Holding everything else constant, we plug in the condition that every pairwise correlation equals to 1. As long as there are at least two assets with different expected returns, volatility can be completely eliminated by going long in one and short in the other. Should the resulting zero-volatility portfolio have an expected return not the same as the risk-free rate, the efficient frontier degenrates to a vertical line at volatility equals to 0.
+Holding everything else constant, we plug in the condition that every pairwise correlation equals to 1. As long as there are at least two risky assets in the market, volatility can be completely eliminated by going long in one and short in the other with the appropriate weighting scheme. Should the resulting zero-volatility portfolio have an expected return not the same as the risk-free rate, the efficient frontier degenrates to a vertical line at volatility equals to 0.
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier2.svg" />

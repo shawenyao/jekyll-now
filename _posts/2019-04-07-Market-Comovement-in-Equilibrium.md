@@ -19,9 +19,7 @@ However, the story doesn't end there. Since the only way in which investors are 
 
 A market where everything moves in synchrony presents potential arbitrage opportunities that cannot be sustainable in the long run. It is along these lines that I show in this paper the evidence that the market comovement is stronger than ever, and where it can lead us in equilibrium.
 
-## Empirical Evidence
-
-### Index Constituents and Return Covariation
+## Index Constituents and Return Covariation
 
 The S&P 500 index, widely considered to be a proxy of the market portfolio, provides a unique look at how differently an asset would behave upon joining the index trading universe in terms of covariation. For each of the constitunets, we go back to the very date it was included in the index ($t = 0$) and examine its monthly correlation with the index in the preceding year ($-12 \leq t \leq 0$) as well as the subsequent year ($1 \leq t \leq 12$).
 
@@ -51,7 +49,7 @@ As mentioned earlier, the fact that market portfolio becomes the only trading ve
 
 ### Degeneration of the Efficient Frontier
 
-Holding everything else constant, we plug in the condition that every pairwise correlation equals to 1. As long as there are at least two risky assets on the market, volatility can be completely diversified away by going long in one and short in the other with the appropriate weighting scheme. Should the resulting zero-volatility portfolio have an expected return not the same as the risk-free rate, the efficient frontier degenrates to a vertical line at volatility equals to 0.
+Holding everything else constant, we plug in the condition that every pairwise correlation equals to 1. As long as there are at least two risky assets on the market, volatility can be completely diversified away by going long in one and short in the other with the appropriate weighting scheme. Should the resulting zero-volatility portfolio have an expected return not the same as the risk-free rate, the efficient frontier reduces to a vertical line at volatility equals to 0.
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier2.svg" />
@@ -61,13 +59,21 @@ If the efficent frontier in such form looks unorthodox, that's because it is too
 
 ### A Market in Synchrony
 
-Fortunately, market always finds a way to bring balance back, by virtue of the collective efforts from the rational, diligent and profit-seeking investors. As with all arbitrage opportunities, exploiting them will casue them to diminish and eventually disappear. Price of overvalued assets will decrease, implying a higher expected return in the future so that people will be willing to hold them in their portfolios again; on the other hand, price of undervalued assets will rise to the point where people no longer find them as attractive and decide to reduce their holdings. 
+Fortunately, market always finds a way to restore balance, by virtue of the collective efforts from the rational, diligent and profit-seeking investors. As with all arbitrage opportunities, exploiting them will casue them to diminish and eventually disappear. Price of overvalued assets will decrease, implying a higher expected return in the future so that people are going to be willing to hold them in their portfolios again; on the other hand, price of undervalued assets will rise to the point where people no longer find them as attractive and decide to reduce their holdings. 
+
+The adjustment or a combination of both, until it reaches the true equilibrium state, where all assets align on a straight line that starts from the risk-free asset. 
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier3.svg" />
 </div>
 
-This is the only form in which the market reaches tha state of equilibrium while staying arbitrage-free.
+Or, they have the same Sharpe ratio
+
+$$
+Sharpe Ratio = \frac{ E(r) - rf }{ \sigma }
+$$
+
+Despite all risky assets being perfectly correlated with each other, any synthesized zero-volatility portfolio will by design have the same expected return as the risk-free rate. At this point, every asset is fair game from a mean-variance standpoint. This is the only form in which the market reaches tha state of equilibrium while staying arbitrage-free.
 
 ## Appendix
 

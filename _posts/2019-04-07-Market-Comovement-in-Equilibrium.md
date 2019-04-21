@@ -21,28 +21,6 @@ A market where everything moves in synchrony presents potential arbitrage opport
 
 ## Empirical Evidence
 
-### Index Trading and Return Covariation
-
-Index trading has been more accessible than ever since the creation of index fund. Today, three of the most popular S&P 500 index fund are SPY, IVV and VOO.
-
-| Ticker | Name | Inception Date | Asset under Management | Average Daily $ Volume |
-| --- | --- | --- | --- | --- |
-| SPY | SPDR S&P 500 ETF Trust | Jan 22, 1993 | $272.70B | $17.88B |
-| IVV | iShares Core S&P 500 ETF | May 15, 2000 | $175.07B | $1.04B |
-| VOO | Vanguard S&P 500 ETF | Sep 7, 2010 | $110.18B | $677.59M |
-
-Suppose we want to examine the linear relationship between the monthly average index correlation and the combined monthly ETF dollar volume:
-
-$$
-\overline{\rho_{index}} = \beta_0 + \beta_1 DV + \epsilon
-$$
-
-where the average index correlation is defined as:
-
-$$
-\overline{\rho_{index}} = \frac{ 1 }{ (N-1) N / 2 } \displaystyle \sum_{ i<j } \rho_{ij}
-$$
-
 ### Index Constituents and Return Covariation
 
 The S&P 500 index, widely considered to be a proxy of the market portfolio, provides a unique look at how differently an asset would behave upon joining the index trading universe in terms of covariation. For each of the constitunets, we go back to the very date it was included in the index ($t = 0$) and examine its monthly correlation with the index in the preceding year ($-12 \leq t \leq 0$) as well as the subsequent year ($1 \leq t \leq 12$).

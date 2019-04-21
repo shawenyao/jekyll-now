@@ -61,7 +61,7 @@ The difference is small yet siginificant. The paired two-sampe t-test suggests t
 
 The limiting case of the S&P 500 index trading example will lead us to something fairly similar to Harry Markowitz's conceptual world of equilibirm, where
 * every investor only holds the market portfolio
-* all transactions is done via trading the market potfolio
+* every transaction is done via trading the market potfolio
 
 As mentioned earlier, the fact that market portfolio becomes the only trading vehicle will consequently make all individual risky assets that the market is composed of go up and down in price as one, implying a pairwise correlation of 1.
 

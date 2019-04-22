@@ -75,7 +75,7 @@ $$
 
 As such, despite all risky assets still being perfectly correlated, any zero-volatility portfolio synthesized this way will by design have the same expected return as the risk-free rate. At this point, every risky asset is a fair game from a mean-variance optimization standpoint, but investors will continue to hold them through (and only through) holding the market portfolio. This is the only form in which the market reaches the state of equilibrium while staying arbitrage-free.
 
-### Implications
+## Implications
 
 ## Conculsions
 

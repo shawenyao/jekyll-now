@@ -57,7 +57,7 @@ Holding everything else constant, we plug in the condition that every pairwise c
 
 If the efficient frontier in such form looks unorthodox, that's because it is too good to be true. As it stands, at least two zero-volatility assets (the true risk-free asset and the synthetic one) coexist. Any possible return can be promised by borrowing at the lower "risk-free" rate and investing at the higher one, with absolute zero uncertainty. The presence of guaranteed, risk-free and profitable arbitrage opportunity violates our premise of a market in equilibrium.
 
-### A Market in Synchrony
+### The True Equilibrium
 
 Fortunately, market always finds a way to restore balance, by virtue of the collective efforts from the rational, diligent and profit-seeking investors. As with all arbitrage opportunities, exploiting them will cause them to diminish and eventually disappear. Price of overvalued assets will decrease, implying a higher expected return in the future so that people are going to be willing to hold them in their portfolios again; on the other hand, price of undervalued assets will rise and people will no longer find them as attractive and thus decide to reduce their holdings. 
 
@@ -74,6 +74,8 @@ Sharpe\ Ratio = \frac{ E(r) - r_f }{ \sigma }
 $$
 
 As such, despite all risky assets still being perfectly correlated, any zero-volatility portfolio synthesized this way will by design have the same expected return as the risk-free rate. At this point, every risky asset is a fair game from a mean-variance optimization standpoint, but investors will continue to hold them through (and only through) holding the market portfolio. This is the only form in which the market reaches the state of equilibrium while staying arbitrage-free.
+
+### Implications
 
 ## Conculsions
 

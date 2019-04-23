@@ -77,25 +77,27 @@ As such, despite all risky assets still being perfectly correlated, any zero-vol
 
 ## Implications
 
+The comoving condition has profound implications beyond everything moving together.
+
 ### Return and Volatility
 
 If pairwise correlation equals 1 throughout the market, expected return and volatility of the market portfolio simply become the value-weighted average of every risky asset's expected return and volatility.
 
 $$
-E(r_{ market }) = \displaystyle \sum_{ i = 1 }^N w_i E(r_i)
+E(r_m) = \displaystyle \sum_{ i = 1 }^N w_i E(r_i)
 $$
 
 $$
-\sigma_{ market } = \displaystyle \sum_{ i = 1 }^N w_i \sigma_i
+\sigma_m = \displaystyle \sum_{ i = 1 }^N w_i \sigma_i
 $$
 
 ### CAPM
 
 $$
 \begin{align}
-\beta_{i} &= \frac{ \sigma_{i, market} }{ \sigma_{ market }^2 } \\
-&= \frac{ \rho_{i, market} \sigma_{i} \sigma_{market} }{ \sigma_{ market }^2 } \\
-&= \frac{ \sigma_{i}  }{ \sigma_{ market }  }
+\beta_{i} &= \frac{ \sigma_{i, m} }{ \sigma_m^2 } \\
+&= \frac{ \rho_{i, m} \sigma_{i} \sigma_m }{ \sigma_m^2 } \\
+&= \frac{ \sigma_{i}  }{ \sigma_m }
 \end{align}
 $$
 

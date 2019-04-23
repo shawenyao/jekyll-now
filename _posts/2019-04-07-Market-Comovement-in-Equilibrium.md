@@ -79,12 +79,20 @@ As such, despite all risky assets still being perfectly correlated, any zero-vol
 
 ### Return and Volatility
 
+If pairwise correlation equals 1 throughout the market, expected return and volatility of the market portfolio simply become the value-weighted average of every risky asset's expected return and volatility.
+
 $$
 E(r_{ market }) = \displaystyle \sum_{ i = 1 }^N w_i E(r_i)
 $$
 
 $$
 \sigma_{ market } = \displaystyle \sum_{ i = 1 }^N w_i \sigma_i
+$$
+
+### CAPM
+
+$$
+\beta_{i} = \frac{ \sigma_{i, market} }{ \sigma_{ market }^2 }
 $$
 
 ## Conculsions

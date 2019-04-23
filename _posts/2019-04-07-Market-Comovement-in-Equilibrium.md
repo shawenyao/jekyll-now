@@ -101,6 +101,8 @@ $$
 \end{align}
 $$
 
+In fact, covariation with the market will not only become the only systematic risk factor but also the only risk factor. Bearing such risk will be able to explain 100% of variation in the expected return. Capital market line effectively becomes the security market line, since everything is fairly valued by the market in the literal sense.
+
 ## Conculsions
 
 ## Appendix

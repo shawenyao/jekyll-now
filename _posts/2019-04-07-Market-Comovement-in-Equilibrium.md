@@ -78,12 +78,13 @@ As such, despite all risky assets still being perfectly correlated, any zero-vol
 ## Implications
 
 ### Return and Volatility
+
 $$
-E(r_market) = \displaystyle \sum_{ i = 1 }^N w_i E(r_i)
+E(r_{ market }) = \displaystyle \sum_{ i = 1 }^N w_i E(r_i)
 $$
 
 $$
-\sigma_market = \displaystyle \sum_{ i = 1 } w_i \sigma_i
+\sigma_{ market } = \displaystyle \sum_{ i = 1 } w_i \sigma_i
 $$
 
 ## Conculsions

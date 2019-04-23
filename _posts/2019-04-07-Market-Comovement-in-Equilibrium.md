@@ -92,7 +92,11 @@ $$
 ### CAPM
 
 $$
-\beta_{i} = \frac{ \sigma_{i, market} }{ \sigma_{ market }^2 }
+\begin{align}
+\beta_{i} &= \frac{ \sigma_{i, market} }{ \sigma_{ market }^2 } \\
+&= \frac{ \rho_{i, market} \sigma_{i} \sigma_{market} }{ \sigma_{ market }^2 }
+&= \frac{ \sigma_{i}  }{ \sigma_{ market }  }
+\end{align}
 $$
 
 ## Conculsions

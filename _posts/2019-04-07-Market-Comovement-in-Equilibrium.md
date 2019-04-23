@@ -84,7 +84,7 @@ E(r_{ market }) = \displaystyle \sum_{ i = 1 }^N w_i E(r_i)
 $$
 
 $$
-\sigma_{ market } = \displaystyle \sum_{ i = 1 } w_i \sigma_i
+\sigma_{ market } = \displaystyle \sum_{ i = 1 }^N w_i \sigma_i
 $$
 
 ## Conculsions

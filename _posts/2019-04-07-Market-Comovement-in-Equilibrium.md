@@ -77,7 +77,7 @@ As such, despite all risky assets still being perfectly correlated, any zero-vol
 
 ## Implications
 
-The comoving condition has profound implications beyond everything moving together.
+The comoving condition has profound implications beyond simply everything moving together.
 
 ### Return and Volatility
 

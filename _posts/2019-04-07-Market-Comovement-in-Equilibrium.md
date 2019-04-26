@@ -105,7 +105,7 @@ In fact, covariation with the market will not only become the only systematic ri
 
 Security market line effectively becomes a horizontally-stretched version of capital market line. What's more, either undervaluation or overvaluation of risky assets becomes something of the past as all of them are fairly valued by the market, placing them exactly on the security market line.
 
-### A Self-fulfilling Prophecy
+## A Self-fulfilling Prophecy
 
 ## Conculsions
 

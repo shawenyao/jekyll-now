@@ -96,7 +96,7 @@ $$
 $$
 \begin{align}
 \beta_{i} &= \frac{ \sigma_{i, m} }{ \sigma_m^2 } \\
-&= \frac{ \rho_{i, m} \sigma_{i} \sigma_m }{ \sigma_m^2 } \\
+&= \rho_{i, m} \frac{ \sigma_{i} \sigma_m }{ \sigma_m^2 } \\
 &= \frac{ \sigma_{i}  }{ \sigma_m }
 \end{align}
 $$

@@ -101,7 +101,7 @@ $$
 \end{align}
 $$
 
-In fact, covariation with the market will not only become the exclusive systematic risk factor, but the sole source of risk in general as well. Bearing such risk will be able to explain 100% of variation in the expected return. 
+In fact, covariation with the market will not only become the exclusive systematic risk factor, but the sole source of risk in general as well. The value, size or momentum factors that are prevalent in the market today will not longer deliver excess return. Bearing the market risk will be able to fully explain of variation in the expected return.
 
 Security market line effectively becomes a horizontally-stretched version of capital market line. What's more, either undervaluation or overvaluation of risky assets becomes something of the past as all of the assets must be fairly valued by the market, placing them exactly on the security market line.
 

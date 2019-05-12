@@ -57,9 +57,7 @@ As more investors become believers in modern portfolio theory along the path tow
 
 ## Implications
 
-The comoving condition has profound implications beyond simply everything moving together.
-
-Everyday, market draws a random number $r$ out of some unknown distribution, which becomes the market return of the day. At the end of the day,
+The comoving condition has profound implications beyond simply everything moving together. Everyday, the god of market draws a random number $r$ out of some unknown distribution, which becomes the market return of the day. At the end of the day,
 * every risky asset goes up or down simultaneously by certain amount such that each delivers the same return $r$
 * the weights of risky asset remain unchanged indefinitely
 * any deviation from such norm will result in either excess demand or supply of certain assets, and thus violates our prerequisite of market equilibrium

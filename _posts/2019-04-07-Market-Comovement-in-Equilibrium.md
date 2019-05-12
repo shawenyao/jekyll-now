@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Market Comovement in Equilibrium 
+title: Market Comovement in Equilibrium
 tag:
   - finance
 comments: true
@@ -42,21 +42,18 @@ The modern portfolio theory states that under the homogenous expectations assump
 </div>
 
 The limiting case of the S&P 500 index trading example will lead us to something fairly similar to Harry Markowitz's conceptual world of equilibrium, where
-* every investor only holds the market portfolio
+* every investor only holds the market portfolio as far as risky assets are concerned
 * every transaction is done via trading the market portfolio
 
-As mentioned earlier, the fact that market portfolio becomes the only trading vehicle will consequently make all individual risky assets that the market is composed of go up and down in price as one, implying the same return, volatility across the market as well as a pairwise correlation of 1 between any two risky assets.
+As mentioned earlier, the fact that market portfolio becomes the only trading vehicle will consequently make every individual risky assets that constitutes the market go up and down in price as one, implying the same return, volatility across the market as well as a pairwise correlation of 1 between any two of them.
 
 ## The True Equilibrium
 
-Fortunately, market always finds a way to restore balance, by virtue of the collective efforts from the rational, diligent and profit-seeking investors. As with all arbitrage opportunities, exploiting them will cause them to diminish and eventually disappear. Price of overvalued assets will decrease, implying a higher expected return in the future so that people are going to be willing to hold them in their portfolios again; on the other hand, price of undervalued assets will rise and people will no longer find them as attractive and thus decide to reduce their holdings. 
-
-Along the path towards the new equilibrium, market continuously updates the view of what the expected return and volatility for each asset should be, until it reaches the point where all of them align on a straight line that begins from the risk-free asset:
+As more investors become believers in modern portfolio theory along the path towards equilibrium, market continuously updates the view of what the expected return and volatility for each asset should be, until it reaches the point where all of them converge on a single point from a mean-variance standpoint.
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier3.svg" />
 </div>
-
 
 ## Implications
 
@@ -64,14 +61,21 @@ The comoving condition has profound implications beyond simply everything moving
 
 In fact, covariation with the market will not only become the exclusive systematic risk factor, but the sole source of risk in general as well. The value, size or momentum factors that are prevalent in the market today will not longer deliver excess return. Bearing the market risk will be able to fully explain of variation in the expected return.
 
+Everyday, market draws a random number $r$ out of some unknown distribution, which becomes the market return of the day. At the end of the day,
+* every risky asset goes up or down simultaneously by certain amount such that each delivers the same return $r$
+* the weights of risky asset remain unchanged indefinitely
+*
 
 ## A Self-fulfilling Prophecy
 
-## Conculsions
+So far we have not challenged any assumption explicitly or implicitly assumed within the modern portfolio theory framework, nor have we brought in any additional constraint. The thought experiment of a market in equilibrium took us thus far and now it's time to revisit the building blocks.
+
+
+## Conclusions
 
 ## Appendix
 
-### Paired Two-sampe t-test
+### Paired Two-sample t-test
 
 $$
 H_0: \overline{\rho_{before}} - \overline{\rho_{after}} \geq 0\\

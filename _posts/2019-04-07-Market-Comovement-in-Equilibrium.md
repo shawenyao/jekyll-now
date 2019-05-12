@@ -49,7 +49,7 @@ As mentioned earlier, the fact that market portfolio becomes the only trading ve
 
 ## The True Equilibrium
 
-As more investors become believers in modern portfolio theory along the path towards equilibrium, market continuously updates the view of what the expected return and volatility for each asset should be, until it reaches the point where all of them converge on a single point from a mean-variance standpoint.
+As more investors become believers in modern portfolio theory along the path towards equilibrium, market continuously updates its view of what the expected return and volatility for each asset should be, until it reaches the point where all of them converge on a single point from a mean-variance standpoint.
 
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier3.svg" />
@@ -62,7 +62,7 @@ The comoving condition has profound implications beyond simply everything moving
 * the weights of risky asset remain unchanged indefinitely
 * any deviation from such norm will result in either excess demand or supply of certain assets, and thus violates our prerequisite of market equilibrium
 
-Under such condition, covariation with the market will not only become the exclusive systematic risk factor, but the sole source of risk in general as well. The value, size or momentum factors that are prevalent in the market today will not longer deliver excess return. Bearing the market risk will be able to fully explain of variation in the expected return. Earning surprise of one company will hit the market as a whole, regardless of how detached every company's business models are.
+Under such condition, covariation with the market will not only become the exclusive systematic risk factor, but the sole source of risk in general as well. The value, size and momentum factors that are prevalent in the market today will not longer deliver excess return. Bearing the market risk will be able to fully explain of variation in the expected return. Earning surprise of one company will hit the market as a whole, regardless of how detached every company's business models are.
 
 
 

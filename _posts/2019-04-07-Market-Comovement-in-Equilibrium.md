@@ -45,19 +45,9 @@ The limiting case of the S&P 500 index trading example will lead us to something
 * every investor only holds the market portfolio
 * every transaction is done via trading the market portfolio
 
-As mentioned earlier, the fact that market portfolio becomes the only trading vehicle will consequently make all individual risky assets that the market is composed of go up and down in price as one, implying a pairwise correlation of 1.
+As mentioned earlier, the fact that market portfolio becomes the only trading vehicle will consequently make all individual risky assets that the market is composed of go up and down in price as one, implying the same return, volatility across the market as well as a pairwise correlation of 1 between any two risky assets.
 
-### Degeneration of the Efficient Frontier
-
-Holding everything else constant, we plug in the condition that every pairwise correlation equals to 1. As long as there are at least two risky assets on the market, volatility can be completely diversified away by going long in one and short in the other with the appropriate weighting scheme. Should the resulting zero-volatility portfolio have an expected return not the same as the risk-free rate, the efficient frontier reduces to a vertical line at volatility equals to 0.
-
-<div align="center">
-  <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier2.svg" />
-</div>
-
-If the efficient frontier in such form looks unorthodox, that's because it is too good to be true. As it stands, at least two zero-volatility assets (the true risk-free asset and the synthetic one) coexist. Any possible return can be promised by borrowing at the lower "risk-free" rate and investing at the higher one, with absolute zero uncertainty. The presence of guaranteed, risk-free and profitable arbitrage opportunity violates our premise of a market in equilibrium.
-
-### The True Equilibrium
+## The True Equilibrium
 
 Fortunately, market always finds a way to restore balance, by virtue of the collective efforts from the rational, diligent and profit-seeking investors. As with all arbitrage opportunities, exploiting them will cause them to diminish and eventually disappear. Price of overvalued assets will decrease, implying a higher expected return in the future so that people are going to be willing to hold them in their portfolios again; on the other hand, price of undervalued assets will rise and people will no longer find them as attractive and thus decide to reduce their holdings. 
 
@@ -67,44 +57,12 @@ Along the path towards the new equilibrium, market continuously updates the view
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/efficient_frontier3.svg" />
 </div>
 
-Or equivalently, all assets will have the same Sharpe ratio:
-
-$$
-Sharpe\ Ratio = \frac{ E(r) - r_f }{ \sigma }
-$$
-
-As such, despite all risky assets still being perfectly correlated, any zero-volatility portfolio synthesized this way will by design have the same expected return as the risk-free rate. At this point, every risky asset is a fair game from a mean-variance optimization standpoint, but investors will continue to hold them through (and only through) holding the market portfolio. This is the only form in which the market reaches the state of equilibrium while staying arbitrage-free.
 
 ## Implications
 
 The comoving condition has profound implications beyond simply everything moving together.
 
-### Return and Volatility
-
-If pairwise correlation equals 1 throughout the market, expected return and volatility of the market portfolio simply become the value-weighted average of every risky asset's expected return and volatility.
-
-$$
-E(r_m) = \displaystyle \sum_{ i = 1 }^N w_i E(r_i)
-$$
-
-$$
-\sigma_m = \displaystyle \sum_{ i = 1 }^N w_i \sigma_i
-$$
-
-### CAPM
-
-$$
-\begin{align}
-\beta_{i} &= \frac{ \sigma_{i, m} }{ \sigma_m^2 } \\
-&= \rho_{i, m} \frac{ \sigma_{i} \sigma_m }{ \sigma_m^2 } \\
-&= \frac{ \sigma_{i}  }{ \sigma_m }
-\end{align}
-$$
-
 In fact, covariation with the market will not only become the exclusive systematic risk factor, but the sole source of risk in general as well. The value, size or momentum factors that are prevalent in the market today will not longer deliver excess return. Bearing the market risk will be able to fully explain of variation in the expected return.
-
-Security market line effectively becomes a horizontally-stretched version of capital market line. What's more, either undervaluation or overvaluation of risky assets becomes something of the past as all of the assets must be fairly valued by the market, placing them exactly on the security market line.
-
 
 
 ## A Self-fulfilling Prophecy

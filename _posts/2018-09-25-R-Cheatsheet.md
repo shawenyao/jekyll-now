@@ -37,3 +37,10 @@ remove_leading_zeros <- function(character_vector){
     substr(start = regexpr(pattern = "[^0]", text = .), stop = nchar(.))
 }
 ```
+#### Fix the "unable to move temporary installation" issue
+
+```r
+trace(utils:::unpackPkgZip, edit = TRUE)
+```
+Replace `Sys.sleep(0.5)` with `Sys.sleep(2.5)` on line 142.
+

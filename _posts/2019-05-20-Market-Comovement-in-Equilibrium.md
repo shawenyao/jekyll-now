@@ -70,7 +70,7 @@ Recall that the market portfolio is meant to be the value-weighted collection of
 
 ## Appendix
 
-### Paired Two-sample t-test of return correlation with the market
+### Paired Two-sample t-test of Return Correlation with the Market
 
 $$
 H_0: \overline{\rho_{before}} - \overline{\rho_{after}} \geq 0\\

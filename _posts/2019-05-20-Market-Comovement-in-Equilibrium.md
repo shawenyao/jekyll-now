@@ -64,7 +64,7 @@ The comoving condition has profound implications beyond simply everything moving
 
 Under such condition, covariation with the market will not only become the exclusive systematic risk factor, but the sole source of risk in general as well. The value, size and momentum factors that are prevalent in the market today will not longer deliver excess return. Bearing the market risk fully explains the variation of the return or the risk.
 
-Recall that the market portfolio is meant to the value-weighted collection of every risky asset, financial or not. How farfetched is it going to be if Apple's senior corporate bond delivers the same realized return and volatility as, say, Bitcoin?
+Recall that the market portfolio is meant to be the value-weighted collection of every risky asset, financial or not. How farfetched is it going to be if a condo in San Francisco delivers the same realized return and volatility as, say, Bitcoin? How can the human capital of a Chinese teenager respond immediately to, say, the earnings surprise of Apple Inc? Most importantly, how stable (or unstable, in this case) will such equilibrium be before someone realizes something is off?
 
 
 ## Appendix

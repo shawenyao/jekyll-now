@@ -17,7 +17,7 @@ One of such curious cases is the modern portfolio theory. Harry Markowitz forese
 
 However, the story does not end there. Since the only way in which investors are willing to alter their exposure to risky assets is to adjust their positions in the market portfolio, every order placed on it exerts identical buying (or selling) pressure on all of its constituents. Upon successful fulfillment of such orders, each constituent's price goes up (or down) by the same amount percentage-wise and the market portfolio remains the value-weighted collection of all risky assets.
 
-A market where everything moves in synchrony presents potential arbitrage opportunities that cannot be sustainable in the long run. It is along these lines that I show in this paper the evidence that the market comovement is stronger than ever, and where it can lead us in equilibrium.
+A market where everything moves in synchrony presents potential arbitrage opportunities that cannot be sustainable in the long run. It is along these lines that I show in this post the evidence that the market comovement is stronger than ever, and where it can lead us in equilibrium.
 
 ## Index Trading and Return Covariation
 
@@ -32,6 +32,9 @@ The difference is small yet significant. The paired two-sample t-test suggests t
 <div align="center">
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study3_pre_post_distribution.svg" />
 </div>
+
+Granted, the daily trading volume of the S&P 500 constituents that's attributable to index trading is far from dominant, and firm-specific news still play a major role in price discovery. However, whether we like it or not, there is also no denial that passive portfolio management is on the [rise](https://www.cnbc.com/2019/03/19/passive-investing-now-controls-nearly-half-the-us-stock-market.html), brining us ever so slightly closer to Harry Markowitz's promised land.
+
 
 ## A Comoving Market
 
@@ -64,7 +67,7 @@ The comoving condition has profound implications beyond simply everything moving
 
 Under such condition, covariation with the market will not only become the exclusive systematic risk factor, but the sole source of risk in general as well. The value, size and momentum factors that are prevalent in the market today will not longer deliver excess return. Bearing the market risk fully explains the variation of the return or the risk.
 
-Recall that the market portfolio is meant to be the value-weighted collection of every risky asset, financial or not. How farfetched is it going to be if a condo in San Francisco delivers the same realized return and volatility as, say, Bitcoin? How can the human capital of a Chinese teenager respond immediately to, say, the earnings surprise of Apple Inc? Most importantly, how stable (or unstable, in this case) will such equilibrium be before someone realizes something is off?
+Recall that the market portfolio is meant to be the value-weighted collection of every risky asset, financial or not. How farfetched is it going to be if a condo in San Francisco delivers the same realized return and volatility as, say, Bitcoin? How can the human capital of a Chinese college student respond immediately to, say, the earnings surprise of Apple Inc? Most importantly, how stable (or unstable, in this case) will such equilibrium be before someone realizes something is off?
 
 
 ## Appendix

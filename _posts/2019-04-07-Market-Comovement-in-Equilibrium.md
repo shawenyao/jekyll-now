@@ -4,7 +4,7 @@ title: Market Comovement in Equilibrium
 tag:
   - finance
 comments: true
-draft: true
+draft: false
 ---
 
 A glimpse of the promised land.

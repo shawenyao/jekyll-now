@@ -31,7 +31,7 @@ The difference is small yet significant. The paired two-sample t-test suggests t
   <img src="https://shawenyao.github.io/ETF-vs-rho/output/event_study3_pre_post_distribution.svg" />
 </div>
 
-Granted, the daily trading volume of the S&P 500 constituents that's attributable to index trading is far from dominant, and firm-specific news still play a major role in price discovery. However, whether we like it or not, there is also no denial that passive portfolio management is on the [rise](https://www.cnbc.com/2019/03/19/passive-investing-now-controls-nearly-half-the-us-stock-market.html), brining us ever so slightly closer to Harry Markowitz's promised land.
+Granted, the daily trading volume of the S&P 500 constituents that's attributable to index trading is far from dominant, and firm-specific news still play a major role in price discovery. However, whether we like it or not, there is also no denying that passive portfolio management is on the [rise](https://www.cnbc.com/2019/03/19/passive-investing-now-controls-nearly-half-the-us-stock-market.html), brining us ever so slightly closer to Harry Markowitz's promised land.
 
 
 ## A Comoving Market

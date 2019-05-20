@@ -62,16 +62,10 @@ The comoving condition has profound implications beyond simply everything moving
 * the weights of risky asset remain unchanged indefinitely
 * any deviation from such norm will result in either excess demand or supply of certain assets, and thus violates our prerequisite of market equilibrium
 
-Under such condition, covariation with the market will not only become the exclusive systematic risk factor, but the sole source of risk in general as well. The value, size and momentum factors that are prevalent in the market today will not longer deliver excess return. Bearing the market risk will be able to fully explain of variation in the expected return. Earning surprise of one company will hit the market as a whole, regardless of how detached every company's business models are.
+Under such condition, covariation with the market will not only become the exclusive systematic risk factor, but the sole source of risk in general as well. The value, size and momentum factors that are prevalent in the market today will not longer deliver excess return. Bearing the market risk fully explains the variation of the return or the risk.
 
+Recall that the market portfolio is meant to the value-weighted collection of every risky asset, financial or not. How farfetched is it going to be if Apple's senior corporate bond delivers the same realized return and volatility as, say, Bitcoin?
 
-
-## A Self-fulfilling Prophecy
-
-So far we have not challenged any assumption explicitly or implicitly assumed within the modern portfolio theory framework, nor have we brought in any additional constraint. The thought experiment of a market in equilibrium took us thus far and now it's time to revisit the building blocks.
-
-
-## Conclusions
 
 ## Appendix
 

@@ -26,6 +26,13 @@ setwd(dirname(sys.frame(1)$ofile))
 options(stringsAsFactors = FALSE)
 ```
 
+#### Save a copy of console output to file
+```r
+sink("log.txt", split = TRUE)
+# your original script here
+sink()
+```
+
 #### Remove leading zeros in a character vector
 
 ```r

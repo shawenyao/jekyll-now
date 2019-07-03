@@ -7,3 +7,5 @@ comments: true
 draft: true
 ---
 
+Or, how to wait for traffic signals optimally?
+

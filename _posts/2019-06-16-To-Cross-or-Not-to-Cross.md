@@ -31,6 +31,13 @@ To find out, let's take a walk. Note that since you have to walk the full [Manha
 
 ## Strategy 1: Let the Light Guide Your Way
 
+You are a brave soul. You don't want to be bound by any rules. So you keep it simple. You follow wherever the green light tells you to go, unless you've already reached the boundary, where you wait for the signals to turn green (if you have to).
+
 ## Strategy 2: Ride Along Main Street
 
+Main Street, defined as the street with the highest "importance", has a nice property to it. If you walk along Main Street, chances are that you will face green traffic signals more often than it would have been otherwise on any other street.
+
 ## Strategy 3: Conditional Wait
+
+We've already shown that not every traffic signal comes equal. Suppose you are walking _eastbound_ along one of the major streets, more likely than not, you get a green light. But you also notice that the green light that permits you to walk straight ahead is dying out, and soon enough, you will be able to make a turn and go _northbound_. You decide to seize the opportunity, beacuse waiting a few seconds for something this rare sounds like a good deal.
+

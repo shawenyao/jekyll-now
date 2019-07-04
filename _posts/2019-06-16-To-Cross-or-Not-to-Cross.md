@@ -25,7 +25,7 @@ I am not sure about you, but I would very much prefer to be at point D.
 
 Why? Because red and green signals aren't evenly distributed. Usually, main streets have a larger share of green light, while the minor ones get more red. Each road has a certain level of "importance" associated with it, as demonstratively indicated by the width of the lane in the plot above.
 
-So you ask yourself: how do you make sure that you always end up in point D? In order to achieve this, does it make sense to wait for a few seconds in one or more of the preceding crossroads? More generally, does the optimal decision exist?
+So you say to yourself: it seems a really good idea to end up in point D. In order to pull it off, does it make sense to wait for a few seconds in one or more of the preceding crossroads? More generally, does the optimal decision exist?
 
 ## Strategy 1: Let the Light Guide Your Way
 

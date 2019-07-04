@@ -89,5 +89,7 @@ where $\rho = \cos 120^\text{o} = -0.5$.
 ## Final Thoughts
 Both methods can be easily extended to the 4-random-variable case. In the algebraic solution, all it takes is to include the constraint of the 4th-order leading minor in the system of inequalities; in the graphical one, the equilateral triangle becomes a regular tetrahedron.
 
-For 5 random variables and beyond, the former seems to be the better approach due to my inability of further mental visualization, but feel free to leave a comment if you believe otherwise. A more generalized solution can be found in [Part II](/N-Random-Variables/).
+For 5 random variables and beyond, the former seems to be the better approach due to my inability of further mental visualization, but feel free to leave a comment if you believe otherwise.
+
+_Note: a more generalized solution can be found in [Part II](/N-Random-Variables/)._
 

@@ -27,6 +27,8 @@ Why? Because red and green signals aren't evenly distributed. Usually, main stre
 
 So you say to yourself: it seems a really good idea to end up in point D. In order to pull it off, does it make sense to wait for a few seconds in one or more of the preceding crossroads? More generally, does the optimal decision exist?
 
+To find out, let's take a walk.
+
 ## Strategy 1: Let the Light Guide Your Way
 
 ## Strategy 2: Ride Along Main Street

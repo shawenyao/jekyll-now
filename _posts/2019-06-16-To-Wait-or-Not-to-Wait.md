@@ -31,7 +31,7 @@ To find out, let's take a walk. Note that since you have to walk the full [Manha
 
 ## Strategy 1: Let the Light Guide Your Way
 
-You are a brave soul. You don't want to be bound by any rules. So you keep it simple. You follow wherever the green light tells you to go, unless you've already reached the boundary, where you wait for the signals to turn green (if you have to).
+You are a brave soul. You don't want to be bound by any rules. So you keep it simple. You follow wherever the green light tells you to go, unless you've already reached the boundary, in which case you wait for the signals to turn green (if you have to).
 
 ## Strategy 2: Ride Along Main Street
 

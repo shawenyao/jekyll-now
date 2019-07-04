@@ -23,4 +23,6 @@ I am not sure about you, but I would very much prefer to be at point D.
   <img src="https://shawenyao.github.io/R/output/to_cross_or_not_to_cross/plot2.svg" />
 </div>
 
-Why? Because red and green lights aren't evenly distributed. Usually, the main roads will get a bigger share of green signal, while the minor ones will get more red.
+Why? Because red and green lights aren't evenly distributed. Usually, the main roads have a bigger share of green signal, while the minor ones have more red.
+
+So how do you make sure you always end up in point D? In order to achieve this, does it make sense to wait for a few seconds in one or more of the preceding crossroads?

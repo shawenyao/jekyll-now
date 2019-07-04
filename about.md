@@ -8,7 +8,7 @@ permalink: /about/
 
 Hello world.
 
-I enjoy data visualization, photography and occasionally, building LEGO sets. For more information, check out the links below.
+I enjoy data visualization, algorithm optimization and occasionally, building LEGO sets. For more information, check out the links below.
 
 <br>
 

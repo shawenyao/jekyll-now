@@ -13,7 +13,7 @@ A numerical experiment on how to optimally wait for traffic signals.
   <img src="https://shawenyao.github.io/R/output/to_cross_or_not_to_cross/plot1.svg" />
 </div>
 
-You are commuting on foot in Manhattan. You wish to go from point A to point B. The only thing standing in your way is the numerous traffic lights. How should you strategize? To start with, do you go north or east first?
+You are commuting on foot in Manhattan. You wish to go from point A to point B. The only thing standing in your way is the numerous traffic lights. How should you strategize? To start with, do you go south or east first?
 
 Since there's no obvious advantage or disadvantage going either way, you decide to let the green light guide your way. All goes well until you've reached point C or point D, where finally, there is a clear winner.
 
@@ -39,7 +39,7 @@ Main Street, defined as the street with the highest "importance", has a nice pro
 
 ## Strategy 3: Conditional Wait
 
-We've already shown that not every traffic signal comes equal. Suppose you are walking _eastbound_ along one of the major streets. More likely than not, you run into a green light. But you also notice that the green light that allows you to walk straight ahead is dying out, and soon enough, you will be able to make a turn and go _northbound_. You decide to seize the opportunity, beacuse waiting a few seconds for something this rare sounds like a good deal.
+We've already shown that not every traffic signal comes equal. Suppose you are walking _eastbound_ along one of the major streets. More likely than not, you run into a green light. But you also notice that the green light that allows you to walk straight ahead is dying out, and soon enough, you will be able to make a turn and go _southbound_. You decide to seize the opportunity, beacuse waiting a few seconds for something this rare sounds like a good deal.
 
 ## Strategy 4: Pick and Choose
 Every strategy so far assumes that you only have access to local topological information, i.e., you know the current wait time and the "importance" of the two crossing streets at the crossroad that you are standing at. But you, being the frequent commuter that you are, know exactly what's before and what's ahead. 

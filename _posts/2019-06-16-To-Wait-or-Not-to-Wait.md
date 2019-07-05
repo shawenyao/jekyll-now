@@ -42,7 +42,7 @@ Main Street, defined as the street with the highest "importance", has a nice pro
 We've already shown that not every traffic signal comes equal. Suppose you are walking _eastbound_ along one of the major streets. More likely than not, you run into a green light. But you also notice that the green light that allows you to walk straight ahead is dying out, and soon enough, you will be able to make a turn and go _southbound_. You decide to seize the opportunity, beacuse waiting a few seconds for something this rare sounds like a good deal.
 
 ## Strategy 4: Pick and Choose
-Every strategy so far assumes that you only have access to local topological information, i.e., you know the current wait time and the "importance" of the two crossing streets at the crossroad that you are standing at. But you, being the frequent commuter that you are, know exactly what's before and what's ahead. 
+Every strategy so far assumes that you only have access to local topological information, i.e., you know the current wait time and the "importance" of the two crossing streets at the intersection that you are standing at. But you, being the frequent commuter that you are, know exactly what's before and what's ahead. 
 
 As such, you would like to maximize your exposure to the traffic signals that has the highest chance of being green.
 

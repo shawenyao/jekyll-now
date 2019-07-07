@@ -4,7 +4,7 @@ title: To Wait or Not to Wait
 tag:
   - maths
 comments: true
-draft: true
+draft: false
 ---
 
 A numerical experiment on how to optimally wait for traffic signals.

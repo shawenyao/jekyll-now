@@ -38,7 +38,7 @@ You are a brave soul. You don't want to be bound by any rules. So you keep it si
 We've already shown that not every traffic signal comes equal. Suppose you are walking _eastbound_ along one of the major streets. More likely than not, you run into a green light. But you also notice that the green light that allows you to walk straight ahead is dying out, and soon enough, you will be able to make a turn and go _southbound_. You decide to seize the opportunity, beacuse waiting a few seconds for something this rare sounds like a good deal.
 
 The conditional wait strategy requires the introduction of two new parameters:
-* the "rarity" of a greenlight, defined as the ratio of the current wait time to maximum wait time
+* the "rarity" of a green light, defined as the ratio of the current wait time to maximum wait time
 * the relative "importnace" of a road, defined as the ratio of the absolute "importance" of the two crossing roads
 
 ## Strategy 3: Ride Along Main Street

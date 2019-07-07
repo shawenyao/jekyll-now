@@ -43,7 +43,7 @@ The conditional wait strategy requires the introduction of two new parameters:
 
 ## Strategy 3: Ride Along Main Street
 
-Main Street, defined as the street of the highest "importance" (either horizontaly or vertically), has a nice property to it. If you walk along Main Street, chances are that you will face green traffic signals more often than it would have been otherwise on any other street.
+Main Street, defined as the street of the highest "importance" (either horizontaly or vertically), has a nice property to it. If you walk along Main Street, chances are that you will face green traffic signals more often than it would have been otherwise on any other street - you might even encounter several green lights in a row if you get lucky. 
 
 ## Putting it All Together
 
@@ -52,4 +52,6 @@ Main Street, defined as the street of the highest "importance" (either horizonta
 </div>
 
 Numerical simulation suggests that you simply cannot beat strategy 1. Strategy 2 gradually gets worse as we increase the two artificial thresholds that enable it to behave differently from strategy 1. Strategy 3, while doesn't sound like a terrible idea, performs the worst.
+
+So next time you are in doubt, remember to let the (green) light guide your way.
 

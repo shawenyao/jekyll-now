@@ -33,12 +33,23 @@ To find out, let's take a walk. Note that since you have to walk the full [Manha
 
 You are a brave soul. You don't want to be bound by any rules. So you keep it simple. You follow wherever the green light tells you to go, unless you've already reached the boundary, in which case you wait for the signals to turn green (if you have to).
 
-## Strategy 2: Ride Along Main Street
-
-Main Street, defined as the street with the one of high "importance" (either horizontaly or vertically), has a nice property to it. If you walk along Main Street, chances are that you will face green traffic signals more often than it would have been otherwise on any other street.
-
-## Strategy 3: Conditional Wait
+## Strategy 2: Conditional Wait
 
 We've already shown that not every traffic signal comes equal. Suppose you are walking _eastbound_ along one of the major streets. More likely than not, you run into a green light. But you also notice that the green light that allows you to walk straight ahead is dying out, and soon enough, you will be able to make a turn and go _southbound_. You decide to seize the opportunity, beacuse waiting a few seconds for something this rare sounds like a good deal.
 
+The conditional wait strategy requires the introduction of two new parameters:
+* the "rarity" of a greenlight, defined as the ratio of the current wait time to maximum wait time
+* the relative "importnace" of a road, defined as the ratio of the absolute "importance" of the two crossing roads
+
+## Strategy 3: Ride Along Main Street
+
+Main Street, defined as the street of the highest "importance" (either horizontaly or vertically), has a nice property to it. If you walk along Main Street, chances are that you will face green traffic signals more often than it would have been otherwise on any other street.
+
+## Putting it All Together
+
+Simulation result suggests that you simply cannot beat strategy 1. Strategy 2 gradually gets worse as we increase the two artificial thresholds that enable it to behave differently from strategy 1. Strategy 3, while doesn't sound like a terrible idea, performs the worst.
+
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/to_cross_or_not_to_cross/plot2.svg" />
+</div>
 

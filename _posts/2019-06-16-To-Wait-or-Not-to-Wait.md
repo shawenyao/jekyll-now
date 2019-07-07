@@ -39,11 +39,11 @@ You are walking _eastbound_ along one of the major streets. More likely than not
 
 The conditional wait strategy requires the introduction of two new parameters:
 * the "rarity" of a green light, defined as the ratio of the current wait time to maximum wait time
-* the relative "importnace" of a road, defined as the ratio of the absolute "importance" of the two crossing roads
+* the relative "importance" of a road, defined as the ratio of the absolute "importance" of the two crossing roads
 
 ## Strategy 3: Ride Along Main Street
 
-Main Street, defined as the street of the highest "importance" (either horizontaly or vertically), has a nice property to it. If you walk along Main Street, chances are that you will face green traffic signals more often than it would have been otherwise on any other street - you might even encounter several green lights in a row if you get lucky. 
+Main Street, defined as the street of the highest "importance" (either horizontally or vertically), has a nice property to it. If you walk along Main Street, chances are that you will face green traffic signals more often than it would have been otherwise on any other street - you might even encounter several green lights in a row if you get lucky.
 
 ## Putting it All Together
 
@@ -55,4 +55,4 @@ Numerical simulation suggests that you simply cannot beat strategy 1. Strategy 2
 
 So next time you are in doubt, remember to let the (green) light guide your way.
 
-* It's worthy noting that introducing correlation bewteen green lights along Main Street, as is usually the case in real life, might make a significant difference.
+* It's worthy noting that introducing correlation between green lights along Main Street, as is usually the case in real life, might make a significant difference.

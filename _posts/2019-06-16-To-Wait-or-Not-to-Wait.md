@@ -21,7 +21,7 @@ Since there's no obvious advantage or disadvantage going either way, you decide 
   <img src="https://shawenyao.github.io/R/output/to_cross_or_not_to_cross/plot2.svg" />
 </div>
 
-I am not sure about you, but between point C and point D, I would very much prefer the latter.
+I am not sure about you, but between point C and point D, I would very much prefer the former.
 
 Why? Because traffic signals aren't evenly distributed. Usually, main streets have a larger share of green light, while the minor ones get more red. Each road has a certain level of "importance" associated with it, as demonstratively indicated by the width of the lane in the plot above.
 

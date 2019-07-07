@@ -37,7 +37,7 @@ You are a brave soul. You don't want to be bound by any rules. So you keep it si
 
 You are walking _eastbound_ along one of the major streets. More likely than not, you run into a green light. But you also notice that the green light that allows you to walk straight ahead is dying out, and soon enough, you will be able to make a turn and go _southbound_. You decide to seize the opportunity, because waiting a few seconds for something this rare seems a good deal.
 
-The conditional wait strategy requires the introduction of two new parameters:
+To fully specify the conditional wait strategy, we introduce two new parameters:
 * the "rarity" of a green light, defined as the ratio of the current wait time to maximum wait time
 * the relative "importance" of a road, defined as the ratio of the absolute "importance" of the two crossing roads
 
@@ -55,4 +55,4 @@ Numerical simulation suggests that you simply cannot beat strategy 1. Strategy 2
 
 So next time you are in doubt, remember to let the (green) light guide your way.
 
-* It's worthy noting that introducing correlation between green lights along Main Street, as is usually the case in real life, might make a significant difference.
+* It's worthy noting that the introduction of correlation between green lights along Main Street, as is usually the case in real life, might make a significant difference.

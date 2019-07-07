@@ -47,9 +47,9 @@ Main Street, defined as the street of the highest "importance" (either horizonta
 
 ## Putting it All Together
 
-Simulation result suggests that you simply cannot beat strategy 1. Strategy 2 gradually gets worse as we increase the two artificial thresholds that enable it to behave differently from strategy 1. Strategy 3, while doesn't sound like a terrible idea, performs the worst.
-
 <div align="center">
-  <img src="https://shawenyao.github.io/R/output/to_cross_or_not_to_cross/plot2.svg" />
+  <img src="https://shawenyao.github.io/R/output/to_cross_or_not_to_cross/plot3.svg" />
 </div>
+
+Numerical simulation suggests that you simply cannot beat strategy 1. Strategy 2 gradually gets worse as we increase the two artificial thresholds that enable it to behave differently from strategy 1. Strategy 3, while doesn't sound like a terrible idea, performs the worst.
 

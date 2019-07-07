@@ -15,7 +15,7 @@ A numerical experiment on how to optimally wait for traffic lights.
 
 You are commuting on foot in Manhattan. You wish to go from point A to point B. The only thing standing in your way is the numerous traffic signals. How should you strategize? To start with, do you go south or east first?
 
-Since there's no obvious advantage or disadvantage going either way, you decide to let the green light guide your way. All goes well until you've reached point C or point D, where finally, there is a clear winner.
+Since there's no obvious advantage or disadvantage going either way, you decide to follow the green light. All goes well until you've reached point C or point D, where finally, there is a clear winner.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/to_cross_or_not_to_cross/plot2.svg" />

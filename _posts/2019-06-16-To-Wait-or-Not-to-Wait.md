@@ -27,7 +27,7 @@ Why? Because traffic signals aren't evenly distributed. Usually, main streets ha
 
 So you say to yourself: it seems a really good idea to end up in point D. To pull it off, does it make sense to wait for a few seconds in one or more of the preceding crossroads? More generally, is there an optimal decision?
 
-To find out, let's take a walk. Note that since you have to walk the full [Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry) in any case, the time spent on actual walking is irrelevant for comparison purposes.
+To find out, let's take a virtual walk. Note that since you have to walk the full [Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry) in any case, the time spent on actual walking is irrelevant for comparison purposes.
 
 ## Strategy 1: Let the Light Guide Your Way
 

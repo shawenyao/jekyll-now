@@ -51,7 +51,8 @@ Main Street, defined as the street of the highest "importance" (either horizonta
   <img src="https://shawenyao.github.io/R/output/to_cross_or_not_to_cross/plot3.svg" />
 </div>
 
-Numerical simulation suggests that you simply cannot beat strategy 1. Strategy 2 gradually gets worse as we increase the two artificial thresholds that enable it to behave differently from strategy 1. Strategy 3, while by no means sound like a crazy idea, performs the worst.
+Numerical simulation suggests that you simply cannot beat strategy 1. Strategy 2 gradually gets worse as we increase the two artificial thresholds that enable it to behave differently from strategy 1. Strategy 3, while by no means sound like a crazy idea, performs the worst *.
 
 So next time you are in doubt, remember to let the (green) light guide your way.
 
+* It's worthy noting that introducing correlation bewteen green lights along Main Street, as is usually the case in real life, might make a significant difference.

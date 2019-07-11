@@ -38,8 +38,8 @@ You are a brave soul. You don't want to be bound by any rules. So you keep it si
 You are walking _eastbound_ along one of the major streets. More likely than not, you run into a green light. But you also notice that the green light that allows you to walk straight ahead is dying out, and soon enough, you will be able to make a turn and go _southbound_. You decide to seize the opportunity, because waiting a few seconds for something this rare seems a good deal.
 
 To fully specify the conditional wait strategy, we introduce two new parameters:
-* the "rarity" of a green light, defined as the ratio of the current wait time to maximum wait time
-* the relative "importance" of a road, defined as the ratio of the absolute "importance" of the two crossing roads
+* the "rarity" of a green light, defined as the ratio of the current wait time to maximum wait time. The lower it is, the more likely you are inclined to wait for it when it's about to turn green.
+* the relative "importance" of a road, defined as the ratio of the absolute "importance" of the two crossing roads. The lower it is, the less likely you will be able to cross it with ease - one more reason you might want to wait if the green light isn't too far away.
 
 ## Strategy 3: Ride Along Main Street
 

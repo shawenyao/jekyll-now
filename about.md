@@ -6,9 +6,7 @@ permalink: /about/
 
 <br>
 
-Hello world.
-
-I enjoy data visualization, algorithm optimization and occasionally, building LEGO sets. For more information, check out the links below.
+An enthusiast of data visualization, algorithm optimization and occasionally, building LEGO sets. For more information, check out the links below.
 
 <br>
 

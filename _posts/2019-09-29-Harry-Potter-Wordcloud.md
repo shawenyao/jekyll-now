@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Harry Potter Wordcloud: Book
+title: Harry Potter Wordcloud Book 1-7
 tag:
   - visualization
-  - text mining
+  - maths
+  - sports
 comments: true
-draft: false
+draft: true
 ---
 
 Plus the "exclusive" words in each book.

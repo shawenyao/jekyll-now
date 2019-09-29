@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Harry Potter Wordcloud: Book 1-7
+title: Harry Potter Wordcloud: Book
 tag:
   - visualization
   - text mining

@@ -3,8 +3,7 @@ layout: post
 title: Harry Potter Wordcloud Book 1-7
 tag:
   - visualization
-  - maths
-  - sports
+  - text mining
 comments: true
 draft: true
 ---

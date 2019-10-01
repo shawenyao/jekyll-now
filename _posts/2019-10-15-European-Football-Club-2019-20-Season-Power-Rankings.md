@@ -11,7 +11,7 @@ draft: true
 
 A new season awaits.
 
-<object type="image/svg+xml" data="https://shawenyao.github.io/Who-is-number-1/output/footbal_2019_2020/European_Football_Club_2019_20_Season_Power_Rankings.svg"></object>
+<object type="image/svg+xml" data="https://shawenyao.github.io/Who-is-number-1/output/footbal_2019_2020/European_Football_Club_2019_20_Season_Power_Rankings.svg" style="width:100%;height:100%;"></object>
 
 <!--
 ![European Football Club Power Rankings - Colley's Method](https://shawenyao.github.io/Who-is-number-1/output/footbal_2019_2020/European_Football_Club_2019_20_Season_Power_Rankings.svg)

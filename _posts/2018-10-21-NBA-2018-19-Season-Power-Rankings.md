@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NBA 2018-19 Season Power Ranking
+title: NBA 2018-19 Season Power Rankings
 tag:
   - visualization
   - maths
@@ -10,6 +10,6 @@ comments: true
 
 Visualizing the evolution of performance ranking based on Colley's method.
 
-![NBA Power Ranking - Colley's Method](https://shawenyao.github.io/Who-is-number-1/output/NBA_Ranking_2018-2019.svg)
+![NBA Power Rankings - Colley's Method](https://shawenyao.github.io/Who-is-number-1/output/NBA_Ranking_2018-2019.svg)
 
 Last updated on `6/16/2019`.

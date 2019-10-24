@@ -1,6 +1,6 @@
 ---
 layout: post
-title: European Football Club 2019-20 Season Power Rankings
+title: European Football Clubs 2019-20 Season Power Rankings
 tag:
   - visualization
   - maths

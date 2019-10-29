@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NBA 2019-20 Season Power Ranking
+title: NBA 2019-20 Season Power Rankings
 tag:
   - visualization
   - maths

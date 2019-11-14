@@ -4,6 +4,7 @@ title: R Cheatsheet
 tag:
   - r
 comments: false
+ads: false
 ---
 
 The R commands that have made my life easier.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Suppressor - The Midas Touch
+title: Suppressor&#58 The Midas Touch
 tag:
   - maths
 draft: true

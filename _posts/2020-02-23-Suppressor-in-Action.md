@@ -3,7 +3,7 @@ layout: post
 title: Suppressor in Action
 tag:
   - maths
-draft: true
+draft: false
 comments: true
 ---
 Can adding additional explanatory variable make previously-insiginificant ones significant?

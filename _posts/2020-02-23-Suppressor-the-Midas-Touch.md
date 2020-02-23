@@ -1,0 +1,12 @@
+---
+layout: post
+title: Suppressor: The Midas Touch
+tag:
+  - maths
+draft: false
+comments: true
+---
+Can adding additional explanatory variable make previously-insiginificant ones significant?
+
+
+This calls for caution when we delete explanatory variable soley based on its insiginificance, as there might be *suppressor* lurking out there that we are missing.

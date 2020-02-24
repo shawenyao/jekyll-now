@@ -12,7 +12,11 @@ You are conducting regression analysis with lots of varibales. You find one of t
 
 In this post, I show that there exisits a certain category of explanatory variable (formerly known as [*suppressor*](https://en.wikipedia.org/wiki/Mediation_(statistics)#Other_third_variables)), the inclusion of which will increase the explanatory power of exisiting variables, so much so that insignificant ones might end up being significant.
 
+## Problem Formulation
+
 ## A Stylized Example
+
+
 
 ## Implications
 This calls for caution when we delete explanatory variable soley based on its insiginificance, as there might be *suppressor* lurking out there that has the potential of turning it into gold.

@@ -26,6 +26,14 @@ By definition, $x_2$ is the suppressor we are looking for.
 
 ## A Stylized Example
 
+```r
+n <- 100
+x1 <- rnorm(n, 0, 0.01)
+x2 <- runif(n, 0, 10)
+epsilon <- rnorm(n, 0, 0.001)
+y <- 3 + 1* x1 + 1 * x2 + epsilon
+```
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/suppressor/plot1.svg" />
 </div>

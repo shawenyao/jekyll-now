@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Suppressor&#58 The Midas Touch
+title: Suppressor&#58 the Midas Touch
 tag:
   - maths
+  - R
 draft: true
 comments: true
 ---
@@ -21,7 +22,7 @@ but siginificant in specification:
 
 $$ y = \alpha ^ \prime + \beta_1 ^ \prime x_1 + \beta_{ 2 } ^ \prime x_2 + \epsilon ^ \prime $$
 
-In this case, $x_2$ will be the supressor we are looking for.
+As a result, $x_2$ will be the supressor we are looking for.
 
 ## A Stylized Example
 

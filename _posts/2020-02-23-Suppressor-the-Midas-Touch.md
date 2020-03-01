@@ -28,15 +28,19 @@ By definition, $x_2$ is the suppressor we are looking for.
 
 ```r
 n <- 100
-x1 <- rnorm(n, 0, 0.01)
-x2 <- runif(n, 0, 10)
+x1 <- rnorm(n, 0, 0.01) # random varaible drawn from normal distribution
+x2 <- runif(n, 0, 10) # random variable drawn from uniform distribution
 epsilon <- rnorm(n, 0, 0.001)
-y <- 3 + 1* x1 + 1 * x2 + epsilon
+y <- 3 + 1 * x1 + 1 * x2 + epsilon
 ```
+
+As a result, $x1$ by itself will have limited explanatory power:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/suppressor/plot1.svg" />
 </div>
+
+But once we bring $x2$ into the equation, . This is due to the fact that after controlling for $x2$, the remainder of $y$ can be explained by $x2$ fairly well:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/suppressor/plot2.svg" />

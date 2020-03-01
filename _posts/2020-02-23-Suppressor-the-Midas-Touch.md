@@ -51,7 +51,7 @@ However, things change dramatically once we bring $x_2$ into the equation:
 | x2 | 1.000e+00 | 3.497e-05 | 28599.16 | <2e-16 |
 
 ## Discussion
-The real reason behind the weird case is the fact $x_2$ completely outshines $x_1$ in terms of the ability to explain the variation in $y$. $x_1$'s usefullness 
+The real reason behind the weird case is the fact $x_2$ completely outshines $x_1$ in terms of the ability to explain the variation in $y$. $x_1$'s usefullness is simply overwhelmed by the huge error term in the absence of $x_2$.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/suppressor/plot1.svg" />

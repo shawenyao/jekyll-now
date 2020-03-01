@@ -4,12 +4,12 @@ title: Suppressor&#58 the Midas Touch
 tag:
   - maths
   - R
-draft: true
+draft: false
 comments: true
 ---
 Can adding additional explanatory variable make previously-insiginificant ones significant?
 
-You are conducting regression analysis with lots of varibales. You find one of them has a huge p-value of. Can you drop it?
+You are conducting regression analysis with lots of varibales. You find one of them has a huge p-value. Can you drop it?
 
 Not so fast. In this post, I show that there exisits a certain category of explanatory variable (formally known as [*suppressor*](https://en.wikipedia.org/wiki/Mediation_(statistics)#Other_third_variables)), the inclusion of which will increase the explanatory power of exisiting variables, so much so that insignificant ones might end up being significant.
 
@@ -51,13 +51,13 @@ However, things change dramatically once we bring $x_2$ into the equation:
 | x2 | 1.000e+00 | 3.497e-05 | 28599.16 | <2e-16 |
 
 ## Discussion
-The real reason behind the weird case is the fact $x_2$ outshines $x_1$ to a great extent in terms of the ability to explain the variation in $y$. $x_1$'s usefullness 
+The real reason behind the weird case is the fact $x_2$ completely outshines $x_1$ in terms of the ability to explain the variation in $y$. $x_1$'s usefullness 
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/suppressor/plot1.svg" />
 </div>
 
-On the contrary, after controlling for $x2$ (which already does an excellent job in explaining $y$), the small but non-zero remainder of $y$ is almost entirely driven by $x_1$. 
+On the contrary, after controlling for $x_2$ (which already does an excellent job in explaining $y$), the small but non-zero remainder of $y$ is almost entirely driven by $x_1$. 
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/suppressor/plot2.svg" />
@@ -65,4 +65,4 @@ On the contrary, after controlling for $x2$ (which already does an excellent job
 
 
 ## Implications
-The existence of suprressor calls for caution when we delete explanatory variable soley based on its insiginificance, although it can also be argued that missing such an important regessor ($x_2$) in this case is the greater sin.
+The existence of suprressor calls for caution when we delete explanatory variables soley based on their insiginificance, although it can also be argued that missing such an important regessor in the first place ($x_2$ in this case) is the greater sin.

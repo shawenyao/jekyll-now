@@ -9,7 +9,7 @@ comments: true
 ---
 Can adding additional explanatory variable make previously-insiginificant ones significant?
 
-You are conducting regression analysis with lots of variables. You find one of them has a huge p-value. Can you drop it?
+You are conducting regression analysis with lots of variables. You find one of them has a huge p-value. Shall we drop it?
 
 Not so fast. In this post, I show that there exisits a certain category of explanatory variable (formally known as [*suppressor*](https://en.wikipedia.org/wiki/Mediation_(statistics)#Other_third_variables)), the inclusion of which will increase the explanatory power of exisiting variables, so much so that insignificant ones might end up being significant.
 

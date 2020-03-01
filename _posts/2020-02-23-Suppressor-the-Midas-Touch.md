@@ -18,7 +18,7 @@ Find $x_1$, $x_2$ and $y$ such that $x_1$ is insiginificant according specificat
 
 $$ y = \alpha + \beta_1 x_1 + \epsilon $$
 
-but siginificant in specification:
+but becomes siginificant in specification:
 
 $$ y = \alpha ^ \prime + \beta_1 ^ \prime x_1 + \beta_{ 2 } ^ \prime x_2 + \epsilon ^ \prime $$
 

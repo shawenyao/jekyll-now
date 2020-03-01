@@ -26,6 +26,13 @@ As a result, $x_2$ will be the supressor we are looking for.
 
 ## A Stylized Example
 
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/supressor/plot1.svg" />
+</div>
+
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/supressor/plot2.svg" />
+</div>
 
 
 ## Implications

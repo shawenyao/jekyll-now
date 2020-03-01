@@ -13,11 +13,13 @@ You are conducting regression analysis with lots of varibales. You find one of t
 Not so fast. In this post, I show that there exisits a certain category of explanatory variable (formerly known as [*suppressor*](https://en.wikipedia.org/wiki/Mediation_(statistics)#Other_third_variables)), the inclusion of which will increase the explanatory power of exisiting variables, so much so that insignificant ones might end up being significant.
 
 ## Problem Formulation
-Find $y$, $x_1$ and $x_2$ such that 
+Find $y$, $x_1$ and $x_2$ such that $x_1$ is insiginificant according specification
 
-$$ y = \alpha + \beta_{ 1 } x_1 + \epsilon $$
+$$ y = \alpha + \beta_1 x_1 + \epsilon $$
 
-$$ y = \alpha ^ \prime + \beta_{1} ^ \prime + \beta_{ 2 } ^ \prime + \epsilon ^ \prime $$
+but insiginificant in specification
+
+$$ y = \alpha ^ \prime + \beta_1 ^ \prime x_1 + \beta_{ 2 } ^ \prime x_2 + \epsilon ^ \prime $$
 
 
 ## A Stylized Example

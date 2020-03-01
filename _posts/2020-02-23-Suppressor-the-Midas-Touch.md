@@ -25,7 +25,7 @@ $$ y = \alpha ^ \prime + \beta_1 ^ \prime x_1 + \beta_{ 2 } ^ \prime x_2 + \epsi
 By definition, $x_2$ is the suppressor we are looking for.
 
 ## A Stylized Example
-One possible solution would be:
+One possible way to find such case would be:
 
 ```r
 n <- 100

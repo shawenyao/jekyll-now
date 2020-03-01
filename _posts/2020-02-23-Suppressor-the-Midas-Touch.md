@@ -29,4 +29,4 @@ As a result, $x_2$ will be the supressor we are looking for.
 
 
 ## Implications
-This calls for caution when we delete explanatory variable soley based on its insiginificance, as there might be *suppressor* lurking out there that has the potential of turning it into gold.
+The existence of $suprressor$ calls for caution when we delete explanatory variable soley based on its insiginificance. 

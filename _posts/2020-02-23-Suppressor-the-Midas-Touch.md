@@ -11,7 +11,7 @@ Can adding an additional explanatory variable make previously-insiginificant one
 
 You are doing regression analysis with lots of variables. You find one of them has a huge p-value. "Drop it," a voice screams.
 
-Not so fast. In this post, I show that there is a certain category of explanatory variables (formally known as [*suppressor*](https://en.wikipedia.org/wiki/Mediation_(statistics)#Other_third_variables)), the inclusion of which will increase the explanatory power of exisiting variables, so much so that insignificant ones might end up being significant.
+Not so fast. In this post, I show that there exists a certain category of explanatory variables (formally known as [*suppressor*](https://en.wikipedia.org/wiki/Mediation_(statistics)#Other_third_variables)), the inclusion of which increases the explanatory power of other exisiting variables, so much so that insignificant ones might end up being significant.
 
 ## Problem Formulation
 Find $x_1$, $x_2$ and $y$ such that $x_1$ is insiginificant according specification:

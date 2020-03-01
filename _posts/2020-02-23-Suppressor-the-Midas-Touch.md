@@ -26,6 +26,8 @@ By definition, $x_2$ is the suppressor we are looking for.
 
 ## A Stylized Example
 
+One possible solution would be:
+
 ```r
 n <- 100
 x1 <- rnorm(n, 0, 0.01) # random varaible drawn from normal distribution
@@ -34,13 +36,21 @@ epsilon <- rnorm(n, 0, 0.001)
 y <- 3 + 1 * x1 + 1 * x2 + epsilon
 ```
 
-As a result, $x1$ by itself will have limited explanatory power:
+Not surprisingly, $x_1$ by itself will have limited explanatory power:
 
+| y ~ x1 | Estimate | Std. Error | t value | p-value |
+| :---:  | :---:    | :---:      | :---:   | :---:   |
+| (Intercept) | 8.0420 | 0.2835 | 28.368 | <2e-16 |
+| x1 | 32.3034 | 30.2206 | 1.069 | 0.288 |
+
+This is evident 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/suppressor/plot1.svg" />
 </div>
 
-But once we bring $x2$ into the equation, . This is due to the fact that after controlling for $x2$, the remainder of $y$ can be explained by $x2$ fairly well:
+But once we bring $x_2$ into the equation, . T
+
+his is due to the fact that after controlling for $x2$, the remainder of $y$ is almost entirely driven by $x_1$:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/suppressor/plot2.svg" />

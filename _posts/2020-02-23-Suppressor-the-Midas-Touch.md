@@ -25,7 +25,6 @@ $$ y = \alpha ^ \prime + \beta_1 ^ \prime x_1 + \beta_{ 2 } ^ \prime x_2 + \epsi
 By definition, $x_2$ is the suppressor we are looking for.
 
 ## A Stylized Example
-
 One possible solution would be:
 
 ```r
@@ -36,14 +35,14 @@ epsilon <- rnorm(n, 0, 0.001)
 y <- 3 + 1 * x1 + 1 * x2 + epsilon
 ```
 
-Not surprisingly, $x_1$ by itself has limited explanatory power:
+Not surprisingly, $x_1$ by itself has negligible explanatory power:
 
 | y ~ x1 | Estimate | Std. Error | t value | p-value |
 | :---:  | :---:    | :---:      | :---:   | :---:   |
 | (Intercept) | 8.0420 | 0.2835 | 28.368 | <2e-16 |
 | x1 | 32.3034 | 30.2206 | 1.069 | 0.288 |
 
-Things change dramatically once we bring $x_2$ into the equation:
+However, things change dramatically once we bring $x_2$ into the equation:
 
 | y ~ x1 + x2 | Estimate | Std. Error | t value | p-value |
 | :---:       | :---:    | :---:      | :---:   | :---:   |
@@ -51,13 +50,14 @@ Things change dramatically once we bring $x_2$ into the equation:
 | x1 | 9.867e-01 | 1.052e-02 | 93.81 | <2e-16 |
 | x2 | 1.000e+00 | 3.497e-05 | 28599.16 | <2e-16 |
 
-Another way to look at this is that
+## Discussion
+The real reason behind the weird case is the fact $x_2$ outshines $x_1$ to a great extent in terms of the ability to explain the variation in $y$. $x_1$'s usefullness 
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/suppressor/plot1.svg" />
 </div>
 
-This is due to the fact that after controlling for $x2$, the remainder of $y$ is almost entirely driven by $x_1$:
+On the contrary, after controlling for $x2$ (which already does an excellent job in explaining $y$), the small but non-zero remainder of $y$ is almost entirely driven by $x_1$. 
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/suppressor/plot2.svg" />
@@ -65,4 +65,4 @@ This is due to the fact that after controlling for $x2$, the remainder of $y$ is
 
 
 ## Implications
-The existence of suprressor calls for caution when we delete explanatory variable soley based on its insiginificance. 
+The existence of suprressor calls for caution when we delete explanatory variable soley based on its insiginificance, although it can also be argued that missing such an important regessor ($x_2$) in this case is the greater sin.

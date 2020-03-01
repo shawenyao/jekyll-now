@@ -7,7 +7,7 @@ tag:
 draft: false
 comments: true
 ---
-Can adding additional explanatory variable make previously-insiginificant ones significant?
+Can adding an additional explanatory variable make previously-insiginificant ones significant?
 
 You are conducting regression analysis with lots of variables. You find one of them has a huge p-value. Shall we drop it?
 

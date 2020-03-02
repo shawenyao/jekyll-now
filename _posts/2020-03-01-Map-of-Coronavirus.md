@@ -7,7 +7,7 @@ tag:
 comments: true
 ---
 
-Spatial visualization based on `leaflet`.
+Geographical and chronological visualization of confirmed cases based on `leaflet`.
 
 <iframe src="https://shawenyao.github.io/R/output/coronavirus/map.html" style="border:none;height:550px;width:100%;" scrolling="no"></iframe>
 

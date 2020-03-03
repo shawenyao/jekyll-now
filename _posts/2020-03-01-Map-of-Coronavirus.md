@@ -7,7 +7,7 @@ tag:
 comments: true
 ---
 
-Geographical and chronological evolution of confirmed cases based on `leaflet`.
+Geographical and chronological evolution of confirmed cases powered by `leaflet`.
 
 <iframe src="https://shawenyao.github.io/R/output/coronavirus/map.html" style="border:none;height:550px;width:100%;" scrolling="no"></iframe>
 

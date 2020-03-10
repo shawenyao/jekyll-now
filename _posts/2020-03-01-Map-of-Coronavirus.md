@@ -4,6 +4,7 @@ title: Map of Coronavirus
 tag:
   - visualization
   - leaflet
+ads: false
 comments: true
 ---
 

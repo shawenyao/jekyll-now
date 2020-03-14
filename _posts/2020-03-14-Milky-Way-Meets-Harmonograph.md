@@ -36,3 +36,5 @@ Procedurally generated galaxy continued.
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/harmonograph_selection/91.jpg" />
 </div>
+
+Read [Part I](/Milky-Way/).

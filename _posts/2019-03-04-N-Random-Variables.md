@@ -6,7 +6,7 @@ tag:
 comments: true
 draft: false
 ---
-Three random variables part II.
+Three Random Variables Part II.
 
 In [Part I](/Three-Random-Variables/), I presented the algebraic solution to the problem of what the possible range of correlation is given all three random variables have the same pairwise correlation. Things get a little more interesting when there are more of them, but the idea still holds. 
 

@@ -23,11 +23,7 @@ Due to fact that the game running on the real-world lock, my deserted island mus
 Figuring out the latitude can get a little tricky. Basically, it boils down to measuring the _solar zenith angle_ at solar noon.
 
 $$
-P = \begin{bmatrix} 
-1 & \rho & \rho \\
-\rho & 1 & \rho \\
-\rho & \rho & 1
-\end{bmatrix}
+h = 90^\text{o} - \abs( \phi - \deta) )
 $$
 
 <div align="center">

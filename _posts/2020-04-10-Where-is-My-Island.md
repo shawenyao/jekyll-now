@@ -29,7 +29,7 @@ h = 90^\text{o} - \left| \phi - \delta \right|
 $$
 
 where
-* $h$ is the solar elevation angle at solar noon. It is also the angle between a ray of sunlight and the horizon at the observation point. In addition, solar noon is defined as the time of the day when the Sun reaches the highest point (note that this is equivalent to the length of shadow being the shortest).
+* $h$ is the solar elevation angle at solar noon. It is also the angle between a ray of sunlight and the horizon at the observation point. In addition, solar noon is defined as the time of the day when the Sun reaches the highest point. Note that this is equivalent to the length of shadow being the shortest, and it doesn't necessarily coincide with 12pm.
 * $\phi$ is the latitude of the observation point (a positive number in this case)
 * $\delta$ is the latitude of the subsolar point (a negative number in this case), also know as the solar declination angle.
 
@@ -50,6 +50,12 @@ This baby will set you back 3000 Nook Miles, but oh-my-lord is it worth every mi
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/003.jpg" />
 </div>
+
+The rest is straightforward but undoubtedly not trivial. While my in-game character sat on the swing, I started to capture the gameplay footage every two minutes, calculated the length of the shadow, found the minimum and calculated the solar elevation angle $h$:
+
+$$
+h = \arctan{ \frac{length of an object} { minimal length of the shadow } } =
+$$
 
 ## Putting It All Together
 

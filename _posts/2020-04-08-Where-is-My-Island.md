@@ -37,7 +37,7 @@ where
   <img src="https://shawenyao.github.io/R/output/animal_crossing/1_label.png" />
 </div>
 
-For full reference, see [here](https://en.wikipedia.org/wiki/Solar_zenith_angle), [here](https://commons.wvc.edu/rdawes/ASTR217/Gnomon.pdf) and [here](https://vortex.plymouth.edu/sun/sun4a.html)
+For full reference, see [here](https://en.wikipedia.org/wiki/Solar_zenith_angle), [here](https://commons.wvc.edu/rdawes/ASTR217/Gnomon.pdf) and [here](https://vortex.plymouth.edu/sun/sun4a.html).
 
 There's yet one more challenge before we can pull ghix trick off in Animal Crossing. Because of the distortion introduced by the camera perspective, it's not always obvious when the shadow of an object reaches its minimum in the game. That is, until you can afford a _playground gym_.
 

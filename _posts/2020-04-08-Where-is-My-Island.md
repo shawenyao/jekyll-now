@@ -27,7 +27,7 @@ h = 90^\text{o} - \left| \phi - \deta \right|
 $$
 
 where
-* $h$ is the solar zenith angle at solar noon, 
+* $h$ is the solar zenith angle at solar noon. It is also the angle between the sunlight and the horizon at the observation point.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/solar_zenith_angle/1_label.png" />

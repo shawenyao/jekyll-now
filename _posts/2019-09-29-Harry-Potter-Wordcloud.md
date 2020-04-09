@@ -8,7 +8,7 @@ comments: true
 draft: false
 ---
 
-Plus the "exclusive" words in each book.
+Plus the _exclusive_ words in each book.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/wordcloud/1.png" />

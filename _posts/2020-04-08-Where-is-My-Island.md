@@ -27,7 +27,7 @@ h = 90^\text{o} - \left| \phi - \delta \right|
 $$
 
 where
-* $h$ is the solar zenith angle at solar noon. It is also the angle between a ray of sunlight and the horizon at the observation point.
+* $h$ is the solar elevation angle at solar noon. It is also the angle between a ray of sunlight and the horizon at the observation point.
 * $\phi$ is the latitude of the observation point (a positive number in this case)
 * $\delta$ is the latitude of the subsolar point (a negative number in this case), also know as the solar declination angle.
 

@@ -14,7 +14,7 @@ Locating your _Nook Inc._ getaway package.
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/001.jpg" />
 </div>
 
-I've been playing _Animal Crossing: New Horizons_, where my in-game character flew to a deserted island in order to start a new life. Despite its cartoony art style, the game manages to establish an astonishing degree of realism, to the point where it almost feels like a living and breathing world. For example, I know for a fact that my island exists somewhere in the northern hemisphere; I know that the sun rises and sets there every real-world day; I know that the seasons rotate and spring is coming. At some point, I start wonder how much further I can push this, e.g., given what's observable in the game, can I deduce where my island is? If so, where is it?
+I've been playing _Animal Crossing: New Horizons_, where my in-game character flew to a deserted island in order to start a new life. Despite its cartoony art style, the game manages to establish an astonishing degree of realism, to the point where it almost feels like a living and breathing world. For example, I know for a fact that my island exists somewhere in the northern hemisphere; I know that the sun rises and sets there every real-world day; I know that the seasons rotate and spring is coming. At some point, I began to wonder how much further I can push this, e.g., given what's observable in the game, can I deduce where my island is? If so, where is it?
 
 In this post, please join me for a tour to my island, and I will unveil its location at the end (sort of).
 
@@ -29,7 +29,7 @@ h = 90^\text{o} - \left| \phi - \delta \right|
 $$
 
 where
-* $h$ is the solar elevation angle at solar noon. It is also the angle between a ray of sunlight and the horizon at the observation point. Also, solar noon is defined as the time of the day when the Sun reachest the highest point (note that this is equivalent to the length of shadow being the shortest).
+* $h$ is the solar elevation angle at solar noon. It is also the angle between a ray of sunlight and the horizon at the observation point. In addition, solar noon is defined as the time of the day when the Sun reachest the highest point (note that this is equivalent to the length of shadow being the shortest).
 * $\phi$ is the latitude of the observation point (a positive number in this case)
 * $\delta$ is the latitude of the subsolar point (a negative number in this case), also know as the solar declination angle.
 
@@ -39,13 +39,15 @@ where
 
 For full reference, see [here](https://en.wikipedia.org/wiki/Solar_zenith_angle), [here](https://commons.wvc.edu/rdawes/ASTR217/Gnomon.pdf) and [here](https://vortex.plymouth.edu/sun/sun4a.html)
 
-There's yet one more challenge before we can pull the trick off in Animal Crossing. Because of the distortion introduced by the camera perspective, it's not always obvious when the shadow of an object reaches its minimum in the game. That is, until you can afford a _playground gym_.
+There's yet one more challenge before we can pull ghix trick off in Animal Crossing. Because of the distortion introduced by the camera perspective, it's not always obvious when the shadow of an object reaches its minimum in the game. That is, until you can afford a _playground gym_.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/002.jpg" />
 </div>
 
-This baby will set you back 3000 Nook Miles, but oh-my-lord is it worth every mile. Since I am reasonably confident that it's made of little cubes, the playground gym forms some kind of oblique coordinate system when being placed on the ground.
+This baby will set you back 3000 Nook Miles, but oh-my-lord is it worth every mile. Since I am reasonably confident that it's made of little cubes, the playground gym forms some kind of three-dimensional oblique coordinate system when being placed on the ground, allowing distance to be estimated reliably on a relative basis.
+
+
 
 ## Putting It All Together
 

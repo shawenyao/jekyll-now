@@ -34,7 +34,7 @@ where
 * $\delta$ is the latitude of the subsolar point (a negative number in this case), also know as the solar declination angle.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/R/output/solar_zenith_angle/1_label.png" />
+  <img src="https://shawenyao.github.io/R/output/animal_crossing/1_label.png" />
 </div>
 
 For full reference, see [here](https://en.wikipedia.org/wiki/Solar_zenith_angle), [here](https://commons.wvc.edu/rdawes/ASTR217/Gnomon.pdf) and [here](https://vortex.plymouth.edu/sun/sun4a.html)

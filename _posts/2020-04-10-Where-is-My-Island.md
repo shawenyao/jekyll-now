@@ -47,7 +47,9 @@ There's yet one more challenge before we can pull ghix trick off in Animal Cross
 
 This baby will set you back 3000 Nook Miles, but oh-my-lord is it worth every mile. Since I am reasonably confident that it's made of little cubes, the playground gym forms some kind of three-dimensional oblique coordinate system when being placed on the ground, allowing distance to be estimated reliably on a relative basis.
 
-
+<div align="center">
+  <img src="https://shawenyao.github.io/Photos/Animal Crossing/003.jpg" />
+</div>
 
 ## Putting It All Together
 

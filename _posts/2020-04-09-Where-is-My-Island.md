@@ -45,13 +45,17 @@ There's yet one more challenge before we can pull this trick off in Animal Cross
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/002.jpg" />
 </div>
 
-This baby will set you back 3000 Nook Miles, but oh-my-lord is it worth every mile. Since I am reasonably confident that it's made of little cubes, the playground gym forms some kind of three-dimensional oblique coordinate system when being placed on the ground, allowing distance to be estimated reliably on a relative basis.
+This baby will set you back 3000 Nook Miles, but oh-my-lord is it worth every mile. Since I am reasonably confident that it's made of little cubes, the playground gym forms some kind of orthonormal basis in a three-dimensional coordinate system when being placed on the ground, allowing distance to be estimated reliably on a relative basis.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/003.jpg" />
 </div>
 
-The rest is straightforward but definitely not trivial. While my in-game character sat on the swing, I started to capture the gameplay footage every two minutes around noon, calculated the length of the shadow, found the minimum and derived the solar elevation angle $h$:
+The rest is straightforward but definitely not trivial. While my in-game character sat on the swing, I started to capture the gameplay footage every two minutes around noon, calculated the length of the shadow, found the minimum and derived the solar elevation angle $h$.
+
+<div align="center">
+  <img src="https://shawenyao.github.io/Photos/Animal Crossing/004.jpg" />
+</div>
 
 $$
 h = \arctan{ \frac{ 3 } { 5 } } =

@@ -51,10 +51,16 @@ This baby will set you back 3000 Nook Miles, but oh-my-lord is it worth every mi
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/003.jpg" />
 </div>
 
-The rest is straightforward but undoubtedly not trivial. While my in-game character sat on the swing, I started to capture the gameplay footage every two minutes, calculated the length of the shadow, found the minimum and calculated the solar elevation angle $h$:
+The rest is straightforward but definitely not trivial. While my in-game character sat on the swing, I started to capture the gameplay footage every two minutes, calculated the length of the shadow, found the minimum and calculated the solar elevation angle $h$:
 
 $$
-h = \arctan{ \frac{length of an object} { minimal length of the shadow } } =
+h = \arctan{ \frac{ 3 } { 5 } } =
+$$
+
+From here, I know that $delta$ is $+7.9^\text{o}$ today. Finally, we have:
+
+$$
+\phi = 90^\text{o} - h + \delta =
 $$
 
 ## Putting It All Together

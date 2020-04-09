@@ -20,14 +20,16 @@ I've been playing _Animal Crossing: New Horizons_, where my in-game character fl
 Due to fact that the game running on the real-world lock, my deserted island must be conveniently located in the same time zone as where I physically am (or at least wherever my system is set). So there you go - it can't be too far off.
 
 ## The Latitude
-Figuring out the latitude can get a little tricky. Basically, it boils down to measuring the _solar zenith angle_ at solar noon.
+Figuring out the latitude can get a little tricky. Basically, it boils down to measuring the _solar elevation angle_ at solar noon.
 
 $$
 h = 90^\text{o} - \left| \phi - \delta \right|
 $$
 
 where
-* $h$ is the solar zenith angle at solar noon. It is also the angle between the sunlight and the horizon at the observation point.
+* $h$ is the solar zenith angle at solar noon. It is also the angle between a ray of sunlight and the horizon at the observation point.
+* $\phi$ is the latitude of the observation point (a positive number in this case)
+* $\delta$ is the latitude of the subsolar point (a negative number in this case), also know as the solar declination angle.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/solar_zenith_angle/1_label.png" />

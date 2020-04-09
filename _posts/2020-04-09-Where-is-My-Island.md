@@ -69,7 +69,7 @@ $$
 
 ## Putting It All Together
 
-Now we get to observe where my island is on the globe, along with that of any other Animal Crossing players whose island is also located in the northern hemisphere.
+Now we get to observe where my island is on the globe, along with that of any other Animal Crossing players whose island also happens to be in the northern hemisphere.
 
 <iframe src="https://shawenyao.github.io/R/output/animal_crossing/my_island.html" style="border:none;height:300px;width:100%;" scrolling="no"></iframe>
 

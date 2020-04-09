@@ -45,7 +45,7 @@ There's yet one more challenge before we can pull the trick off in Animal Crossi
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/002.jpg" />
 </div>
 
-This baby will set you back 3000 Nook Miles, but oh-my-lord is it worth it. Since I am reasonably confident that it's made of little cubes, the playground gym forms some kind of oblique coordinate system when being placed on the ground.
+This baby will set you back 3000 Nook Miles, but oh-my-lord is it worth every mile. Since I am reasonably confident that it's made of little cubes, the playground gym forms some kind of oblique coordinate system when being placed on the ground.
 
 ## Putting It All Together
 

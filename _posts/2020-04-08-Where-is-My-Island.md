@@ -20,7 +20,7 @@ I've been playing _Animal Crossing: New Horizons_, where my in-game character fl
 Due to fact that the game running on the real-world lock, my deserted island must be conveniently located in the same time zone as where I physically am (or at least wherever my system is set). So there you go - it can't be too far off.
 
 ## The Latitude
-
+Figuring out the latitude can get a little tricky.
 
 ## Putting It All Together
 

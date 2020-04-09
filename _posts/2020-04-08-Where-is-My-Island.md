@@ -20,14 +20,14 @@ I've been playing _Animal Crossing: New Horizons_, where my in-game character fl
 Due to fact that the game running on the real-world lock, my deserted island must be conveniently located in the same time zone as where I physically am (or at least wherever my system is set). So there you go - it can't be too far off.
 
 ## The Latitude
-Figuring out the latitude can get a little tricky. Basically, it boils down to measuring the _solar elevation angle_ at solar noon. The following equation holds true:
+Figuring out the latitude can get a little tricky. Basically, it boils down to measuring the _solar elevation angle_ at _solar noon_. The following equation holds true:
 
 $$
 h = 90^\text{o} - \left| \phi - \delta \right|
 $$
 
 where
-* $h$ is the solar elevation angle at solar noon. It is also the angle between a ray of sunlight and the horizon at the observation point.
+* $h$ is the solar elevation angle at solar noon. It is also the angle between a ray of sunlight and the horizon at the observation point. Also, solar noon is defined as the time of the day when the length of the shadow is the shortest.
 * $\phi$ is the latitude of the observation point (a positive number in this case)
 * $\delta$ is the latitude of the subsolar point (a negative number in this case), also know as the solar declination angle.
 
@@ -36,6 +36,8 @@ where
 </div>
 
 For full reference, see [here](https://en.wikipedia.org/wiki/Solar_zenith_angle), [here](https://commons.wvc.edu/rdawes/ASTR217/Gnomon.pdf) and [here](https://vortex.plymouth.edu/sun/sun4a.html)
+
+There's yet one more challenge when it comes to doing this in Animal Crossing - because of the distortion introduced by the camera perspective, it's not always obvious to tell in the game when the shadow of an object reaches its minimum.
 
 ## Putting It All Together
 

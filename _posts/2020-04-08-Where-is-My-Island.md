@@ -14,15 +14,14 @@ Locating your _Nook Inc_ getaway package.
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/001.jpg" />
 </div>
 
-I've been playing _Animal Crossing: New Horizons_. The fact that the game runs on real-world clock adds a lot to the realism of this living and breathing world. How fuch further can we push
+I've been playing _Animal Crossing: New Horizons_, where my in-game character flew to a deserted island in order to start a new life. Despite its cartoony art style, the game runs with an astonishing level of realism, to the point where it almost feels like a living and breathing world. I know for a fact that my island exists somewhere in the northern hemisphere; I know that the sun rises and sets there every real-world day; I know that the seasons rotate and spring is coming. I wonder how much further I can push it, e.g., do we know where my island is?
 
-## Problem Formulation
-* my island is somewhere in the northern hemisphere.
 
 ## The Longitude
-Due to the game sharing the same clock as the real world, your deserted island must be conveniently located in the same time zone as your physical one (or whatever your system is set to). So there you go - it can't be too far off.
+Due to fact that the game running on the real-world lock, my deserted island must be conveniently located in the same time zone as where I physically am (or at least wherever my system is set). So there you go - it can't be too far off.
 
 ## The Latitude
 
 
 ## Putting It All Together
+

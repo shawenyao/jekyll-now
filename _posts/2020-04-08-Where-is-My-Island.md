@@ -19,7 +19,7 @@ I've been playing _Animal Crossing: New Horizons_, where my in-game character fl
 In this post, please join me for a tour to my island, and I will unveil its location at the end (sort of).
 
 ## The Longitude
-Due to fact that the game runs on real-world clock, my deserted island must be conveniently located in the same time zone as where I physically am (or at least wherever my system is set). Voila! There it is and it can't be too far off.
+Due to the fact that the game runs on real-world clock, my deserted island must be conveniently located in the same time zone as where I physically am (or at least wherever my system is set). Voila! There it is and it can't be too far off.
 
 ## The Latitude
 Figuring out the latitude can get a little tricky. In a nutshell, it boils down to measuring the _solar elevation angle_ at _solar noon_. Astronomy tells us that the following equation holds true:
@@ -39,7 +39,13 @@ where
 
 For full reference, see [here](https://en.wikipedia.org/wiki/Solar_zenith_angle), [here](https://commons.wvc.edu/rdawes/ASTR217/Gnomon.pdf) and [here](https://vortex.plymouth.edu/sun/sun4a.html)
 
-There's yet one more challenge when it comes to doing this in Animal Crossing - because of the distortion introduced by the camera perspective, it's not always obvious to tell in the game when the shadow of an object reaches its minimum.
+There's yet one more challenge when it comes to doing this in Animal Crossing. Because of the distortion introduced by the camera perspective, it's not always obvious to tell in the game when the shadow of an object reaches its minimum. That is, until you have _playground gym_.
+
+<div align="center">
+  <img src="https://shawenyao.github.io/Photos/Animal Crossing/002.jpg" />
+</div>
+
+This baby will set you back 3000 Nook Miles, but oh my lord it's worth it. Since I am reasonably confident that it's made of little cubes, the playground gym forms some kind of oblique coordinate system when being placed on the ground.
 
 ## Putting It All Together
 

@@ -69,4 +69,8 @@ $$
 
 ## Putting It All Together
 
-But there's a minor problem. There isn't any island here!
+Now we get to observe where my island is on the globe, along with that of any other Animal Crossing players whose island is also located in the northern hemisphere.
+
+<iframe src="https://shawenyao.github.io/R/output/animal_crossing/my_island.html" style="border:none;height:300px;width:100%;" scrolling="no"></iframe>
+
+I am not sure about yours but there's a slight problem with mine. There isn't any island there!

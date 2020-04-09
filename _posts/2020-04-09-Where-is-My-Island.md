@@ -57,7 +57,7 @@ $$
 h = \arctan{ \frac{ 3 } { 5 } } =
 $$
 
-From here, I know that $delta$ is $+7.9^\text{o}$ today. Finally, we have:
+From [here](https://rl.se/sub-solar-point), I know that the solar declination angle $delta$ is $+7.9^\text{o}$ today. Finally, we have:
 
 $$
 \phi = 90^\text{o} - h + \delta =

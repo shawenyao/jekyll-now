@@ -19,7 +19,7 @@ I've been playing _Animal Crossing: New Horizons_, where my in-game character fl
 In this post, please join me for a tour to my island, and I will unveil its location at the end (sort of).
 
 ## The Longitude
-This is an easy one. Due to the fact that the game runs on real-world clock, my deserted island must be conveniently located in the same time zone as where I physically am (or at least wherever my system is set). Voila! There it is and it can't be too far off.
+This is an easy one. Due to the fact that the game runs on real-world clock, my deserted island has to be conveniently located in the same time zone as where I physically am (or at least wherever my system is set). Voila! There it is and it can't be too far off.
 
 ## The Latitude
 Unlike the previous case, figuring out the latitude can get a little tricky. In a nutshell, it boils down to measuring the _solar elevation angle_ at _solar noon_. Astronomy tells us that the following equation holds true:

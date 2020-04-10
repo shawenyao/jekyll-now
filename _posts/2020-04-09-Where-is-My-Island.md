@@ -64,7 +64,7 @@ $$
 h = \arctan{ \frac{ 4.9079 } { 3.5735 } } = 53.9412 ^\text{o}
 $$
 
-From [here](https://rl.se/sub-solar-point), I know that the solar declination angle $\delta$ is $+7.9^\text{o}$ today. Finally, the latitude of my island is given by:
+From [here](https://rl.se/sub-solar-point), I know that the solar declination angle $\delta$ is $+7.9^\text{o}$ today. At last, the latitude of my island is given by:
 
 $$
 \phi = 90^\text{o} - h + \delta = 43.9588 ^\text{o}

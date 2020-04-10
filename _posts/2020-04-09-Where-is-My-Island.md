@@ -62,13 +62,13 @@ The rest is straightforward but definitely not trivial. While my in-game charact
 </div>
 
 $$
-h = \arctan{ \frac{ 4.9079 } { 3.5735 } } = 26.9706^\text{o}
+h = \arctan{ \frac{ 4.9079 } { 3.5735 } } = 53.9411 ^\text{o}
 $$
 
 From [here](https://rl.se/sub-solar-point), I know that the solar declination angle $\delta$ is $+7.9^\text{o}$ today. Finally, the latitude of my island is given by:
 
 $$
-\phi = 90^\text{o} - h + \delta = 70.9294^\text{o}
+\phi = 90^\text{o} - h + \delta = 43.9588 ^\text{o}
 $$
 
 ## Putting It All Together

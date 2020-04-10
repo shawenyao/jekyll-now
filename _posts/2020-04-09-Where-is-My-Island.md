@@ -51,7 +51,11 @@ This baby will set you back 3000 Nook Miles, but oh-my-lord is it worth every mi
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/003.jpg" />
 </div>
 
-The rest is straightforward but definitely not trivial. While my in-game character sat on the swing, I started to capture the gameplay footage every two minutes around noon, calculated the length of the shadow, found the minimum and derived the solar elevation angle $h$.
+The rest is straightforward but definitely not trivial. While my in-game character sat on the swing, I ended up doing all the heavy lifting myself -
+* capture the gameplay footage every two minutes or so around noon
+* calculate the length of the shadow
+* find the minimum
+* derive the solar elevation angle $h$.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/004.jpg" />

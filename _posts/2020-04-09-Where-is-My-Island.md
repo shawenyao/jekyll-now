@@ -53,8 +53,7 @@ This baby will set you back 3000 Nook Miles, but oh-my-lord is it worth every mi
 
 The rest is straightforward but definitely not trivial. While my in-game character was enjoying his time on the swing, I ended up doing all the heavy lifting myself -
 * capture the gameplay footage every two minutes or so around noon
-* calculate the length of the shadow
-* find the minimum
+* calculate the height of and an object the the minimal length of its shadow (a street lamp suits perfectly for this exercise)
 * derive the solar elevation angle $h$.
 
 <div align="center">

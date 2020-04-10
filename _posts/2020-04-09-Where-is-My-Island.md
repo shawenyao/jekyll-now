@@ -73,8 +73,8 @@ $$
 
 ## Putting It All Together
 
-Now we get to observe where my island is on the globe. I don't believe I've given my geo data away, so I have to assume for now that it also applies to the rest of the Animal Crossing players who share the northern hemisphere with me.
+Now we get to observe where my island is on the globe. I don't believe I've given my geo data away, so I have to assume for now that it also applies to the rest of the Animal Crossing players who happen to share the same northern hemisphere with me. Still, I am absolutely appalled to find out that I am literally within 0.5 degree away from where the prediction says in terms of latitude.
 
 <iframe src="https://shawenyao.github.io/R/output/animal_crossing/my_island.html" style="border:none;height:300px;width:100%;" scrolling="no"></iframe>
 
-But there's a slight problem. There isn't any island there!
+But there's a slight problem. There isn't any island here!

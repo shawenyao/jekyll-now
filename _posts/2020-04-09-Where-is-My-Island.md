@@ -51,7 +51,7 @@ This baby will set you back 3000 Nook Miles, but oh-my-lord is it worth every mi
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/003.jpg" />
 </div>
 
-The rest is straightforward but definitely not trivial. While my in-game character sat on the swing, I ended up doing all the heavy lifting myself -
+The rest is straightforward but definitely not trivial. While my in-game character was enjoying his time on the swing, I ended up doing all the heavy lifting myself -
 * capture the gameplay footage every two minutes or so around noon
 * calculate the length of the shadow
 * find the minimum

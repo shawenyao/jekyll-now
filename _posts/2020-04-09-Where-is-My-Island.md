@@ -73,7 +73,7 @@ $$
 
 ## Putting It All Together
 
-Now we get to observe where my island is on the globe. I don't believe I've given my geo data away, so I have to assume for now that it also applies to the rest of the Animal Crossing players who also happen to be based in the northern hemisphere.
+Now we get to observe where my island is on the globe. I don't believe I've given my geo data away, so I have to assume for now that it also applies to the rest of the Animal Crossing players who share the northern hemisphere with me.
 
 <iframe src="https://shawenyao.github.io/R/output/animal_crossing/my_island.html" style="border:none;height:300px;width:100%;" scrolling="no"></iframe>
 

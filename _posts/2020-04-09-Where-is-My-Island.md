@@ -14,7 +14,7 @@ Locating your _Nook Inc._ getaway package.
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/001.jpg" />
 </div>
 
-I've been playing _Animal Crossing: New Horizons_ lately, where my in-game character flew to a deserted island in order to start a new life. Despite its cartoony art style, the game manages to establish a remarkable degree of realism, to the point where it almost feels like a living and breathing world. For example, I know for a fact that my island exists somewhere in the northern hemisphere; I know that the sun rises and sets there every real-world day; I know that the seasons rotate and spring is coming. At some point, I began to wonder how much further I can push this, e.g., given what's observable in the game, can I deduce where my island is? If so, where might it be?
+I've been playing _Animal Crossing: New Horizons_ lately, where my in-game character flew to a deserted island in order to start a new life. Despite its cartoony art style, the game manages to establish a remarkable degree of realism, to the point where it almost feels like a living and breathing world. For example, I know for a fact that my island exists somewhere in the northern hemisphere; I know that the sun rises and sets there every real-world day; I know that the season shifts and spring is coming. At some point, I began to wonder how much further I can push this, e.g., given what's observable in the game, can I deduce where my island is? If so, where might it be?
 
 In this post, please join me for a tour to my island, and I will unveil its location at the end (sort of).
 

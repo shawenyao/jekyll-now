@@ -29,7 +29,7 @@ h = 90^\text{o} - \left| \phi - \delta \right|
 $$
 
 where
-* $h$ is the solar elevation angle at solar noon. It is also the angle between a ray of sunlight and the horizon (no pun intended) at the observation point and can be found by taking inverse tangent on the ratio of the height of an object over the length of its shadow. In addition, solar noon is defined as the time of the day when the Sun reaches the highest point. Note that this is equivalent to the length of shadow being the shortest, and it doesn't necessarily coincide with 12pm.
+* $h$ is the solar elevation angle at solar noon. It is also the angle between a ray of sunlight and the horizon at the observation point and can be found by taking inverse tangent on the ratio of the height of an object over the length of its shadow. In addition, solar noon is defined as the time of the day when the Sun reaches the highest point. Note that this is equivalent to the length of shadow being the shortest, and it doesn't necessarily coincide with 12pm.
 * $\phi$ is the latitude of the observation point (a positive number in this case)
 * $\delta$ is the latitude of the subsolar point (a negative number in this case), also know as the solar declination angle.
 

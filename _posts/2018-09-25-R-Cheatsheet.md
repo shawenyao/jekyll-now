@@ -27,6 +27,8 @@ setwd(dirname(sys.frame(1)$ofile))
 options(stringsAsFactors = FALSE)
 ```
 
+Note that this has become the default behaviour since R 4.0.0.
+
 #### Save a copy of console output to file
 ```r
 sink("log.txt", split = TRUE)

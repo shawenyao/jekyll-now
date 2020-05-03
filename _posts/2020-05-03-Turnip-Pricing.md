@@ -37,7 +37,7 @@ Thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here
 | Monday p.m. | -0.1115 | 0.2379 | -0.4687 |
 | Tuesday a.m. | -0.085 | 0.3118 | -0.2725 |
 | Tuesday p.m. | 0.0462 | 0.6951 | 0.0664 |
-| **Wednesday a.m.** | 0.0953 | 0.7169 | **0.1329** |
+| **Wednesday a.m.** | **0.0953** | **0.7169** | **0.1329** |
 | Wednesday p.m. | 0.092 | 0.7133 | 0.129 |
 | Thursday a.m. | 0.0754 | 0.7238 | 0.1042 |
 | Thursday p.m. | 0.0829 | 0.7229 | 0.1147 |
@@ -46,7 +46,7 @@ Thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here
 | Saturday a.m. | -0.2054 | 0.3844 | -0.5343 |
 | Saturday p.m. | -0.2562 | 0.3297 | -0.7771 |
 
-It's clear. If we have to fix our timing of selling, Wednesday a.m. seems to be the optimal choice in terms of Sharpe ratio.
+It's clear. If we have to fix our timing of selling, Wednesday a.m. seems to be the optimal choice both in terms of expected return and Sharpe ratio.
 
 ## Strategy: Sell on Wed a.m. and Go Away
 

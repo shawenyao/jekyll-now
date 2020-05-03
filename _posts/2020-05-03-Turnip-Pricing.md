@@ -22,16 +22,14 @@ Turnips, though appears to be a commodity at first glance, behaves very much lik
 It's also different from a true American option in at least one meaningful way. The only thing you can do to cash it out is to exercise it. You won't be able to sell it to anyone else, which has some interesting ramification, as we will see shortly.
 
 
-## Problem Formulation
-Let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. Assuming they are IID and follow the cumulative distribution function of
+## What if You have Friends?
+To make things more interesting, the game also lets you exercise your "turnip option" on a friend's island. Let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. Assuming they are IID and follow the cumulative distribution function of
 
 $$
 F_P(x) = G(x)
 $$
 
-what are the distribution, expected value and standard deviation for $Q$ where $Q = max(P_1, P_2, ..., P_N)$ ?
-
-## General Solution
+the maximum value $Q$ where $Q = max(P_1, P_2, ..., P_N)$ follows the cumulative dsitribution function of:
 
 $$
 \begin{align}

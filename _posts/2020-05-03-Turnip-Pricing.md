@@ -3,6 +3,7 @@ layout: post
 title: Turnip Pricing
 tag:
   - maths
+  - finance
   - animal crossing
 comments: true
 draft: true

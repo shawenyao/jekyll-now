@@ -11,6 +11,8 @@ draft: true
 
 And how having friends makes the stalk market a lot more profitable.
 
+_This is Part II of the Animal Crossing post series. For Part I, see [here]{/Where-is-My-Island/}_
+
 ## Problem Formulation
 Let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. Assuming they are IID and follow the cumulative distribution function of
 
@@ -20,7 +22,8 @@ $$
 
 what are the distribution, expected value and standard deviation for $Q$ where $Q = max(P_1, P_2, ..., P_N)$ ?
 
-## Solution
+## General Solution
+
 $$
 \begin{align}
 F_Q(x) 
@@ -31,3 +34,6 @@ F_Q(x)
 &= G^{N}(x) \\
 \end{align}
 $$
+
+## 
+

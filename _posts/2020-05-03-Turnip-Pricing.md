@@ -26,7 +26,11 @@ But it's also different from an American option in at least one meaningful way. 
 ## Turnip's Price Dynamics
 Thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the price of a turnip can be numerically simulated.
 
-## Strategy: Sell on Wed and Go Away
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_price.png" />
+</div>
+
+## Strategy: Sell on Wed p.m. and Go Away
 
 
 

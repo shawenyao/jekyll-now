@@ -29,7 +29,7 @@ $$
 F_P(x) = G(x)
 $$
 
-the maximum value $Q$ where $Q = max(P_1, P_2, ..., P_N)$ follows the cumulative dsitribution function of:
+the maximum value $Q$ where $Q = max(P_1, P_2, ..., P_N)$ will have the cumulative dsitribution function of:
 
 $$
 \begin{align}

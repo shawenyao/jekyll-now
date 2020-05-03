@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Expected Return On Stalk Market
+title: Turnip Pricing
 tag:
   - maths
   - animal crossing
@@ -8,7 +8,7 @@ comments: true
 draft: true
 ---
 
-How having friends makes the turnip business a lot more profitable.
+And how having friends makes the stalk market a lot more profitable.
 
 ## Problem Formulation
 

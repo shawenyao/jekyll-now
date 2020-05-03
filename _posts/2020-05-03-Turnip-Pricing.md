@@ -30,23 +30,7 @@ Thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_price.png" />
 </div>
 
-
-| Time | Expected Return | Volatility | Sharpe Ratio |
-|---|---|---|---|
-| Monday a.m. | -0.0895 | 0.2211 | -0.4049 |
-| Monday p.m. | -0.1115 | 0.2379 | -0.4687 |
-| Tuesday a.m. | -0.085 | 0.3118 | -0.2725 |
-| Tuesday p.m. | 0.0462 | 0.6951 | 0.0664 |
-| **Wednesday a.m.** | **0.0953** | **0.7169** | **0.1329** |
-| Wednesday p.m. | 0.092 | 0.7133 | 0.129 |
-| Thursday a.m. | 0.0754 | 0.7238 | 0.1042 |
-| Thursday p.m. | 0.0829 | 0.7229 | 0.1147 |
-| Friday a.m. | 0.0437 | 0.7328 | 0.0596 |
-| Friday p.m. | -0.0361 | 0.7379 | -0.049 |
-| Saturday a.m. | -0.2054 | 0.3844 | -0.5343 |
-| Saturday p.m. | -0.2562 | 0.3297 | -0.7771 |
-
-It's clear. If we have to fix our timing of selling, Wednesday a.m. seems to be the optimal choice both in terms of expected return and Sharpe ratio.
+It's clear. If we have to fix our timing of selling turnips, Wednesday a.m. seems to be the optimal choice both in terms of expected return and Sharpe ratio. See appendix for details.
 
 ## Strategy: Sell on Wed a.m. and Go Away
 
@@ -54,7 +38,7 @@ It's clear. If we have to fix our timing of selling, Wednesday a.m. seems to be 
 
 
 ## A Better Strategy: What if You have Friends?
-To make things more interesting, the game also lets you exercise your "turnip option" on a friend's island. Let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. Assuming they are IID and follow the cumulative distribution function of
+To make things more interesting, the game also allows you to exercise your "turnip option" on a friend's island. Let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. Assuming they are IID and follow the cumulative distribution function of
 
 $$
 F_P(x) = G(x)
@@ -79,4 +63,24 @@ $$
 Note that for the purpose of this exercise, a risk-free rate of 0 is assumed. This really isn't as bad as it sounds for two reasons:
 * starting from April 23rd, the interest rate has been slashed to [near-zero](https://kotaku.com/nintendo-slashes-interest-rates-in-animal-crossing-new-1843019628)
 * the in-game interest doesn't accrue intramonth anyway
+
+## Appendix
+
+| Time | Expected Return | Volatility | Sharpe Ratio |
+|---|---|---|---|
+| Monday a.m. | -0.0895 | 0.2211 | -0.4049 |
+| Monday p.m. | -0.1115 | 0.2379 | -0.4687 |
+| Tuesday a.m. | -0.085 | 0.3118 | -0.2725 |
+| Tuesday p.m. | 0.0462 | 0.6951 | 0.0664 |
+| **Wednesday a.m.** | **0.0953** | **0.7169** | **0.1329** |
+| Wednesday p.m. | 0.092 | 0.7133 | 0.129 |
+| Thursday a.m. | 0.0754 | 0.7238 | 0.1042 |
+| Thursday p.m. | 0.0829 | 0.7229 | 0.1147 |
+| Friday a.m. | 0.0437 | 0.7328 | 0.0596 |
+| Friday p.m. | -0.0361 | 0.7379 | -0.049 |
+| Saturday a.m. | -0.2054 | 0.3844 | -0.5343 |
+| Saturday p.m. | -0.2562 | 0.3297 | -0.7771 |
+
+| Number of Islands | Expected Return | Volatility | Sharpe Ratio |
+|---|---|---|---|
 

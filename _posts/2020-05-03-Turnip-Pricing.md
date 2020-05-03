@@ -23,8 +23,8 @@ Turnip, though appears to be a commodity at first glance, behaves very much like
 
 But it's also different from an American option in at least one meaningful way. The only thing you can do to cash it out is to exercise it, as you won't be able to sell it to anyone else, which might have unintended ramification if we blindly borrow from the American option pricing machinery. In the absence of an optimal exercising strategy (comment if you know better!), I am going to make one assumption that makes the problem far more tractable: let's only exercise our "turnip option" at the time window when the expected return is the highest.
 
-## A Single Turnip's Payoff
-Thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the payoff of our Saturday-night-only strategy can be numerically simulated.
+## Turnip's Price Dynamics
+Thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the price of a turnip can be numerically simulated.
 
 
 

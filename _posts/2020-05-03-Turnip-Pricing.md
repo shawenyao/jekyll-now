@@ -13,7 +13,7 @@ And how having friends makes the stalk market a lot more profitable.
 
 ## Problem Formulation
 
-Let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different island. What are the distribution, expected value and variance for $Q$ where $ Q = max(P_1, P_2, ..., P_N)$ ?
+Let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. What are the distribution, expected value and variance for $Q$ where $ Q = max(P_1, P_2, ..., P_N)$ ?
 
 ## Solution
 Assuming IID distribution of $P_1$, $P_2$, ..., $P_N$ and each follows the cumulative distribution function of
@@ -26,10 +26,10 @@ We have:
 $$
 \begin{align}
 F_Q(x) 
-&= \mathbb{P}(Q < x)
-&= \mathbb{P}(max(P_1, P_2, ..., P_N) < x)
-&= \mathbb{P}(P_1 < x ∩ P_2 < x ∩ ... ∩ P_N < x)
-&= \mathbb{P}(P_1 < x) \mathbb{P}(P_2 < x) \mathbb{P}(P_N < x)
-&= {G(x)}^N
+&= \mathbb{P}(Q < x) \\
+&= \mathbb{P}(max(P_1, P_2, ..., P_N) < x) \\
+&= \mathbb{P}(P_1 < x ∩ P_2 < x ∩ ... ∩ P_N < x) \\
+&= \mathbb{P}(P_1 < x) \mathbb{P}(P_2 < x) \mathbb{P}(P_N < x) \\
+&= {G(x)}^N \\
 \end{align}
 $$

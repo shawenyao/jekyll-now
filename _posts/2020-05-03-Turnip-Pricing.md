@@ -11,7 +11,7 @@ draft: true
 
 And how having friends makes the stalk market a lot more profitable.
 
-_This is Part II of the Animal Crossing post series. For Part I, see [here)(/Where-is-My-Island/)_
+_This is Part II of the Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/)_
 
 Turnips, though appears to be a commodity at first glance, behaves very much like an American option.
 

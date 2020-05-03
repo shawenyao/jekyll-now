@@ -18,13 +18,9 @@ $$
 F_P(x) = G(x)
 $$
 
-what are the distribution, expected value and variance for $Q$ where $Q = max(P_1, P_2, ..., P_N)$ ?
+what are the distribution, expected value and standard deviation for $Q$ where $Q = max(P_1, P_2, ..., P_N)$ ?
 
 ## Solution
-Assuming IID distribution of $P_1$, $P_2$, ..., $P_N$ and each 
-
-We have:
-
 $$
 \begin{align}
 F_Q(x) 

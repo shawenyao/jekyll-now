@@ -13,6 +13,8 @@ And how having friends makes the stalk market a lot more profitable.
 
 _This is Part II of my Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/)_.
 
+Turnip is a fascinating distraction in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute addition to an abosulte necessity.
+
 ## The Stalk Market Explained
 Turnip, though appears to be a commodity at first glance, behaves very much like an American option -
 * You pay a premium upfront every Sunday

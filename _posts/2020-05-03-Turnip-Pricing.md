@@ -15,6 +15,7 @@ _This is Part II of my Animal Crossing post series. For Part I, see [here](/Wher
 
 Turnips, though appears to be a commodity at first glance, behaves very much like an American option.
 
+
 ## Problem Formulation
 Let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. Assuming they are IID and follow the cumulative distribution function of
 
@@ -37,5 +38,8 @@ F_Q(x)
 \end{align}
 $$
 
-## 
+## Final Thoughts
+Note that for the purpose of this exercise, a risk-free rate of 0 is assumed. This really isn't as bad as it sounds for 2 reasons:
+* starting from April 23rd, [the in-game interest rate has been slashed to near-zero](https://kotaku.com/nintendo-slashes-interest-rates-in-animal-crossing-new-1843019628)
+* on the island, interest doesn't accrue intramonth anyway
 

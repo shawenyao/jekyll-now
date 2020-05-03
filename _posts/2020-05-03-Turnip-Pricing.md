@@ -13,7 +13,7 @@ And how having friends makes the stalk market a lot more profitable.
 
 _This is Part II of my Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/)_.
 
-Turnip is a fascinating distraction in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute addition to an abosulte necessity. In this post, 
+Turnip is a fascinating distraction in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute addition to an absolute necessity. In this post, 
 
 ## The Stalk Market Explained
 Turnip, though appears to be a commodity at first glance, behaves very much like an American option -
@@ -36,7 +36,7 @@ $$
 F_P(x) = G(x)
 $$
 
-the maximum value $Q$ where $Q = max(P_1, P_2, ..., P_N)$ will have the cumulative dsitribution function of:
+the maximum value $Q$ where $Q = max(P_1, P_2, ..., P_N)$ will have the cumulative distribution function of:
 
 $$
 \begin{align}

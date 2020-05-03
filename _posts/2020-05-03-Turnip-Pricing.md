@@ -19,7 +19,7 @@ Turnip, though appears to be a commodity at first glance, behaves very much like
 * You wait for the optimal timing to sell as the turnip price fluctuates in the following week
 * The whole thing expires in 7 days
 
-But turnip is also different from an American option in at least one meaningful way. The only thing you can do to cash it out is to exercise it, as you won't be able to sell it to anyone else, which might have unforseeable ramification if we blindly borrow from the American option pricing machinery. In the absence of an optimal strategy (comment if you know better!), I am going to make one assumption that makes the problem far more tractable: let's only exercise our "turnip option" on Saturday night, i.e., at the last price available before it spoils.
+But it's also different from an American option in at least one meaningful way. The only thing you can do to cash it out is to exercise it, as you won't be able to sell it to anyone else, which might have unforseeable ramification if we blindly borrow from the American option pricing machinery. In the absence of an optimal strategy (comment if you know better!), I am going to make one assumption that makes the problem far more tractable: let's only exercise our "turnip option" on Saturday night, i.e., at the last price available before it spoils.
 
 ## Single-turnip's Profit Distribution
 Thanks to the reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the profit of our Saturday-night-only strategy can be numerically simulated.

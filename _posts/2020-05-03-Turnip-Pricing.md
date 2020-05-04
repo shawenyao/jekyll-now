@@ -66,6 +66,8 @@ Note that for the purpose of this exercise, a risk-free rate of 0 is assumed. Th
 
 ## Appendix
 
+Table 1: Optimal Selling Window
+
 | Time | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|
 | Monday a.m. | -0.0895 | 0.2211 | -0.4049 |
@@ -80,6 +82,8 @@ Note that for the purpose of this exercise, a risk-free rate of 0 is assumed. Th
 | Friday p.m. | -0.0361 | 0.7379 | -0.049 |
 | Saturday a.m. | -0.2054 | 0.3844 | -0.5343 |
 | Saturday p.m. | -0.2562 | 0.3297 | -0.7771 |
+
+Table 2: Sellling on the Optimal Island
 
 | Number of Islands | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|

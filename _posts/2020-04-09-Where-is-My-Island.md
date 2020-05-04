@@ -77,3 +77,5 @@ Now we get to observe where my island is on the globe, and in the absence of fur
 <iframe src="https://shawenyao.github.io/R/output/animal_crossing/my_island.html" style="border:none;height:300px;width:100%;" scrolling="no"></iframe>
 
 But there's a minor problem. There isn't any island there!
+
+_This is Part I of my Animal Crossing post series. For Part II, see [here](/Modern-Portfolio-Theory-a-Case-Study-on-Turnips/)_.

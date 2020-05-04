@@ -73,7 +73,7 @@ F_Q(x)
 \end{align}
 $$
 
-As a result, the new distribution under-samples the smaller values but over-samples the larger ones, shifting the probability mass to the right. The more islands we have at our disposal, the more advantageous the situation becomes. A single additional island brings a staggering fivefold increase in expected return and almost fivefold increase in Sharpe ratio. Once you have 6 islands, you can expect a 122% return over the same time period with a Sharpe ratio of 0.97, dwarfing any hedge fund super star who has ever walked this Planet Earth.
+As a result, the new distribution under-samples the smaller values while over-sampling the larger ones, shifting the probability mass to the right. The more islands we have at our disposal, the more advantageous the situation becomes. A single additional island brings a staggering fivefold increase in expected return and almost fivefold increase in Sharpe ratio. Once you have 6 islands, you can expect a 122% return over the same time period with a Sharpe ratio of 0.97, dwarfing any hedge fund super star who has ever walked this Planet Earth.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return_multiple_islands.png" />

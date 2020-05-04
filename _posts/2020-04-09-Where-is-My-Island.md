@@ -31,7 +31,7 @@ $$
 where
 * $h$ is the solar elevation angle at solar noon. It is also the angle between a ray of sunlight and the horizon at the observation point and can be found by taking inverse tangent on the ratio of the height of an object over the length of its shadow. In addition, solar noon is defined as the time of the day when the Sun reaches the highest point. Note that this is equivalent to the length of shadow being the shortest, and it doesn't necessarily coincide with 12pm.
 * $\phi$ is the latitude of the observation point (a positive number in this case)
-* $\delta$ is the latitude of the subsolar point (a negative number in this case), also know as the solar declination angle.
+* $\delta$ is the latitude of the subsolar point (a negative number in this case)
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/1_label.png" />
@@ -64,7 +64,7 @@ $$
 h = \arctan{ \frac{ 4.9079 } { 3.5735 } } = 53.9412 ^\text{o}
 $$
 
-From [here](https://rl.se/sub-solar-point), I know that the solar declination angle $\delta$ is $+7.9^\text{o}$ today. At last, the latitude of my island is given by:
+From [here](https://rl.se/sub-solar-point), I know where the Sun is today (April 9th, 2020) which means $\delta$ equals $+7.9^\text{o}$. At last, the latitude of my island is given by:
 
 $$
 \phi = 90^\text{o} - h + \delta = 43.9588 ^\text{o}

@@ -27,7 +27,9 @@ Turnip, though appears to be a common commodity, has a few distinct traits to it
 * Every morning and afternoon of the following Monday to Saturday, a new quote will become available at Nook's Cranny
 * The whole thing expires the next Sunday
 
-It's also worth noting that it is far from clear if the the price follows some variation of geometric Brownian motion, which is bound to have unintended ramification if we decide to borrow from the asset pricing machinery. In the absence of an optimal selling strategy (comment if you know better!), I am going to make an assumption that makes the problem far more tractable: we can only exercise our "turnip option" at one specific time window (out of the total 12 of them), and such decision will be made solely based on [Sharpe ratio](https://en.wikipedia.org/wiki/Sharpe_ratio).
+However, turnip differs from any traditional asset in at least one meaningful way. It is far from clear if the the price follows some variation of geometric Brownian motion, which is bound to have unintended ramification if we decide to borrow from the asset pricing machinery. But it's not totally hopeless, as will be shown shortly - we can pin it down numerically.
+ 
+It's also worth noting that in the absence of an optimal selling strategy (comment if you know better!), I am going to make an assumption that makes the problem far more tractable: we can only exercise our "turnip option" at one specific time window (out of the total 12 of them), and such decision will be made solely based on [Sharpe ratio](https://en.wikipedia.org/wiki/Sharpe_ratio).
 
 ## Turnip's Price Dynamics
 For a long time, it has been known to the Animal Crossing community that the turnip price isn't truly random. Instead, it follows one of the four following [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):

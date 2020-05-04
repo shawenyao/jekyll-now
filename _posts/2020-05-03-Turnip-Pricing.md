@@ -39,7 +39,7 @@ Thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here
 
 ## Strategy: Sell on Wed a.m. and Go Away
 
-Based on my experiment of 100000 trials, if we have to fix our timing of selling turnips, Wednesday a.m. seems to be the best choice both in terms of expected return and Sharpe ratio. See appendix for details.
+Based on my experiment of 100000 trials, if we have to fix our timing of selling turnips, Wednesday a.m. seems to be the best choice both in terms of expected return (~10%) and Sharpe ratio (0.13). See appendix for details.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return.png" />

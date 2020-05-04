@@ -116,4 +116,6 @@ Table 2: Selling on the Optimal Island
 | 6 | 1.2234 | 1.2495 | 0.979 |
 | ... | ... | ... | ... |
 
+<br>
+
 _This is Part II of my Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/)_.

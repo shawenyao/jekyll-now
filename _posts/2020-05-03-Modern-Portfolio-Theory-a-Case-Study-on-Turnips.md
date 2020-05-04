@@ -6,7 +6,7 @@ tag:
   - finance
   - animal crossing
 comments: true
-draft: true
+draft: false
 ---
 
 And how having friends makes the stalk market a lot more profitable.

@@ -12,7 +12,7 @@ draft: true
 And how having friends makes the stalk market a lot more profitable.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/Animal Crossing/001.jpg" />
+  <img src="https://shawenyao.github.io/Photos/Animal Crossing/005.jpg" />
 </div>
 
 Turnip is a fascinating addition in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute distraction to an absolute necessity (that is, if you want to play optimally). It is the de facto stock market on the deserted island, where you strive to buy low and sell high in order to pocket a decent profit. Plus, did I mention that you can visit your friends' island for some bonus trading opportunities?

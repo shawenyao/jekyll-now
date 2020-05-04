@@ -19,7 +19,7 @@ _This is Part II of my Animal Crossing post series. For Part I, see [here](/Wher
 
 Turnip is a fascinating addition in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute distraction to an absolute necessity (that is, if you want to play optimally). It is the de facto stock market on the deserted island, where you strive to buy low and sell high in order to pocket a decent profit. Plus, did I mention that you can visit your friends' island for some bonus trading opportunities?
 
-In this post, I examine the "stalk" market through the mean-variance optimization lens. Is it worth it? When should you sell? To what extent can your friends be of assistance? As some might expect, the answers lie somewhere in the modern portfolio theory. 
+In this post, I examine the "stalk" market through the mean-variance optimization lens. Is it worth it? When should you sell? To what extent can your friends be of assistance? As some might expect, the answers lie in the modern portfolio theory. 
 
 ## The Stalk Market Explained
 Turnip, though appears to be a commodity, behaves very much like an American option -
@@ -108,7 +108,7 @@ Table 2: Selling on the Optimal Island
 
 | Number of Islands | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|
-| 1 | 0.0953 | 0.7169 | 0.1329 |
+| **1** | **0.0953** | **0.7169** | **0.1329** |
 | 2 | 0.4707 | 0.8983 | 0.524 |
 | 3 | 0.7221 | 1.0167 | 0.7102 |
 | 4 | 0.92 | 1.1097 | 0.829 |

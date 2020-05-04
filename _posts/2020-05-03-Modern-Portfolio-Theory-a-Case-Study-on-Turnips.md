@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Modern Portfolio Theory&#58 a Case Study on Turnips
+title: Where is My Island
 tag:
-  - maths
-  - finance
-  - animal crossing
+  - maths
+  - animal crossing
 comments: true
-draft: true
+draft: false
 ---
 
 And also, how having friends makes the stalk market a lot more profitable.

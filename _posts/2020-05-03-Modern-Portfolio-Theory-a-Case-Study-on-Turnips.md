@@ -81,7 +81,7 @@ As a result, the new distribution undersamples the smaller values and oversample
 
 ## Conclusions
 
-Turnip is a great investment by all means. With a little planning, some hardwork and a few friends, it consistently delivers some of the best return known to humankind. One might argue that the game's interface doesn't really make it easy for players to abuse the system, but I digress.
+Turnip is a great investment by all means. With a little planning, some hardwork and a few friends, it consistently delivers some of the best returns known to humankind. One might argue that the game's interface doesn't really make it easy for players to abuse the system, but I digress.
 
 Meanwhile, to my fellow turnip traders, happy investing. Just be careful and don't let the Nooks know.
 

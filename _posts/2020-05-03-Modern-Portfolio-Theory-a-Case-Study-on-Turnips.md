@@ -47,7 +47,7 @@ Now thanks to the extraordinary reverse-engineering work done by Treeki (see [he
 
 ## Strategy: Sell on Wed a.m. and Go Away
 
-Juding from my experiment of 100K trials, if we have to limit our timing of selling turnips to only one of the 12 available slots, Wednesday a.m. seems to be the best choice both in terms of expected return and Sharpe ratio. If we follow this strategy, a return of almost 10% can be expected over the 3-day time frame - significantly outperforming virtually every asset class in the real world, mind you. See appendix for details.
+Juding from my experiment of 100K trials, if we have to limit our timing of selling turnips to one of the 12 available slots, Wednesday a.m. seems to be the best choice both in terms of expected return and Sharpe ratio. If we follow this strategy, a return of almost 10% can be expected over the 3-day time frame - significantly outperforming virtually every asset class in the real world, mind you. See appendix for details.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return.png" />

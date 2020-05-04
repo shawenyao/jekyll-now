@@ -30,7 +30,7 @@ It has always been known to the Animal Crossing community that the turnip prices
 * Large Spike
 * Small Spike
 
-Thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), it is now possible to simulate the price paths numerically
+Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), it is even possible to simulate the price paths numerically, enabling Monte-Carlo-style analysis:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_price.png" />

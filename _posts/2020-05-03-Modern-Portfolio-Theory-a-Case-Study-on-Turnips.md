@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Turnip Pricing
+title: Modern Portfolio Theory&#58 a Case Study on Turnips
 tag:
   - maths
   - finance
@@ -13,10 +13,10 @@ And how having friends makes the stalk market a lot more profitable.
 
 _This is Part II of my Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/)_.
 
-Turnip is a fascinating distraction in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute addition to an absolute necessity. In this post, 
+Turnip is a fascinating distraction in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute addition to an absolute necessity. In this post, I examine the from a mean-variance 
 
 ## The Stalk Market Explained
-Turnip, though appears to be a commodity at first glance, behaves very much like an American option -
+Turnip, though appears to be a commodity, behaves very much like an American option -
 * You pay a premium upfront every Sunday
 * Every morning and afternoon of the following Monday to Saturday, a new quote will be given in Nook's Cranny.
 * The whole thing expires the next Sunday
@@ -39,7 +39,7 @@ Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [
 
 ## Strategy: Sell on Wed a.m. and Go Away
 
-Based on my experiment of 100000 trials, if we have to fix our timing of selling turnips, Wednesday a.m. seems to be the best choice both in terms of expected return (around 10%) and Sharpe ratio (0.13). See appendix for details.
+Based on my experiment of 100000 trials, if we have to fix our timing of selling turnips, Wednesday a.m. seems to be the best choice in terms of both expected return (around 10%) and Sharpe ratio (0.13). See appendix for details.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return.png" />

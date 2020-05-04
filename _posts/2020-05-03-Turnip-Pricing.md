@@ -87,4 +87,4 @@ Table 2: Sellling on the Optimal Island
 
 | Number of Islands | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|
-| 1 | 0.0953 | 0.7169 | **0.1329 |
+| 1 | 0.0953 | 0.7169 | 0.1329 |

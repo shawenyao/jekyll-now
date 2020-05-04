@@ -17,7 +17,7 @@ And also, how having friends makes the stalk market a lot more profitable.
 
 _This is Part II of my Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/)_.
 
-Turnip is a fascinating addition in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute distraction to an absolute necessity (if you want to play optimally). It is the de facto stock market on the deserted island, where you strive to buy low and sell high in order to pocket a decent profit. Plus, you can even visit your friends' island for some additional trading opportunity.
+Turnip is a fascinating addition in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute distraction to an absolute necessity (if you want to play optimally). It is the de facto stock market on the deserted island, where you strive to buy low and sell high in order to pocket a decent profit. Plus, did I mention that you can even visit your friends' island for some additional trading opportunity?
 
 In this post, I examine the "stalk" market through the mean-variance optimization lens. 
 
@@ -27,7 +27,7 @@ Turnip, though appears to be a commodity, behaves very much like an American opt
 * Every morning and afternoon of the following Monday to Saturday, a new quote will become available at Nook's Cranny
 * The whole thing expires the next Sunday
 
-However, it's also different from an American option in at least one meaningful way. The only thing you can do to cash it out is to exercise it, as you won't be able to sell it to anyone else, which might have unintended ramification if we decide to borrow from the American option pricing machinery. In the absence of an optimal exercising strategy (comment if you know better!), I am going to make an assumption that makes the problem far more tractable: we can only exercise our "turnip option" at one specific time window (out of the total 12 of them), and such decision will be made solely based on [Sharpe ratio](https://en.wikipedia.org/wiki/Sharpe_ratio).
+However, it also differs from an American option in at least one meaningful way. The only thing you can do to cash it out is to exercise it, as you won't be able to sell it to anyone else, which might have unintended ramification if we decide to borrow from the American option pricing machinery. In the absence of an optimal exercising strategy (comment if you know better!), I am going to make an assumption that makes the problem far more tractable: we can only exercise our "turnip option" at one specific time window (out of the total 12 of them), and such decision will be made solely based on [Sharpe ratio](https://en.wikipedia.org/wiki/Sharpe_ratio).
 
 ## Turnip's Price Dynamics
 For a long time, it has been known to the Animal Crossing community that the turnip price isn't truly random. Instead, it follows one of the four following [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
@@ -81,10 +81,9 @@ As a result, the new distribution under-samples the smaller values and over-samp
 
 ## Final Thoughts
 
+Turnip is a good investment by all means. With a little planning, some hardwork and a few friends, it consistently delivers some of the best return known to humankind with limited risk. It can also be argued that the game's interface doesn't really make it easy for the players to abuse the system, but I digress.
 
-Note that for the purpose of this exercise, a risk-free rate of 0 is assumed. This really isn't as bad as it sounds for two reasons:
-* starting from April 23rd, the interest rate has been slashed to [near-zero](https://kotaku.com/nintendo-slashes-interest-rates-in-animal-crossing-new-1843019628)
-* the in-game interest doesn't accrue intramonth anyway
+Meanwhile, to my fellow turnip traders, happy investing - just don't let the Nooks know.
 
 ## Appendix
 

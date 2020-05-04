@@ -9,11 +9,17 @@ comments: true
 draft: true
 ---
 
-And how having friends makes the stalk market a lot more profitable.
+And also, how having friends makes the stalk market a lot more profitable.
+
+<div align="center">
+  <img src="https://shawenyao.github.io/Photos/Animal Crossing/001.jpg" />
+</div>
 
 _This is Part II of my Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/)_.
 
-Turnip is a fascinating addition in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute distraction to an absolute necessity. In this post, I examine the "stalk" market through the mean-variance optimization lens.
+Turnip is a fascinating addition in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute distraction to an absolute necessity. It is the de facto stock market on the deserted island, where you expect
+
+In this post, I examine the "stalk" market through the mean-variance optimization lens. 
 
 ## The Stalk Market Explained
 Turnip, though appears to be a commodity, behaves very much like an American option -
@@ -30,7 +36,7 @@ For a long time, it has been known to the Animal Crossing community that the tur
 * Large Spike
 * Small Spike
 
-Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the turnip price dynamics has been uncovred in its entirety, to the point where it is even possible to simulate the prices numerically, enabling Monte-Carlo-style analysis:
+Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the turnip price dynamics has been uncovred in its entirety, to the point where it even becomes possible to simulate the prices numerically, enabling Monte-Carlo-style analysis:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_price.png" />
@@ -39,16 +45,14 @@ Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [
 
 ## Strategy: Sell on Wed a.m. and Go Away
 
-Juding from my experiment of 100000 trials, if we have to fix our timing of selling turnips to one of the 12 time slots, Wednesday a.m. seems to be the best choice both in terms of expected return (around 10%) and Sharpe ratio (0.13). See appendix for details.
+Juding from my experiment of 100000 trials, if we have to fix our timing of selling turnips to one of the 12 time slots, Wednesday a.m. seems to be the best choice both in terms of expected return and Sharpe ratio. If we follow this strategy, a return of almost 10% can be expected over the 3-day time - significantly outperforming virtually every asset class in the real world, mind you. See appendix for details.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return.png" />
 </div>
 
-
-
 ## A Better Strategy: What if You have Friends?
-To make things more interesting, the game also allows you to exercise your "turnip option" on a friend's island. Let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. Assuming they are IID and follow the cumulative distribution function of
+To make things more interesting, the game also allows you to buy (on Sunday) and exercise your "turnip option" (in the following week) on a friend's island. . Let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. Assuming they are IID and follow the cumulative distribution function of
 
 $$
 F_P(x) = G(x)
@@ -72,6 +76,8 @@ $$
 </div>
 
 ## Final Thoughts
+
+
 Note that for the purpose of this exercise, a risk-free rate of 0 is assumed. This really isn't as bad as it sounds for two reasons:
 * starting from April 23rd, the interest rate has been slashed to [near-zero](https://kotaku.com/nintendo-slashes-interest-rates-in-animal-crossing-new-1843019628)
 * the in-game interest doesn't accrue intramonth anyway
@@ -100,9 +106,10 @@ Table 2: Sellling on the Optimal Island
 | Number of Islands | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|
 | 1 | 0.0953 | 0.7169 | 0.1329 |
-| 2 | 0.4206 | 0.8689 | 0.484 |
-| 3 | 0.6342 | 0.9667 | 0.6561 |
-| 4 | 0.8027 | 1.0465 | 0.767 |
-| 5 | 0.9418 | 1.1093 | 0.849 |
-| 6 | 1.0623 | 1.1643 | 0.9124 |
+| 2 | 0.4707 | 0.8983 | 0.524 |
+| 3 | 0.7221 | 1.0167 | 0.7102 |
+| 4 | 0.92 | 1.1097 | 0.829 |
+| 5 | 1.0824 | 1.1853 | 0.9132 |
+| 6 | 1.2234 | 1.2495 | 0.979 |
+| ... | ... | ... | ... |
 

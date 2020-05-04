@@ -2,9 +2,9 @@
 layout: post
 title: Modern Portfolio Theory&#58 a Case Study on Turnips
 tag:
-  - maths
-  - finance
-  - animal crossing
+  - maths
+  - finance
+  - animal crossing
 comments: true
 draft: true
 ---
@@ -12,7 +12,7 @@ draft: true
 And also, how having friends makes the stalk market a lot more profitable.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/Animal Crossing/001.jpg" />
+  <img src="https://shawenyao.github.io/Photos/Animal Crossing/001.jpg" />
 </div>
 
 _This is Part II of my Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/)_.
@@ -24,10 +24,10 @@ In this post, I examine the "stalk" market through the mean-variance optimizatio
 ## The Stalk Market Explained
 Turnip, though appears to be a commodity, behaves very much like an American option -
 * You pay a premium upfront every Sunday
-* Every morning and afternoon of the following Monday to Saturday, a new quote will become avariable at Nook's Cranny.
+* Every morning and afternoon of the following Monday to Saturday, a new quote will become available at Nook's Cranny
 * The whole thing expires the next Sunday
 
-However, it's also different from an American option in at least one meaningful way. The only thing you can do to cash it out is to exercise it, as you won't be able to sell it to anyone else, which might have unintended ramification if we decide to borrow from the American option pricing machinery. In the absence of an optimal exercising strategy (comment if you know better!), I am going to make one assumption that makes the problem far more tractable: we can only exercise our "turnip option" at one specific time window (out of the total 12), and such decision will be soley based on [Sharpe ratio](https://en.wikipedia.org/wiki/Sharpe_ratio).
+However, it's also different from an American option in at least one meaningful way. The only thing you can do to cash it out is to exercise it, as you won't be able to sell it to anyone else, which might have unintended ramification if we decide to borrow from the American option pricing machinery. In the absence of an optimal exercising strategy (comment if you know better!), I am going to make one assumption that makes the problem far more tractable: we can only exercise our "turnip option" at one specific time window (out of the total 12), and such decision will be solely based on [Sharpe ratio](https://en.wikipedia.org/wiki/Sharpe_ratio).
 
 ## Turnip's Price Dynamics
 For a long time, it has been known to the Animal Crossing community that the turnip price isn't truly random. Instead, it follows one of the four following [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
@@ -36,23 +36,23 @@ For a long time, it has been known to the Animal Crossing community that the tur
 * Large Spike
 * Small Spike
 
-Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the turnip price dynamics has been uncovred in its entirety, to the point where it even becomes possible to simulate the prices numerically, enabling Monte-Carlo-style analysis:
+Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the turnip price dynamics has been uncovered in its entirety, to the point where it even becomes possible to simulate the prices numerically, enabling Monte-Carlo-style analysis:
 
 <div align="center">
-  <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_price.png" />
+  <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_price.png" />
 </div>
 
 
 ## Strategy: Sell on Wed a.m. and Go Away
 
-Juding from my experiment of 100K trials, if we have to limit our timing of selling turnips to only one of the 12 time slots, Wednesday a.m. seems to be the best choice both in terms of expected return and Sharpe ratio. If we follow this strategy, a return of almost 10% can be expected over the 3-day timeframe - significantly outperforming virtually every asset class in the real world, mind you. See appendix for details.
+Juding from my experiment of 100K trials, if we have to limit our timing of selling turnips to only one of the 12 time slots, Wednesday a.m. seems to be the best choice both in terms of expected return and Sharpe ratio. If we follow this strategy, a return of almost 10% can be expected over the 3-day time frame - significantly outperforming virtually every asset class in the real world, mind you. See appendix for details.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return.png" />
+  <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return.png" />
 </div>
 
 ## A Better Strategy: What if You have Friends?
-To make things more interesting, the game also allows you to buy (on Sunday) and exercise your "turnip option" (in the following week) on a friend's island. Taking advantage of such flexbility, a rational turnip investor will compare as many options as possible and only buy at the minimum and sell at the maximum across all islands.
+To make things more interesting, the game also allows you to buy (on Sunday) and exercise your "turnip option" (in the following week) on a friend's island. Taking advantage of such flexibility, a rational turnip investor will compare as many options as possible and only buy at the minimum and sell at the maximum across all islands.
 
 Analytically, let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. Assuming they are IID and follow the cumulative distribution function of
 
@@ -73,10 +73,10 @@ F_Q(x)
 \end{align}
 $$
 
-As a result, the new distribution under-samples the smaller values while over-sampling the larger ones, shifting the probability mass to the right. The more islands we have at our disposal, the more advantageous the situation becomes. A single additional island brings a staggering fivefold increase in expected return and almost fivefold increase in Sharpe ratio. Once you have 6 islands, you can expect a 122% return over the same time period with a Sharpe ratio of 0.97, dwarfing any hedge fund super star who has ever walked this Earth.
+As a result, the new distribution under-samples the smaller values while over-sampling the larger ones, shifting the probability mass to the right. The more islands we have at our disposal, the more advantageous the situation becomes. A single additional island brings a staggering fivefold increase in expected return and almost fivefold increase in Sharpe ratio. Once you have 6 islands, you can expect a 122% return over the same 3-day time period with a Sharpe ratio of 0.97, dwarfing any hedge fund super star who has ever walked this Earth.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return_multiple_islands.png" />
+  <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return_multiple_islands.png" />
 </div>
 
 ## Final Thoughts
@@ -105,7 +105,7 @@ Table 1: Optimal Selling Window
 | Saturday a.m. | -0.2054 | 0.3844 | -0.5343 |
 | Saturday p.m. | -0.2562 | 0.3297 | -0.7771 |
 
-Table 2: Sellling on the Optimal Island
+Table 2: Selling on the Optimal Island
 
 | Number of Islands | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|
@@ -116,4 +116,3 @@ Table 2: Sellling on the Optimal Island
 | 5 | 1.0824 | 1.1853 | 0.9132 |
 | 6 | 1.2234 | 1.2495 | 0.979 |
 | ... | ... | ... | ... |
-

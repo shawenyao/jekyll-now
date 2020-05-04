@@ -13,7 +13,7 @@ And how having friends makes the stalk market a lot more profitable.
 
 _This is Part II of my Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/)_.
 
-Turnip is a fascinating distraction in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute addition to an absolute necessity. In this post, I examine the "stalk" market from a mean-variance optimization lens.
+Turnip is a fascinating addition in _Animal Crossing: New Horizons_, and arguably what promotes the game's social aspect from a cute distraction to an absolute necessity. In this post, I examine the "stalk" market through the mean-variance optimization lens.
 
 ## The Stalk Market Explained
 Turnip, though appears to be a commodity, behaves very much like an American option -
@@ -21,16 +21,16 @@ Turnip, though appears to be a commodity, behaves very much like an American opt
 * Every morning and afternoon of the following Monday to Saturday, a new quote will become avariable at Nook's Cranny.
 * The whole thing expires the next Sunday
 
-But it's also different from an American option in at least one meaningful way. The only thing you can do to cash it out is to exercise it, as you won't be able to sell it to anyone else, which might have unintended ramification if we decide to borrow from the American option pricing machinery. In the absence of an optimal exercising strategy (comment if you know better!), I am going to make one assumption that makes the problem far more tractable: let's only exercise our "turnip option" at one specific time window (out of 12) with the highest Sharpe ratio.
+However, it's also different from an American option in at least one meaningful way. The only thing you can do to cash it out is to exercise it, as you won't be able to sell it to anyone else, which might have unintended ramification if we decide to borrow from the American option pricing machinery. In the absence of an optimal exercising strategy (comment if you know better!), I am going to make one assumption that makes the problem far more tractable: we can only exercise our "turnip option" at one specific time window (out of the total 12), and such decision will be soley based on [Sharpe ratio](https://en.wikipedia.org/wiki/Sharpe_ratio).
 
 ## Turnip's Price Dynamics
-It has always been known to the Animal Crossing community that the turnip prices follows one of the four following [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
+For a long time, it has been known to the Animal Crossing community that the turnip price isn't truly random. Instead, it follows one of the four following [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
 * Random 
 * Decreasing
 * Large Spike
 * Small Spike
 
-Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), it is even possible to simulate the price paths numerically, enabling Monte-Carlo-style analysis:
+Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the turnip price dynamics has been uncovred in its entirety, to the point where it is even possible to simulate the prices numerically, enabling Monte-Carlo-style analysis:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_price.png" />
@@ -39,7 +39,7 @@ Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [
 
 ## Strategy: Sell on Wed a.m. and Go Away
 
-Based on my experiment of 100000 trials, if we have to fix our timing of selling turnips, Wednesday a.m. seems to be the best choice in terms of both expected return (around 10%) and Sharpe ratio (0.13). See appendix for details.
+Juding from my experiment of 100000 trials, if we have to fix our timing of selling turnips to one of the 12 time slots, Wednesday a.m. seems to be the best choice both in terms of expected return (around 10%) and Sharpe ratio (0.13). See appendix for details.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return.png" />

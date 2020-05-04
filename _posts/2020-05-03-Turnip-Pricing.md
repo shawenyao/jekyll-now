@@ -24,7 +24,13 @@ Turnip, though appears to be a commodity at first glance, behaves very much like
 But it's also different from an American option in at least one meaningful way. The only thing you can do to cash it out is to exercise it, as you won't be able to sell it to anyone else, which might have unintended ramification if we decide to borrow from the American option pricing machinery. In the absence of an optimal exercising strategy (comment if you know better!), I am going to make one assumption that makes the problem far more tractable: let's only exercise our "turnip option" at one specific time window (out of 12) with the highest Sharpe ratio.
 
 ## Turnip's Price Dynamics
-Thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the price of a turnip can be numerically simulated.
+It has always been known to the Animal Crossing community that the turnip prices follows one of the four following [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
+* Random 
+* Decreasing
+* Large Spike
+* Small Spike
+
+Thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), it is now possible to simulate the price paths numerically
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_price.png" />

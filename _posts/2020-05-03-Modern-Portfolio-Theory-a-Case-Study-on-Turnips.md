@@ -68,7 +68,7 @@ F_Q(x)
 &= \mathbb{P}(Q \leq x) \\
 &= \mathbb{P}(max(P_1, P_2, ..., P_N) \leq x) \\
 &= \mathbb{P}(P_1 \leq x \ ∩ \ P_2 \leq x \ ∩ \ ... \ ∩ \ P_N \leq x) \\
-&= \mathbb{P}(P_1 \leq x) \mathbb{P}(P_2 \leq x) \mathbb{P}(P_N \leq x) \\
+&= \mathbb{P}(P_1 \leq x) \mathbb{P}(P_2 \leq x) \ ... \ \mathbb{P}(P_N \leq x) \\
 &= G^{N}(x) \\
 \end{align}
 $$

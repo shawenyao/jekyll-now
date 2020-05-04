@@ -83,4 +83,4 @@ Note that for the purpose of this exercise, a risk-free rate of 0 is assumed. Th
 
 | Number of Islands | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|
-
+| 1 | 1 | 1 | 1|

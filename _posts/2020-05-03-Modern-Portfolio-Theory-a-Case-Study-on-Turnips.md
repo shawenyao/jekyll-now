@@ -36,7 +36,7 @@ For a long time, it has been known to the Animal Crossing community that the tur
 * Large Spike
 * Small Spike
 
-Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the turnip price dynamics has been uncovered in its entirety, to the point where it becomes possible to simulate the prices numerically, enabling Monte-Carlo-style analysis:
+Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the mystery behind turnip price has been deciphered in its entirety, to the point where it becomes possible to simulate the prices numerically, enabling Monte-Carlo-style analysis:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_price.png" />

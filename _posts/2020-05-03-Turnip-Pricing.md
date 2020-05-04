@@ -67,7 +67,9 @@ F_Q(x)
 \end{align}
 $$
 
-
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return_multiple_islands.png" />
+</div>
 
 ## Final Thoughts
 Note that for the purpose of this exercise, a risk-free rate of 0 is assumed. This really isn't as bad as it sounds for two reasons:
@@ -98,3 +100,9 @@ Table 2: Sellling on the Optimal Island
 | Number of Islands | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|
 | 1 | 0.0953 | 0.7169 | 0.1329 |
+| 2 | 0.4206 | 0.8689 | 0.484 |
+| 3 | 0.6342 | 0.9667 | 0.6561 |
+| 4 | 0.8027 | 1.0465 | 0.767 |
+| 5 | 0.9418 | 1.1093 | 0.849 |
+| 6 | 1.0623 | 1.1643 | 0.9124 |
+

@@ -34,6 +34,9 @@ It's clear. If we have to fix our timing of selling turnips, Wednesday a.m. seem
 
 ## Strategy: Sell on Wed a.m. and Go Away
 
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return.png" />
+</div>
 
 
 

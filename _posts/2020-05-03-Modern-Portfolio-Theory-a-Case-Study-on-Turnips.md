@@ -45,14 +45,16 @@ Now thanks to the extraordinary reverse-engineering work done by Ash Wolf (see [
 
 ## Strategy: Sell on Wed a.m. and Go Away
 
-Juding from my experiment of 100000 trials, if we have to fix our timing of selling turnips to one of the 12 time slots, Wednesday a.m. seems to be the best choice both in terms of expected return and Sharpe ratio. If we follow this strategy, a return of almost 10% can be expected over the 3-day time - significantly outperforming virtually every asset class in the real world, mind you. See appendix for details.
+Juding from my experiment of 100K trials, if we have to limit our timing of selling turnips to only one of the 12 time slots, Wednesday a.m. seems to be the best choice both in terms of expected return and Sharpe ratio. If we follow this strategy, a return of almost 10% can be expected over the 3-day timeframe - significantly outperforming virtually every asset class in the real world, mind you. See appendix for details.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return.png" />
 </div>
 
 ## A Better Strategy: What if You have Friends?
-To make things more interesting, the game also allows you to buy (on Sunday) and exercise your "turnip option" (in the following week) on a friend's island. . Let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. Assuming they are IID and follow the cumulative distribution function of
+To make things more interesting, the game also allows you to buy (on Sunday) and exercise your "turnip option" (in the following week) on a friend's island. Taking advantage of such flexbility, a rational turnip investor will compare as many options as possible and only buy at the minimum and sell at the maximum across all islands.
+
+Analytically, let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. Assuming they are IID and follow the cumulative distribution function of
 
 $$
 F_P(x) = G(x)
@@ -70,6 +72,8 @@ F_Q(x)
 &= G^{N}(x) \\
 \end{align}
 $$
+
+As a result, the new distribution under-samples the smaller values but over-samples the larger ones, shifting the probability mass to the right. The more islands we have at our disposal, the more advantageous the situation becomes. A single additional island brings a staggering fivefold increase in expected return and almost fivefold increase in Sharpe ratio. Once you have 6 islands, you can expect a 122% return over the same time period with a Sharpe ratio of 0.97, dwarfing any hedge fund super star who has ever walked this Planet Earth.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return_multiple_islands.png" />

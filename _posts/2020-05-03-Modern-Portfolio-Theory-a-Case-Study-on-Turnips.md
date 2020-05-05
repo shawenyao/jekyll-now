@@ -20,6 +20,7 @@ Turnip is a fascinating addition in _Animal Crossing: New Horizons_, and arguabl
 In this post, I examine the "stalk" market through the mean-variance optimization lens. Is it worth it? When should you sell? To what extent can your friends be of assistance? As some might expect, the answers lie in the modern portfolio theory. 
 
 ## The Stalk Market Explained
+
 Turnip, though appears to be a common commodity, has a few distinct traits to it -
 * You can only buy it from Daisy Mae every Sunday
 * Every morning and afternoon of the following Monday to Saturday, a new quote will become available at Nook's Cranny
@@ -30,6 +31,7 @@ However, turnip differs from any traditional asset in at least one meaningful wa
 It's also worth noting that in the absence of an optimal selling strategy (comment if you know better!), I am going to make an assumption that makes the problem far more tractable: let's only sell our turnips at one specific time window (out of the total 12 of them), and such decision will be made solely based on [Sharpe ratio](https://en.wikipedia.org/wiki/Sharpe_ratio).
 
 ## Turnip's Price Dynamics
+
 For a long time, it has been known to the Animal Crossing community that the turnip price isn't truly ~~random~~unpredictable. Instead, it follows one of the four following [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
 * Random 
 * Decreasing
@@ -52,6 +54,7 @@ Juding from my experiment of 100K trials, if we have to limit our timing of sell
 </div>
 
 ## A Better Strategy: What if You have Friends?
+
 To make things more interesting, the game also allows you to buy (on Sunday) and sell your turnips (in the following week) on a friend's island. Taking advantage of such flexibility, a rational turnip investor will compare as many options as possible and only buy at the minimum and sell at the maximum across all islands.
 
 Analytically, let $P_1$, $P_2$, ..., $P_N$ be the turnip prices observed on $N$ different islands. Assuming they are IID and follow the cumulative distribution function of

@@ -30,7 +30,7 @@ However, turnip differs from any traditional asset in at least one meaningful wa
 It's also worth noting that in the absence of an optimal selling strategy (comment if you know better!), I am going to make an assumption that makes the problem far more tractable: let's only sell our turnips at one specific time window (out of the total 12 of them), and such decision will be made solely based on [Sharpe ratio](https://en.wikipedia.org/wiki/Sharpe_ratio).
 
 ## Turnip's Price Dynamics
-For a long time, it has been known to the Animal Crossing community that the turnip price isn't truly random. Instead, it follows one of the four following [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
+For a long time, it has been known to the Animal Crossing community that the turnip price isn't truly ~~random~~unpredictable. Instead, it follows one of the four following [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
 * Random 
 * Decreasing
 * Large Spike

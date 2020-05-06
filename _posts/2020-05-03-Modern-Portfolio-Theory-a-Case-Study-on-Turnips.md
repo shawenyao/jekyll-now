@@ -32,7 +32,7 @@ It's also worth noting that in the absence of an optimal selling strategy (comme
 
 ## Turnip's Price Dynamics
 
-For a long time, it has been known to the Animal Crossing community that the turnip price isn't truly ~~random~~unpredictable. Instead, it follows one of the four following [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
+For a long time, it has been known to the Animal Crossing community that the turnip price isn't truly unpredictable. Instead, it follows one of the four following [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
 * Random 
 * Decreasing
 * Large Spike
@@ -82,6 +82,12 @@ As a result, the new distribution undersamples the smaller values and oversample
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return_multiple_islands.png" />
 </div>
 
+For our final thought experiment, let's push the number of islands to infinity. People have already been taking advantage of price discovery websites (such as [Turnip Exchange](https://turnip.exchange/)) to expand their opportunity set. In the extreme case, the return distribution collapses to one single number as the turnip investor buys at the global minimum and sell at the global maximum (90 and 660 bells respectively per my simulation) and is no longer a random event. In other words, a guaranteed 633% return for the ultimate turnip master.
+
+$$
+\frac{ 660 }{ 90 } - 1 = 6.3333
+$$
+
 ## Conclusions
 
 Turnip is a great investment by all means. With a little planning, some hardwork and a few friends, it consistently delivers some of the best returns known to humankind. One might argue that the game's interface doesn't really make it easy for players to abuse the system, but I digress.
@@ -118,7 +124,12 @@ Table 2: Selling on the Optimal Island
 | 5 | 1.0824 | 1.1853 | 0.9132 |
 | 6 | 1.2234 | 1.2495 | 0.979 |
 | ... | ... | ... | ... |
+| +∞ | 6.3333 | 0 | +∞ |
 
 <br>
+
+Update on May 4th, 2020: Corrected previously-incorrect statement re: randomness of turnip price. Thanks to Chau-Wai Wong.
+
+Update on May 6th, 2020: Discussed the cases where people use price discovery app to pinpoint best price available and what if somebody have infinite number of friends. Thanks to Freya Yi.
 
 _This is Part II of my Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/)_.

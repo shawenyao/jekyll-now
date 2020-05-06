@@ -85,7 +85,7 @@ As a result, the new distribution undersamples the smaller values and oversample
 For our final thought experiment, let's push the number of islands to infinity. People have already been taking advantage of price discovery websites (such as [Turnip Exchange](https://turnip.exchange/)) to expand their opportunity set. In the extreme case, the return distribution collapses to one single number as the turnip investor buys at the global minimum and sell at the global maximum (90 and 660 Bells respectively per my simulation) and is no longer a random event. In other words, a guaranteed 633% return for the ultimate turnip master.
 
 $$
-\mathbb{ E } ( r_{ \infty } ) = r_{ \infty } \frac{ 660 }{ 90 } - 1 = 6.3333
+\mathbb{ E } ( r_{ \infty } ) = r_{ \infty } = \frac{ 660 }{ 90 } - 1 = 6.3333
 $$
 
 ## Conclusions

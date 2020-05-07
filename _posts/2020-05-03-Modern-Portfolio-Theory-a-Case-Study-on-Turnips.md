@@ -128,7 +128,7 @@ Table 2: Selling on the Optimal Island
 
 <br>
 
-Update on May 4th, 2020: Corrected previously-incorrect statement re: randomness of turnip price. Thanks to Chau-Wai Wong.
+Update on May 4th, 2020: Corrected previously-inaccurate statement re: randomness of turnip price. Thanks to Chau-Wai Wong.
 
 Update on May 6th, 2020: Discussed the cases where people use price discovery app to pinpoint best price available and what if somebody has infinite number of friends. Thanks to Freya Yi.
 

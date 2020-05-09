@@ -32,7 +32,7 @@ It's also worth noting that in the absence of an optimal selling strategy (comme
 
 ## Turnip's Price Dynamics
 
-For a long time, it has been known to the Animal Crossing community that the turnip price isn't truly unpredictable. Instead, it follows one of the four following [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
+For a long time, it has been known to the Animal Crossing community that the turnip price isn't truly unpredictable. Instead, it follows one of the following four [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
 * Random 
 * Decreasing
 * Large Spike

@@ -28,7 +28,7 @@ Simulations indicates that on average, it takes 89 days (or 356 trials) to colle
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_1.png" />
 </div>
 
-Furthermore, if we look at the probability distribution at the end of the 89th day, there's a 58% chance that you will have completed the collection already.
+Furthermore, if we look at the probability distribution at the end of the 89th day, more likely than not you will have completed the collection already.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_2.png" />

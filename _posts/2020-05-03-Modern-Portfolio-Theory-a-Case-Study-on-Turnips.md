@@ -132,4 +132,4 @@ Update on May 4th, 2020: Corrected previously-inaccurate statement re: randomnes
 
 Update on May 6th, 2020: Discussed the cases where people use price discovery app to pinpoint the best price available and what if somebody has infinite number of friends. Thanks to Freya Yi.
 
-_This is Part II of my Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/)_. For Part III, see [here](/Fossil-Completionists-Guidebook/)_.
+_This is Part II of my Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/). For Part III, see [here](/Fossil-Completionists-Guidebook/)_.

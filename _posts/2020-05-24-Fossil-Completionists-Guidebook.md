@@ -23,7 +23,7 @@ In this post, I study the problem of how long it takes on average to complete th
 ## General Setup
 
 First things first, there are a few important facts to keep in mind before we get started:
-* each fossil has equal chance of being dug up per trial (correct me if I am missing something!)
+* for tractability, it is assumed that each fossil has an equal chance of being dug up (comment below if you disagree!)
 * 4 fossils can be found on any given day
 * there are 73 unique fossils in total to add to Blather's exhibition
 

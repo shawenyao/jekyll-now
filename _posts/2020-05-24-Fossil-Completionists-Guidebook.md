@@ -29,7 +29,7 @@ First things first, there are a few important facts to keep in mind before we ca
 
 ## Numerical Solution
 
-Simulations indicates that on average, it takes 89 days (or 356 trials) to collect all 73 types of fossils.
+Numerical simulation indicates that on average, it takes 89 days (or 356 trials) to collect all 73 types of fossils.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_1.png" />

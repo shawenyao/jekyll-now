@@ -46,4 +46,6 @@ $$
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_4.png" />
 </div>
 
+<br>
+
 _This is Part III of my Animal Crossing post series. For Part II, see [here](/Modern-Portfolio-Theory-a-Case-Study-on-Turnips/)_.

@@ -41,7 +41,7 @@ $$
 \left\{ 
 \begin{array}{c}
 1, \ t = 1 \\ 
-\mathbb{E} \left[ F ^ N (t - 1) \right] + \frac{ N - \mathbb{E} \left[ F ^ N (t - 1) \right]  }{ N } , \ t > 1 \\ 
+1 + (1 - \frac{ 1 }{ N }) \mathbb{E} \left[ F ^ N (t - 1) \right] , \ t > 1 \\ 
 \end{array}
 \right. 
 $$

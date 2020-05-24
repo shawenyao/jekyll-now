@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fossil Collector
+title: Fossil Completionist's Memo
 tag:
   - maths
   - animal crossing

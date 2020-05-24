@@ -53,7 +53,7 @@ $$
 \left\{ 
 \begin{array}{c}
 1, \ t = 1 \\ 
-\mathbb{E} \left[ F ^ N (t - 1) \right] + \frac{ N - \mathbb{E} \left[ F ^ N (t - 1) \right] }{ N } , \ t > 1 \\ 
+\mathbb{E} \left[ F ^ N (t - 1) \right] + \frac{ N - \mathbb{E} \left[ F ^ N (t - 1) \right] }{ N } , \ t \geq 2 \\ 
 \end{array}
 \right. 
 $$
@@ -64,7 +64,11 @@ $$
 
 ## Conclusions
 
-The game was launched on March 20, 2020, so assuming you started playing on day 1 and never missed a single fossil, June 17th will be your benchmark to beat. Tip: remember to blame it on Zipper should you fail.
+_Animal Crossing: New Horizons_ was launched on March 20, 2020, so assuming you started playing on day 1 and never missed a single fossil, June 17th will be your benchmark to beat. Tip: remember to blame it on Zipper should you fail.
+
+<div align="center">
+  <img src="https://shawenyao.github.io/Photos/Animal Crossing/007.jpg" />
+</div>
 
 <br>
 

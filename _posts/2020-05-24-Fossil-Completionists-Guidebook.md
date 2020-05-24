@@ -22,14 +22,14 @@ In this post, I study the problem of how long it takes on average to complete th
 
 ## General Setup
 
-First things first, there are a few important facts to keep in mind before we can get started:
+First things first, there are a few important facts to keep in mind before we get started:
 * each fossil has equal chance of being dug up per trial (correct me if I am missing something!)
 * 4 fossils can be found on any given day
 * there are 73 unique fossils in total to add to Blather's exhibition
 
 ## Numerical Solution
 
-Numerical simulation indicates that on average, it takes 89 days (or 356 trials) to collect all 73 types of fossils.
+Right off the bat, Numerical simulation indicates that on average, it takes 89 days (or 356 trials) to collect all fossils.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_1.png" />

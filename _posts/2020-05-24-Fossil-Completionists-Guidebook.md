@@ -29,7 +29,7 @@ First things first, there are a few important facts to keep in mind before we ge
 
 ## Numerical Solution
 
-With the help of any modern computing device, numerical simulation indicates that on average, it takes 89 days (or 356 trials) to collect all fossils.
+With the help of any modern computing device, numerical simulation indicates that on average, it takes 89 days (or 356 trials) to collect all fossils. So there you go - it's not that bad.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_1.png" />

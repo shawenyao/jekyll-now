@@ -5,7 +5,7 @@ tag:
   - maths
   - animal crossing
 comments: true
-draft: true
+draft: false
 ---
 
 An estimate of how soon one can expect to complete the collection.
@@ -37,6 +37,8 @@ $$
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_2.png" />
 </div>
+
+## Analytical Solution
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_3.png" />

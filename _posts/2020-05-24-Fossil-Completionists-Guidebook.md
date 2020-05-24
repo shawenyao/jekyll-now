@@ -67,7 +67,7 @@ $$
 \right. 
 $$
 
-Again, initially it fills out almost linearly. The curve starts to flatten out eventually as you build up your collection, desperately waiting for the last few pieces to arrive.
+Again, initially it fills out almost linearly. The curve starts to flatten out eventually as you build up your collection, desperately waiting for the last few pieces to arrive. That said, all you really need is to keep calm and carry on. As previously mentioned, the odds are in your favor in 3 months' time (and increasingly so).
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_4.png" />

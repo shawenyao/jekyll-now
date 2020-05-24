@@ -64,7 +64,7 @@ $$
 
 ## Conclusions
 
-_Animal Crossing: New Horizons_ was launched on March 20, 2020, so assuming you started playing on day 1 and never missed a single fossil, June 17th will be your benchmark to beat. Tip: remember to blame it on Zipper should you fail.
+_Animal Crossing: New Horizons_ was launched on March 20, 2020, so assuming you started playing on day 1 and never missed a single fossil, June 17th will be your benchmark to beat. Tip: remember to blame it on Zipper should you fail!
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/007.jpg" />

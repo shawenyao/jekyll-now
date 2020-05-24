@@ -16,7 +16,7 @@ An estimate of how soon one can expect to complete the collection.
 
 ## Problem Formulation
 
-## Solution
+## Numerical Solution
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_1.png" />

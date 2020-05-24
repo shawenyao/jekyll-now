@@ -2,8 +2,8 @@
 layout: post
 title: Where is My Island
 tag:
-  - maths
   - animal crossing
+  - maths
 comments: true
 draft: false
 ---

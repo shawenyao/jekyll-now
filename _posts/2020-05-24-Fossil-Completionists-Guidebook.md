@@ -23,7 +23,7 @@ In this post, I analyze the problem of how long it takes on average to complete 
 ## General Setup
 
 First things first, there are a few important facts to keep in mind before we get started:
-* for tractability, it is assumed that each fossil has an equal chance of being dug up (comment below if you disagree!)
+* for tractability, it is assumed that each fossil has an equal chance of showing up (comment below if you disagree!)
 * 4 fossils can be found on any given day
 * there are 73 unique fossils in total to add to the museum's collection
 

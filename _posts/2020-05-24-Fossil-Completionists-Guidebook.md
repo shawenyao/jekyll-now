@@ -75,7 +75,7 @@ Again, initially it fills out almost linearly. The curve starts to flatten out e
 
 ## Conclusions
 
-_Animal Crossing: New Horizons_ was launched on March 20, 2020, so if you started playing on day 1 and never missed a single fossil, June 17th will be your benchmark to beat. Should that not be the case, you can always blame it on Zipper!
+_Animal Crossing: New Horizons_ was launched on March 20, 2020, so if you started playing on day 1 and never missed a single fossil, June 17th (i.e., day 89) will be your benchmark to beat. Should that not be the case, you can always blame it on Zipper!
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/007.jpg" />

@@ -8,7 +8,7 @@ comments: true
 draft: true
 ---
 
-An estimate of when can
+An estimate of how soon one can expect to complete the collection.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/006.jpg" />

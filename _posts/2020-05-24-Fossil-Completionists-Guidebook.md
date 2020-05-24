@@ -14,7 +14,11 @@ An estimate of how soon one can expect to complete the collection.
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/006.jpg" />
 </div>
 
+There are 73 unique fossils in total to add to Blather's exhibition.
+
 ## Problem Formulation
+
+Assuming equal chance of digging any fossil and 4 chances per day, how many days on average does it take to complete the collection?
 
 ## Numerical Solution
 
@@ -53,6 +57,10 @@ $$
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_4.png" />
 </div>
+
+## Conclusions
+
+The game was launched on March 20, 2020, so assuming you are a perfctionist and never miss a single fossil on any day, June 17th will be your benchmark to beat. Now, the existence of the Bunny Day e
 
 <br>
 

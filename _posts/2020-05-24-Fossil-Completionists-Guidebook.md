@@ -14,7 +14,7 @@ My attempt at relieving fossil collector's anxiety.
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/006.jpg" />
 </div>
 
-Fossil collecting.
+Fossil collecting is a lot of fun in _Animal Crossing: New Horizons_.
 
 All was well until the honey moon phase started to wear out and at some point, you began to dig up nothing but duplicates. Days turned into weeks before you knew it yet things didn't get any better, and you are on the verge of suspecting foul play. Could Nintendo be deliberately withholding a few fossils from your reach just to keep you coming back? Could it be a marketing campaign to sell you the online membership where trading with friends is the only way to advance? Or could it be the case that you simply got unlucky again like everything else in life?
 

@@ -48,7 +48,7 @@ where $N$ is the number of total unique number of collectibles. It grows almost 
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_3.png" />
 </div>
 
-The expected number of unique fossils collected as a function of trials tells the other side of the story.
+The expected number of unique fossils as a function of the number of trials tells the other side of the story.
 
 $$
 \mathbb{E} \left[ F ^ N (t) \right] = 
@@ -59,6 +59,8 @@ $$
 \end{array}
 \right. 
 $$
+
+Again, initially it grows almost linearly. The curve starts to flatten out as you build your collection, anxiously waiting for the last few pieces to come.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_4.png" />

@@ -60,7 +60,7 @@ $$
 
 ## Conclusions
 
-The game was launched on March 20, 2020, so assuming you are a perfctionist and never miss a single fossil on any day, June 17th will be your benchmark to beat. Now, the existence of the Bunny Day e
+The game was launched on March 20, 2020, so assuming you start playing on day 1 and never miss a single fossil, June 17th will be your benchmark to beat. Don't feel bad if you fail - blame it on Zipper.
 
 <br>
 

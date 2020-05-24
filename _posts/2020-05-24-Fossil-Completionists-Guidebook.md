@@ -8,17 +8,20 @@ comments: true
 draft: true
 ---
 
-An estimate of how soon one can expect to complete the collection.
+My attempt at relieving fossil collector's anxiety.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/006.jpg" />
 </div>
 
-There are 73 unique fossils in total to add to Blather's exhibition.
+ how many days on average does it take to complete the collection (i.e., 73 distinct entries)?
 
-## Problem Formulation
+## General Setup
 
-Assuming equal chance of digging up any fossil and 4 chances per day, how many days on average does it take to complete the collection (i.e., 73 distinct entries)?
+A few things to keep in mind before we get started:
+* assuming equal chance of digging up any fossil per trial
+* 4 fossils can be found on any given day
+* there are 73 unique fossils in total to add to Blather's exhibition
 
 ## Numerical Solution
 
@@ -60,7 +63,7 @@ $$
 \right. 
 $$
 
-Again, initially it fills out almost linearly. The curve starts to flatten out as you build up your collection, anxiously waiting for the last few pieces to arrive.
+Again, initially it fills out almost linearly. The curve starts to flatten out as you build up your collection, desperately waiting for the last few pieces to arrive.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_4.png" />

@@ -5,7 +5,7 @@ tag:
   - maths
   - animal crossing
 comments: true
-draft: false
+draft: true
 ---
 
 An estimate of how soon one can expect to complete the collection.

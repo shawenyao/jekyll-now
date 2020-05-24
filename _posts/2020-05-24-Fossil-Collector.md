@@ -38,3 +38,10 @@ $$
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_2.png" />
 </div>
 
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_3.png" />
+</div>
+
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_4.png" />
+</div>

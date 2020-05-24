@@ -28,7 +28,7 @@ Simulations indicates that on average, it takes 89 days (or 356 trials) to colle
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_1.png" />
 </div>
 
-On the other hand, if we look at the probability distribution at the end of the 89th day, there's a 58% chance that you will have completed the collection already.
+Furthermore, if we look at the probability distribution at the end of the 89th day, there's a 58% chance that you will have completed the collection already.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_2.png" />
@@ -47,6 +47,8 @@ where $N$ is the number of total unique number of collectibles. It grows almost 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_3.png" />
 </div>
+
+The expected number of unique fossils collected as a function of trials tells the other side of the story.
 
 $$
 \mathbb{E} \left[ F ^ N (t) \right] = 

@@ -19,14 +19,7 @@ An estimate of how soon one can expect to complete the collection.
 ## Solution
 
 $$
-\begin{align}
-F_Q(x) 
-&= \mathbb{P}(Q \leq x) \\
-&= \mathbb{P}(max(P_1, P_2, ..., P_N) \leq x) \\
-&= \mathbb{P}(P_1 \leq x \ ∩ \ P_2 \leq x \ ∩ \ ... \ ∩ \ P_N \leq x) \\
-&= \mathbb{P}(P_1 \leq x) \mathbb{P}(P_2 \leq x) \ ... \ \mathbb{P}(P_N \leq x) \\
-&= G^{N}(x) \\
-\end{align}
+\mathbb{E} \[ T ^ N (n) \] = \frac{ N }{ N+1-1 } + \frac{ N }{ N+1-2 } + ... +\frac{ N }{ N+1-(n-1) } +\frac{ N }{ N+1-n } 
 $$
 
 

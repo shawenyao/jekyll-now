@@ -36,11 +36,13 @@ On the other hand, if we look at the probability distribution at the end of the 
 
 ## Analytic Solution
 
-Generally, if the probability of some random event happen is $x$, it takes $1 / x$ trials on average for it to occur at least once.
+Generally, if the probability of some random event happen is $x$, it takes $1 / x$ trials on average for it to occur at least once. Adding all expected number of trials to collect the first $n$ fossils together, we have:
 
 $$
 \mathbb{E} \left[ T ^ N (n) \right] = \frac{ N }{ N+1-1 } + \frac{ N }{ N+1-2 } + \ ... \ +\frac{ N }{ N+1-(n-1) } +\frac{ N }{ N+1-n } 
 $$
+
+where $N$ is the number of total unique number of collectibles. 
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_3.png" />

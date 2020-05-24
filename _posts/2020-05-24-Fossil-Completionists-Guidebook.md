@@ -14,7 +14,7 @@ My attempt at relieving fossil collector's anxiety.
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/006.jpg" />
 </div>
 
-In _Animal Crossing: New Horizons_, every starfish-shaped crack is another chance for glory. Once you dig up a new fossil, you can then donate it to Blathers the museum curator. After an enthusiastic but rather unsolicited introduction about the fossil's origin story, it becomes a permanent part of the exhibition for you and your friends to enjoy.
+In _Animal Crossing: New Horizons_, every starfish-shaped crack is another chance for glory. Once you dig up a new fossil, you can then donate it to Blathers the museum curator. After an enthusiastic but rather unsolicited introduction about the fossil's origin, it becomes a permanent part of the exhibition for you and your friends to enjoy.
 
 If you are like me, all was well until the honeymoon phase started to wear out and at some point, you began to get nothing but duplicates. Days soon turned into weeks yet things didn't get any better, and you are on the verge of suspecting foul play. Could Nintendo be deliberately withholding a few fossils from your reach just to keep you coming back? Could it be a marketing campaign to sell you the online membership where trading with friends is the only way to advance? Or could it be your bad luck again, as with everything else in life?
 

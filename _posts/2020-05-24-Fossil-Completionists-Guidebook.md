@@ -42,7 +42,7 @@ $$
 \mathbb{E} \left[ T ^ N (n) \right] = \frac{ N }{ N+1-1 } + \frac{ N }{ N+1-2 } + \ ... \ +\frac{ N }{ N+1-(n-1) } +\frac{ N }{ N+1-n } 
 $$
 
-where $N$ is the number of total unique number of collectibles. 
+where $N$ is the number of total unique number of collectibles. It grows almost linearly at first (as it's fairly unlikely to get duplicates already), but the last one is expected to cost you $N$ tries.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_3.png" />

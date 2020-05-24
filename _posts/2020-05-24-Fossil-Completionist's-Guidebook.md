@@ -29,7 +29,7 @@ An estimate of how soon one can expect to complete the collection.
 ## Analytical Solution
 
 $$
-\mathbb{E} \left[ T ^ N (n) \right] = \frac{ N }{ N+1-1 } + \frac{ N }{ N+1-2 } + ... +\frac{ N }{ N+1-(n-1) } +\frac{ N }{ N+1-n } 
+\mathbb{E} \left[ T ^ N (n) \right] = \frac{ N }{ N+1-1 } + \frac{ N }{ N+1-2 } + \ ... \ +\frac{ N }{ N+1-(n-1) } +\frac{ N }{ N+1-n } 
 $$
 
 <div align="center">
@@ -37,7 +37,7 @@ $$
 </div>
 
 $$
-\mathbb{E} \[ F ^ N (t) \] = 
+\mathbb{E} \left[ F ^ N (t) \right] = 
 $$
 
 <div align="center">

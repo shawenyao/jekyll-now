@@ -18,9 +18,13 @@ An estimate of how soon one can expect to complete the collection.
 
 ## Numerical Solution
 
+Simulations indicates that on average, it takes 89 days (or 356 trials) to collect all 73 types of fossils.
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_1.png" />
 </div>
+
+On the other hand, if we look at the probability distribution at the end of the 89th day, there's a 58% chance that you will have completed the collection already.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_2.png" />

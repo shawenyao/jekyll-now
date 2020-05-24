@@ -8,7 +8,7 @@ comments: true
 draft: true
 ---
 
-And how having friends makes the stalk market a lot more profitable.
+An estimate of when can
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/006.jpg" />

@@ -60,7 +60,7 @@ $$
 \right. 
 $$
 
-Again, initially it fills out almost linearly. The curve starts to flatten out as you build up your collection, anxiously waiting for the last few pieces to come.
+Again, initially it fills out almost linearly. The curve starts to flatten out as you build up your collection, anxiously waiting for the last few pieces to arrive.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_4.png" />

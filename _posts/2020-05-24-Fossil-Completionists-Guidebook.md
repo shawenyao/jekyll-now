@@ -60,7 +60,7 @@ $$
 
 ## Conclusions
 
-The game was launched on March 20, 2020, so assuming you start playing on day 1 and never miss a single fossil, June 17th will be your benchmark to beat. Remember to blame it on Zipper if you don't!
+The game was launched on March 20, 2020, so assuming you started playing on day 1 and never missed a single fossil, June 17th will be your benchmark to beat. Remember to blame it on Zipper if you don't!
 
 <br>
 

@@ -18,7 +18,7 @@ There are 73 unique fossils in total to add to Blather's exhibition.
 
 ## Problem Formulation
 
-Assuming equal chance of digging any fossil and 4 chances per day, how many days on average does it take to complete the collection?
+Assuming equal chance of digging up any fossil and 4 chances per day, how many days on average does it take to complete the collection?
 
 ## Numerical Solution
 

@@ -18,11 +18,6 @@ An estimate of how soon one can expect to complete the collection.
 
 ## Solution
 
-$$
-\mathbb{E} \[ T ^ N (n) \] = \frac{ N }{ N+1-1 } + \frac{ N }{ N+1-2 } + ... +\frac{ N }{ N+1-(n-1) } +\frac{ N }{ N+1-n } 
-$$
-
-
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_1.png" />
 </div>
@@ -33,9 +28,17 @@ $$
 
 ## Analytical Solution
 
+$$
+\mathbb{E} \left[ T ^ N (n) \right] = \frac{ N }{ N+1-1 } + \frac{ N }{ N+1-2 } + ... +\frac{ N }{ N+1-(n-1) } +\frac{ N }{ N+1-n } 
+$$
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_3.png" />
 </div>
+
+$$
+\mathbb{E} \[ F ^ N (t) \] = 
+$$
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/animal_crossing/fossils_collector_4.png" />

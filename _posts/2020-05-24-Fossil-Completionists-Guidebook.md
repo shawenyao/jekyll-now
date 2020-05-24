@@ -14,12 +14,14 @@ My attempt at relieving fossil collector's anxiety.
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/006.jpg" />
 </div>
 
- how many days on average does it take to complete the collection (i.e., 73 distinct entries)?
+Fossil collecting.
+
+All was well until the honey moon phase started to wear out and at some point, you began to dig up nothing but duplicates. Days went on and on yet things didn't get any better, and you are on the verge of suspecting foul play. Could Nintendo be deliberately hiding a few fossils from your reach just to keep you coming back? Or could it be a marketing campaign to sell you the online membership where trading with friends is the only way to go? In the post, I examine the question of how long it takes on average to complete the collection and 
 
 ## General Setup
 
-A few things to keep in mind before we get started:
-* assuming equal chance of digging up any fossil per trial
+First things first, there are a few important facts to keep in mind before we can get started:
+* each fossil has equal chance of being dug up per trial (correct me if I am missing something!)
 * 4 fossils can be found on any given day
 * there are 73 unique fossils in total to add to Blather's exhibition
 

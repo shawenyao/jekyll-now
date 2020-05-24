@@ -18,7 +18,7 @@ In _Animal Crossing: New Horizons_, every starfish-shaped crack is another chanc
 
 If you are like me, all was well until the honeymoon phase started to wear out and at some point, you began to get nothing but duplicates. Days turned into weeks before you knew it yet things didn't get any better, and you are on the verge of suspecting foul play. Could Nintendo be deliberately withholding a few fossils from your reach just to keep you coming back? Could it be a marketing campaign to sell you the online membership where trading with friends is the only way to advance? Or could it be the case that you simply got unlucky again, as with everything else in life?
 
-In this post, I study the problem of how long it takes on average to complete the fossil collection. As the answer suggests, it is still too early to be concerned and everyone has at least until June 17th to 1) doubt if the game is rigged and/or 2) be considered unlucky.
+In this post, I study the problem of how long it takes on average to complete the fossil collection. As the answer suggests, it is still too early to be concerned and everyone has at least until June 17th to start 1) questioning if the game is rigged and/or 2) being considered unlucky.
 
 ## General Setup
 

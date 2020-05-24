@@ -33,10 +33,10 @@ It's also worth noting that in the absence of an optimal selling strategy (comme
 ## Turnip's Price Dynamics
 
 For a long time, it has been known to the Animal Crossing community that the turnip price isn't truly unpredictable. Instead, it follows one of the following four [patterns](https://animalcrossing.fandom.com/wiki/White_turnip):
-* Random 
-* Decreasing
-* Large Spike
-* Small Spike
+* random 
+* decreasing
+* large spike
+* small spike
 
 Now thanks to the extraordinary reverse-engineering work done by Treeki (see [here](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b)), the mystery behind turnip price has been deciphered in its entirety, to the point where it becomes possible to simulate the prices numerically, enabling Monte-Carlo-style analysis:
 

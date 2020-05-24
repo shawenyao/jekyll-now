@@ -5,7 +5,7 @@ tag:
   - animal crossing
   - maths
 comments: true
-draft: true
+draft: false
 ---
 
 My attempt at relieving fossil collector's anxiety.

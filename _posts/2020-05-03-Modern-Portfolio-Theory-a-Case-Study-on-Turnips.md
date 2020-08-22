@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Modern Portfolio Theory&#58 a Case Study on Turnips
+title: Modern Portfolio Theory&#58 A Case Study on Turnips
 tag:
   - animal crossing
   - maths

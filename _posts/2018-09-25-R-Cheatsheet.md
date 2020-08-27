@@ -9,10 +9,13 @@ ads: false
 
 The R commands that have made my life easier.
 
-#### Hassle-free data.frame copy-and-paste (into Microsoft Excel)
+#### Hassle-free data.frame copy and paste (into or from Microsoft Excel)
 
 ```r
+# copy
 %>% write.table("clipboard-128", row.names = FALSE, sep = "\t")
+# paste
+read.table("clipboard-128", sep = "\t", header = TRUE)
 ```
 
 #### Set working directory to the place where the source file is saved

@@ -21,6 +21,14 @@ The R commands that have made my life easier.
 setwd(dirname(sys.frame(1)$ofile))
 ```
 
+#### Instantly convert Windows-style path to R-compliant format
+
+Copy the path from explorer and
+
+```r
+path <- readClipboard()
+```
+
 #### Globally disable string as factors
 
 ```r

@@ -23,7 +23,7 @@ setwd(dirname(sys.frame(1)$ofile))
 
 #### Instantly convert Windows-style path to R-compliant format
 
-Copy the path from explorer and
+Copy the path from File Explorer and
 
 ```r
 path <- readClipboard()

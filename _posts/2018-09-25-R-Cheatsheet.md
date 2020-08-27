@@ -13,7 +13,7 @@ The R commands that have made my life easier.
 
 ```r
 # copy
-%>% write.table("clipboard-128", row.names = FALSE, sep = "\t")
+%>% write.table("clipboard-128", sep = "\t", row.names = FALSE)
 # paste
 read.table("clipboard-128", sep = "\t", header = TRUE)
 ```

@@ -18,7 +18,7 @@ The R commands that have made my life easier.
 read.table("clipboard-128", sep = "\t", header = TRUE)
 ```
 
-#### Set working directory to where the source file is saved
+#### Set working directory to where the source file is located
 
 ```r
 setwd(dirname(sys.frame(1)$ofile))

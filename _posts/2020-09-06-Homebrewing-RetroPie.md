@@ -14,7 +14,7 @@ Customizing the launch sequence of RetroPie
 
 # ctrl + d will automatically launch this script in terminal
 
-# note that actually, anykey other than pre-defined ones will abort
+# note that actually, anykey other than the pre-defined ones will abort
 echo "==================================================================="
 echo "=== EmulationStation starting in 3 seconds. Press "z" to abort. ==="
 echo "==================================================================="

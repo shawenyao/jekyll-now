@@ -16,7 +16,7 @@ Customizing the launch sequence of RetroPie
 
 # note that actually, anykey other than pre-defined ones will abort in this setup
 echo "======================================================================="
-echo "===== Emulationstation starting in 3 seconds. Press "z" to abort. ====="
+echo "===== EmulationStation starting in 3 seconds. Press "z" to abort. ====="
 echo "======================================================================="
 
 # read 1 character from input with a 3-second timeout 

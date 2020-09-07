@@ -7,7 +7,7 @@ tag:
 comments: true
 ---
 
-Customizing startup of RetroPie
+Customizing the launch sequence of RetroPie
 
 /opt/retropie/configs/all/autostart.sh
 

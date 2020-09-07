@@ -29,7 +29,7 @@ echo ""
 # default case
 # if the input is empty or time runs out, start emulation station
 # works without keyboard, e.g., when only controller is connected
-# in case keyboard is indeed conncected, hit enter or space to skip the wait
+# in case keyboard is indeed connected, hit enter or space to skip the wait
 if [ -z "$input" ]
 then
     emumlationstation

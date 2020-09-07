@@ -13,8 +13,12 @@ Customizing the launch sequence of RetroPie.
 ```bash
 # /opt/retropie/configs/all/autostart.sh
 
-# press ctrl + d will automatically launch this script in the shell
-# making it a useful hub for executing more "wordy" commands
+# purpose: 
+# 1) upon boot up, wait for user input to decide what to launch
+# 2) by default, empty input or time out will launch emulation station
+# 3) also useful after boot up, since ctrl + d automatically launches
+# this script in the shell, it makes a powerful hub for executing more
+# "wordy" commands. For example, ctrl + d then s will shut the system down
 
 # note that actually, any key other than the pre-defined ones will abort
 echo "==================================================================="

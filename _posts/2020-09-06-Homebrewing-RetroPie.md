@@ -16,7 +16,8 @@ echo "======================================================================="
 echo "===== Emulationstation starting in 3 seconds. Press "z" to abort. ====="
 echo "======================================================================="
 
-# read 1 character from input with a 3-second timeout and save in variable $input
+# read 1 character from input with a 3-second timeout 
+# and save in variable $input
 read -n 1 -t 3 input
 echo ""
 

@@ -12,10 +12,12 @@ Customizing the launch sequence of RetroPie
 ```bash
 # /opt/retropie/configs/all/autostart.sh
 
+# ctrl + d will automatically launch this script in terminal
+
+# note that actually, anykey other than pre-defined ones will abort in this setup
 echo "======================================================================="
 echo "===== Emulationstation starting in 3 seconds. Press "z" to abort. ====="
 echo "======================================================================="
-# note that actually, anykey other than pre-defined ones will abort in this setup
 
 # read 1 character from input with a 3-second timeout 
 # and save in variable $input

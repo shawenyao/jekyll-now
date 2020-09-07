@@ -21,9 +21,9 @@ Customizing the launch sequence of RetroPie.
 # "wordy" commands. for example, ctrl + d then s will shut the system down
 
 # note that actually, any key other than the pre-defined ones will abort
-echo "==================================================================="
-echo "=== EmulationStation starting in 3 seconds. Press "z" to abort. ==="
-echo "==================================================================="
+echo "================================================================="
+echo "=== EmulationStation starting in 3 seconds. Press z to abort. ==="
+echo "================================================================="
 
 # read 1 character from input with a 3-second timeout 
 # and save in variable $input

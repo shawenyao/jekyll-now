@@ -9,9 +9,9 @@ comments: true
 
 Customizing the launch sequence of RetroPie
 
-/opt/retropie/configs/all/autostart.sh
-
 ```bash
+# /opt/retropie/configs/all/autostart.sh
+
 echo "======================================================================="
 echo "===== Emulationstation starting in 3 seconds. Press "z" to abort. ====="
 echo "======================================================================="

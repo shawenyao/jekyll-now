@@ -17,7 +17,7 @@ Customizing the launch sequence of RetroPie.
 # 1) upon boot up, wait for user input to decide what to launch
 # 2) by default, empty input or time out will launch emulation station
 # 3) also useful after boot up, since pressing ctrl + d automatically runs
-# this script in the shell, it makes for a powerful hub for executing more
+# this script from the shell, it makes for a powerful hub for executing more
 # "wordy" commands. for example, ctrl + d then s will shut the system down
 
 # note that actually, any key other than the pre-defined ones will abort

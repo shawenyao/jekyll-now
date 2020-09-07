@@ -13,7 +13,7 @@ Customizing the launch sequence of RetroPie.
 ```bash
 # /opt/retropie/configs/all/autostart.sh
 
-# purpose: 
+# purposes: 
 # 1) upon boot up, wait for user input to decide what to launch
 # 2) by default, empty input or time out will launch emulation station
 # 3) also useful after boot up, since pressing ctrl + d automatically runs

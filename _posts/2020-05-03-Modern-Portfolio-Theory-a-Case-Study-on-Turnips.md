@@ -7,6 +7,7 @@ tag:
   - finance
 comments: true
 draft: false
+hot: true
 ---
 
 And how having friends makes the stalk market a lot more profitable.

@@ -7,6 +7,7 @@ tag:
   - sports
 comments: true
 draft: false
+football: true
 ---
 
 A new season awaits.

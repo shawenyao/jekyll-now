@@ -4,6 +4,7 @@ title: Three Random Variables
 tag:
   - maths
 comments: true
+maths: true
 ---
 Can everything be negatively correlated?
 

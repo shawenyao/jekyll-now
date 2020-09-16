@@ -4,7 +4,7 @@ title: Homebrewing RetroPie
 tag:
   - bash
   - retropie
-  - raspberry os
+  - raspberry pi
 comments: true
 keyboard: true
 new: true

@@ -6,6 +6,7 @@ tag:
   - text mining
 comments: true
 draft: false
+dog: true
 ---
 
 Plus the _exclusive_ words in each book.

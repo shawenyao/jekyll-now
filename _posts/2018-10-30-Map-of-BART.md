@@ -5,6 +5,7 @@ tag:
   - visualization
   - r
 comments: true
+map: true
 ---
 
 Routes and stations from the *Bay Area Rapid Transit* system.

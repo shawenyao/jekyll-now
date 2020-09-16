@@ -14,9 +14,13 @@ layout: default
 
       <h1>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> 
-        {% comment %} the new/hot icon {% endcomment %}
+        {% comment %} the emojis {% endcomment %}
         {% if post.new %} 🆕 {% endif %}
-        {% if post.hot %} 🐾 {% endif %}
+        {% if post.dog %} 🐾 {% endif %}
+        {% if post.hot %} 🔥 {% endif %}
+        {% if post.thumbsup %} 👍 {% endif %}
+        {% if post.football %} 🏀 {% endif %}
+        {% if post.basketball %} ⚽ {% endif %}
       </h1>
 
         {% if post.tags.size > 0 %}

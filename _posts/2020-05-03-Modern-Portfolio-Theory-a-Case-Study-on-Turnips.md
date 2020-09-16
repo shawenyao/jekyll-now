@@ -7,6 +7,7 @@ tag:
   - finance
 comments: true
 draft: false
+videogame: true
 hot: true
 ---
 

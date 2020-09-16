@@ -6,6 +6,7 @@ tag:
   - maths
   - r
 comments: true
+hot: true
 ---
 
 Stochastic processes make for an excellent source of graphical beauty.

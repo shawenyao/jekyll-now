@@ -5,6 +5,7 @@ tag:
   - visualization
   - maths
 comments: true
+galaxy: true
 ---
 
 Randomized spiral functions.

@@ -6,6 +6,7 @@ tag:
   - sports
 comments: true
 draft: true
+football: true
 ---
 
 Power ranking all 32 teams' performance based on Massey's method and Colley's method.

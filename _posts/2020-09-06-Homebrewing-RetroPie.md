@@ -6,6 +6,7 @@ tag:
   - retropie
   - raspberry os
 comments: true
+new: true
 ---
 
 Customizing the launch sequence of RetroPie.

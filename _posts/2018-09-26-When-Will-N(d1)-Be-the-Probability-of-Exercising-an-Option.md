@@ -1,6 +1,6 @@
 ---
 layout: post
-title: When will N(d1) become the Probability of Exercising an Option?
+title: When will N(d1) Become the Probability of Exercising an Option?
 tag:
   - maths
   - finance

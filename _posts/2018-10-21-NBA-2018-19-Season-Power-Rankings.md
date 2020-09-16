@@ -6,6 +6,7 @@ tag:
   - maths
   - sports
 comments: true
+basketball: true
 ---
 
 Visualizing the evolution of performance ranking based on Colley's method.

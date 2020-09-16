@@ -5,6 +5,7 @@ tag:
   - r
 comments: false
 ads: false
+keyboard: true
 ---
 
 The R commands that have made my life easier.

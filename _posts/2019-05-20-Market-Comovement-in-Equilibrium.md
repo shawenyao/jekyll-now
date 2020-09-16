@@ -5,6 +5,7 @@ tag:
   - finance
 comments: true
 draft: false
+finance: true
 ---
 
 A glimpse of the promised land.

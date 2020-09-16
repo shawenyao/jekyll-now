@@ -6,6 +6,7 @@ tag:
   - maths
 comments: true
 draft: false
+videogame: true
 ---
 
 My attempt at relieving fossil collector's anxiety.

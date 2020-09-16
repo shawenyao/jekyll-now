@@ -7,6 +7,7 @@ tag:
   - r
 comments: true
 dog: true
+thumbsup: true
 ---
 
 Stochastic processes make for an excellent source of graphical beauty.

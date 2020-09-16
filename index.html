@@ -15,7 +15,6 @@ layout: default
       <h1>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> 
         {% comment %} the emojis {% endcomment %}
-        {% if post.new %} 🆕 {% endif %}
         {% if post.map %} 🗺️ {% endif %}
         {% if post.football %} ⚽ {% endif %}
         {% if post.basketball %} 🏀 {% endif %}
@@ -25,8 +24,10 @@ layout: default
         {% if post.keyboard %} ⌨️ {% endif %}
         {% if post.finance %} 📈 {% endif %}
         {% if post.dog %} 🐾 {% endif %}
+        {% if post.galaxy %} 🌌 {% endif %}
         {% if post.hot %} 🔥 {% endif %}
         {% if post.thumbsup %} 👍 {% endif %}
+        {% if post.new %} 🆕 {% endif %}
       </h1>
 
         {% if post.tags.size > 0 %}

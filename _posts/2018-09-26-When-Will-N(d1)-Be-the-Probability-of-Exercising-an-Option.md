@@ -5,6 +5,7 @@ tag:
   - maths
   - finance
 comments: true
+maths: true
 ---
 
 A proof by comparing change of measure with the Black-Scholes formula.

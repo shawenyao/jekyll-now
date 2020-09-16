@@ -6,6 +6,7 @@ tag:
   - maths
 comments: true
 draft: false
+videogame: true
 ---
 
 Locating your _Nook Inc._ getaway package.

@@ -5,6 +5,7 @@ tag:
   - windows
   - r
 comments: true
+keyboard: true
 ---
 
 Sometimes R is better off without RStudio.

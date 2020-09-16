@@ -5,6 +5,7 @@ tags:
  - maths
  - finance
 comments: true
+maths: true
 ---
 
 A step-by-step derivation.

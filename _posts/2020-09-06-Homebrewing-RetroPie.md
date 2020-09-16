@@ -6,6 +6,7 @@ tag:
   - retropie
   - raspberry os
 comments: true
+keyboard: true
 new: true
 ---
 

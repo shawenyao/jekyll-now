@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Suppressor&#58 the Midas Touch
+title: Suppressor&#58 The Midas Touch
 tag:
   - maths
   - R

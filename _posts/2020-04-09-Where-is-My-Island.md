@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Where is My Island
+title: Where Is My Island
 tag:
   - animal crossing
   - maths

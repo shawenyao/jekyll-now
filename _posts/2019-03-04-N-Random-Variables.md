@@ -5,6 +5,7 @@ tag:
   - maths
 comments: true
 draft: false
+maths: true
 ---
 Three Random Variables Part II.
 

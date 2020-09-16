@@ -5,6 +5,7 @@ tag:
   - maths
 comments: true
 draft: false
+maths: true
 ---
 
 A numerical experiment on how to optimally wait for traffic lights.

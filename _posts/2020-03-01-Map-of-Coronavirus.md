@@ -6,6 +6,7 @@ tag:
   - leaflet
 ads: false
 comments: true
+map: true
 ---
 
 Geographical and chronological evolution of confirmed cases powered by `leaflet`.

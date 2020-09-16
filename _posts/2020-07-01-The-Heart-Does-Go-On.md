@@ -5,6 +5,7 @@ tag:
   - photography
 comments: true
 draft: false
+photography: true
 ---
 
 An alternate look at the hotel occupancy rate.

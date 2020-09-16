@@ -5,7 +5,7 @@ tag:
   - visualization
   - maths
 comments: true
-hot: true
+dog: true
 ---
 
 Context-aware interpolation even when *spline* fails.

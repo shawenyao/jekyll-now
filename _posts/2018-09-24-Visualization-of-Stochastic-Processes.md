@@ -6,6 +6,7 @@ tag:
   - maths
   - r
 comments: true
+dog: true
 thumbsup: true
 ---
 

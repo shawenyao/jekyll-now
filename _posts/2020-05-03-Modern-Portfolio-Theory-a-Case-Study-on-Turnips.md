@@ -55,7 +55,7 @@ Juding from my experiment of 100K trials, if we have to limit our timing of sell
   <img src="https://shawenyao.github.io/R/output/animal_crossing/turnip_return.png" />
 </div>
 
-## A Better Strategy: What if You have Friends?
+## A Better Strategy: What If You have Friends?
 
 To make things more interesting, the game also allows you to buy (on Sunday) and sell your turnips (in the following week) on a friend's island. Taking advantage of such flexibility, a rational turnip investor will compare as many options as possible and only buy at the minimum and sell at the maximum across all islands.
 

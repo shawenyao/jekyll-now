@@ -25,7 +25,7 @@ $$ a_t b_t = k $$
 
 This is known as the constant product formula. It also implies that the current price of one unit of asset $A$ in terms asset $B$ is
 
-$$ p_t = \frac{ A_t }{ B_t } $$ = \frac{ b_t }{ a_t }
+$$ p_t = \frac{ A_t }{ B_t } = \frac{ b_t }{ a_t } $$
 
 ## Problem Formulation
 How much is the liquidity pool worth today if the liquidity provider puts down equal value of $A$ and $B$ into the pool now?

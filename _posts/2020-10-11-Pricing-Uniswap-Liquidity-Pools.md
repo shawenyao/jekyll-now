@@ -17,6 +17,8 @@ At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protoc
 
 ## Uniswap Explained
 
+For simplicity, let $a_t$ and $b_t$ denote the number of units of $A$ and $B$ in the liqudity pool respectively. At any point in time, we have:
+
 $$ a_t b_t = k $$
 
 This is known as the constant product formula.
@@ -29,11 +31,11 @@ $$ p_t = \frac{ A_t }{ B_t } $$
 
 How much is the liquidity pool worth today if the liquidity provider puts down equal value of $A$ and $B$ into the pool now?
 
-Note that the following analysis is based on the assumption of zero liquidity pool growth (other than due to transaction fees).
+Note that the following analysis is based on the assumption of zero liquidity pool growth (other than due to transaction fees). Also the risk-free rate is assumed to be 0.
 
 ## Pricing
 
-For simplicity, let $a_t$ and $b_t$ denote the number of units of $A$ and $B$ in the liqudity pool respectively. For the two assets to have equal value at any point in time, we have:
+ For the two assets to have equal value at any point in time, we have:
 
 $$ a_t p_t = b_t $$
 

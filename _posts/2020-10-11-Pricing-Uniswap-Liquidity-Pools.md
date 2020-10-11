@@ -61,7 +61,7 @@ AlfaBlok. 2019. "[Risk/Reward of liquidity provision in AMMs](https://alfablok.s
 ## Appendix
 ### The Effect of Price Slippage
 
-In the absence of transaction fees, compare the terminal values of the two following strategies.
+In the absence of transaction fees, compare the terminal values of the two following strategies:
 * strategy 1: buy and hold
 * strategy 2: stake in liquidity pool
 

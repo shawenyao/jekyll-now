@@ -105,7 +105,7 @@ v_t^Y &= (a_t e_t + b_t) B_t \\
 Divide $v_t^1$ by $v_t^2$, 
 
 $$\begin{align}
-\frac{ v_t^1 }{ v_t^2 } &= \frac{ \frac{ a_0 ^ 2 }{ a_t^2 } + 1 }{ \frac{ 2a_0 }{ a_t } } \\
+\frac{ v_t^X }{ v_t^Y } &= \frac{ \frac{ a_0 ^ 2 }{ a_t^2 } + 1 }{ \frac{ 2a_0 }{ a_t } } \\
  % &= \frac{ \frac{ a_0 }{ a_t } + \frac{ a_t }{ a_0 } }{ 2 } \\
  % &= \frac{ a_0^2 + a_t^2 }{ 2 a_0 a_t } \\
  % &= \frac{ (a_0 - a_t)^2 + 2 a_0 a_t }{ 2 a_0 a_t } \\

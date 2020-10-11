@@ -11,7 +11,7 @@ finance: true
 ---
 DeFi or CeFi?
 
-Just like how Bitcoin aims to revolutionize money, automated market maker (AMM) emerges the disruptor of tranditional exchange. 
+Just like how Bitcoin aims to revolutionize money, automated market maker (AMM) emerges as the disruptor of tranditional exchange. 
 
 At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protocols, have over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/).
 
@@ -92,7 +92,7 @@ a_t b_t = a_{ t-1 } b_{ t-1 } \\
 \end{cases}
 $$
 
-which yields
+which yields:
 
 $$
 \begin{cases}
@@ -105,8 +105,8 @@ After accounting for the transaction fees, we have the final form of remaining b
 
 $$
 \begin{cases}
-a_t = \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } A_t }{ B_t } } + \\ 
-b_t = \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } B_t }{ A_t } } + \\
+a_t = \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } A_t }{ B_t } } + \textbf{ 1 }_{\frac{ A_{ t-1 } }{ B_{ t-1 } } \geq \frac{ A_t }{ B_t } } ( \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } A_t }{ B_t } } - a_{ t-1 }) c \\ 
+b_t = \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } B_t }{ A_t } } + \textbf{ 1 }_{\frac{ A_{ t-1 } }{ B_{ t-1 } } < \frac{ A_t }{ B_t } } ( \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } B_t }{ A_t } } - b_{ t-1 }) c \\ 
 \end{cases}
 $$
 

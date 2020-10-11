@@ -79,9 +79,18 @@ $$
 \frac{ dB_t }{ B_t } = \mu^B dt + \sigma^B dW^B \\
 $$
 
-where $dW^A$ and $dW^B$ are correlated Brownian motion:
+where $dW^A$ and $dW^B$ are correlated Brownian motions:
 
 $$ dW^A dW^B = \rho dt $$
+
+In each step, the price pair $A_t$ and $B_t$  the remaining balances in the liquidity pool is updated according to:
+
+$$
+\begin{cases}
+\frac{ A_t }{ B_t } = \frac{ b_t }{ a_t } \\ 
+a_t b_t = a_{ t-1 } b_{ t_1 } \\
+\end{cases}
+$$
 
 ## Conclusions
 

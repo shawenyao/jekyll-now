@@ -39,7 +39,7 @@ $$ p_1 = \frac{ a_0 b_0 }{ (a_0 - \Delta a_1)^2 } = \frac{ a_0^2 }{ (a_0 - \Delt
 
 which indicates that asset $A$ has appreciated against asset $B$, as a result of having fulfilled the demand for asset $A$ and the subsequent "scarcity" of it in the pool. This setup has a few desirable properties to it. To name a few:
 * if there's no trade, the price level stays at its initial value
-* a smaller trade is expected to be fullfiled at the market price with little price impact
+* a smaller trade is expected to be fullfiled at the market price without moving it by much
 * a larger trade will move the price substantially along the hyperbolic curve, deterioating the price level
 * a very large trade (i.e., close to the remaining balance in the pool) will lead to price impact so prohibitively substantial that it is close to impossible to deplete the inventory.
 

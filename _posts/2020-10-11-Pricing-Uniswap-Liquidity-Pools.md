@@ -40,13 +40,13 @@ For the two assets to have equal value at any point in time, we have:
 $$ a_t p_t = b_t $$
 
 ## What about Transaction Fees?
-In practice, every transaction fulfilled by AMM incurs a fee. For example, Uniswap charges 0.3% to all trades. The 
+In practice, every transaction fulfilled by AMM incurs a fee. For example, Uniswap charges 0.3% to all trades. The fees are put back to the pool immediately after collection and every liquidity provider has a pro rata claim on them. As it stands, they are effectively the sole incentivie for liquidity providers to contribute assets into the pool.
 
-In other words, transaction fees in its current form bring _path dependence_ into the equation. This requires a slight modification to the constant production formula introduced earlier, n
+The introduction of transaction fees brings _path dependence_ into the equation. Depending on how many orders (and how big the order size is) have been fulfilled, liquidity providers might or might not be able to make a profit on their investment. This requires a slight modification to the constant production formula introduced earlier,
 
 $$ a_t b_t = k + \sum_{i=1}^{N_t} f_i $$
 
-where $N_t$ is the total number of traders that has happened from time $0$ to time $t$.
+where $N_t$ is the total number of trades that has been settled from time $0$ to time $t$.
 
 ## Conclusions
 

@@ -80,19 +80,19 @@ AlfaBlok. 2019. "[Risk/Reward of liquidity provision in AMMs](https://alfablok.s
 
 In the absence of transaction fees, compare the terminal values of the two following strategies:
 * strategy X: buy and hold
-* strategy Y: stake in liquidity pool
+* strategy Y: contribute to liquidity pool
 
-Strategy 1's terminal value is given by:
+Strategy X's terminal value is given by:
 
 $$\begin{align}
-v_t^X &= a_0 e_t + b_0 \\
+v_t^X &= (a_0 e_t + b_0) B_t \\
  % &= (a_0 \frac{ b_t }{ a_t }  + b_0) B_t \\
  % &= (a_0 \frac{ \frac{ k }{ a_t } }{ a_t } + b_0) B_t \\
  % &= (a_0 \frac{ \frac{ a_0 b_0 }{ a_t } }{ a_t } + b_0) B_t \\
  &= (\frac{ a_0 ^ 2 }{ a_t^2 } + 1) b_0 B_t
 \end{align}$$
 
-Meanwhile, strategy 2 will have a terminal value of:
+Meanwhile, strategy Y will have a terminal value of:
 
 $$\begin{align}
 v_t^Y &= (a_t e_t + b_t) B_t \\
@@ -113,4 +113,4 @@ $$\begin{align}
  &\geq 1
 \end{align}$$
 
-As a result, price slippage always results in lower terminal value, i.e., a loss from liquidity providers' standpoint.
+As a result, a buy and hold strategy always outperforms being a liquidity provider in the absence of fee income.

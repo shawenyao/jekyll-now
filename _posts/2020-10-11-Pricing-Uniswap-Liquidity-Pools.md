@@ -41,7 +41,7 @@ which indicates that asset $A$ has appreciated against asset $B$, as a result of
 * if there's no trade, the price level stays at its initial value
 * a smaller trade is expected to be fullfiled at the market price without moving it by much
 * a larger trade will move the price substantially along the hyperbolic curve, deterioating the price level
-* a very large trade (i.e., close to the remaining balance in the pool) will lead to price impact so prohibitively substantial that it is close to impossible to deplete the inventory.
+* a very large trade (e.g., something close to the remaining balance in the pool) will lead to a price impact so prohibitively substantial that it is close to impossible to deplete the inventory.
 
 In other words, Uniswap appears to achieve _infinite_ market depth with _finite_ supply of assets.
 

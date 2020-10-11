@@ -21,7 +21,7 @@ $$ a_T b_T = k $$
 
 This is known as the constant product formula.
 
-$$ a_T b_T = k + \sum_{t=0}{T} f_t $$
+$$ a_T b_T = k + \sum_{t=0}^{T} f_t $$
 
 ## Problem Formulation
 

@@ -49,20 +49,35 @@ While the individual prices of asset $A$ and $B$ can still very much follow thei
 * a larger trade will move the price substantially along the hyperbolic curve, with the asset in demand appreciating against the other
 * a very large trade (e.g., something close to the remaining balance in the pool) will lead to a price impact so prohibitively substantial that it is close to impossible to deplete the inventory.
 
-In other words, Uniswap appears to achieve _infinite_ market depth with _finite_ supply of assets.
+In other words, Uniswap appears to achieve _infinite_ market depth with _finite_ supply of assets. Putting it all together, the liquidity provider puts down:
+
+$$ v_0 = a_0 A_0 + b_0 B_0 $$
+
+amount of money (again, measured in an arbitrary numeraire) today in exchange for:
+
+$$ v_t = a_t A_t + b_t B_t $$
+
+at time $t$. 
 
 ## Price Slippage vs Fee Income
 The payoff at time $t$ for liquidity providers consists of two parts - capital appreciation (or depreciation) due to price slippage and income from collecting transaction fees. 
 
 One on hand, as trades fulfill, newly-arrived supply and demand drive the price away from its starting point. Formerly known as price slippage, this phenomenon can lead to either a gain or loss to the liquidity provider, but it always underforms a buy and hold strategy (to see why, see appendix). To compensate for the underperformance, AMM usually charges a fee for trading. For example, Uniswap collects 0.3% on every transaction. The fees are put back to the pool right away and every liquidity provider has a pro rata claim on them. As it stands, fee income is effectively the sole incentivie for liquidity providers to contribute assets into the pool, compared to simply holding on to the asset pair.
 
-The introduction of transaction fees brings _path dependence_ into the equation. The terminal state alone is no longer sufficient to uniquely determine the payoff to liquidity provider. The path through which it arrives at the ending price also matters. This requires a slight modification to the constant production formula introduced earlier:
+The introduction of transaction fees brings _path dependence_ into the equation. The terminal state alone is no longer sufficient to uniquely determine the payoff to liquidity provider - the path through which it arrives at the ending price also matters. This requires a slight modification to the constant production formula introduced earlier:
 
 $$ a_t b_t = k + \sum_{i=1}^{t} f_i $$
 
 where $f_i$ is the amount of transaction fees collected at time $i$.
 
+## Simulation
 
+Assume the prices of asset $A$ and $B$ follow the following dynamics:
+
+$$
+dA_t = r_A A_t dt + \sigma_A A_t dW //
+dB_t = r_B B_t dt + \sigma_B B_t dW //
+$$
 
 ## Conclusions
 

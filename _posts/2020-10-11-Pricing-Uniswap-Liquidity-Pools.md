@@ -90,5 +90,5 @@ Divide $v_t$ by $v'_t$,
 $$\begin{align}
 \frac{ v_t }{ v'_t } &= \frac{ \frac{ a_0 ^ 2 }{ a_t^2 } + 1 }{ \frac{ 2a_0 }{ a_t } } \\
  &= \frac{ \frac{ a_0 }{ a_t } + \frac{ a_t }{ a_0 } }{ 2 } \\
- & = 2b_t \\
+ & = \frac{ a_0^2 + a_t^2 }{ 2 a_0 a_t } \\
 \end{align}$$

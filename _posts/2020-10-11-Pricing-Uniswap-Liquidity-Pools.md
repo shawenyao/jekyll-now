@@ -101,12 +101,12 @@ b'_t = \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } B_t }{ A_t } } \\
 \end{cases}
 $$
 
-After accounting for the transaction fees, we have the final form of remaining balances in the liquidity pool:
+After taking transaction fees into consideration, we have the final form of remaining balances in the liquidity pool:
 
 $$
 \begin{cases}
-a_t = \sqrt{ a'_t + \textbf{ 1 }_{ a_{ t-1 } \geq a'_t } ( a_{ t-1 } - a'_t ) c \\ 
-b_t = \sqrt{ b'_t + \textbf{ 1 }_{ a_{ t-1 } > a'_t } ( b_{ t-1 } - b'_t ) c \\ 
+a_t = a'_t + \textbf{ 1 }_{ a_{ t-1 } \geq a'_t } ( a_{ t-1 } - a'_t ) c \\ 
+b_t = b'_t + \textbf{ 1 }_{ a_{ t-1 } > a'_t } ( b_{ t-1 } - b'_t ) c \\ 
 \end{cases}
 $$
 

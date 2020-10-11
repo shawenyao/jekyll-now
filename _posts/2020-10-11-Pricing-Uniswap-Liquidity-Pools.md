@@ -20,5 +20,6 @@ At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protoc
 ## Pricing 
 
 ## What about Transaction Fees?
+In other words, transaction fees in its current form bring path dependency into the equation.
 
 ## Conclusions

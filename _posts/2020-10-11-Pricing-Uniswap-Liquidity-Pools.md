@@ -33,7 +33,7 @@ $$ a_1 = a_0 - \Delta a_1 $$
 
 $$ b_1 = \frac{ k }{ a_0 - \Delta a_1 } $$
 
-This implies a new price of 
+This implies a new price of:
 
 $$ p_1 = \frac{ a_0 b_0 }{ (a_0 - \Delta a_1)^2 } = \frac{ a_0^2 }{ (a_0 - \Delta a_1)^2 } \cdot \frac{ b_0 }{ a_0 } > \frac{ b_0 }{ a_0 } = p_0 $$
 

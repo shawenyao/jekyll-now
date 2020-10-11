@@ -72,7 +72,9 @@ v(t) &= a_0 p_t + b_0 \\
  &= a_0 \frac{ b_t }{ a_t }  + b_0 \\
  &= a_0 \frac{ \frac{ k }{ a_t } }{ a_t } + b_0 \\
  &= a_0 \frac{ \frac{ a_0 b_0 }{ a_t } }{ a_t } + b_0 \\
+ &= \frac{ a_0 ^ 2 }{ a_t^2 } b_0 + b_0
 \end{align}$$
 
 Meanwhile, strategy 2 will have a terminal value of:
+
 $$ v'(t) = a_1 * $p_t$ + $b_1 $$

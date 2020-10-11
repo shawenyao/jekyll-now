@@ -31,7 +31,7 @@ Note that the following analysis is based on the assumption of zero liquidity po
 
 For simplicity, let $a_t$ and $b_t$ denote the number of units of $A$ and $B$ in the liqudity pool respectively. For the two assets to have equal value at any point in time, we have:
 
-$$ a_t * p_t = b_t $$
+$$ a_t p_t = b_t $$
 
 
 ## What about Transaction Fees?

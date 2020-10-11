@@ -83,19 +83,30 @@ where $dW^A$ and $dW^B$ are correlated Brownian motions:
 
 $$ dW^A dW^B = \rho dt $$
 
-In each step, the price pair $A_t$ and $B_t$  the remaining balances in the liquidity pool is updated according to:
+In each step, the new price pair $A_t$ and $B_t$ defines how the pool evolves from the previous point:
 
 $$
 \begin{cases}
 \frac{ A_t }{ B_t } = \frac{ b_t }{ a_t } \\ 
-a_t b_t = a_{ t-1 } b_{ t_1 } \\
+a_t b_t = a_{ t-1 } b_{ t-1 } \\
 \end{cases}
 $$
+
+which yields
 
 $$
 \begin{cases}
 a_t = \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } A_t }{ B_t } } \\ 
-a_t = \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } B_t }{ A_t } } \\
+b_t = \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } B_t }{ A_t } } \\
+\end{cases}
+$$
+
+After accounting for the transaction fees, we have the final form of remaining balances in the liquidity pool:
+
+$$
+\begin{cases}
+a_t = \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } A_t }{ B_t } } + \\ 
+b_t = \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } B_t }{ A_t } } + \\
 \end{cases}
 $$
 

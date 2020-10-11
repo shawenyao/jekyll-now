@@ -52,11 +52,11 @@ where $N_t$ is the total number of traders that has happened from time $0$ to ti
 
 
 ## References
-Uniswap, "[How Uniswap works](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works/)"
+Uniswap. 2020. "[How Uniswap works](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works/)"
 
-Pintail, "[Uniswap: A Good Deal for Liquidity Providers?](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2)"
+Pintail. 2020. "[Uniswap: A Good Deal for Liquidity Providers?](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2)"
 
-AlfaBlok, "[Risk/Reward of liquidity provision in AMMs](https://alfablok.substack.com/p/coming-soon)"
+AlfaBlok. 2019. "[Risk/Reward of liquidity provision in AMMs](https://alfablok.substack.com/p/coming-soon)"
 
 ## Appendix
 ### The Effect of Price Slippage
@@ -96,4 +96,4 @@ $$\begin{align}
  &\geq 1
 \end{align}$$
 
-As a result, price slippage always result in lower terminal value, i.e., loss.
+As a result, price slippage always results in lower terminal value, i.e., loss.

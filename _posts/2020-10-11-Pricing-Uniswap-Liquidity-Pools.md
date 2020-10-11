@@ -68,9 +68,9 @@ In the absence of transaction fees, compare the terminal values of the two follo
 Strategy 1's terminal value is given by:
 
 $$\begin{align}
-v(t) &= a_0 p_t + b_0
- &= a_0 \frac{ b_t }{ a_t }  + b_0
- &= a_0 \frac{ \frac{ a_0 b_0 }{ a_t } }{ a_t } + b_0 
+v(t) &= a_0 p_t + b_0 \\
+ &= a_0 \frac{ b_t }{ a_t }  + b_0 \\
+ &= a_0 \frac{ \frac{ a_0 b_0 }{ a_t } }{ a_t } + b_0 \\
 \end{align}$$
 
 Meanwhile, strategy 2 will have a terminal value of:

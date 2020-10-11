@@ -17,15 +17,22 @@ At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protoc
 
 ## Uniswap Explained
 
-Let's examine the liquidity composed of asset $A$ and $B$. Define the price of one unit of asset $A$ in terms of one unit of asset $B$ as:
+## Problem Formulation
+
+Examine the liquidity composed of asset $A$ and $B$. Define the price of one unit of asset $A$ in terms of one unit of asset $B$ as:
 
 $$ p_t = \frac{ A_t }{ B_t } $$
 
-As a result, at the beginning, one unit of $A$ can exhcange for $p_0$ unit of $B$.
+How much is the liquidity pool worth today if the liquidity provider puts down equal value of $A$ and $B$ into the pool now?
 
-Asset B wi
+Note that the following analysis is based on the assumption of zero liquidity pool growth (other than due to transaction fees).
 
-## Pricing 
+## Pricing
+
+For simplicity, let $a_t$ and $b_t$ denote the number of units of $A$ and $B$ in the liqudity pool respectively. For the two assets to have equal value at any point in time, we have:
+
+$$ a_t * p_t = b_t $$
+
 
 ## What about Transaction Fees?
 In other words, transaction fees in its current form bring _path dependence_ into the equation.

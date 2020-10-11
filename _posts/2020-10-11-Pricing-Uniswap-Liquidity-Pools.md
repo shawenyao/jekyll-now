@@ -70,6 +70,7 @@ Strategy 1's terminal value is given by:
 $$\begin{align}
 v(t) &= a_0 p_t + b_0 \\
  &= a_0 \frac{ b_t }{ a_t }  + b_0 \\
+ &= a_0 \frac{ \frac{ k }{ a_t } }{ a_t } + b_0 \\
  &= a_0 \frac{ \frac{ a_0 b_0 }{ a_t } }{ a_t } + b_0 \\
 \end{align}$$
 

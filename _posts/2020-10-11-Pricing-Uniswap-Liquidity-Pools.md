@@ -83,12 +83,12 @@ where $dW^A$ and $dW^B$ are correlated Brownian motions:
 
 $$ dW^A dW^B = \rho dt $$
 
-In each step, the new price pair $A_t$ and $B_t$ defines how the pool evolves from the previous point:
+Ignorning fees, the new price pair $A_t$ and $B_t$ defines how the pool evolves from the previous point:
 
 $$
 \begin{cases}
-\frac{ A_t }{ B_t } = \frac{ b_t }{ a_t } \\ 
-a_t b_t = a_{ t-1 } b_{ t-1 } \\
+\frac{ A_t }{ B_t } = \frac{ b_t^' }{ a_t^' } \\ 
+a_t^' b_t^' = a_{ t-1 } b_{ t-1 } \\
 \end{cases}
 $$
 

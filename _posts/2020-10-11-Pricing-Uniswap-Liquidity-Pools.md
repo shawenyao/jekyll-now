@@ -77,4 +77,8 @@ v(t) &= a_0 p_t + b_0 \\
 
 Meanwhile, strategy 2 will have a terminal value of:
 
-$$ v'(t) = a_1 * $p_t$ + $b_1 $$
+$$\begin{align}
+v'(t) &= a_t * p_t + b_t \\
+ &= a_t * \frac{ b_t }{ a_t } + b_t \\
+ & = 2b_t \\
+\end{align}$$

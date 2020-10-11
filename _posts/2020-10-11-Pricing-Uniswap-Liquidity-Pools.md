@@ -80,5 +80,13 @@ Meanwhile, strategy 2 will have a terminal value of:
 $$\begin{align}
 v'_t &= a_t * p_t + b_t \\
  &= a_t * \frac{ b_t }{ a_t } + b_t \\
+ &= 2b_t \\
+ &= 2 \frac{ k }{ a_t }
+ &= 2 \frac{ a_0 b_0}{ a_t }
+\end{align}$$
+
+$$\begin{align}
+\frac{ v_t }{ v'_t } &= \frac{  }{  } \\
+ &= a_t * \frac{ b_t }{ a_t } + b_t \\
  & = 2b_t \\
 \end{align}$$

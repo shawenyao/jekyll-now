@@ -13,7 +13,7 @@ DeFi or CeFi?
 
 Just like how Bitcoin aims to revolutionize money, automated market maker (AMM) emerges the disruptor of tranditional exchange. 
 
-At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protocols, have over $2.5 billion in total value locked in its liquidity pool.
+At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protocols, have over $2.5 billion in total value locked in its liquidity pool according to [DefiPulse](https://defipulse.com/).
 
 # Uniswap Explained
 

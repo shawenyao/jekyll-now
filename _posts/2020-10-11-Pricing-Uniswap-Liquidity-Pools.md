@@ -17,9 +17,13 @@ At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protoc
 
 ## Uniswap Explained
 
-Let's examine the liquidity composed of asset $A$ and $B$. Assume at the beginning, one unit of asset $A$ is worth is worth $k_0$ units of asset $B$.
+Let's examine the liquidity composed of asset $A$ and $B$. Define the price of one unit of asset $A$ in terms of one unit of asset $B$ as:
 
-$$ \frac{ A_0 }{ B_0 } = k_0 $$
+$$ p_t = \frac{ A_t }{ B_t } $$
+
+As a result, at the beginning, one unit of $A$ can exhcange for $p_0$ unit of $B$.
+
+Asset B wi
 
 ## Pricing 
 

@@ -35,7 +35,7 @@ Note that the following analysis is based on the assumption of zero liquidity po
 
 ## Pricing
 
- For the two assets to have equal value at any point in time, we have:
+For the two assets to have equal value at any point in time, we have:
 
 $$ a_t p_t = b_t $$
 
@@ -49,5 +49,11 @@ $$ a_t b_t = k + \sum_{i=1}^{N_t} f_i $$
 where $N_t$ is the total number of traders that has happened from time $0$ to time $t$.
 
 ## Conclusions
+
+
+## References
+Uniswap, "[How Uniswap works](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works/)"
+Pintail, "[Uniswap: A Good Deal for Liquidity Providers?](https://medium.com/@pintail/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2)"
+AlfaBlok, "[Risk/Reward of liquidity provision in AMMs](https://alfablok.substack.com/p/coming-soon)"
 
 ## Appendix

@@ -11,7 +11,7 @@ finance: true
 ---
 DeFi or CeFi?
 
-Just like how Bitcoin aims to revolutionize money, automated market maker (AMM) emerges as the disruptor of tranditional exchange. 
+Just like how Bitcoin aims to revolutionize money, automated market maker (AMM) such as Uniswap emerges as the disruptor of tranditional exchange. While Nasdaq achieves price discovery using an order book, Uniswap relies on what's known as the constant product formula.
 
 At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protocols, have over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/).
 

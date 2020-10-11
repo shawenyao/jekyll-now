@@ -27,6 +27,24 @@ This is known as the constant product formula. It also implies that the current 
 
 $$ p_t = \frac{ A_t }{ B_t } = \frac{ b_t }{ a_t } $$
 
+At time $0$, there are $a_0$ units of asset $A$ and $b_0$ units of asset $B$ in the pool. Now, if a new order comes along to buy $\delta a_1$ units of asset $B$, after the transaction fullfills, the ending balances in the pool for asset $A$ and $B$ will be:
+
+$$ a_1 = a_0 - \delta a_1 $$
+
+$$ b_1 = \frac{ k }{ a_0 - \delta a_1 } $$
+
+This implies a new price of 
+
+$$ p_1 = \frac{ a_0 b_0 }{ a_0 - \delta a_1 } $$
+
+indicating asset $A$ has appreciated against asset $B$, as a result of fufilling the demand for asset $A$ and thus a "shortage" of its balance in the pool. This setup has a few desirable properties to it. To name a few:
+* if there's no trade, the price level stays at its initial value
+* a smaller trade is expected to be fullfiled at the market price with little price impact
+* a larger trade will move the price substantially along the hyperbolic curve, deterioating the price level
+* a very large trade (i.e., close to the remaining balance in the pool) will lead to price impact so prohibitively substantial that it is close to impossible to deplete the inventory.
+
+In other words, Uniswap appears to achieve _infinite_ market depth with _finite_ supply of assets.
+
 ## Problem Formulation
 How much is the liquidity pool worth today if the liquidity provider puts down equal value of $A$ and $B$ into the pool now?
 
@@ -44,9 +62,9 @@ In practice, every transaction fulfilled by AMM incurs a fee. For example, Unisw
 
 The introduction of transaction fees brings _path dependence_ into the equation. Depending on how many orders (and how big the order size is) have been fulfilled, liquidity providers might or might not be able to make a profit on their investment. This requires a slight modification to the constant production formula introduced earlier,
 
-$$ a_t b_t = k + \sum_{i=1}^{N_t} f_i $$
+$$ a_t b_t = k + \sum_{i=1}^{t} f_i $$
 
-where $N_t$ is the total number of trades that has been settled over the course of time $0$ to time $t$.
+where $f_i$ is the amount of transaction fees collected at time $i$.
 
 ## Conclusions
 

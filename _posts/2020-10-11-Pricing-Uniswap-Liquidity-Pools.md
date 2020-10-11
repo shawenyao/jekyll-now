@@ -106,7 +106,7 @@ After taking transaction fees into consideration, we have the final form of rema
 $$
 \begin{cases}
 a_t = a'_t + \textbf{ 1 }_{ a_{ t-1 } \geq a'_t } ( a_{ t-1 } - a'_t ) c \\ 
-b_t = b'_t + \textbf{ 1 }_{ a_{ t-1 } > a'_t } ( b_{ t-1 } - b'_t ) c \\ 
+b_t = b'_t + \textbf{ 1 }_{ a_{ t-1 } < a'_t } ( b_{ t-1 } - b'_t ) c \\ 
 \end{cases}
 $$
 

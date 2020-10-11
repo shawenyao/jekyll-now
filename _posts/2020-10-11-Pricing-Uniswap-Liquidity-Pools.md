@@ -46,7 +46,7 @@ The introduction of transaction fees brings _path dependence_ into the equation.
 
 $$ a_t b_t = k + \sum_{i=1}^{N_t} f_i $$
 
-where $N_t$ is the total number of trades that has been settled from time $0$ to time $t$.
+where $N_t$ is the total number of trades that has been settled over the course of time $0$ to time $t$.
 
 ## Conclusions
 

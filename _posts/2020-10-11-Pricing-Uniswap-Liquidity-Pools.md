@@ -55,7 +55,7 @@ The payoff at time $t$ for liquidity providers consists of two parts - loss due 
 
 One on hand, as transactions happen, newly-arrived supply or demand drives the price away from its starting point. Formerly known as price slippage, this phenomenon unfortunately always incurs a loss (to see why, see appendix) to the liquidity provider. To compensate for the loss, AMM charges a fee for every transaction. For example, Uniswap collects 0.3% on all trades. The fees are put back to the pool immediately after collection and every liquidity provider has a pro rata claim on them. As it stands, fee income is effectively the sole incentivie for liquidity providers to contribute assets into the pool.
 
-The introduction of transaction fees brings _path dependence_ into the equation. Depending on how many orders (and how big the order size is) have been fulfilled, liquidity providers might or might not be able to make a profit on their investment. This requires a slight modification to the constant production formula introduced earlier,
+The introduction of transaction fees brings _path dependence_ into the equation. Depending on how many orders (and how big the order size is) have been fulfilled, liquidity providers might or might not be able to make a profit on their investment. This requires a slight modification to the constant production formula introduced earlier:
 
 $$ a_t b_t = k + \sum_{i=1}^{t} f_i $$
 

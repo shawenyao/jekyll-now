@@ -81,7 +81,7 @@ $$
 
 where $dW^A$ and $dW^B$ are correlated Brownian motion:
 
-$$ cor( $$
+$$ dW^A dW^B = \rho dt $$
 
 ## Conclusions
 

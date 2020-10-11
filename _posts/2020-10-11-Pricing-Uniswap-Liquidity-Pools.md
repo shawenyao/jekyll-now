@@ -29,7 +29,7 @@ $$ p_t = \frac{ A_t }{ B_t } = \frac{ b_t }{ a_t } $$
 
 At time $0$, there are $a_0$ units of asset $A$ and $b_0$ units of asset $B$ in the pool. Now, if a new order comes along to buy $\Delta a_1$ units of asset $B$, after the transaction fullfills, the ending balances in the pool for asset $A$ and $B$ will be:
 
-$$ a_1 = a_0 - \delta a_1 $$
+$$ a_1 = a_0 - \Delta a_1 $$
 
 $$ b_1 = \frac{ k }{ a_0 - \Delta a_1 } $$
 

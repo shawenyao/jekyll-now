@@ -82,12 +82,13 @@ v'_t &= a_t p_t + b_t \\
  &= a_t \frac{ b_t }{ a_t } + b_t \\
  &= 2b_t \\
  &= 2 \frac{ k }{ a_t } \\
- &= 2 \frac{ a_0 b_0}{ a_t } \\
+ &= 2 \frac{ a_0 b_0 }{ a_t } \\
 \end{align}$$
 
 Divide $v_t$ by $v'_t$, 
+
 $$\begin{align}
-\frac{ v_t }{ v'_t } &= \frac{  }{  } \\
- &= a_t * \frac{ b_t }{ a_t } + b_t \\
+\frac{ v_t }{ v'_t } &= \frac{ \frac{ a_0 ^ 2 }{ a_t^2 } + 1 }{ \frac{ 2a_0 }{ a_t } } \\
+ &= a_t \frac{ b_t }{ a_t } + b_t \\
  & = 2b_t \\
 \end{align}$$

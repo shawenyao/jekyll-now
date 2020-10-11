@@ -23,9 +23,9 @@ For simplicity, let $a_t$ and $b_t$ denote the number of units of $A$ and $B$ av
 
 $$ a_t b_t = k $$
 
-This is known as the constant product formula. It also implies that the current price of one unit of asset $A$ in terms asset $B$ is
+This is known as the constant product formula. It also implies that the current exchange rate of one unit of asset $A$ in terms asset $B$ is
 
-$$ p_t = \frac{ A_t }{ B_t } = \frac{ b_t }{ a_t } $$
+$$ e_t = \frac{ A_t }{ B_t } = \frac{ b_t }{ a_t } $$
 
 At time $0$, there are $a_0$ units of asset $A$ and $b_0$ units of asset $B$ in the pool. Now, if a new order comes along to buy $\Delta a_1$ units of asset $B$, after the transaction fullfills, the ending balances in the pool for asset $A$ and $B$ will be:
 
@@ -33,11 +33,13 @@ $$ a_1 = a_0 - \Delta a_1 $$
 
 $$ b_1 = \frac{ k }{ a_0 - \Delta a_1 } $$
 
-This implies a new price of:
+This implies a new exchange rate of:
 
-$$ p_1 = \frac{ a_0 b_0 }{ (a_0 - \Delta a_1)^2 } = \frac{ a_0^2 }{ (a_0 - \Delta a_1)^2 } \cdot \frac{ b_0 }{ a_0 } > \frac{ b_0 }{ a_0 } = p_0 $$
+$$ e_1 = \frac{ a_0 b_0 }{ (a_0 - \Delta a_1)^2 } = \frac{ a_0^2 }{ (a_0 - \Delta a_1)^2 } \cdot \frac{ b_0 }{ a_0 } > \frac{ b_0 }{ a_0 } = e_0 $$
 
-which indicates that asset $A$ has appreciated against asset $B$, as a result of having fulfilled the demand for asset $A$ and the subsequent "scarcity" of it in the pool. This setup has a few desirable properties to it. To name a few:
+which indicates that asset $A$ has appreciated against asset $B$, as a result of having fulfilled the demand for asset $A$ and the subsequent "scarcity" of it in the pool.
+
+While the individual prices of asset $A$ and $B$ can follow their own dynamics, Uniswap provides a way for traders to express their view on the price of one in terms of the other. In other words, everything is being priced on a relative term. This setup has a few desirable properties to it - to name a few:
 * if there's no trade, the price level stays at its initial value
 * a smaller trade is expected to be fullfiled at the market price without moving it by much
 * a larger trade will move the price substantially along the hyperbolic curve, deterioating the price level
@@ -81,7 +83,7 @@ In the absence of transaction fees, compare the terminal values of the two follo
 Strategy 1's terminal value is given by:
 
 $$\begin{align}
-v_t &= a_0 p_t + b_0 \\
+v_t^1 &= a_0 e_t + b_0 \\
  % &= a_0 \frac{ b_t }{ a_t }  + b_0 \\
  % &= a_0 \frac{ \frac{ k }{ a_t } }{ a_t } + b_0 \\
  % &= a_0 \frac{ \frac{ a_0 b_0 }{ a_t } }{ a_t } + b_0 \\
@@ -91,17 +93,17 @@ v_t &= a_0 p_t + b_0 \\
 Meanwhile, strategy 2 will have a terminal value of:
 
 $$\begin{align}
-v'_t &= a_t p_t + b_t \\
+v_t^2 &= a_t e_t + b_t \\
  % &= a_t \frac{ b_t }{ a_t } + b_t \\
  % &= 2b_t \\
  % &= 2 \frac{ k }{ a_t } \\
  &= \frac{ 2 a_0 b_0 }{ a_t } \\
 \end{align}$$
 
-Divide $v_t$ by $v'_t$, 
+Divide $v_t^1$ by $v_t^2$, 
 
 $$\begin{align}
-\frac{ v_t }{ v'_t } &= \frac{ \frac{ a_0 ^ 2 }{ a_t^2 } + 1 }{ \frac{ 2a_0 }{ a_t } } \\
+\frac{ v_t^1 }{ v_t^2 } &= \frac{ \frac{ a_0 ^ 2 }{ a_t^2 } + 1 }{ \frac{ 2a_0 }{ a_t } } \\
  % &= \frac{ \frac{ a_0 }{ a_t } + \frac{ a_t }{ a_0 } }{ 2 } \\
  % &= \frac{ a_0^2 + a_t^2 }{ 2 a_0 a_t } \\
  % &= \frac{ (a_0 - a_t)^2 + 2 a_0 a_t }{ 2 a_0 a_t } \\

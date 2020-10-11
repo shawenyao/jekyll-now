@@ -75,8 +75,8 @@ where $f_i$ is the amount of transaction fees collected at time $i$.
 Assume the prices of asset $A$ and $B$ follow the following dynamics:
 
 $$
-dA_t = r_A A_t dt + \sigma_A A_t dW //
-dB_t = r_B B_t dt + \sigma_B B_t dW //
+dA_t = r^A A_t dt + \sigma^A A_t dW \\
+dB_t = r^B B_t dt + \sigma^B B_t dW \\
 $$
 
 ## Conclusions

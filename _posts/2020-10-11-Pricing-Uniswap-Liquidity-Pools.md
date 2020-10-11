@@ -66,9 +66,9 @@ One on hand, as trades fulfill, newly-arrived supply and demand drive the price 
 
 The introduction of transaction fees brings _path dependence_ into the equation. The terminal state alone is no longer sufficient to uniquely determine the payoff to liquidity provider - the path through which it arrives at the ending price also matters. This requires a slight modification to the constant production formula introduced earlier:
 
-$$ a_t b_t = k + \sum_{i=1}^{t} f_i $$
+$$ a_t b_t = a_{ t-1 } b_{ t-1 } + f_t $$
 
-where $f_i$ is the amount of transaction fees collected at time $i$.
+where $f_t$ is the amount of transaction fees collected at time $t$.
 
 ## Simulation
 

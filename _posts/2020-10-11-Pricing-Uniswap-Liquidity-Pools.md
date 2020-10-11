@@ -50,15 +50,10 @@ How much is the liquidity pool worth today if the liquidity provider puts down e
 
 Note that the following analysis is based on the assumption of zero liquidity pool growth (other than due to transaction fees). Also the risk-free rate is assumed to be 0.
 
-## Pricing
-Price slippage always incurs loss for the liquidity provider (to see why, see appendix).
+## Price Slippage vs Fee Income
+The payoff at time $t$ for liquidity providers consist of two parts - loss due to price slippage and income from collecting transaction fees. 
 
-For the two assets to have equal value at any point in time, we have:
-
-$$ a_t p_t = b_t $$
-
-## What about Transaction Fees?
-In practice, every transaction fulfilled by AMM incurs a fee. For example, Uniswap charges 0.3% to all trades. The fees are put back to the pool immediately after collection and every liquidity provider has a pro rata claim on them. As it stands, they are effectively the sole incentivie for liquidity providers to contribute assets into the pool.
+One on hand, as transactions happen, newly fulfilled supply or demand drives the price away from its starting point, otherwise known as price slippage. Unfortunately, price slippage always incurs loss(to see why, see appendix). To compensate for this, every transaction fulfilled by AMM charges a fee. For example, Uniswap charges 0.3% to all trades. The fees are put back to the pool immediately after collection and every liquidity provider has a pro rata claim on them. As it stands, fee income is effectively the sole incentivie for liquidity providers to contribute assets into the pool.
 
 The introduction of transaction fees brings _path dependence_ into the equation. Depending on how many orders (and how big the order size is) have been fulfilled, liquidity providers might or might not be able to make a profit on their investment. This requires a slight modification to the constant production formula introduced earlier,
 

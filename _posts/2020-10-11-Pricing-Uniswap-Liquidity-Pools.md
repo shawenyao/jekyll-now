@@ -17,17 +17,15 @@ At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protoc
 
 ## Uniswap Explained
 
-$$ a_T b_T = k $$
+$$ a_t b_t = k $$
 
 This is known as the constant product formula.
-
-$$ a_T b_T = k + \sum_{t=0}^{T} f_t $$
 
 ## Problem Formulation
 
 Examine the liquidity composed of asset $A$ and $B$. Define the price of one unit of asset $A$ in terms of one unit of asset $B$ as:
 
-$$ p_T = \frac{ A_T }{ B_T } $$
+$$ p_t = \frac{ A_t }{ B_t } $$
 
 How much is the liquidity pool worth today if the liquidity provider puts down equal value of $A$ and $B$ into the pool now?
 
@@ -35,13 +33,18 @@ Note that the following analysis is based on the assumption of zero liquidity po
 
 ## Pricing
 
-For simplicity, let $a_T$ and $b_T$ denote the number of units of $A$ and $B$ in the liqudity pool respectively. For the two assets to have equal value at any point in time, we have:
+For simplicity, let $a_t$ and $b_t$ denote the number of units of $A$ and $B$ in the liqudity pool respectively. For the two assets to have equal value at any point in time, we have:
 
-$$ a_T p_T = b_T $$
-
+$$ a_t p_t = b_t $$
 
 ## What about Transaction Fees?
-In other words, transaction fees in its current form bring _path dependence_ into the equation.
+In practice, every transaction fulfilled by AMM incurs a fee. For example, Uniswap charges 0.3% to all trades. The 
+
+In other words, transaction fees in its current form bring _path dependence_ into the equation. This requires a slight modification to the constant production formula introduced earlier, n
+
+$$ a_t b_t = k + \sum_{i=1}^{N_t} f_i $$
+
+where $N_t$ is the total number of traders that has happened from time $0$ to time $t$.
 
 ## Conclusions
 

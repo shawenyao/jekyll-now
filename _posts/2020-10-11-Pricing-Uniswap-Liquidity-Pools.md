@@ -75,8 +75,8 @@ where $f_i$ is the amount of transaction fees collected at time $i$.
 Assume the prices of asset $A$ and $B$ follow the following dynamics:
 
 $$
-dA_t = \mu^A A_t dt + \sigma^A A_t dW^A \\
-dB_t = \mu^B B_t dt + \sigma^B B_t dW^B \\
+\frac{ dA_t }{ A_t } = \mu^A dt + \sigma^A dW^A \\
+\frac{ dB_t }{ B_t } = \mu^B dt + \sigma^B dW^B \\
 $$
 
 where $dW^A$ and $dW^B$ are correlated Brownian motion:

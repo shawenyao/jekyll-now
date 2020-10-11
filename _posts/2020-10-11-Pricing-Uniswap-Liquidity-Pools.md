@@ -27,7 +27,7 @@ This is known as the constant product formula. It also implies that the current 
 
 $$ e_t = \frac{ A_t }{ B_t } = \frac{ b_t }{ a_t } $$
 
-where $A_t$ and $B_t$ are the prices of asset $A$ and $B$ measured in a common numeraire (be it Bitcoin or US dollars, your choice).
+where $A_t$ and $B_t$ are the prices of asset $A$ and $B$ measured in a common numeraire (be it Bitcoin or US dollar, your choice).
 
 At time $0$, there are $a_0$ units of asset $A$ and $b_0$ units of asset $B$ in the pool. Now, if a new order comes along to buy $\Delta a_1$ units of asset $B$, after the transaction fullfills, the ending balances in the pool for asset $A$ and $B$ will be:
 

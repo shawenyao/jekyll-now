@@ -35,7 +35,7 @@ $$ b_1 = \frac{ k }{ a_0 - \Delta a_1 } $$
 
 This implies a new price of 
 
-$$ p_1 = \frac{ a_0 b_0 }{ (a_0 - \Delta a_1)^2 } = \frac{ a_0^2 }{ (a_0 - \Delta a_1)^2 } \dot \frac{ b_0 }{ a_0 } > \frac{ b_0 }{ a_0 } = p_0 $$
+$$ p_1 = \frac{ a_0 b_0 }{ (a_0 - \Delta a_1)^2 } = \frac{ a_0^2 }{ (a_0 - \Delta a_1)^2 } \cdot \frac{ b_0 }{ a_0 } > \frac{ b_0 }{ a_0 } = p_0 $$
 
 which indicates that asset $A$ has appreciated against asset $B$, as a result of having fulfilled the demand for asset $A$ and the subsequent a "shortage" of its balance in the pool. This setup has a few desirable properties to it. To name a few:
 * if there's no trade, the price level stays at its initial value

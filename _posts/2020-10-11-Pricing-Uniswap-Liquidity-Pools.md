@@ -92,6 +92,13 @@ a_t b_t = a_{ t-1 } b_{ t_1 } \\
 \end{cases}
 $$
 
+$$
+\begin{cases}
+a_t = \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } A_t }{ B_t } } \\ 
+a_t = \sqrt{ \frac{ a_{ t-1 } b_{ t-1 } B_t }{ A_t } } \\
+\end{cases}
+$$
+
 ## Conclusions
 
 

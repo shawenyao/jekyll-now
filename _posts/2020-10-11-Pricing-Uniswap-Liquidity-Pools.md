@@ -17,7 +17,7 @@ At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protoc
 
 ## Uniswap Explained
 
-Examine the liquidity composed of asset $A$ and $B$.
+Examine the liquidity pool composed of asset $A$ and $B$.
 
 For simplicity, let $a_t$ and $b_t$ denote the number of units of $A$ and $B$ available in the liqudity pool respectively. At any point in time, we have:
 
@@ -27,9 +27,9 @@ This is known as the constant product formula. It also implies that the current 
 
 $$ e_t = \frac{ A_t }{ B_t } = \frac{ b_t }{ a_t } $$
 
-where $A_t$ and $B_t$ are the prices of asset $A$ and $B$ measured in a common numeraire (be it Bitcoin or US dollar, your choice).
+where $A_t$ and $B_t$ are the unit prices of asset $A$ and $B$ measured in a common numeraire (be it Bitcoin or US dollar, your choice).
 
-At time $0$, there are $a_0$ units of asset $A$ and $b_0$ units of asset $B$ in the pool. Now, if a new order comes along to buy $\Delta a_1$ units of asset $B$, after the transaction settles, the ending balances in the pool for asset $A$ and $B$ will be:
+At time $0$, there are $a_0$ units of asset $A$ and $b_0$ units of asset $B$ in the pool. Now, if a new order comes along to buy $\Delta a_1$ units of asset $A$, after the transaction settles, the ending balances in the pool for asset $A$ and $B$ will be:
 
 $$ a_1 = a_0 - \Delta a_1 $$
 
@@ -41,7 +41,7 @@ $$ e_1 = \frac{ a_0 b_0 }{ (a_0 - \Delta a_1)^2 } = \frac{ a_0^2 }{ (a_0 - \Delt
 
 which indicates that asset $A$ has appreciated against asset $B$, as a result of having fulfilled the demand for asset $A$ and the subsequent "scarcity" of it in the pool.
 
-While the individual prices of asset $A$ and $B$ can follow their own dynamics, Uniswap provides a way for traders to express their view on the price of one in terms of the other. In other words, everything is being valued on a relative term. This setup has a few desirable properties to it - to name a few:
+While the individual prices of asset $A$ and $B$ can follow their own dynamics, Uniswap provides a way for traders to express their view on the price of one in terms of the other. In other words, everything is being valued on a relative term in the Uniswap exchange. This setup has a few desirable properties to it - to name a few:
 * if there's no trade, the price level stays at its initial value
 * a smaller trade is expected to be fullfiled at the market price without moving it by much
 * a larger trade will move the price substantially along the hyperbolic curve, deterioating the price level
@@ -55,9 +55,9 @@ How much is the liquidity pool worth today if the liquidity provider puts down e
 Note that the following analysis is based on the assumption of zero liquidity pool growth (other than due to transaction fees). Also the risk-free rate is assumed to be 0.
 
 ## Price Slippage vs Fee Income
-The payoff at time $t$ for liquidity providers consists of two parts - loss due to price slippage and income from collecting transaction fees. 
+The payoff at time $t$ for liquidity providers consists of two parts - capital appreciation due to price slippage and income from collecting transaction fees. 
 
-One on hand, as transactions happen, newly-arrived supply or demand drives the price away from its starting point. Formerly known as price slippage, this phenomenon unfortunately always incurs a loss (to see why, see appendix) to the liquidity provider. To compensate for the loss, AMM charges a fee for every transaction. For example, Uniswap collects 0.3% on all trades. The fees are put back to the pool immediately after collection and every liquidity provider has a pro rata claim on them. As it stands, fee income is effectively the sole incentivie for liquidity providers to contribute assets into the pool.
+One on hand, as trades fulfill, newly-arrived supply or demand drives the price away from its starting point. Formerly known as price slippage, this phenomenon results in a   (to see why, see appendix) to the liquidity provider. To compensate for the loss, AMM charges a fee for every transaction. For example, Uniswap collects 0.3% on all trades. The fees are put back to the pool immediately after collection and every liquidity provider has a pro rata claim on them. As it stands, fee income is effectively the sole incentivie for liquidity providers to contribute assets into the pool.
 
 The introduction of transaction fees brings _path dependence_ into the equation. Depending on how many orders (and how big the order size is) have been fulfilled, liquidity providers might or might not be able to make a profit on their investment. This requires a slight modification to the constant production formula introduced earlier:
 
@@ -79,27 +79,27 @@ AlfaBlok. 2019. "[Risk/Reward of liquidity provision in AMMs](https://alfablok.s
 ### The Effect of Price Slippage
 
 In the absence of transaction fees, compare the terminal values of the two following strategies:
-* strategy 1: buy and hold
-* strategy 2: stake in liquidity pool
+* strategy X: buy and hold
+* strategy Y: stake in liquidity pool
 
 Strategy 1's terminal value is given by:
 
 $$\begin{align}
-v_t^1 &= a_0 e_t + b_0 \\
- % &= a_0 \frac{ b_t }{ a_t }  + b_0 \\
- % &= a_0 \frac{ \frac{ k }{ a_t } }{ a_t } + b_0 \\
- % &= a_0 \frac{ \frac{ a_0 b_0 }{ a_t } }{ a_t } + b_0 \\
- &= (\frac{ a_0 ^ 2 }{ a_t^2 } + 1) b_0
+v_t^X &= a_0 e_t + b_0 \\
+ % &= (a_0 \frac{ b_t }{ a_t }  + b_0) B_t \\
+ % &= (a_0 \frac{ \frac{ k }{ a_t } }{ a_t } + b_0) B_t \\
+ % &= (a_0 \frac{ \frac{ a_0 b_0 }{ a_t } }{ a_t } + b_0) B_t \\
+ &= (\frac{ a_0 ^ 2 }{ a_t^2 } + 1) b_0 B_t
 \end{align}$$
 
 Meanwhile, strategy 2 will have a terminal value of:
 
 $$\begin{align}
-v_t^2 &= a_t e_t + b_t \\
- % &= a_t \frac{ b_t }{ a_t } + b_t \\
- % &= 2b_t \\
- % &= 2 \frac{ k }{ a_t } \\
- &= \frac{ 2 a_0 b_0 }{ a_t } \\
+v_t^Y &= (a_t e_t + b_t) B_t \\
+ % &= (a_t \frac{ b_t }{ a_t } + b_t) B_t \\
+ % &= 2b_t B_t \\
+ % &= 2 \frac{ k B_t }{ a_t } \\
+ &= \frac{ 2 a_0 b_0 B_t }{ a_t } \\
 \end{align}$$
 
 Divide $v_t^1$ by $v_t^2$, 

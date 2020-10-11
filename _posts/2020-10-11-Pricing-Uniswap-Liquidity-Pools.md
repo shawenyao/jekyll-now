@@ -96,4 +96,4 @@ $$\begin{align}
  &\geq 1
 \end{align}$$
 
-As a result, price slippage always result in loss.
+As a result, price slippage always result in lower terminal value, i.e., loss.

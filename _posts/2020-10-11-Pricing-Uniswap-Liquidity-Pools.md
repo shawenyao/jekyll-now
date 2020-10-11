@@ -15,6 +15,8 @@ Just like how Bitcoin aims to revolutionize money, automated market maker (AMM) 
 
 At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protocols, have over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/).
 
+Note that the following analysis is based on the assumption of zero liquidity pool growth (other than due to transaction fees). Also, the risk-free rate is assumed to be 0.
+
 ## Uniswap Explained
 
 Examine the liquidity pool composed of asset $A$ and $B$.
@@ -41,29 +43,26 @@ $$ e_1 = \frac{ a_0 b_0 }{ (a_0 - \Delta a_1)^2 } = \frac{ a_0^2 }{ (a_0 - \Delt
 
 which indicates that asset $A$ has appreciated against asset $B$, as a result of having fulfilled the demand for asset $A$ and the subsequent "scarcity" of it in the pool.
 
-While the individual prices of asset $A$ and $B$ can follow their own dynamics, Uniswap provides a way for traders to express their view on the price of one in terms of the other. In other words, everything is being valued on a relative term in the Uniswap exchange. This setup has a few desirable properties to it - to name a few:
+While the individual prices of asset $A$ and $B$ can still very much follow their own dynamics, Uniswap provides a way for traders to express their view on the price of one in terms of the other. In other words, everything is being valued on a relative term in the Uniswap exchange. This setup has a few desirable properties to it - to name a few:
 * if there's no trade, the price level stays at its initial value
 * a smaller trade is expected to be fullfiled at the market price without moving it by much
-* a larger trade will move the price substantially along the hyperbolic curve, deterioating the price level
+* a larger trade will move the price substantially along the hyperbolic curve, with the asset in demand appreciating against the other
 * a very large trade (e.g., something close to the remaining balance in the pool) will lead to a price impact so prohibitively substantial that it is close to impossible to deplete the inventory.
 
 In other words, Uniswap appears to achieve _infinite_ market depth with _finite_ supply of assets.
 
-## Problem Formulation
-How much is the liquidity pool worth today if the liquidity provider puts down equal value of $A$ and $B$ into the pool now?
-
-Note that the following analysis is based on the assumption of zero liquidity pool growth (other than due to transaction fees). Also the risk-free rate is assumed to be 0.
-
 ## Price Slippage vs Fee Income
-The payoff at time $t$ for liquidity providers consists of two parts - capital appreciation due to price slippage and income from collecting transaction fees. 
+The payoff at time $t$ for liquidity providers consists of two parts - capital appreciation (or depreciation) due to price slippage and income from collecting transaction fees. 
 
-One on hand, as trades fulfill, newly-arrived supply or demand drives the price away from its starting point. Formerly known as price slippage, this phenomenon results in a   (to see why, see appendix) to the liquidity provider. To compensate for the loss, AMM charges a fee for every transaction. For example, Uniswap collects 0.3% on all trades. The fees are put back to the pool immediately after collection and every liquidity provider has a pro rata claim on them. As it stands, fee income is effectively the sole incentivie for liquidity providers to contribute assets into the pool.
+One on hand, as trades fulfill, newly-arrived supply and demand drive the price away from its starting point. Formerly known as price slippage, this phenomenon can lead to either a gain or loss to the liquidity provider, but it always underforms a buy and hold strategy (to see why, see appendix). To compensate for the underperformance, AMM usually charges a fee for every transaction. For example, Uniswap collects 0.3% on all trades. The fees are put back to the pool right away and every liquidity provider has a pro rata claim on them. As it stands, fee income is effectively the sole incentivie for liquidity providers to contribute assets into the pool, compared to simply holding on to the asset pair.
 
 The introduction of transaction fees brings _path dependence_ into the equation. Depending on how many orders (and how big the order size is) have been fulfilled, liquidity providers might or might not be able to make a profit on their investment. This requires a slight modification to the constant production formula introduced earlier:
 
 $$ a_t b_t = k + \sum_{i=1}^{t} f_i $$
 
 where $f_i$ is the amount of transaction fees collected at time $i$.
+
+
 
 ## Conclusions
 

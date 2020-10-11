@@ -91,7 +91,7 @@ $$\begin{align}
 \frac{ v_t }{ v'_t } &= \frac{ \frac{ a_0 ^ 2 }{ a_t^2 } + 1 }{ \frac{ 2a_0 }{ a_t } } \\
  % &= \frac{ \frac{ a_0 }{ a_t } + \frac{ a_t }{ a_0 } }{ 2 } \\
  &= \frac{ a_0^2 + a_t^2 }{ 2 a_0 a_t } \\
- &= \frac{ (a_0 - a_t)^2 + 2 a_0 a_t }{ 2 a_0 a_t }
- &= \frac{ (a_0 - a_t)^2 }{ 2 a_0 a_t } + 1
+ &= \frac{ (a_0 - a_t)^2 + 2 a_0 a_t }{ 2 a_0 a_t } \\
+ &= \frac{ (a_0 - a_t)^2 }{ 2 a_0 a_t } + 1 \\
  &\geq 1
 \end{align}$$

@@ -17,23 +17,23 @@ At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protoc
 
 ## Uniswap Explained
 
-For simplicity, let $a_t$ and $b_t$ denote the number of units of $A$ and $B$ in the liqudity pool respectively. At any point in time, we have:
+Examine the liquidity composed of asset $A$ and $B$.
+
+For simplicity, let $a_t$ and $b_t$ denote the number of units of $A$ and $B$ available in the liqudity pool respectively. At any point in time, we have:
 
 $$ a_t b_t = k $$
 
-This is known as the constant product formula.
+This is known as the constant product formula. It also implies that the current price of one unit of asset $A$ in terms asset $B$ is
+
+$$ p_t = \frac{ A_t }{ B_t } $$ = \frac{ b_t }{ a_t }
 
 ## Problem Formulation
-
-Examine the liquidity composed of asset $A$ and $B$. Define the price of one unit of asset $A$ in terms of one unit of asset $B$ as:
-
-$$ p_t = \frac{ A_t }{ B_t } $$
-
 How much is the liquidity pool worth today if the liquidity provider puts down equal value of $A$ and $B$ into the pool now?
 
 Note that the following analysis is based on the assumption of zero liquidity pool growth (other than due to transaction fees). Also the risk-free rate is assumed to be 0.
 
 ## Pricing
+Price slippage always incurs loss for the liquidity provider (to see why, see appendix).
 
 For the two assets to have equal value at any point in time, we have:
 
@@ -57,3 +57,19 @@ Pintail, "[Uniswap: A Good Deal for Liquidity Providers?](https://medium.com/@pi
 AlfaBlok, "[Risk/Reward of liquidity provision in AMMs](https://alfablok.substack.com/p/coming-soon)"
 
 ## Appendix
+### The Effect of Price Slippage
+
+In the absence of transaction fees, compare the terminal values of the two following strategies.
+* strategy 1: buy and hold
+* strategy 2: stake in liquidity pool
+
+Strategy 1's terminal value is given by:
+
+$$\begin{align}
+v(t) &= a_0 p_t + b_0
+ &= a_0 \frac{ b_t }{ a_t }  + b_0
+ &= a_0 \frac{ \frac{ a_0 b_0 }{ a_t } }{ a_t } + b_0 
+\end{align}$$
+
+Meanwhile, strategy 2 will have a terminal value of:
+$$ v'(t) = a_1 * $p_t$ + $b_1 $$

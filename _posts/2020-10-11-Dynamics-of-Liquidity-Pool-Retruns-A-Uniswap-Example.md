@@ -19,13 +19,13 @@ Note that the following analysis is based on the assumption of zero liquidity po
 
 ## Uniswap Explained
 
-Uniswap divides its market participants into two categories: liquidity providers and traders. In a nutshell, the former deposits equal value of any pair of assets into the liquidity pool and the latter trades one for the other based on what's available in the pool.
+Uniswap divides its market participants into two distinct groups: liquidity providers and traders. In a nutshell, the former deposits equal value of any pair of assets into the liquidity pool and the latter trades one for the other based on what's available in the pool.
 
 Examine the liquidity pool composed of asset $A$ and $B$. For simplicity, let $a_t$ and $b_t$ denote the number of units of $A$ and $B$ available in the liqudity pool respectively. At any point in time, we have:
 
 $$ a_t b_t = k $$
 
-This is known as the constant product formula. Since the liquidity pool have equal value of both assets, it also implies that the current exchange rate of one unit of asset $A$ in terms asset $B$ is
+This is known as the constant product formula. Since the liquidity pool have equal value of both assets (one can arbitrage if it doesn't), it also implies that the current exchange rate of one unit of asset $A$ in terms asset $B$ is
 
 $$ e_t = \frac{ A_t }{ B_t } = \frac{ b_t }{ a_t } $$
 

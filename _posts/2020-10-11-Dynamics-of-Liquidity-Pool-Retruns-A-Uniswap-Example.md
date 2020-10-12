@@ -67,7 +67,7 @@ $$ a_t b_t = a_{ t-1 } b_{ t-1 } + f_t $$
 
 where $f_t$ is the amount of transaction fees collected at time $t$.
 
-## Simulation
+## Simulation Setup
 
 Assume the prices of asset $A$ and $B$ follow the following dynamics:
 

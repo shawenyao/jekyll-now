@@ -115,13 +115,22 @@ where $c$ is the transaction fee rate and  $\textbf{ 1 }$ is the indicator funct
   <img src="https://shawenyao.github.io/R/output/uniswap/return.png" />
 </div>
 
-Simulation results suggest that.
+Under a set of arbitrarily selected parameters, simulation results suggest that even after accounting for transaction fees, the buy and hold strategy still delivers a higher expected return after 1000 transactions. However, acting as the liquidity provider siginificantly reduces the volatility due to the inclusion of a steady stream of fee income. It also outperforms buy and hold in terms of Sharpe ratio.
+
+| Settings | Expected Return | Volatility | Sharpe Ratio |
+|---|---|---|---|
+| Buy and Hold | 5.07 | 12.72 | 0.40 |
+| Liquidity Provider | 3.90 | 5.66 | 0.69 |
 
 ## Tweaking the Setup
+
+Let's test the return sensitivity over a variety of inputs. First,
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_rhos.png" />
 </div>
+
+The other inters
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_fees.png" />
@@ -177,11 +186,5 @@ $$\begin{align}
 
 As a result, a buy and hold strategy always outperforms being a liquidity provider in the absence of fee income.
 
-### Expected Return and Volatility under Various Settings
-
-| Settings | Expected Return | Volatility | Sharpe Ratio |
-|---|---|---|---|
-| Monday a.m. | > | 0.2211 | -0.4049 |
-| Monday p.m. | -0.1115 | 0.2379 | -0.4687 |
 
 

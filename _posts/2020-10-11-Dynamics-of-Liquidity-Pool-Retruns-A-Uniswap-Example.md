@@ -217,5 +217,5 @@ As a result, a buy and hold strategy always outperforms being a liquidity provid
 | 0.3% | Liquidity Provider | 3.89 | 5.52 | 0.71 |
 | 1% | Liquidity Provider | 4.09 | 5.86 | 0.7 |
 | 5% | Liquidity Provider | 5.48 | 7.91 | 0.69 |
-| 20% | Liquidity Provider | 16.36 | 23.45 | 0.7 |
+| 10% | Liquidity Provider | 16.36 | 23.45 | 0.7 |
 

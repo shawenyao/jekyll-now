@@ -57,7 +57,7 @@ at time $t$. By contrast, a buy and hold strategy will have the following payoff
 $$ v_t = a_0 A_t + b_0 B_t $$
 
 ## Price Slippage vs Fee Income
-The payoff at time $t$ for liquidity providers consists of two parts - capital appreciation (or depreciation) due to price slippage and income from collecting transaction fees. 
+The payoff at time $t$ for liquidity providers can be further decomposed into two parts - capital appreciation (or depreciation) due to price slippage and income from collecting transaction fees. 
 
 One on hand, as trades fulfill, newly-arrived supply and demand drive the price away from its starting point. Formerly known as price slippage, this phenomenon can lead to either a gain or loss to the liquidity provider, but it always underperforms a buy and hold strategy (to see why, see appendix). To compensate for the underperformance, AMM usually charges a fee for trading. For example, Uniswap collects 0.3% on every transaction. The fees are put back to the pool right away and every liquidity provider has a pro rata claim on them. As it stands, fee income is effectively the sole incentive for liquidity providers to contribute assets into the pool, compared to simply holding on to the asset pair.
 

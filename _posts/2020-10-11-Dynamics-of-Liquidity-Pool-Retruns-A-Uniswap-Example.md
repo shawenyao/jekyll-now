@@ -131,11 +131,11 @@ Last but not least, a higher transaction fee rate undoubtedly works in liquidity
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_fees.png" />
 </div>
 
-See appendix for details.
+For details, please refer to the appendix .
 
 ## Conclusions
 
-If the numerical experiment is any indication, acting as the liquidity provider can serve as a loww-return/low-risk/high-Sharpe-ratio alternative to the buy and hold strategy. Plus, the mean-variance investors shouldn't care about the fee level set by the protocols, as it's only a matter of how much leverage one is willing to take.
+If the numerical experiment is any indication, acting as the liquidity provider can often serve as a low-return/low-risk/high-Sharpe-ratio alternative to the buy and hold strategy. In addition, the mean-variance investors shouldn't care about the fee level set by the protocol, as it's only a matter of how much leverage one is willing to take under certain conditions.
 
 Automated market makers such as Uniswap is by no means perfect (especially for those who are targeting an 100% buyout!), but it open up entire new perspective on how we look at the price discovery mechanism. Gone is the order-book-style matchmaking; In its stead is an explicit law that governs how price and volume covary. 
 

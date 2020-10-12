@@ -114,6 +114,20 @@ where $c$ is the transaction fee rate and  $\textbf{ 1 }$ is the indicator funct
 * if $a_{ t-1 }$ is greater than $a'_t$, the trader must have purchased asset $A$ with asset $B$, resulting in a decline in the balance of asset $A$. The protocol retains a portion of the payout (asset $A$) as transaction fees.
 * if $a_{ t-1 }$ is less than $a'_t$, the trader must have purchased asset $B$ with asset $A$, resulting in an increase in the balance of asset $B$. The protocol retains a portion of the payout (asset $B$) as transaction fees.
 
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/uniswap/return.png" />
+</div>
+
+## Tweaking the Setup
+
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_rhos.png" />
+</div>
+
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_fees.png" />
+</div>
+
 ## Conclusions
 
 
@@ -163,3 +177,6 @@ $$\begin{align}
 \end{align}$$
 
 As a result, a buy and hold strategy always outperforms being a liquidity provider in the absence of fee income.
+
+### Expected Return and volatility under Various Settings
+

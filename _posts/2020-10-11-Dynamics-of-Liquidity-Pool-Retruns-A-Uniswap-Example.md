@@ -39,8 +39,8 @@ $$ e_1 = \frac{ a_0 b_0 }{ (a_0 - \Delta a_1)^2 } = \frac{ a_0^2 }{ (a_0 - \Delt
 which indicates that asset $A$ has appreciated against asset $B$, as a result of having fulfilled the demand for asset $A$ and the subsequent "scarcity" of it in the pool.
 
 While the individual prices of asset $A$ and $B$ can still very much follow their own dynamics, Uniswap provides a way for traders to express their view on the price of one in terms of the other. In other words, everything is being valued on a relative term in the Uniswap exchange. This setup has a few desirable properties to it. Just to name a few:
-* if there's no trade, the price level stays at its initial value
-* a smaller trade is expected to be fulfilled at the market price without moving it too much
+* if there's no trade, the relative price level (i.e., exchange rate) stays at its initial value
+* a smaller trade is expected to be fulfilled at the market price of exchange without moving it too much
 * a larger trade will move the price substantially along the hyperbolic curve, with the asset in demand appreciating against the other
 * a very large trade (e.g., something close to the remaining balance in the pool) will lead to a price impact so prohibitively substantial that it is close to impossible to deplete the inventory.
 

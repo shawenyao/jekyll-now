@@ -11,7 +11,7 @@ finance: true
 ---
 Where blockchain meets Brownian motion.
 
-Just like how Bitcoin aims at decentralizing money, automated market maker (AMM) emerges as the disruptor of traditional exchange. While NYSE and NASDAQ use an order book to achieve price discovery function and balance supply with demand, Uniswap, the biggest decentralized exchange, relies on what's known as the constant product formula. At the time of writing, Uniswap has over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/), proving that there is indeed an appetite to end the monopoly of traditional exchange.
+Just like how Bitcoin aims at revolutionizing money, automated market maker (AMM) emerges as the disruptor of traditional exchange. While NYSE and NASDAQ use an order book to achieve price discovery function and balance supply with demand, Uniswap, the biggest decentralized exchange, relies on what's known as the constant product formula. At the time of writing, Uniswap has over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/), proving that there is indeed an appetite to end the monopoly of traditional exchange.
 
 One of AMM's most important divergences from traditional exchange is that it divides its market participants into two distinct roles: liquidity providers and traders. In a nutshell, the former deposits equal value of any pair of assets into the liquidity pool and the latter trades one for the other based on what's available in the pool. This creates interesting ramification in terms of risk and rewards from liquidity providers' standpoint. In this post, we study the characteristics of the price dynamics in Uniswap under the usual assumption that the prices of the underlying asset pair follow geometric Brownian process. Note that the analysis also assumes zero liquidity pool growth (other than due to transaction fees) and zero risk-free rate.
 
@@ -20,7 +20,7 @@ Examine the liquidity pool composed of asset $A$ and $B$. For simplicity, let $a
 
 $$ a_t b_t = k $$
 
-This is known as the constant product formula. Since the liquidity pool have equal value of both assets (one can arbitrage if it doesn't), it also implies that the current exchange rate of one unit of asset $A$ in terms asset $B$ is
+This is known as the constant product formula. Since the liquidity pool must have equal value of both assets (one can arbitrage if it doesn't!), it also implies that the current exchange rate of one unit of asset $A$ in terms asset $B$ is
 
 $$ e_t = \frac{ A_t }{ B_t } = \frac{ b_t }{ a_t } $$
 
@@ -113,19 +113,19 @@ where $c$ is the transaction fee rate and  $\textbf{ 1 }$ is the indicator funct
 
 ## Putting It All Together
 
+Under a set of arbitrarily-selected parameters, simulation results suggest that even after accounting for transaction fees, the buy and hold strategy still delivers a higher expected return after 1000 steps (transactions). However, acting as the liquidity provider significantly reduces the volatility due to the steady stream of fee income. It also outperforms buy and hold in terms of Sharpe ratio. See appendix for details.
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return.png" />
 </div>
 
-Under a set of arbitrarily-selected parameters, simulation results suggest that even after accounting for transaction fees, the buy and hold strategy still delivers a higher expected return after 1000 steps (transactions). However, acting as the liquidity provider significantly reduces the volatility due to the steady stream of fee income. It also outperforms buy and hold in terms of Sharpe ratio. See appendix for details.
-
-How important is the correlation argument? For the buy and hold strategy, since expected return isn't a function of correlation, it delivers almost the same expected value across all choices of $\rho$, though its volatility deteriorates as the lack of diversification increases and Sharpe ratio suffers for the same reason. For the liquidity provider, 
+How important is the correlation argument? Liquidity provider benefits from a low correlation in at least two ways from a mean-variance optimization standpoint. First, the lower the correlation is, the more the two assets tend to move in opposite directions in price. The higher level of divergenece takes larger amount of trading volume to realize, which should translate into a higher fee income (despite more price slippage). Secondly, a low correlation brings diversification so it's expected to have lower volatility. All things considered, both expected return and volaility increases as correlation goes up while Sharpe ratio declines. 
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_rhos.png" />
 </div>
 
-Last but not least, a higher transaction fee rate undoubtly works in liquidity providers' favor. The higher the fee, the higher the return. That said, Sharpe ratio surprisingly remains remarkably stable over all fee levels, suggseting that in fact, the risk (volatility) and reward (expected return) of a high-fee structure can be synthesized by taking on additional leverage under a low-fee environment. To put it simply, the fee level is actually irrelevant as long as it's non-zero (and of course, if one can borrow at a negligible cost without restriction).
+Last but not least, a higher transaction fee rate undoubtly works in liquidity providers' favor. The higher the fee, the higher the return. That said, Sharpe ratio remains remarkably stable over all fee levels, suggseting that in fact, the risk (volatility) and reward (expected return) of a high-fee structure can be synthesized by taking on additional leverage under a low-fee environment. To put it simply, the fee level is actually irrelevant as long as it's positive (and of course, assuming one can borrow at a negligible cost without restriction).
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_fees.png" />
@@ -193,23 +193,23 @@ As a result, a buy and hold strategy always outperforms being a liquidity provid
 
 ### Expected Return and Volatility under Various Correlation Assumptions
 
-| Correlation | Strategy | Expected Return | Volatility | Sharpe Ratio |
+| Strategy | Correlation| Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|---|
-| -0.5 | Liquidity Provider | 2.86 | 2.23 | 1.28 |
-| 0 | Liquidity Provider | 3.22 | 3.32 | 0.97 |
-| 0.5 | Liquidity Provider | 3.63 | 4.67 | 0.78 |
-| 0.8 | Liquidity Provider | 3.89 | 5.68 | 0.69 |
-| 0.9 | Liquidity Provider | 3.98 | 5.96 | 0.67 |
-| 1 | Liquidity Provider | 4.06 | 6.18 | 0.66 |
+| Liquidity Provider | -0.5 | 2.86 | 2.23 | 1.28 |
+| Liquidity Provider | 0 | 3.22 | 3.32 | 0.97 |
+| Liquidity Provider | 0.5 | 3.63 | 4.67 | 0.78 |
+| Liquidity Provider | 0.8 | 3.89 | 5.68 | 0.69 |
+| Liquidity Provider | 0.9 | 3.98 | 5.96 | 0.67 |
+| Liquidity Provider | 1 | 4.06 | 6.18 | 0.66 |
 
 ### Expected Return and Volatility under Various Fee Schedules
 
-| Fee | Strategy | Expected Return | Volatility | Sharpe Ratio |
+| Strategy | Fee | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|---|
-| 0% | Liquidity Provider | 3.81 | 5.51 | 0.69 |
-| 0.15% | Liquidity Provider | 3.84 | 5.51 | 0.7 |
-| 0.3% | Liquidity Provider | 3.89 | 5.52 | 0.71 |
-| 1% | Liquidity Provider | 4.09 | 5.86 | 0.7 |
-| 5% | Liquidity Provider | 5.48 | 7.91 | 0.69 |
-| 10% | Liquidity Provider | 16.36 | 23.45 | 0.7 |
+| Liquidity Provider | 0% | 3.81 | 5.51 | 0.69 |
+| Liquidity Provider | 0.15% | 3.84 | 5.51 | 0.7 |
+| Liquidity Provider | 0.3% | 3.89 | 5.52 | 0.71 |
+| Liquidity Provider | 1% | 4.09 | 5.86 | 0.7 |
+| Liquidity Provider | 5% | 5.48 | 7.91 | 0.69 |
+| Liquidity Provider | 10% | 16.36 | 23.45 | 0.7 |
 

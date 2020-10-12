@@ -11,11 +11,9 @@ finance: true
 ---
 DeFi or CeFi?
 
-Just like how Bitcoin aims to revolutionize money, automated market maker (AMM) emerges as the disruptor of tranditional exchange. While NYSE and Nasdaq use an order book for price discovery, Uniswap, the biggest decentrailized exchange, relies on what's known as the constant product formula.
+Just like how Bitcoin aims to revolutionize money, automated market maker (AMM) emerges as the disruptor of tranditional exchange. While NYSE and Nasdaq use an order book for price discovery, Uniswap, the biggest decentrailized exchange, relies on what's known as the constant product formula. At the time of writing, Uniswap has over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/), proving that there is indeed an appetite to end the monopoly of traditional exchange.
 
-At the time of writing, Uniswap has over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/).
-
-Note that the following analysis is based on the assumption of zero liquidity pool growth (other than due to transaction fees). Also, the risk-free rate is assumed to be 0.
+That said, how . Note that the following analysis is based on the assumption of zero liquidity pool growth (other than due to transaction fees). Also, the risk-free rate is assumed to be 0.
 
 ## Uniswap Explained
 
@@ -184,7 +182,7 @@ As a result, a buy and hold strategy always outperforms being a liquidity provid
 
 | Settings | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|
-| Monday a.m. | -0.0895 | 0.2211 | -0.4049 |
+| Monday a.m. | > | 0.2211 | -0.4049 |
 | Monday p.m. | -0.1115 | 0.2379 | -0.4687 |
 
 

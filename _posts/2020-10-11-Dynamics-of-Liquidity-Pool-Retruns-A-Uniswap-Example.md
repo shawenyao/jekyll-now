@@ -44,7 +44,7 @@ While the individual prices of asset $A$ and $B$ can still very much follow thei
 * a larger trade will move the price substantially along the hyperbolic curve, with the asset in demand appreciating against the other
 * a very large trade (e.g., something close to the remaining balance in the pool) will lead to a price impact so prohibitively substantial that it is close to impossible to deplete the inventory.
 
-In other words, Uniswap appears to achieve _infinite_ market depth with _finite_ supply of assets. Putting it all together, the liquidity provider puts down:
+In other words, Uniswap appears to achieve _infinite_ market depth with _finite_ supply of assets. All in all, the liquidity provider puts down:
 
 $$ v_0 = a_0 A_0 + b_0 B_0 $$
 
@@ -111,11 +111,13 @@ where $c$ is the transaction fee rate and  $\textbf{ 1 }$ is the indicator funct
 * if $a_{ t-1 }$ is greater than $a'_t$, the trader must have purchased asset $A$ with asset $B$, resulting in a decline in the balance of asset $A$ and an increase in that of asset $B$. The protocol retains a portion of the payout (asset $A$) to the trader as transaction fees.
 * if $a_{ t-1 }$ is less than $a'_t$, the trader must have purchased asset $B$ with asset $A$, resulting in an decline in the balance of asset $B$ and an increase in that of asset $A$. The protocol retains a portion of the payout (asset $B$) to the trader as transaction fees.
 
+## Putting It All Together
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return.png" />
 </div>
 
-Under a set of arbitrarily selected parameters, simulation results suggest that even after accounting for transaction fees, the buy and hold strategy still delivers a higher expected return after 1000 transactions. However, acting as the liquidity provider siginificantly reduces the volatility due to the inclusion of a steady stream of fee income. It also outperforms buy and hold in terms of Sharpe ratio.
+Under a set of arbitrarily selected parameters, simulation results suggest that even after accounting for transaction fees, the buy and hold strategy still delivers a higher expected return after 1000 steps (transactions). However, acting as the liquidity provider siginificantly reduces the volatility due to the inclusion of a steady stream of fee income. It also outperforms buy and hold in terms of Sharpe ratio.
 
 | Settings | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|

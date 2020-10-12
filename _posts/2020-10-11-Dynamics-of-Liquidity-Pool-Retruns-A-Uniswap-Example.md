@@ -190,28 +190,28 @@ As a result, a buy and hold strategy always outperforms being a liquidity provid
 
 | Strategy | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|
-| Buy and Hold | 5.03 | 12.72 | 0.40 |
-| Liquidity Provider | 3.88 | 5.56 | 0.70 |
+| Buy and Hold | 4.03 | 12.72 | 0.32 |
+| Liquidity Provider | 2.88 | 5.56 | 0.51 |
 
 ### Expected Return and Volatility under Various Correlation Assumptions
 
 | Strategy | Correlation| Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|---|
-| Liquidity Provider | -0.5 | 2.86 | 2.23 | 1.28 |
-| Liquidity Provider | 0 | 3.22 | 3.32 | 0.97 |
-| Liquidity Provider | 0.5 | 3.63 | 4.67 | 0.78 |
-| Liquidity Provider | 0.8 | 3.89 | 5.68 | 0.69 |
-| Liquidity Provider | 0.9 | 3.98 | 5.96 | 0.67 |
-| Liquidity Provider | 1 | 4.06 | 6.18 | 0.66 |
+| Liquidity Provider | -0.5 | 1.86 | 2.23 | 1.28 |
+| Liquidity Provider | 0 | 2.22 | 3.32 | 0.97 |
+| Liquidity Provider | 0.5 | 2.63 | 4.67 | 0.78 |
+| Liquidity Provider | 0.8 | 2.89 | 5.68 | 0.69 |
+| Liquidity Provider | 0.9 | 2.98 | 5.96 | 0.67 |
+| Liquidity Provider | 1 | 3.06 | 6.18 | 0.66 |
 
 ### Expected Return and Volatility under Various Fee Schedules
 
 | Strategy | Fee | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|---|
-| Liquidity Provider | 0% | 3.81 | 5.51 | 0.69 |
-| Liquidity Provider | 0.15% | 3.84 | 5.51 | 0.7 |
-| Liquidity Provider | 0.3% | 3.89 | 5.52 | 0.71 |
-| Liquidity Provider | 1% | 4.09 | 5.86 | 0.7 |
-| Liquidity Provider | 5% | 5.48 | 7.91 | 0.69 |
-| Liquidity Provider | 20% | 16.36 | 23.45 | 0.7 |
+| Liquidity Provider | 0% | 2.81 | 5.51 | 0.51 |
+| Liquidity Provider | 0.15% | 2.84 | 5.51 | 0.52 |
+| Liquidity Provider | 0.3% | 2.89 | 5.52 | 0.52 |
+| Liquidity Provider | 1% | 3.09 | 5.86 | 0.53 |
+| Liquidity Provider | 5% | 4.48 | 7.91 | 0.56 |
+| Liquidity Provider | 20% | 15.36 | 23.45 | 0.66 |
 

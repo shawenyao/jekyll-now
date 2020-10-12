@@ -119,13 +119,13 @@ Under a set of arbitrarily-selected parameters, simulation results suggest that 
   <img src="https://shawenyao.github.io/R/output/uniswap/return.png" />
 </div>
 
-How important is the correlation argument? Liquidity provider benefits from a low correlation in at least two ways from a mean-variance optimization standpoint. First, the lower the correlation is, the more the two assets' prices tend to move in opposite directions. The higher level of divergence takes larger amount of trading volume to realize, which should translate into a higher fee income (despite more price slippage). Secondly, a low correlation brings diversification so it's expected to have lower volatility. All things considered, both expected return and volatility increases as correlation goes up while Sharpe ratio declines. 
+How important is the correlation parameter? Liquidity provider benefits from a low correlation in at least two ways from a mean-variance optimization standpoint. First, the lower the correlation is, the more the two assets' prices tend to move in opposite directions. The higher level of divergence takes larger amount of trading volume to realize, which should translate into a higher fee income (despite more price slippage). Secondly, a low correlation brings diversification so it's expected to have lower volatility. All things considered, both expected return and volatility increases as correlation goes up while Sharpe ratio declines. 
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_rhos.png" />
 </div>
 
-Last but not least, a higher transaction fee rate undoubtedly works in liquidity providers' favor. The higher the fee, the higher the return. That said, Sharpe ratio remains remarkably stable over all fee levels, suggesting that in fact, the risk (volatility) and reward (expected return) of a high-fee structure can be synthesized by taking on additional leverage under a low-fee environment. To put it simply, the fee level is actually irrelevant as long as it's positive (and of course, assuming one can borrow at a negligible cost without restriction).
+Last but not least, a higher transaction fee rate undoubtedly works in liquidity providers' favor. All else equal, the higher the fee, the higher the return. Sharpe ratio also improves as the increase in expected return outpaces the increase in volatility.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_fees.png" />
@@ -135,7 +135,7 @@ For details, please refer to the appendix .
 
 ## Conclusions
 
-If the numerical experiment is any indication, acting as the liquidity provider can often serve as a low-return/low-risk/high-Sharpe-ratio alternative to the buy and hold strategy. In addition,  investors who are looking for mean-variance optimization shouldn't care about the fee level set by the protocol, as it's only a matter of how much leverage one is willing to take under the usual CAPM assumptions.
+If the numerical experiment is any indication, acting as the liquidity provider can often serve as a low-return/low-risk/high-Sharpe-ratio alternative to the buy and hold strategy. In addition, different choices of 
 
 Uniswap is by no means perfect (especially for those who are targeting an 100% buyout!). However, it opens up an entire new perspective on how we look at the price discovery mechanism. Gone is the order-book-style matchmaking; in its stead is an explicit law that governs the comovement between price and volume. As much as it's work in progress, let's take a moment to appreciate how such a simple idea goes a long way in the name of decentralized finance.
 

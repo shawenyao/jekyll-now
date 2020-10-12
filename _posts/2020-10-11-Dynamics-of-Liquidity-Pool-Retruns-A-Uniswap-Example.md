@@ -119,7 +119,7 @@ Under a set of arbitrarily-selected parameters, simulation results suggest that 
   <img src="https://shawenyao.github.io/R/output/uniswap/return.png" />
 </div>
 
-How important is the correlation argument? Liquidity provider benefits from a low correlation in at least two ways from a mean-variance optimization standpoint. First, the lower the correlation is, the more the two assets tend to move in opposite directions in price. The higher level of divergenece takes larger amount of trading volume to realize, which should translate into a higher fee income (despite more price slippage). Secondly, a low correlation brings diversification so it's expected to have lower volatility. All things considered, both expected return and volaility increases as correlation goes up while Sharpe ratio declines. 
+How important is the correlation argument? Liquidity provider benefits from a low correlation in at least two ways from a mean-variance optimization standpoint. First, the lower the correlation is, the more the two assets' prices tend to move in opposite directions. The higher level of divergenece takes larger amount of trading volume to realize, which should translate into a higher fee income (despite more price slippage). Secondly, a low correlation brings diversification so it's expected to have lower volatility. All things considered, both expected return and volaility increases as correlation goes up while Sharpe ratio declines. 
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_rhos.png" />
@@ -131,7 +131,7 @@ Last but not least, a higher transaction fee rate undoubtly works in liquidity p
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_fees.png" />
 </div>
 
-See appendix for details
+See appendix for details.
 
 ## Conclusions
 

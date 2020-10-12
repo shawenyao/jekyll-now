@@ -32,7 +32,7 @@ $$ a_1 = a_0 - \Delta a_1 $$
 
 $$ b_1 = \frac{ k }{ a_0 - \Delta a_1 } $$
 
-This results in a new exchange rate of:
+This leads to a new exchange rate of:
 
 $$ e_1 = \frac{ a_0 b_0 }{ (a_0 - \Delta a_1)^2 } = \frac{ a_0^2 }{ (a_0 - \Delta a_1)^2 } \cdot \frac{ b_0 }{ a_0 } > \frac{ b_0 }{ a_0 } = e_0 $$
 

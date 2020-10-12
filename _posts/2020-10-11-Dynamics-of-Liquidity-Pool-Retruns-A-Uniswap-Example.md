@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Pricing Uniswap Liquidity Pools
+title: Dynamics of Liquidity Pool Returns&#58 A Uniswap Example
 tag:
   - defi
   - finance
   - maths
 comments: true
-draft: true
+draft: false
 finance: true
 ---
 DeFi or CeFi?

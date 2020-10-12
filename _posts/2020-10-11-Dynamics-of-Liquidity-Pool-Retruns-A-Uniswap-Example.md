@@ -188,40 +188,40 @@ As a result, a buy and hold strategy always outperforms being a liquidity provid
 
 | Strategy | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|
-| Buy and Hold | 5.07 | 12.72 | 0.40 |
-| Liquidity Provider | 3.90 | 5.66 | 0.69 |
+| Buy and Hold | 5.03 | 12.72 | 0.40 |
+| Liquidity Provider | 3.88 | 5.56 | 0.70 |
 
 ### Expected Return and Volatility under Various Correlation Assumptions
 
 | Correlation | Strategy | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|---|
-| -0.5 | Buy and Hold | 5.06 | 12.9 | 0.39 |
-| -0.5 | Liquidity Provider | 2.86 | 2.24 | 1.28 |
-| 0 | Buy and Hold | 5.02 | 11.33 | 0.44 |
-| 0 | Liquidity Provider | 3.21 | 3.28 | 0.98 |
-| 0.5 | Buy and Hold | 5.04 | 11.9 | 0.42
-| 0.5 | Liquidity Provider | 3.62 | 4.65 | 0.78 |
-| 0.8 | Buy and Hold | 5.05 | 14.14 | 0.36 |
-| 0.8 | Liquidity Provider | 3.87 | 5.74 | 0.67 |
-| 0.9 | Buy and Hold | 5.06 | 13.18 | 0.38 |
-| 0.9 | Liquidity Provider | 3.98 | 5.96 | 0.67 |
-| 1 | Buy and Hold | 5.06 | 12.26 | 0.41 |
-| 1 | Liquidity Provider | 4.08 | 6.27 | 0.65 |
+| -0.5 | "Buy and Hold" | 5.04 | 11.9 | 0.42 |
+| -0.5 | "Liquidity Provider" | 2.86 | 2.23 | 1.28 |
+| 0 | "Buy and Hold" | 5.04 | 12.34 | 0.41 |
+| 0 | "Liquidity Provider" | 3.22 | 3.32 | 0.97 |
+| 0.5 | "Buy and Hold" | 5.05 | 12.35 | 0.41 |
+| 0.5 | "Liquidity Provider" | 3.63 | 4.67 | 0.78 |
+| 0.8 | "Buy and Hold" | 5.05 | 13.79 | 0.37 |
+| 0.8 | "Liquidity Provider" | 3.89 | 5.68 | 0.69 |
+| 0.9 | "Buy and Hold" | 5.05 | 12.92 | 0.39 |
+| 0.9 | "Liquidity Provider" | 3.98 | 5.96 | 0.67 |
+| 1 | "Buy and Hold" | 5.02 | 12.07 | 0.42 |
+| 1 | "Liquidity Provider" | 4.06 | 6.18 | 0.66 |
 
 ### Expected Return and Volatility under Various Fee Schedules
 
 | Fee | Strategy | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|---|
-| 0% | Buy and Hold | 5 | 11.36 | 0.44 |
-| 0% | Liquidity Provider | 3.8 | 5.37 | 0.71 |
-| 0.15% | Buy and Hold | 5.03 | 14.19 | 0.35 |
-| 0.15% | Liquidity Provider | 3.82 | 5.51 | 0.69 |
-| 0.3% | Buy and Hold | 5 | 12.17 | 0.41 |
-| 0.3% | Liquidity Provider | 3.87 | 5.51 | 0.7 |
-| 1% | Buy and Hold | 5 | 11.5 | 0.44 |
-| 1% | Liquidity Provider | 4.08 | 5.74 | 0.71 |
-| 5% | Buy and Hold | 5 | 12.52 | 0.4 |
-| 5% | Liquidity Provider | 5.44 | 7.74 | 0.70 |
-| 20% | Buy and Hold | 4.99 | 11.68 | 0.43 |
-| 20% | Liquidity Provider | 16.27 | 23.34 | 0.70 |
+| 0% | Buy and Hold | 5.07 | 12.8 | 0.4 |
+| 0% | Liquidity Provider | 3.81 | 5.51 | 0.69 |
+| 0.15% | Buy and Hold | 5.03 | 12.42 | 0.4 |
+| 0.15% | Liquidity Provider | 3.84 | 5.51 | 0.7 |
+| 0.3% | Buy and Hold | 5.04 | 11.78 | 0.43 |
+| 0.3% | Liquidity Provider | 3.89 | 5.52 | 0.71 |
+| 1% | Buy and Hold | 5.04 | 12.4 | 0.41 |
+| 1% | Liquidity Provider | 4.09 | 5.86 | 0.7 |
+| 5% | Buy and Hold | 5.06 | 12.68 | 0.4 |
+| 5% | Liquidity Provider | 5.48 | 7.91 | 0.69 |
+| 20% | Buy and Hold | 5.04 | 12.37 | 0.41 |
+| 20% | Liquidity Provider | 16.36 | 23.45 | 0.7 |
 

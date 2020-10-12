@@ -180,5 +180,12 @@ $$\begin{align}
 
 As a result, a buy and hold strategy always outperforms being a liquidity provider in the absence of fee income.
 
-### Expected Return and volatility under Various Settings
+### Expected Return and Volatility under Various Settings
+| Settings | Expected Return | Volatility | Sharpe Ratio |
+|---|---|---|---|
+| Baseline | -0.0895 | 0.2211 | -0.4049 |
+|  | -0.1115 | 0.2379 | -0.4687 |
+| Tuesday a.m. | -0.085 | 0.3118 | -0.2725 |
+| Tuesday p.m. | 0.0462 | 0.6951 | 0.0664 |
+
 

@@ -11,7 +11,7 @@ finance: true
 ---
 Where blockchain meets Brownian motion.
 
-Just like how Bitcoin aims at revolutionizing money, automated market maker (AMM) emerges as the disruptor of traditional exchange. While NYSE and Nasdaq use an order book to achieve price discovery function and balance supply with demand, Uniswap, the biggest decentralized exchange, relies on what's known as the constant product formula. At the time of writing, Uniswap has over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/), proving that there is indeed an appetite to end the monopoly of traditional exchange.
+Just like how Bitcoin aims at revolutionizing money, automated market maker (AMM) emerges as the disruptor of traditional exchange. While NYSE and NASDAQ use an order book to achieve price discovery function and balance supply with demand, Uniswap, the biggest decentralized exchange, relies on what's known as the constant product formula. At the time of writing, Uniswap has over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/), proving that there is indeed an appetite to end the monopoly of traditional exchange.
 
 One of AMM's most important divergences from traditional exchange is that it divides its market participants into two distinct roles: liquidity providers and traders. In a nutshell, the former deposits equal value of any pair of assets into the liquidity pool and the latter trades one for the other based on what's available in the pool. This creates interesting ramification in terms of risk and rewards from liquidity providers' standpoint. In this post, we study the characteristics of the price dynamics in Uniswap under the usual assumption that the prices of the underlying asset pair follow geometric Brownian process. Note that the analysis also assumes zero liquidity pool growth (other than due to transaction fees) and zero risk-free rate.
 
@@ -80,7 +80,7 @@ where $dW^A$ and $dW^B$ are correlated Brownian motions:
 
 $$ dW^A dW^B = \rho dt $$
 
-Ignorning fees, the new price pair $A_t$ and $B_t$ defines how the pool evolves from the time $t-1$ to time $t$:
+Thanks to the explicit linkage between volume and price specified by the constant product formula, we have everything we need to back out the trading volume it takes to move the price by that much. Ignorning fees, the new price pair $A_t$ and $B_t$ defines how the balances of asset $A$ and $B$ evolve from the time $t-1$ to time $t$:
 
 $$
 \begin{cases}
@@ -117,14 +117,7 @@ where $c$ is the transaction fee rate and  $\textbf{ 1 }$ is the indicator funct
   <img src="https://shawenyao.github.io/R/output/uniswap/return.png" />
 </div>
 
-Under a set of arbitrarily selected parameters, simulation results suggest that even after accounting for transaction fees, the buy and hold strategy still delivers a higher expected return after 1000 steps (transactions). However, acting as the liquidity provider siginificantly reduces the volatility due to the inclusion of a steady stream of fee income. It also outperforms buy and hold in terms of Sharpe ratio.
-
-| Settings | Expected Return | Volatility | Sharpe Ratio |
-|---|---|---|---|
-| Buy and Hold | 5.07 | 12.72 | 0.40 |
-| Liquidity Provider | 3.90 | 5.66 | 0.69 |
-
-## Tweaking the Setup
+Under a set of arbitrarily-chosen parameters, simulation results suggest that even after accounting for transaction fees, the buy and hold strategy still delivers a higher expected return after 1000 steps (transactions). However, acting as the liquidity provider significantly reduces the volatility due to the steady stream of fee income. It also outperforms buy and hold in terms of Sharpe ratio. See appendix for details.
 
 Let's test the return sensitivity over a variety of inputs. First,
 
@@ -132,11 +125,13 @@ Let's test the return sensitivity over a variety of inputs. First,
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_rhos.png" />
 </div>
 
-The other inters
+Last but not least, a higher transaction fee rate unsurprisingly works in liquidity providers' favor.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_fees.png" />
 </div>
+
+Again, refer to the appendix for the full exhibition.
 
 ## Conclusions
 
@@ -188,5 +183,43 @@ $$\begin{align}
 
 As a result, a buy and hold strategy always outperforms being a liquidity provider in the absence of fee income.
 
+### Expected Return and Volatility under the Baseline Setup
 
+| Strategy | Expected Return | Volatility | Sharpe Ratio |
+|---|---|---|---|
+| Buy and Hold | 5.07 | 12.72 | 0.40 |
+| Liquidity Provider | 3.90 | 5.66 | 0.69 |
+
+### Expected Return and Volatility under Various Correlation Assumptions
+
+| Correlation | Strategy | Expected Return | Volatility | Sharpe Ratio |
+|---|---|---|---|---|
+| -0.5 | Buy and Hold | 5.06 | 12.9 | 0.39 |
+| -0.5 | Liquidity Provider | 2.86 | 2.24 | 1.28 |
+| 0 | Buy and Hold | 5.02 | 11.33 | 0.44 |
+| 0 | Liquidity Provider | 3.21 | 3.28 | 0.98 |
+| 0.5 | Buy and Hold | 5.04 | 11.9 | 0.42
+| 0.5 | Liquidity Provider | 3.62 | 4.65 | 0.78 |
+| 0.8 | Buy and Hold | 5.05 | 14.14 | 0.36 |
+| 0.8 | Liquidity Provider | 3.87 | 5.74 | 0.67 |
+| 0.9 | Buy and Hold | 5.06 | 13.18 | 0.38 |
+| 0.9 | Liquidity Provider | 3.98 | 5.96 | 0.67 |
+| 1 | Buy and Hold | 5.06 | 12.26 | 0.41 |
+| 1 | Liquidity Provider | 4.08 | 6.27 | 0.65 |
+
+### Expected Return and Volatility under Various Fee Schedules
+| Fee | Strategy | Expected Return | Volatility | Sharpe Ratio |
+|---|---|---|---|---|
+| 0% | Buy and Hold | 5 | 11.36 | 0.44 |
+| 0% | Liquidity Provider | 3.8 | 5.37 | 0.71 |
+| 0.15% | Buy and Hold | 5.03 | 14.19 | 0.35 |
+| 0.15% | Liquidity Provider | 3.82 | 5.51 | 0.69 |
+| 0.3% | Buy and Hold | 5 | 12.17 | 0.41 |
+| 0.3% | Liquidity Provider | 3.87 | 5.51 | 0.7 |
+| 1% | Buy and Hold | 5 | 11.5 | 0.44 |
+| 1% | Liquidity Provider | 4.08 | 5.74 | 0.71 |
+| 5% | Buy and Hold | 5 | 12.52 | 0.4 |
+| 5% | Liquidity Provider | 5.44 | 7.74 | 0.70 |
+| 20% | Buy and Hold | 4.99 | 11.68 | 0.43 |
+| 20% | Liquidity Provider | 16.27 | 23.34 | 0.70 |
 

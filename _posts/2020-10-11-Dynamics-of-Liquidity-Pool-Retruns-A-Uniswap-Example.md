@@ -11,9 +11,9 @@ finance: true
 ---
 DeFi or CeFi?
 
-Just like how Bitcoin aims to revolutionize money, automated market maker (AMM) such as Uniswap emerges as the disruptor of tranditional exchange. While NYSE and Nasdaq use an order book for price discovery, Uniswap relies on what's known as the constant product formula.
+Just like how Bitcoin aims to revolutionize money, automated market maker (AMM) emerges as the disruptor of tranditional exchange. While NYSE and Nasdaq use an order book for price discovery, Uniswap, the biggest decentrailized exchange, relies on what's known as the constant product formula.
 
-At the time of writing, Uniswap, the biggest decentralized finance (DeFi) protocols, have over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/).
+At the time of writing, Uniswap has over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/).
 
 Note that the following analysis is based on the assumption of zero liquidity pool growth (other than due to transaction fees). Also, the risk-free rate is assumed to be 0.
 

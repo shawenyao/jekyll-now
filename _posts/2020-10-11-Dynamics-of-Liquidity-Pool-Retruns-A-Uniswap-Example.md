@@ -135,9 +135,9 @@ For details, please refer to the appendix .
 
 ## Conclusions
 
-If the numerical experiment is any indication, acting as the liquidity provider can often serve as a low-return/low-risk/high-Sharpe-ratio alternative to the buy and hold strategy. In addition, the investors who are looking for mean-variance optimization shouldn't care about the fee level set by the protocol, as it's only a matter of how much leverage one is willing to take under the usual CAPM assumptions.
+If the numerical experiment is any indication, acting as the liquidity provider can often serve as a low-return/low-risk/high-Sharpe-ratio alternative to the buy and hold strategy. In addition,  investors who are looking for mean-variance optimization shouldn't care about the fee level set by the protocol, as it's only a matter of how much leverage one is willing to take under the usual CAPM assumptions.
 
-Uniswap is by no means perfect (especially for those who are targeting an 100% buyout!), but it certainly opens up entire new perspective on how we look at the price discovery mechanism. Gone is the order-book-style matchmaking; in its stead is an explicit law that governs how price and volume covary. All in all, it's still very much work in progress (spoiler: the governance token UNI might be the next big thing)
+Uniswap is by no means perfect (especially for those who are targeting an 100% buyout!). However, it opens up an entire new perspective on how we look at the price discovery mechanism. Gone is the order-book-style matchmaking; in its stead is an explicit law that governs the comovement between price and volume. As much as it's work in progress, let's take a moment to appreciate how such a simple idea goes a long way in the name of decentralized finance.
 
 ## References
 Uniswap. 2020. "[How Uniswap works](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works/)"

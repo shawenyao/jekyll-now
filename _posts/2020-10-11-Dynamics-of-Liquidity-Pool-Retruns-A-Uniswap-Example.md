@@ -117,9 +117,9 @@ where $c$ is the transaction fee rate and  $\textbf{ 1 }$ is the indicator funct
   <img src="https://shawenyao.github.io/R/output/uniswap/return.png" />
 </div>
 
-Under a set of arbitrarily-chosen parameters, simulation results suggest that even after accounting for transaction fees, the buy and hold strategy still delivers a higher expected return after 1000 steps (transactions). However, acting as the liquidity provider significantly reduces the volatility due to the steady stream of fee income. It also outperforms buy and hold in terms of Sharpe ratio. See appendix for details.
+Under a set of arbitrarily-selected parameters, simulation results suggest that even after accounting for transaction fees, the buy and hold strategy still delivers a higher expected return after 1000 steps (transactions). However, acting as the liquidity provider significantly reduces the volatility due to the steady stream of fee income. It also outperforms buy and hold in terms of Sharpe ratio. See appendix for details.
 
-Let's test the return sensitivity over a variety of inputs. Both strategies see a gradually deteriorating return
+How important is the correlation argument? For the buy and hold strategy, since expected return isn't a function of correlation, it delivers almost the same expected value across all choices of $\rho$, though its volatility deteriorates as the lack of diversification increases and Sharpe ratio suffers for the same reason. For the liquidity provider, 
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_rhos.png" />

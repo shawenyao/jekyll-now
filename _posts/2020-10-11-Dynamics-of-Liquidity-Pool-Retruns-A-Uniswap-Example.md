@@ -173,7 +173,7 @@ v_t^Y &= (a_t e_t + b_t) B_t \\
  &= \frac{ 2 a_0 b_0 B_t }{ a_t } \\
 \end{align}$$
 
-Divide $v_t^1$ by $v_t^2$, 
+Divide $v_t^X$ by $v_t^Y$, 
 
 $$\begin{align}
 \frac{ v_t^X }{ v_t^Y } &= \frac{ \frac{ a_0 ^ 2 }{ a_t^2 } + 1 }{ \frac{ 2a_0 }{ a_t } } \\

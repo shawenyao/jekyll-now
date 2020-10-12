@@ -11,7 +11,7 @@ finance: true
 ---
 DeFi or CeFi?
 
-Just like how Bitcoin aims to revolutionize money, automated market maker (AMM) emerges as the disruptor of tranditional exchange. While NYSE and Nasdaq use an order book for price discovery, Uniswap, the biggest decentrailized exchange, relies on what's known as the constant product formula. At the time of writing, Uniswap has over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/), proving that there is indeed an appetite to end the monopoly of traditional exchange.
+Just like how Bitcoin aims at revolutionizing money, automated market maker (AMM) emerges as the disruptor of traditional exchange. While NYSE and Nasdaq use an order book for price discovery, Uniswap, the biggest decentralized exchange, relies on what's known as the constant product formula. At the time of writing, Uniswap has over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/), proving that there is indeed an appetite to end the monopoly of traditional exchange.
 
 That said, how . Note that the following analysis is based on the assumption of zero liquidity pool growth (other than due to transaction fees). Also, the risk-free rate is assumed to be 0.
 
@@ -19,7 +19,7 @@ That said, how . Note that the following analysis is based on the assumption of 
 
 Uniswap divides its market participants into two distinct groups: liquidity providers and traders. In a nutshell, the former deposits equal value of any pair of assets into the liquidity pool and the latter trades one for the other based on what's available in the pool.
 
-Examine the liquidity pool composed of asset $A$ and $B$. For simplicity, let $a_t$ and $b_t$ denote the number of units of $A$ and $B$ available in the liqudity pool respectively. At any point in time, we have:
+Examine the liquidity pool composed of asset $A$ and $B$. For simplicity, let $a_t$ and $b_t$ denote the number of units of $A$ and $B$ available in the liquidity pool respectively. At any point in time, we have:
 
 $$ a_t b_t = k $$
 
@@ -43,7 +43,7 @@ which indicates that asset $A$ has appreciated against asset $B$, as a result of
 
 While the individual prices of asset $A$ and $B$ can still very much follow their own dynamics, Uniswap provides a way for traders to express their view on the price of one in terms of the other. In other words, everything is being valued on a relative term in the Uniswap exchange. This setup has a few desirable properties to it - to name a few:
 * if there's no trade, the price level stays at its initial value
-* a smaller trade is expected to be fullfiled at the market price without moving it by much
+* a smaller trade is expected to be fulfilled at the market price without moving it too much
 * a larger trade will move the price substantially along the hyperbolic curve, with the asset in demand appreciating against the other
 * a very large trade (e.g., something close to the remaining balance in the pool) will lead to a price impact so prohibitively substantial that it is close to impossible to deplete the inventory.
 
@@ -60,7 +60,7 @@ at time $t$.
 ## Price Slippage vs Fee Income
 The payoff at time $t$ for liquidity providers consists of two parts - capital appreciation (or depreciation) due to price slippage and income from collecting transaction fees. 
 
-One on hand, as trades fulfill, newly-arrived supply and demand drive the price away from its starting point. Formerly known as price slippage, this phenomenon can lead to either a gain or loss to the liquidity provider, but it always underforms a buy and hold strategy (to see why, see appendix). To compensate for the underperformance, AMM usually charges a fee for trading. For example, Uniswap collects 0.3% on every transaction. The fees are put back to the pool right away and every liquidity provider has a pro rata claim on them. As it stands, fee income is effectively the sole incentivie for liquidity providers to contribute assets into the pool, compared to simply holding on to the asset pair.
+One on hand, as trades fulfill, newly-arrived supply and demand drive the price away from its starting point. Formerly known as price slippage, this phenomenon can lead to either a gain or loss to the liquidity provider, but it always underperforms a buy and hold strategy (to see why, see appendix). To compensate for the underperformance, AMM usually charges a fee for trading. For example, Uniswap collects 0.3% on every transaction. The fees are put back to the pool right away and every liquidity provider has a pro rata claim on them. As it stands, fee income is effectively the sole incentive for liquidity providers to contribute assets into the pool, compared to simply holding on to the asset pair.
 
 The introduction of transaction fees brings _path dependence_ into the equation. The terminal state alone is no longer sufficient to uniquely determine the payoff to liquidity provider - the path through which it arrives at the ending price also matters. This requires a slight modification to the constant production formula introduced earlier:
 

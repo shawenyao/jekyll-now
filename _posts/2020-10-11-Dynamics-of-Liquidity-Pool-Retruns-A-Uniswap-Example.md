@@ -11,7 +11,7 @@ finance: true
 ---
 Where blockchain meets Brownian motion.
 
-Just like how Bitcoin aims at revolutionizing money, automated market maker (AMM) emerges as the disruptor of traditional exchange. While NYSE and NASDAQ use an order book to achieve price discovery function and balance supply with demand, Uniswap, the biggest decentralized exchange, relies on what's known as the constant product formula. At the time of writing, Uniswap has over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/), proving that there is indeed an appetite to end the monopoly of traditional exchange.
+Just like how Bitcoin aims at decentralizing money, automated market maker (AMM) emerges as the disruptor of traditional exchange. While NYSE and NASDAQ use an order book to achieve price discovery function and balance supply with demand, Uniswap, the biggest decentralized exchange, relies on what's known as the constant product formula. At the time of writing, Uniswap has over $2.5 billion in total value locked in its liquidity pool according to [DeFi Pulse](https://defipulse.com/), proving that there is indeed an appetite to end the monopoly of traditional exchange.
 
 One of AMM's most important divergences from traditional exchange is that it divides its market participants into two distinct roles: liquidity providers and traders. In a nutshell, the former deposits equal value of any pair of assets into the liquidity pool and the latter trades one for the other based on what's available in the pool. This creates interesting ramification in terms of risk and rewards from liquidity providers' standpoint. In this post, we study the characteristics of the price dynamics in Uniswap under the usual assumption that the prices of the underlying asset pair follow geometric Brownian process. Note that the analysis also assumes zero liquidity pool growth (other than due to transaction fees) and zero risk-free rate.
 
@@ -119,7 +119,7 @@ where $c$ is the transaction fee rate and  $\textbf{ 1 }$ is the indicator funct
 
 Under a set of arbitrarily-chosen parameters, simulation results suggest that even after accounting for transaction fees, the buy and hold strategy still delivers a higher expected return after 1000 steps (transactions). However, acting as the liquidity provider significantly reduces the volatility due to the steady stream of fee income. It also outperforms buy and hold in terms of Sharpe ratio. See appendix for details.
 
-Let's test the return sensitivity over a variety of inputs. First,
+Let's test the return sensitivity over a variety of inputs. Both strategies see a gradually deteriorating return
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_rhos.png" />
@@ -135,6 +135,7 @@ Again, refer to the appendix for the full exhibition.
 
 ## Conclusions
 
+Investors shouldn't care how much fee the AMM protocol charges for each transaction.
 
 ## References
 Uniswap. 2020. "[How Uniswap works](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works/)"

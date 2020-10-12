@@ -7,7 +7,6 @@ tag:
   - raspberry pi
 comments: true
 keyboard: true
-new: true
 ---
 
 Customizing the launch sequence of RetroPie.

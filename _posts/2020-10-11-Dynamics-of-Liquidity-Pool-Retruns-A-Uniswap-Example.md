@@ -125,7 +125,7 @@ Let's test the return sensitivity over a variety of inputs. Both strategies see 
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_rhos.png" />
 </div>
 
-Last but not least, a higher transaction fee rate undoubtly works in liquidity providers' favor. The higher the fee, the higher the return. That said, Sharpe ratio surprisingly remains remarkably stable over all fee levels, suggseting that in fact, the risk and reward of a high-fee structure can be synthesized by taking on additional leverage under a low-fee environment. To put it simply, the fee level is actually irrelevant as long as it's non-zero (and of course, if one can borrow at a negligible cost without restriction).
+Last but not least, a higher transaction fee rate undoubtly works in liquidity providers' favor. The higher the fee, the higher the return. That said, Sharpe ratio surprisingly remains remarkably stable over all fee levels, suggseting that in fact, the risk (volatility) and reward (expected return) of a high-fee structure can be synthesized by taking on additional leverage under a low-fee environment. To put it simply, the fee level is actually irrelevant as long as it's non-zero (and of course, if one can borrow at a negligible cost without restriction).
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_fees.png" />
@@ -135,7 +135,7 @@ Again, refer to the appendix for the full exhibition.
 
 ## Conclusions
 
-Investors shouldn't care how much fee the AMM protocol charges for each transaction.
+A mean-variance investors shouldn't care how much fee the AMM protocol charges for each transaction.
 
 ## References
 Uniswap. 2020. "[How Uniswap works](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works/)"
@@ -212,16 +212,10 @@ As a result, a buy and hold strategy always outperforms being a liquidity provid
 
 | Fee | Strategy | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|---|
-| 0% | Buy and Hold | 5.07 | 12.8 | 0.4 |
 | 0% | Liquidity Provider | 3.81 | 5.51 | 0.69 |
-| 0.15% | Buy and Hold | 5.03 | 12.42 | 0.4 |
 | 0.15% | Liquidity Provider | 3.84 | 5.51 | 0.7 |
-| 0.3% | Buy and Hold | 5.04 | 11.78 | 0.43 |
 | 0.3% | Liquidity Provider | 3.89 | 5.52 | 0.71 |
-| 1% | Buy and Hold | 5.04 | 12.4 | 0.41 |
 | 1% | Liquidity Provider | 4.09 | 5.86 | 0.7 |
-| 5% | Buy and Hold | 5.06 | 12.68 | 0.4 |
 | 5% | Liquidity Provider | 5.48 | 7.91 | 0.69 |
-| 20% | Buy and Hold | 5.04 | 12.37 | 0.41 |
 | 20% | Liquidity Provider | 16.36 | 23.45 | 0.7 |
 

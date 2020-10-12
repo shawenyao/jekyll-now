@@ -125,7 +125,7 @@ Let's test the return sensitivity over a variety of inputs. First,
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_rhos.png" />
 </div>
 
-Last but not least, a higher transaction fee rate undoubtly works in liquidity providers' favor. The higher the fee, the higher the return. Surprisingly enough, Sharpe ratio remains remarkably stable over all fee levels, suggseting that in fact, the risk and reward of a high-fee structure can be achieved by taking on additional leverage under a low-fee environment. To put it simply, the fee level is actually irrelevant as long as it's non-zero (and of course, if one can borrow at a negligible cost).
+Last but not least, a higher transaction fee rate undoubtly works in liquidity providers' favor. The higher the fee, the higher the return. That said, Sharpe ratio surprisingly remains remarkably stable over all fee levels, suggseting that in fact, the risk and reward of a high-fee structure can be synthesized by taking on additional leverage under a low-fee environment. To put it simply, the fee level is actually irrelevant as long as it's non-zero (and of course, if one can borrow at a negligible cost without restriction).
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_fees.png" />

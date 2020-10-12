@@ -44,7 +44,7 @@ While the individual prices of asset $A$ and $B$ can still very much follow thei
 * a larger trade will move the price substantially along the hyperbolic curve, with the asset in demand appreciating against the other
 * a very large trade (e.g., something close to the remaining balance in the pool) will lead to a price impact so prohibitively substantial that it is close to impossible to deplete the inventory.
 
-In other words, Uniswap appears to achieve _infinite_ market depth with _finite_ supply of assets. All in all, the liquidity provider puts down:
+In other words, Uniswap appears to achieve _infinite_ market depth with _finite_ supply of assets. Generally, the liquidity provider puts down:
 
 $$ v_0 = a_0 A_0 + b_0 B_0 $$
 
@@ -135,9 +135,9 @@ For details, please refer to the appendix .
 
 ## Conclusions
 
-If the numerical experiment is any indication, acting as the liquidity provider can often serve as a low-return/low-risk/high-Sharpe-ratio alternative to the buy and hold strategy. In addition, the mean-variance investors shouldn't care about the fee level set by the protocol, as it's only a matter of how much leverage one is willing to take under certain conditions.
+If the numerical experiment is any indication, acting as the liquidity provider can often serve as a low-return/low-risk/high-Sharpe-ratio alternative to the buy and hold strategy. In addition, the investors who are looking for mean-variance optimization shouldn't care about the fee level set by the protocol, as it's only a matter of how much leverage one is willing to take under the usual CAPM assumptions.
 
-Automated market makers such as Uniswap is by no means perfect (especially for those who are targeting an 100% buyout!), but it open up entire new perspective on how we look at the price discovery mechanism. Gone is the order-book-style matchmaking; In its stead is an explicit law that governs how price and volume covary. 
+Uniswap is by no means perfect (especially for those who are targeting an 100% buyout!), but it certainly opens up entire new perspective on how we look at the price discovery mechanism. Gone is the order-book-style matchmaking; in its stead is an explicit law that governs how price and volume covary. All in all, it's still very much work in progress (spoiler: the governance token UNI might be the next big thing)
 
 ## References
 Uniswap. 2020. "[How Uniswap works](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works/)"

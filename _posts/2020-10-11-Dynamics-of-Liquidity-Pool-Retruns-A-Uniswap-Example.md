@@ -54,7 +54,7 @@ $$ v_t = a_t A_t + b_t B_t $$
 
 at time $t$. By contrast, a buy and hold strategy will have the following payoff at time $t$:
 
-$$ v_t = a_0 A_t + b_0 B_t $$
+$$ v'_t = a_0 A_t + b_0 B_t $$
 
 ## Price Slippage vs Fee Income
 The payoff at time $t$ for liquidity providers can be further decomposed into two parts - capital appreciation (or depreciation) due to price slippage and income from collecting transaction fees. 

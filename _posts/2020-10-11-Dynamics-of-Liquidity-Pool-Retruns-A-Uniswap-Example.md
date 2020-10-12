@@ -80,7 +80,7 @@ where $dW^A$ and $dW^B$ are correlated Brownian motions:
 
 $$ dW^A dW^B = \rho dt $$
 
-Thanks to the explicit linkage between volume and price specified by the constant product formula, we have everything we need to back out the trading volume it takes to move the price by that much. Ignorning fees, the new price pair $A_t$ and $B_t$ defines how the balances of asset $A$ and $B$ evolve from the time $t-1$ to time $t$:
+Thanks to the explicit linkage between volume and price specified by the constant product formula, we have everything we need to back out the trading volume it takes to move the price by that much. Ignoring fees, the new price pair $A_t$ and $B_t$ defines how the balances of asset $A$ and $B$ evolve from the time $t-1$ to time $t$:
 
 $$
 \begin{cases}
@@ -119,13 +119,13 @@ Under a set of arbitrarily-selected parameters, simulation results suggest that 
   <img src="https://shawenyao.github.io/R/output/uniswap/return.png" />
 </div>
 
-How important is the correlation argument? Liquidity provider benefits from a low correlation in at least two ways from a mean-variance optimization standpoint. First, the lower the correlation is, the more the two assets' prices tend to move in opposite directions. The higher level of divergenece takes larger amount of trading volume to realize, which should translate into a higher fee income (despite more price slippage). Secondly, a low correlation brings diversification so it's expected to have lower volatility. All things considered, both expected return and volaility increases as correlation goes up while Sharpe ratio declines. 
+How important is the correlation argument? Liquidity provider benefits from a low correlation in at least two ways from a mean-variance optimization standpoint. First, the lower the correlation is, the more the two assets' prices tend to move in opposite directions. The higher level of divergence takes larger amount of trading volume to realize, which should translate into a higher fee income (despite more price slippage). Secondly, a low correlation brings diversification so it's expected to have lower volatility. All things considered, both expected return and volatility increases as correlation goes up while Sharpe ratio declines. 
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_rhos.png" />
 </div>
 
-Last but not least, a higher transaction fee rate undoubtly works in liquidity providers' favor. The higher the fee, the higher the return. That said, Sharpe ratio remains remarkably stable over all fee levels, suggseting that in fact, the risk (volatility) and reward (expected return) of a high-fee structure can be synthesized by taking on additional leverage under a low-fee environment. To put it simply, the fee level is actually irrelevant as long as it's positive (and of course, assuming one can borrow at a negligible cost without restriction).
+Last but not least, a higher transaction fee rate undoubtedly works in liquidity providers' favor. The higher the fee, the higher the return. That said, Sharpe ratio remains remarkably stable over all fee levels, suggesting that in fact, the risk (volatility) and reward (expected return) of a high-fee structure can be synthesized by taking on additional leverage under a low-fee environment. To put it simply, the fee level is actually irrelevant as long as it's positive (and of course, assuming one can borrow at a negligible cost without restriction).
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_fees.png" />
@@ -135,7 +135,9 @@ See appendix for details.
 
 ## Conclusions
 
-A mean-variance investors shouldn't care how much fee the AMM protocol charges for each transaction.
+If the numerical experiment is any indication, acting as the liquidity provider can serve as a loww-return/low-risk/high-Sharpe-ratio alternative to the buy and hold strategy. Plus, the mean-variance investors shouldn't care about the fee level set by the protocols, as it's only a matter of how much leverage one is willing to take.
+
+Automated market makers such as Uniswap is by no means perfect (especially for those who are targeting an 100% buyout!), but it open up entire new perspective on how we look at the price discovery mechanism. Gone is the order-book-style matchmaking; In its stead is an explicit law that governs how price and volume covary. 
 
 ## References
 Uniswap. 2020. "[How Uniswap works](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works/)"

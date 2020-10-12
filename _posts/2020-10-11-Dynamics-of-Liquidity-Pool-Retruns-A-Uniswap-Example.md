@@ -208,6 +208,7 @@ As a result, a buy and hold strategy always outperforms being a liquidity provid
 | 1 | Liquidity Provider | 4.08 | 6.27 | 0.65 |
 
 ### Expected Return and Volatility under Various Fee Schedules
+
 | Fee | Strategy | Expected Return | Volatility | Sharpe Ratio |
 |---|---|---|---|---|
 | 0% | Buy and Hold | 5 | 11.36 | 0.44 |

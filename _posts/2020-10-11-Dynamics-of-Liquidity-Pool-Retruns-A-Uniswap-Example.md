@@ -113,7 +113,7 @@ where $c$ is the transaction fee rate and  $\textbf{ 1 }$ is the indicator funct
 
 ## Putting It All Together
 
-Under a set of arbitrarily-selected parameters, simulation results suggest that even after accounting for transaction fees, the buy and hold strategy still delivers a higher expected return after 1000 steps (transactions). However, acting as the liquidity provider significantly reduces the volatility due to the steady stream of fee income. It also outperforms buy and hold in terms of Sharpe ratio. See appendix for details.
+Under a set of arbitrarily-selected parameters, simulation results suggest that even after accounting for transaction fees, the buy and hold strategy still delivers a higher expected return after 1000 steps (transactions). However, acting as the liquidity provider significantly reduces the volatility due to the steady stream of fee income. It also outperforms buy and hold in terms of Sharpe ratio.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return.png" />
@@ -131,7 +131,7 @@ Last but not least, a higher transaction fee rate undoubtly works in liquidity p
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_fees.png" />
 </div>
 
-Again, refer to the appendix for the full exhibition.
+See appendix for details
 
 ## Conclusions
 
@@ -211,5 +211,5 @@ As a result, a buy and hold strategy always outperforms being a liquidity provid
 | Liquidity Provider | 0.3% | 3.89 | 5.52 | 0.71 |
 | Liquidity Provider | 1% | 4.09 | 5.86 | 0.7 |
 | Liquidity Provider | 5% | 5.48 | 7.91 | 0.69 |
-| Liquidity Provider | 10% | 16.36 | 23.45 | 0.7 |
+| Liquidity Provider | 20% | 16.36 | 23.45 | 0.7 |
 

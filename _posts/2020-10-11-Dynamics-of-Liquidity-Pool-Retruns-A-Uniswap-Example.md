@@ -80,7 +80,7 @@ where $dW^A$ and $dW^B$ are correlated Brownian motions:
 
 $$ dW^A dW^B = \rho dt $$
 
-Ignorning fees, the new price pair $A_t$ and $B_t$ defines how the pool evolves from the previous state:
+Ignorning fees, the new price pair $A_t$ and $B_t$ defines how the pool evolves from the time $t-1$ to time $t$:
 
 $$
 \begin{cases}

@@ -6,7 +6,7 @@ tag:
   - finance
   - maths
 comments: true
-draft: true
+draft: false
 finance: true
 new: true
 ---

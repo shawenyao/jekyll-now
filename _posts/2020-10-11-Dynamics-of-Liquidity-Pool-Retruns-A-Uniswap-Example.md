@@ -8,7 +8,7 @@ tag:
 comments: true
 draft: false
 finance: true
-new: true
+new: false
 ---
 Where blockchain meets Brownian motion.
 

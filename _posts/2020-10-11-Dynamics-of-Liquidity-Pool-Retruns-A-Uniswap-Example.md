@@ -4,7 +4,6 @@ title: Dynamics of Liquidity Pool Returns&#58 A Uniswap Example
 tag:
   - defi
   - finance
-  - maths
 comments: true
 draft: false
 finance: false

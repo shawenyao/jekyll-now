@@ -119,13 +119,13 @@ Under a set of arbitrarily-selected parameters, simulation results suggest that 
   <img src="https://shawenyao.github.io/R/output/uniswap/return.png" />
 </div>
 
-How important is the correlation parameter? Liquidity provider benefits from a low correlation in at least two ways from a mean-variance optimization standpoint. First, the lower the correlation is, the more the two assets' prices tend to move in opposite directions. The higher level of divergence takes larger amount of trading volume to realize, which should translate into a higher fee income (despite more price slippage). Secondly, a low correlation brings diversification so it's expected to have lower volatility. All things considered, both expected return and volatility increases as correlation goes up while Sharpe ratio declines. 
+How important is the correlation parameter? Liquidity provider benefits from a low correlation in at least two ways from a mean-variance optimization standpoint. First, the lower the correlation is, the more the two assets' prices tend to move in opposite directions. The higher level of divergence takes larger amount of trading volume to realize, which should translate into a higher fee income (despite more price slippage). Secondly, a low correlation brings diversification so it's expected to have lower volatility. All things considered, both expected return and volatility increases as correlation goes up while Sharpe ratio declines. In the extreme case, a correlation of 1 will result in very little price movement in relative terms, to the point where the return dynamics of liquidity provider behave very close to that of a buy and hold.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_rhos.png" />
 </div>
 
-Last but not least, a higher transaction fee rate undoubtedly works in liquidity providers' favor. All else equal, the higher the fee, the higher the return. Sharpe ratio also improves as the increase in expected return outpaces the increase in volatility. In the extreme case, a correlation of 1 will result in very little price movement in relative terms, to the point where the return dynamics of liquidity provider behave very close to that of a buy and hold.
+Last but not least, a higher transaction fee rate undoubtedly works in liquidity providers' favor. All else equal, the higher the fee, the higher the return. Sharpe ratio also improves as the increase in expected return outpaces the increase in volatility. 
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap/return_vs_fees.png" />

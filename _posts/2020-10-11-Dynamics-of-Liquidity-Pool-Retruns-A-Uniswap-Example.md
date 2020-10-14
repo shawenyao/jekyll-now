@@ -137,7 +137,7 @@ For details, please refer to the appendix .
 
 If the numerical experiment is any indication, acting as the liquidity provider can often serve as a low-return/low-risk/high-Sharpe-ratio alternative to the buy and hold strategy. In addition, choices of various parameters have subtle yet profound implications on the risk and reward tradeoff and the nature of the underlying asset pairs plays an important role as well.
 
-Uniswap is by no means perfect (especially for those who are targeting an 100% buyout!). However, it opens up an entire new perspective on how we look at the price discovery mechanism. Gone is the order-book-style matchmaking; in its stead is an explicit law that governs the comovement between price and volume. As much as it's work in progress, let's take a moment to appreciate how such a simple idea goes a long way in the name of decentralized finance.
+Uniswap is by no means perfect (especially for those who are targeting an 100% buyout!). However, it opens up an entire new perspective on how we look at the price discovery mechanism. Gone is the order-book-style matchmaking; in its stead is an explicit law that governs the comovement between price and volume. As much as it's work in progress, let's take a moment to appreciate how a simple idea can go a long way in the name of decentralized finance.
 
 ## References
 Uniswap. 2020. "[How Uniswap works](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works/)"

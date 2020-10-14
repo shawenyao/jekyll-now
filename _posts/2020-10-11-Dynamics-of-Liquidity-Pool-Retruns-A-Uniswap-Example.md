@@ -42,7 +42,7 @@ While the individual prices of asset $A$ and $B$ can still very much follow thei
 * if there's no trade, the relative price level (i.e., exchange rate) stays at its initial value
 * a smaller trade is expected to be fulfilled at the market price of exchange without moving it too much
 * a larger trade will move the price substantially along the hyperbolic curve, with the asset in demand appreciating against the other
-* a very large trade (e.g., something close to the remaining balance in the pool) will lead to a price impact so prohibitively substantial that it is close to impossible to deplete the inventory.
+* a very large trade (e.g., something close to the remaining balance in the pool) will lead to a price impact so prohibitively high that it is close to impossible to deplete the inventory.
 
 In other words, Uniswap appears to achieve _infinite_ market depth with _finite_ supply of assets. Generally, the liquidity provider puts down:
 

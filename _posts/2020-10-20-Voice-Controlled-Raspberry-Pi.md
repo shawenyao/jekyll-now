@@ -2,16 +2,16 @@
 layout: post
 title: Vocie-Controlled Raspberry Pi
 tag:
-  - bash
-  - retropie
   - raspberry pi
+  - voice assistant
+  - smart home
 comments: true
 draft: true
 berry: true
 new: true
 ---
 
-An end-to-end tutorial.
+Yet another tutorial.
 
 > “Any sufficiently advanced technology is indistinguishable from magic.”
 > ― Arthur C. Clarke, Profiles of the Future: An Inquiry Into the Limits of the Possible

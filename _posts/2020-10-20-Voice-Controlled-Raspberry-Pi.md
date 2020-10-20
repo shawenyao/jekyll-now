@@ -93,3 +93,7 @@ If this
 
 then that
 http://domainname:port/hooks/pictrl?action={{TextField}}
+
+## Putting It All Together
+
+The possibility is literally endless.

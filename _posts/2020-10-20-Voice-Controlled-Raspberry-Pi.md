@@ -16,7 +16,7 @@ Yet another tutorial.
 > “Any sufficiently advanced technology is indistinguishable from magic.”
 > ― Arthur C. Clarke, Profiles of the Future: An Inquiry Into the Limits of the Possible
 
-* [Raspberry Pi](https://www.raspberrypi.org/) and Kodi (https://kodi.tv/)
+* [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)
 * [Webhook](https://github.com/adnanh/webhook)
 * [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding) or [Webhook Relay](https://webhookrelay.com/)
 * [FreeDNS](https://freedns.afraid.org/dynamic/)

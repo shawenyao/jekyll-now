@@ -7,7 +7,7 @@ tag:
   - raspberry pi
 comments: true
 draft: true
-keyboard: true
+berry: true
 new: true
 ---
 

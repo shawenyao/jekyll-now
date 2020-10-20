@@ -13,6 +13,9 @@ new: true
 
 An end-to-end tutorial.
 
+“Any sufficiently advanced technology is indistinguishable from magic.”
+― Arthur C. Clarke, Profiles of the Future: An Inquiry Into the Limits of the Possible
+
 * [Raspberry Pi](https://www.raspberrypi.org/)
 * [Webhook](https://github.com/adnanh/webhook)
 * [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding) or [Webhook Relay](https://webhookrelay.com/)
@@ -93,6 +96,14 @@ If this
 
 then that
 http://domainname:port/hooks/pictrl?action={{TextField}}
+
+So now you will be able to use the following magic words to play (or pause) video on your Raspberry Pi.
+
+```voice
+Okay Google, Kodi play!
+```
+
+t
 
 ## Putting It All Together
 

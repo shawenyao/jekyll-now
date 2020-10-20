@@ -92,15 +92,15 @@ http://domainname
 
 ## IFTTT - Connecting to A Voice Assistant
 
-IFTTT, short for "If This Then That", provides a convenient way to create a hub that conncects a variety of services (including voice assistants) where they can interact with each another according to a set of used-defined rules.
+IFTTT, short for "If This Then That", provides a convenient way to create a hub that conncects a variety of services (including voice assistants) where they can interact with each another based on a set of used-defined rules.
 
-First, create a new applet. As you might have guesseed, every applet on IFTTT follows the "If This Then That" structure:
+First, let's create a new applet. As the name implies, every applet on IFTTT follows the "If This Then That" structure:
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/1.jpg" />
 </div>
 
-Next, configure the "if this" part and choose the Google Assistant option. You might be asked to link your Google account to IFTTT.
+Next, configure the "If This" part and choose the Google Assistant option. You might be asked to link your Google account to IFTTT.
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/2.jpg" />
@@ -112,25 +112,29 @@ Although the "Say a simple phrase" option is more than enough to get our job don
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/3.jpg" />
 </div>
 
+That brings us to the trigger configuration. I use "kodi" as my keyword, followed by a custom text field. The rest is not important.
+
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/4.jpg" />
 </div>
+
+On the "Then That" piece, what we want to choose is the webhook service
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/5.jpg" />
 </div>
 
+that we've created in the previous steps, with the exact action being configurable for future development
+
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />
 </div>
 
+There we go - our IFTTT applet is fully operational.
+
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/7.jpg" />
 </div>
-
-
-then that
-http://domainname:port/hooks/pictrl?action={{TextField}}
 
 **Milestone**: now you can say the following magic words to play (or pause) your video on your Raspberry Pi's Kodi player:
 

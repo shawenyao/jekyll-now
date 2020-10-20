@@ -27,7 +27,7 @@ Before we start, here is a list of all the hardwares/sofwares that we will be us
 ## Media Playback Controls  - A Typical Use Case
 Kodi 
 
-/usr/local/bin/pictrl
+```/usr/local/bin/pictrl```
 ```sh
 #!/bin/sh
 action=$1
@@ -50,7 +50,7 @@ To start using webhook, first create the configuration file ```/etc/webhook.conf
   {
     "id": "pictrl",
     "execute-command": "/usr/local/bin/pictrl",
-    "command-working-directory": "/home/pi/Webhooks",
+    "command-working-directory": "/home/pi/",
     "pass-arguments-to-command":
     [
       {
@@ -67,7 +67,7 @@ After that, the webhook can be started as a service using
 sudo systemctl start webhook
 ```
 
-or we can auto-start upon startup by running:
+or can be auto-started upon startup by running:
 ```bash
 sudo systemctl enable webhook
 ```

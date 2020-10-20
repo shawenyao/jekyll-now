@@ -20,11 +20,13 @@ An end-to-end tutorial.
 * [IFTTT](https://ifttt.com/)
 * [Google Assistant](https://assistant.google.com/) (or any voice assistant that IFTTT supports)
 
-## Kodi Control
+## Media Playback Controls  - A Typical Use Case
 Kodi 
+
 ```bash
 sudo apt-get install -y kodi-eventclients-kodi-send
 ```
+
 /usr/local/bin/pictrl
 ```sh
 #!/bin/sh
@@ -37,6 +39,7 @@ fi
 ```
 
 ## Webhook - Listening and Responding to a Web Request
+
 /etc/webhook.conf
 ```json
 [

@@ -27,7 +27,8 @@ Before we start, here is a list of all the hardwares/sofwares that we will be us
 ## Media Playback Controls  - A Typical Use Case
 Kodi 
 
-```/usr/local/bin/pictrl```
+Define the following command ```/usr/local/bin/pictrl```
+
 ```sh
 #!/bin/sh
 action=$1

@@ -24,7 +24,7 @@ An end-to-end tutorial.
 Kodi 
 
 ```bash
-sudo apt-get install -y kodi-eventclients-kodi-send
+sudo apt install kodi-eventclients-kodi-send
 ```
 
 /usr/local/bin/pictrl
@@ -39,6 +39,10 @@ fi
 ```
 
 ## Webhook - Listening and Responding to a Web Request
+
+```bash
+sudo apt install webhook
+```
 
 /etc/webhook.conf
 ```json

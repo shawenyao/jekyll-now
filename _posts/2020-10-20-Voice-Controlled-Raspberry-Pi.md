@@ -26,10 +26,6 @@ An end-to-end tutorial.
 ## Media Playback Controls  - A Typical Use Case
 Kodi 
 
-```bash
-sudo apt install kodi-eventclients-kodi-send
-```
-
 /usr/local/bin/pictrl
 ```sh
 #!/bin/sh
@@ -45,9 +41,7 @@ fi
 
 ## Webhook - Listening and Responding to a Web Request
 
-```bash
-sudo apt install webhook
-```
+
 
 /etc/webhook.conf
 ```json
@@ -112,3 +106,11 @@ Okay Google, Kodi play!
 ## Putting It All Together
 
 The possibility is literally limitless.
+
+## Appendix
+### Install all the softwares
+```bash
+sudo apt install kodi
+sudo apt install kodi-eventclients-kodi-send
+sudo apt install webhook
+```

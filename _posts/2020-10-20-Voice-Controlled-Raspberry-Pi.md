@@ -99,7 +99,7 @@ http://domainname:port/hooks/pictrl?action={{TextField}}
 
 **Milestone**: now you can use the following magic words to play (or pause) your video on your Raspberry Pi's Kodi player:
 
-```voice
+```bash
 Okay Google, Kodi play!
 ```
 

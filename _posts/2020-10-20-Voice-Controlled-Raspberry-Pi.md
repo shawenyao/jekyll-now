@@ -41,7 +41,7 @@ then
 fi
 ```
 
-Milestone: now your can use ```pictrl play``` in the command line interface (or over SSH) to play/pasue the video on your Raspberry Pi.
+**Milestone**: now your can use ```pictrl play``` in the command line interface (or over SSH) to play/pasue the video on your Raspberry Pi.
 
 ## Webhook - Listening and Responding to a Web Request
 
@@ -77,7 +77,7 @@ or auto-start as a service upon startup
 sudo systemctl enable webhook
 ```
 
-Milestone: now your can use the link ```http://localipaddress:port/hooks/pictrl?action=play``` on any device within the same network to control your Kodi player.
+**Milestone**: now your can use the link ```http://localipaddress:port/hooks/pictrl?action=play``` on any device within the same network to control your Kodi player.
 
 ## Port Forwarding - Exposing Local Service to the Public
 
@@ -86,14 +86,14 @@ Alternatively, Webhook Relay.
 http://localipaddress
 http://publicipaddress
 
-Milestone: now your can use the link ```http://publicipaddress:port/hooks/pictrl?action=play``` on any device on the Internet to control your video player.
+**Milestone**: now your can use the link ```http://publicipaddress:port/hooks/pictrl?action=play``` on any device on the Internet to control your video player.
 
 ## Dynamic DNS - Your Raspberry Pi's Permanent Domain Name
 
 http://publicipaddress
 http://domainname
 
-Milestone: now your can use the link ```http://domainname:port/hooks/pictrl?action=play``` on any device on the Internet to control your video player.
+**Milestone**: now your can use the link ```http://domainname:port/hooks/pictrl?action=play``` on any device on the Internet to control your video player.
 
 ## IFTTT - Connecting to A Voice Assistant
 
@@ -103,7 +103,7 @@ If this
 then that
 http://domainname:port/hooks/pictrl?action={{TextField}}
 
-Milestone: now you can use the following magic words to play (or pause) your video on your Raspberry Pi's Kodi player:
+**Milestone**: now you can use the following magic words to play (or pause) your video on your Raspberry Pi's Kodi player:
 
 ```voice
 Okay Google, Kodi play!

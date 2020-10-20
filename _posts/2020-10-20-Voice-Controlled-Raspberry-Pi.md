@@ -20,36 +20,40 @@ Yet another tutorial.
 > “Any sufficiently advanced technology is indistinguishable from magic.”
 > ― Arthur C. Clarke, Profiles of the Future: An Inquiry into the Limits of the Possible
 
-I have been exploring better ways to control media playback. Yes, keyboard and mouse are fine. Yes, Kodi's web interface/remote is cool. Yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor that makes me wish for a hands-free experience.
+Ever since Raspberry Pi came into my world, I have been exploring better ways to interact with it. Take Kodi the media player for example - yes, keyboard and mouse are fine; yes, its native web interface is super powerful; yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor that makes me wish for a hands-free experience. And that's what I am going to do today, i.e. controlling Kodi media playback with a voice assistant.
 
-Before we start, here is a list of all the hardwares/sofwares that we will be using.
+Okay Google, pause Kodi.
+
+Before we start, here is a list of all the hardwares/sofwares that will be used:
 * [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)
 * [Webhook](https://github.com/adnanh/webhook)
-* [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding) or [Webhook Relay](https://webhookrelay.com/)
+* [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding)
 * [FreeDNS](https://freedns.afraid.org/dynamic/)
 * [IFTTT](https://ifttt.com/)
 * [Google Assistant](https://assistant.google.com/) (or any voice assistant that IFTTT supports)
 
 ## Media Playback Controls - A Typical Use Case
-Kodi 
+For those who are not familiar, Kodi is an all-in-one media player. For starter, it integrates almost all video streaming services you can think of into a unified interface, be it YouTube, Netflix or even Google Drive. In addition to its core functionalities, Kodi supports extensions that can do much more through installing add-ons. Did I mention that it's open source as well?
 
-Define the following command ```/usr/local/bin/pictrl```
+Kodi also shines when it comes to controls. Define the following command ```/usr/local/bin/pictrl```
 
 ```sh
 #!/bin/sh
 action=$1
 
-if [ "$action" = "play" ]
+if [ "$action" = "play" ] || [ "$action" = "pause" ]
 then
   kodi-send --action="PlayerControl(play)"
 fi
 ```
 
+Since play and pause are basically the same command in different contexts, we also get the pause function for free.
+
 **Milestone**: now your can use ```pictrl play``` in the command line interface (or over SSH) to play/pasue the video on your Raspberry Pi.
 
 ## Webhook - Listening and Responding to a Web Request
 
-Webook is a cool piece of technology that enables responding to http requests with custom callbacks. 
+How are. Webook is a cool piece of technology that enables responding to http requests with custom callbacks. 
 
 To start using webhook, first create the configuration file ```/etc/webhook.conf```:
 ```json
@@ -85,17 +89,20 @@ Note that for such a service that will be accessible over the internet (as it wi
 
 ## Port Forwarding - Exposing Local Service to the Public
 
-Alternatively, Webhook Relay.
+A local IP address, obviously, isn't visible outside the local network. To fix the problem, it's usually required to log on to your modem/router as admin and configure what's known as a port forwarding. From then on, instead of using ```http://localipaddress:port``` locally, we can call ```http://publicipaddress:port``` over the internet and the request will be directed to the same place.
 
-http://localipaddress
-http://publicipaddress
+In case you don't have admin control over your modem (which is unfortunately true in my case), [Webhook Relay](https://webhookrelay.com/) can be helpful although its free tier only supports up to 150 "relays" per month.
 
 **Milestone**: now your can use the link ```http://publicipaddress:port/hooks/pictrl?action=play``` on any device on the internet to control your video player.
 
 ## Dynamic DNS - Your Raspberry Pi's Permanent Domain Name
 
-http://publicipaddress
-http://domainname
+For most home internet users, chances are that the public IP address isn't static. With each reboot of the modem, a new IP address will be assigned which makes it annoying if you are looking for a more permanent solution. As such, dynamic DNS services such as FreeDNS can come to the rescue. These services essentially maintain a list that maps domain (or subdomain) names to IP addresses, and each user tells them to update the list whenever the IP address changes. To do this, run the following command at Raspberry Pi's startup:
+```bash
+wget https://freedns.afraid.org/dynamic/update.php?[token]
+```
+
+If all goes well, instead of changing ```http://publicipaddress``` each time the modem restarts, a new and permanent name ```http://domainname``` is all you have to remember.
 
 **Milestone**: now your can use the link ```http://domainname:port/hooks/pictrl?action=play``` on any device on the Internet to control your video player.
 
@@ -133,7 +140,7 @@ On the "Then That" piece, what we want to choose is the webhook service
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/5.jpg" />
 </div>
 
-that we've created in the previous steps, with the exact action being configurable for future expansion:
+that we've created in the previous step, with the exact action being configurable for future expansion:
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />

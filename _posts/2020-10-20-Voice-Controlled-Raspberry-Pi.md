@@ -96,7 +96,7 @@ Link your Google account with
 If this
 
 <div align="center">
-  <img width="50%" height="50%" src="https://shawenyao.github.io/R/Photos/IFTTT/1.jpg" />
+  <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/1.jpg" />
 </div>
 
 <div align="center">

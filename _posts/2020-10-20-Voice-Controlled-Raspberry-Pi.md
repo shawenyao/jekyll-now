@@ -84,6 +84,7 @@ http://domainname
 
 ## IFTTT - Connecting to A Voice Assistant
 
+Link your Google account with
 If this
 
 then that

@@ -42,9 +42,9 @@ fi
 
 ## Webhook - Listening and Responding to a Web Request
 
+Webook is a cool piece of technology that enables resonding to http requests with custom callbacks. 
 
-
-/etc/webhook.conf
+To start using webhook, first create the configuration file ```/etc/webhook.conf``` that points a webhook id to the ```pictrl``` command:
 ```json
 [
   {
@@ -62,15 +62,17 @@ fi
 ]
 ````
 
-start as a service
+After that, the webhook can be started as a service using
 ```bash
 sudo systemctl start webhook
 ```
 
-or auto-start as a service upon startup
+or we can auto-start upon startup by running:
 ```bash
 sudo systemctl enable webhook
 ```
+
+Note that for such a service that will be accessible over the internet (as it will be the next step), it's probably a good idea to authenticate the identity of the requestor in some form. For example, you can ask the requestor to provide a token that only a trusted user knows along with the request itself.
 
 **Milestone**: now your can use the link ```http://localipaddress:port/hooks/pictrl?action=play``` on any device within the same network to control your Kodi player.
 
@@ -81,7 +83,7 @@ Alternatively, Webhook Relay.
 http://localipaddress
 http://publicipaddress
 
-**Milestone**: now your can use the link ```http://publicipaddress:port/hooks/pictrl?action=play``` on any device on the Internet to control your video player.
+**Milestone**: now your can use the link ```http://publicipaddress:port/hooks/pictrl?action=play``` on any device on the internet to control your video player.
 
 ## Dynamic DNS - Your Raspberry Pi's Permanent Domain Name
 
@@ -130,7 +132,7 @@ that we've created in the previous steps, with the exact action being configurab
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />
 </div>
 
-There we go - our first IFTTT applet is fully operational.
+There we go - our first IFTTT applet has become fully operational.
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/7.jpg" />

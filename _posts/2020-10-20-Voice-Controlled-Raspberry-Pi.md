@@ -24,7 +24,7 @@ Before we start, here is a list of all the hardwares/sofwares that we will be us
 * [IFTTT](https://ifttt.com/)
 * [Google Assistant](https://assistant.google.com/) (or any voice assistant that IFTTT supports)
 
-## Media Playback Controls  - A Typical Use Case
+## Media Playback Controls - A Typical Use Case
 Kodi 
 
 Define the following command ```/usr/local/bin/pictrl```
@@ -43,7 +43,7 @@ fi
 
 ## Webhook - Listening and Responding to a Web Request
 
-Webook is a cool piece of technology that enables resonding to http requests with custom callbacks. 
+Webook is a cool piece of technology that enables responding to http requests with custom callbacks. 
 
 To start using webhook, first create the configuration file ```/etc/webhook.conf```:
 ```json
@@ -95,7 +95,7 @@ http://domainname
 
 ## IFTTT - Connecting to A Voice Assistant
 
-IFTTT, short for "If This Then That", provides a convenient way to create a hub that connects a variety of services (including voice assistants) where they can interact with each another based on a set of used-defined rules.
+IFTTT, short for "If This Then That", provides a convenient way to create a hub that connects a variety of services (including voice assistants) where they can interact with each another based on a set of user-defined rules.
 
 First, let's create a new applet. As the name implies, every applet on IFTTT follows the "If This Then That" structure:
 

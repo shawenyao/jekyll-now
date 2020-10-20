@@ -13,6 +13,11 @@ new: true
 
 Yet another tutorial.
 
+<div align="center">
+  <img src="https://shawenyao.github.io/Photos/IFTTT/logo.jpg" />
+</div>
+
+
 > “Any sufficiently advanced technology is indistinguishable from magic.”
 > ― Arthur C. Clarke, Profiles of the Future: An Inquiry into the Limits of the Possible
 

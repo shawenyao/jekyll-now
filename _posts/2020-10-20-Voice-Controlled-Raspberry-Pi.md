@@ -17,3 +17,47 @@ An end-to-end tutorial.
 * [IFTTT](https://ifttt.com/)
 * [Webhook](https://github.com/adnanh/webhook)
 * [Webhook Relay](https://webhookrelay.com/) (optional)
+
+/etc/webhook.conf
+```json
+[
+  {
+    "id": "pictrl",
+    "execute-command": "/usr/local/bin/pictrl",
+    "command-working-directory": "/home/pi/Webhooks",
+    "pass-arguments-to-command":
+    [
+      {
+        "source": "query",
+        "name": "action"
+      }
+    ],
+    "trigger-rule":
+    {
+      "match":
+      {
+        "type": "value",
+        "value": "secret",
+        "parameter":
+        {
+          "source": "url",
+          "name": "token"
+        }
+      }
+    }
+  }
+]
+````
+
+/usr/local/bin/pictrl
+```bash
+#!/bin/sh
+action=$1
+
+if [ "$action" = "play" ]
+then
+  kodi-send --action="PlayerControl(play)"
+fi
+```
+
+http://ipaddress:port/hooks/pictrl?token=secretw&action=play

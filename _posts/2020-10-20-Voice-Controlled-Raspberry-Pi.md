@@ -13,13 +13,30 @@ new: true
 
 An end-to-end tutorial.
 
-* [Google Assistant](https://assistant.google.com/) (or any voice assistant that IFTTT supports)
-* [IFTTT](https://ifttt.com/)
+* [Raspberry Pi](https://www.raspberrypi.org/)
 * [Webhook](https://github.com/adnanh/webhook)
-* [Webhook Relay](https://webhookrelay.com/) (optional)
+* [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding) or [Webhook Relay](https://webhookrelay.com/)
+* [FreeDNS](https://freedns.afraid.org/dynamic/)
+* [IFTTT](https://ifttt.com/)
+* [Google Assistant](https://assistant.google.com/) (or any voice assistant that IFTTT supports)
 
+## Kodi Control
+Kodi 
+```bash
+sudo apt-get install -y kodi-eventclients-kodi-send
+```
+/usr/local/bin/pictrl
+```sh
+#!/bin/sh
+action=$1
 
-## Webhook
+if [ "$action" = "play" ]
+then
+  kodi-send --action="PlayerControl(play)"
+fi
+```
+
+## Webhook - Listening and Responding to a Web Request
 /etc/webhook.conf
 ```json
 [
@@ -33,20 +50,7 @@ An end-to-end tutorial.
         "source": "query",
         "name": "action"
       }
-    ],
-    "trigger-rule":
-    {
-      "match":
-      {
-        "type": "value",
-        "value": "secret",
-        "parameter":
-        {
-          "source": "url",
-          "name": "token"
-        }
-      }
-    }
+    ]
   }
 ]
 ````
@@ -56,20 +60,28 @@ start as a service
 sudo systemctl start webhook
 ```
 
-auto-start as a service on boot
+or auto-start as a service upon startup
 ```bash
 sudo systemctl enable webhook
 ```
 
-/usr/local/bin/pictrl
-```sh
-#!/bin/sh
-action=$1
+http://localipaddress:port/hooks/pictrl?action=play
 
-if [ "$action" = "play" ]
-then
-  kodi-send --action="PlayerControl(play)"
-fi
-```
+## Port Forwarding - Exposing Local Service to the Public
 
-http://ipaddress:port/hooks/pictrl?token=secretw&action=play
+Alternatively, Webhook Relay.
+
+http://localipaddress
+http://publicipaddress
+
+## Dynamic DNS - Your Raspberry Pi's Permanent Domain Name
+
+http://publicipaddress
+http://domainname
+
+## IFTTT - Connecting to A Voice Assistant
+
+If this
+
+then that
+http://domainname:port/hooks/pictrl?action={{TextField}}

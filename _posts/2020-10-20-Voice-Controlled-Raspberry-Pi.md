@@ -18,6 +18,8 @@ An end-to-end tutorial.
 * [Webhook](https://github.com/adnanh/webhook)
 * [Webhook Relay](https://webhookrelay.com/) (optional)
 
+
+## Webhook
 /etc/webhook.conf
 ```json
 [
@@ -49,8 +51,18 @@ An end-to-end tutorial.
 ]
 ````
 
-/usr/local/bin/pictrl
+start as a service
 ```bash
+sudo systemctl start webhook
+```
+
+auto-start as a service on boot
+```bash
+sudo systemctl enable webhook
+```
+
+/usr/local/bin/pictrl
+```sh
 #!/bin/sh
 action=$1
 

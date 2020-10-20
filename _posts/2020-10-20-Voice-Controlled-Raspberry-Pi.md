@@ -133,11 +133,7 @@ that we've created in the previous steps, with the exact action being configurab
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />
 </div>
 
-There we go - our first IFTTT applet has become fully operational.
-
-<div align="center">
-  <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/7.jpg" />
-</div>
+Save and continue. That's it - our first IFTTT applet has become fully operational.
 
 **Milestone**: now you can say the following magic words to play (or pause) your video on your Raspberry Pi's Kodi player:
 

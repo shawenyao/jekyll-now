@@ -17,9 +17,10 @@ Yet another tutorial.
   <img src="https://shawenyao.github.io/Photos/IFTTT/logo.png" />
 </div>
 
-
 > “Any sufficiently advanced technology is indistinguishable from magic.”
 > ― Arthur C. Clarke, Profiles of the Future: An Inquiry into the Limits of the Possible
+
+I have been exploring better ways to control media playback. Yes, keyboard and mouse are fine. Yes, Kodi's web interface/remote is cool. Yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor that makes me wish for a hands-free experience.
 
 Before we start, here is a list of all the hardwares/sofwares that we will be using.
 * [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)

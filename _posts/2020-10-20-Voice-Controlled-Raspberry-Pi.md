@@ -108,7 +108,7 @@ Okay Google, Kodi play!
 The possibility is literally limitless.
 
 ## Appendix
-### Install all the softwares
+### Install all the softwares needed
 ```bash
 sudo apt install kodi
 sudo apt install kodi-eventclients-kodi-send

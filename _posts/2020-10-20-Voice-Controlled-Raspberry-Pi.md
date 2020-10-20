@@ -13,8 +13,8 @@ new: true
 
 An end-to-end tutorial.
 
-“Any sufficiently advanced technology is indistinguishable from magic.”
-― Arthur C. Clarke, Profiles of the Future: An Inquiry Into the Limits of the Possible
+> “Any sufficiently advanced technology is indistinguishable from magic.”
+> ― Arthur C. Clarke, Profiles of the Future: An Inquiry Into the Limits of the Possible
 
 * [Raspberry Pi](https://www.raspberrypi.org/)
 * [Webhook](https://github.com/adnanh/webhook)

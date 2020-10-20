@@ -100,27 +100,27 @@ If this
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/R/Photos/IFTTT/2.jpg" />
+  <img src="https://shawenyao.github.io/Photos/IFTTT/2.jpg" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/R/Photos/IFTTT/3.jpg" />
+  <img src="https://shawenyao.github.io/Photos/IFTTT/3.jpg" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/R/Photos/IFTTT/4.jpg" />
+  <img src="https://shawenyao.github.io/Photos/IFTTT/4.jpg" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/R/Photos/IFTTT/5.jpg" />
+  <img src="https://shawenyao.github.io/Photos/IFTTT/5.jpg" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/R/Photos/IFTTT/6.jpg" />
+  <img src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/R/Photos/IFTTT/7.jpg" />
+  <img src="https://shawenyao.github.io/Photos/IFTTT/7.jpg" />
 </div>
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vocie-Controlled Raspberry Pi
+title: Voice-Controlled Raspberry Pi
 tag:
   - raspberry pi
   - voice assistant
@@ -14,7 +14,7 @@ new: true
 Yet another tutorial.
 
 > “Any sufficiently advanced technology is indistinguishable from magic.”
-> ― Arthur C. Clarke, Profiles of the Future: An Inquiry Into the Limits of the Possible
+> ― Arthur C. Clarke, Profiles of the Future: An Inquiry into the Limits of the Possible
 
 Before we start, here is a list of all the hardwares/sofwares that we will be using.
 * [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)
@@ -92,7 +92,7 @@ http://domainname
 
 ## IFTTT - Connecting to A Voice Assistant
 
-IFTTT, short for "If This Then That", provides a convenient way to create a hub that conncects a variety of services (including voice assistants) where they can interact with each another based on a set of used-defined rules.
+IFTTT, short for "If This Then That", provides a convenient way to create a hub that connects a variety of services (including voice assistants) where they can interact with each another based on a set of used-defined rules.
 
 First, let's create a new applet. As the name implies, every applet on IFTTT follows the "If This Then That" structure:
 
@@ -124,13 +124,13 @@ On the "Then That" piece, what we want to choose is the webhook service
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/5.jpg" />
 </div>
 
-that we've created in the previous steps, with the exact action being configurable for future development
+that we've created in the previous steps, with the exact action being configurable for future expansion:
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />
 </div>
 
-There we go - our IFTTT applet is fully operational.
+There we go - our first IFTTT applet is fully operational.
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/7.jpg" />

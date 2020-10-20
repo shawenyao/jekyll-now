@@ -45,7 +45,7 @@ fi
 
 Webook is a cool piece of technology that enables resonding to http requests with custom callbacks. 
 
-To start using webhook, first create the configuration file ```/etc/webhook.conf``` that points a webhook id to the ```pictrl``` command:
+To start using webhook, first create the configuration file ```/etc/webhook.conf```:
 ```json
 [
   {
@@ -63,7 +63,7 @@ To start using webhook, first create the configuration file ```/etc/webhook.conf
 ]
 ````
 
-After that, the webhook can be started as a service using
+that points a new webhook instance to the ```pictrl``` command. After that, the webhook can be started as a service using:
 ```bash
 sudo systemctl start webhook
 ```

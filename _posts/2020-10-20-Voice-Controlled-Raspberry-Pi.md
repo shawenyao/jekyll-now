@@ -107,4 +107,4 @@ t
 
 ## Putting It All Together
 
-The possibility is literally endless.
+The possibility is literally limitless.

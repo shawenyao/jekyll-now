@@ -92,16 +92,21 @@ http://domainname
 
 ## IFTTT - Connecting to A Voice Assistant
 
-Link your Google account with
-If this
+IFTTT, short for "If This Then That", provides a convenient way to create a hub that conncects a variety of services (including voice assistants) where they can interact with each another according to a set of used-defined rules.
+
+First, create a new applet. As you might have guesseed, every applet on IFTTT follows the "If This Then That" structure:
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/1.jpg" />
 </div>
 
+Next, configure the "if this" part and choose the Google Assistant option. You might be asked to link your Google account to IFTTT.
+
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/2.jpg" />
 </div>
+
+Although the "Say a simple phrase" option is more than enough to get our job done, the "Say a phrase with a text ingredient" option will be a lot more flexible in terms of further customizing our voice commands.
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/3.jpg" />

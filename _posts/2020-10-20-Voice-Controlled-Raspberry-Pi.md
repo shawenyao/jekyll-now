@@ -30,7 +30,7 @@ Before we start, here is a list of all the hardwares/sofwares that will be used:
 * [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding)
 * [FreeDNS](https://freedns.afraid.org/dynamic/)
 * [IFTTT](https://ifttt.com/)
-* [Google Assistant](https://assistant.google.com/) (or any voice assistant that IFTTT supports)
+* [Google Assistant](https://assistant.google.com/) (or any voice assistant that IFTTT supports for that matter)
 
 ## Media Playback Controls - A Typical Use Case
 For those who are not familiar, Kodi is an all-in-one media player. For starter, it integrates almost all video streaming services you can think of into a unified interface, be it YouTube, Netflix or even Google Drive. In addition to its core functionalities, Kodi supports extensions that can do much more through installing add-ons. Did I mention that it's open source as well?
@@ -97,26 +97,26 @@ In case you don't have admin control over your modem (which is unfortunately tru
 
 ## Dynamic DNS - Your Raspberry Pi's Permanent Domain Name
 
-For most home internet users, chances are that the public IP address isn't static. With each reboot of the modem, a new IP address will be assigned which makes it annoying if you are looking for a more permanent solution. As such, dynamic DNS services such as FreeDNS can come to the rescue. These services essentially maintain a list that maps domain (or subdomain) names to IP addresses, and each user tells them to update the list whenever the IP address changes. To do this, run the following command at Raspberry Pi's startup:
+For most home internet users, chances are that thier public IP addresses aren't static. With each reboot of the modem, a new IP address will be assigned which makes it annoying if you are looking for a more permanent solution. Don't worry - dynamic DNS services such as FreeDNS can come to the rescue. These services essentially maintain a list that maps domain (or subdomain) names to IP addresses, and each user tells them to update the list whenever the IP address changes. To do this, run the following command at Raspberry Pi's startup:
 ```bash
 wget https://freedns.afraid.org/dynamic/update.php?[token]
 ```
 
-If all goes well, instead of changing ```http://publicipaddress``` each time the modem restarts, a new and permanent name ```http://domainname``` is all you have to remember.
+If all goes well, instead of changing ```http://publicipaddress``` each time the modem restarts, a new and permanent name ```http://domainname``` is all one has to remember.
 
-**Milestone**: now your can use the link ```http://domainname:port/hooks/pictrl?action=play``` on any device on the Internet to control your video player.
+**Milestone**: now your can use the link ```http://domainname:port/hooks/pictrl?action=play``` on any device on the internet to control your video player.
 
 ## IFTTT - Connecting to A Voice Assistant
 
-IFTTT, short for "If This Then That", provides a convenient way to create a hub that connects a variety of services (including voice assistants) where they can interact with each another based on a set of user-defined rules.
+IFTTT, short for "If This Then That", provides a convenient way to create a hub that connects a variety of services (including voice assistants) where they can interact with each another based on a set of user-defined rules (called applets). As of the time of writing, IFTTT allows each user to create up to 3 applets for its free tier.
 
-First, let's create a new applet. As the name implies, every applet on IFTTT follows the "If This Then That" structure:
+As the name implies, every applet of IFTTT follows the "If This Then That" structure:
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/1.jpg" />
 </div>
 
-Next, configure the "If This" part and choose the Google Assistant option. You might be asked to link your Google account to IFTTT.
+and creating a new applet boils down to defining the two pieces: "If This" and "Then That". First, configure the "If This" part and choose the Google Assistant option. You might be asked to link your Google account to IFTTT.
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/2.jpg" />

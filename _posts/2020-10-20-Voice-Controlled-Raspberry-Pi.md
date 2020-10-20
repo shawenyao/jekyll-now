@@ -96,31 +96,31 @@ Link your Google account with
 If this
 
 <div align="center">
-  <img src="https://shawenyao.github.io/R/Photos/IFTTT/1.jpg" />
+  <img width="50%" height="50%" src="https://shawenyao.github.io/R/Photos/IFTTT/1.jpg" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/IFTTT/2.jpg" />
+  <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/2.jpg" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/IFTTT/3.jpg" />
+  <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/3.jpg" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/IFTTT/4.jpg" />
+  <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/4.jpg" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/IFTTT/5.jpg" />
+  <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/5.jpg" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />
+  <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/IFTTT/7.jpg" />
+  <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/7.jpg" />
 </div>
 
 

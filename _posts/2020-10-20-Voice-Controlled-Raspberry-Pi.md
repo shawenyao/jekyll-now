@@ -14,7 +14,7 @@ new: true
 Yet another tutorial.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/IFTTT/logo.jpg" />
+  <img src="https://shawenyao.github.io/Photos/IFTTT/logo.png" />
 </div>
 
 

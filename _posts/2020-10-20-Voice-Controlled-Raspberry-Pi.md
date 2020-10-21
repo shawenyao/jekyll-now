@@ -22,17 +22,15 @@ Yet another tutorial.
 
 Ever since Raspberry Pi came into my world, I have been exploring better ways to interact with it. Take Kodi the media player for example - yes, keyboard and mouse are fine; yes, its native web interface is super powerful; and yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor abd open source nature that just make me wish for a hands-free experience. 
 
-To my surprise, there doesn't seem to be a satisfactory end-to-end tutorial anywhere that suits my need. But that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi.
-
-Okay Google, pause Kodi.
-
-But before we get started, here is a list of all the hardwares/sofwares that we will need:
+To my surprise, there doesn't seem to be a satisfactory end-to-end tutorial anywhere that suits my need. But that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi. Before we get started, here is a list of all the hardwares/sofwares that we will need:
 * [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)
 * [Webhook](https://github.com/adnanh/webhook)
 * [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding)
 * [FreeDNS](https://freedns.afraid.org/dynamic/)
 * [IFTTT](https://ifttt.com/)
 * [Google Assistant](https://assistant.google.com/) (or any voice assistant that IFTTT supports for that matter)
+
+Okay Google, pause Kodi.
 
 ## Media Playback Controls - A Typical Use Case
 For those who are not familiar, Kodi is an all-in-one media player. For starter, it integrates almost all video streaming services you can think of into a unified interface, be it YouTube, Netflix or even Google Drive. In addition to its core functionalities, Kodi supports extensions that can do much more through the installation of add-ons. Did I mention that it's open source as well?

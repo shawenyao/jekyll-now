@@ -11,7 +11,7 @@ berry: true
 new: true
 ---
 
-Yet another tutorial.
+Okay Google, pause Kodi.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/IFTTT/logo.png" />
@@ -22,7 +22,7 @@ Yet another tutorial.
 
 Ever since Raspberry Pi came into my world, I have been exploring better ways to interact with it. Take Kodi the media player for example - yes, keyboard and mouse are fine; yes, its native web interface is super powerful; and yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor abd open source nature that just make me wish for a hands-free experience. 
 
-To my surprise, there doesn't seem to be a satisfactory end-to-end tutorial anywhere that suits my need. But that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi. Before we get started, here is a list of all the hardwares/sofwares that we will need:
+To my surprise, there doesn't seem to be a satisfactory end-to-end tutorial anywhere that suits my need. However, that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi. Before we get started, here is a list of all the hardwares/sofwares that we will need:
 * [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)
 * [Webhook](https://github.com/adnanh/webhook)
 * [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding)

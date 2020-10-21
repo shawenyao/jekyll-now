@@ -22,7 +22,7 @@ Okay Google, pause Kodi.
 
 Ever since Raspberry Pi came into my world, I have been exploring better ways to interact with it. Take Kodi the media player for example - yes, keyboard and mouse are fine; yes, the native web interface is super powerful; and yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor (and, of course, its open source nature) that just makes me wish for a hands-free experience. 
 
-Ideally, I would like my Google Home Mini/Google Assistant to pick up my voice command, send it over to the Raspberry Pi and tell it to do something useful. To my great surprise, there doesn't seem to be a satisfactory end-to-end solution anywhere that suits my need. However, that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi. Before we dive into the technical mumbo jumbo, here is a quick rundown of all the hardware/sofware that we need:
+Ideally, I would like my Google Home Mini/Google Assistant to pick up my voice command, send it over to the Raspberry Pi and tell it to do something useful. To my great surprise, there doesn't seem to be a satisfactory end-to-end solution anywhere that suits my need. However, that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi. Before we dive into the technical mumbo jumbo, here is a quick rundown of all the hardware/software that we need:
 * [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)
 * [Webhook](https://github.com/adnanh/webhook)
 * [Port forwarding](https://en.wikipedia.org/wiki/Port_forwarding)
@@ -35,7 +35,7 @@ Okay Google, pause Kodi and let's get started.
 ## Media Playback Controls - A Typical Use Case
 For those who are unfamiliar with the name, Kodi is an all-in-one media center. For starter, it integrates almost every video streaming service on earth into a unified interface, be it YouTube, Netflix or even Google Drive. In addition to its core functionalities as a media player, Kodi supports extensions that can do much more through the installation of add-ons. Did I mention that it has a lovely weather widget? 
 
-Kodi also shines in the input department. On top of the keyboard/mouse, web interface or TV remote option, the ```kodi-send``` command lets the user control the player via command line. For example, if we are interested in replicating the effect of pressing the play button, we only need to need to run:
+Kodi also shines in the input department. On top of the keyboard/mouse, web interface or TV remote option, the ```kodi-send``` command lets user control the player via command line. For example, if we are interested in replicating the effect of pressing the play button, we only need to need to run:
 
 ```bash
 kodi-send --action="PlayerControl(play)"
@@ -59,9 +59,9 @@ and it's ready to roll. Since play and pause are basically the same command in d
 
 ## Webhook - Listening and Responding to a Web Request
 
-Next up we are going to trigger that ```pictrl``` script with an http request. For that, we need webhook, a cool piece of technology that enables responding to http requests with custom callbacks. 
+Next up we are going to trigger that ```pictrl``` script with an http request. For that, we are going to use webhook, a cool piece of technology that enables responding to http requests with custom callbacks. 
 
-To start using webhook, first create the configuration file ```/etc/webhook.conf```:
+To enable webhook, first create the configuration file ```/etc/webhook.conf```:
 ```json
 [
   {
@@ -95,15 +95,15 @@ Note that for such a service that is intended to be accessible over the internet
 
 ## Port Forwarding - Exposing Local Service to the Public
 
-A local IP address, obviously, isn't visible outside the local network. To fix the problem, it's usually necessary to log on to your modem/router as admin and configure what's known as a port forwarding. From then on, instead of using ```http://localipaddress:port``` locally, we can call ```http://publicipaddress:port``` over the internet and the request will be directed to the same place.
+A local IP address, obviously, isn't visible outside the local network. To fix the problem, it's generally required to log on to your modem/router as admin and configure what's known as port forwarding. From then on, instead of using ```http://localipaddress:port``` locally, we can call ```http://publicipaddress:port``` over the internet and the request will be directed to the same place.
 
 In case you don't have admin control over your modem (which is unfortunately true in my case), [Webhook Relay](https://webhookrelay.com/) can be helpful although its free tier only supports up to 150 "relays" per month.
 
-**Milestone**: now you can use the link ```http://publicipaddress:port/hooks/pictrl?action=play``` on any device on the internet to control your video player.
+**Milestone**: now you can use the link ```http://publicipaddress:port/hooks/pictrl?action=play``` on any device that's connected to the internet to control your video player.
 
 ## Dynamic DNS - Your Raspberry Pi's Permanent Domain Name
 
-For most home internet users, chances are that tier public IP addresses aren't static. With each reboot of the modem, a new IP address will be assigned which makes it annoying when you are looking for a more permanent solution. Don't worry - dynamic DNS services such as FreeDNS can come to the rescue. These services essentially maintain a list that maps domain (or subdomain) names to IP addresses, and each user tells them to update the list whenever the IP address changes. To do this, run the following command at Raspberry Pi's startup:
+For most internet users at home, chances are that their public IP addresses aren't static. With each reboot of the modem, a new address will be assigned by the ISP which makes it annoying if you are looking for a more permanent solution. Don't worry - dynamic DNS services such as FreeDNS can come to the rescue. These services essentially maintain a list that maps the domain (or subdomain) names to their corresponding IP addresses, and each user tells them to update the list whenever the IP address changes. To automate this, run the following command at Raspberry Pi's startup:
 ```bash
 wget https://freedns.afraid.org/dynamic/update.php?[yourtokenhere]
 ```
@@ -114,27 +114,25 @@ If all goes well, instead of changing ```http://publicipaddress``` each time the
 
 ## IFTTT - Connecting to A Voice Assistant
 
-IFTTT, short for "If This Then That", provides a convenient way to create a hub that connects a variety of services (including voice assistants) where they can interact with each another based on a set of user-defined rules (called applets). As of the time of writing, IFTTT allows each user to create up to 3 applets for its free tier.
-
-As the name implies, every applet of IFTTT follows the "If This Then That" structure:
+IFTTT, short for "If This Then That", provides a convenient way to create a hub that connects a variety of services (including voice assistants) where they can interact with each another based on a set of user-defined rules (called applets). As of the time of writing, IFTTT allows each user to create up to 3 applets for its free tier. As the name implies, every applet follows the "If This Then That" structure:
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/1.jpg" />
 </div>
 
-and creating a new applet boils down to defining the two pieces: "If This" and "Then That". First, configure the "If This" part and choose the Google Assistant option (you might be asked to link your Google account to IFTTT). In the next screen, although the "Say a simple phrase" option is more than enough to get the job done, the "Say a phrase with a text ingredient" option is preferred as it will be a lot more flexible when it comes to further customizing our voice commands.
+and creating a new applet boils down to defining the two pieces: the "If This" and the "Then That". First, let's configure the "If This" by selecting the Google Assistant option (you might be asked to link your Google account to IFTTT). In the next screen, although the "Say a simple phrase" option is more than enough to get the job done, the "Say a phrase with a text ingredient" option is preferred as it will be a lot more flexible when it comes to further customizing our voice commands.
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/3.jpg" />
 </div>
 
-That brings us to the trigger configuration. I use "kodi" as my keyword, followed by a custom text field. The rest is not important.
+That brings us to the trigger configuration. Personally, I use "kodi" as my keyword, followed by a custom text field. The rest is not important.
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/4.jpg" />
 </div>
 
-Next, on the "Then That" piece, what we want to choose is the webhook service that we've created in the previous step, with the exact action being configurable for future development's sake:
+Next, onto the "Then That" piece, what we want to choose is the webhook service that we created in the previous step, with the exact action being configurable for future development's sake:
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />
@@ -154,7 +152,7 @@ Okay Google, Kodi play!
   <img src="https://shawenyao.github.io/Photos/IFTTT/logo2.png" />
 </div>
 
-As you might have noticed by now, your voice can literally be as powerful as your computer is. The toolchain we've explored so far makes it possible to invoke almost any action of our choice with almost any words of our choice. What's more, all the addtional development work will only need to happen locally inside the ```pictrl``` script. Last but not least, what to do with such limitless possibility might be a matter of user experience at the end of the day, so please let me know what your mileage turns out to be.
+As you might have noticed by now, your voice can literally be as powerful as your computer is. The toolchain we've explored so far makes it possible to invoke almost any action of our choice with almost any words of our choice. What's more, all the additional development work will only need to happen locally inside the ```pictrl``` script. Last but not least, what to do with such limitless possibility might be a matter of user experience at the end of the day, so please let me know what your mileage turns out to be.
 
 ## Appendix
 ### Install all the software needed on the Raspberry Pi

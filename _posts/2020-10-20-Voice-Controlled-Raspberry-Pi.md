@@ -120,7 +120,9 @@ IFTTT, short for "If This Then That", provides a convenient way to create a hub 
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/1.jpg" />
 </div>
 
-and creating a new applet boils down to defining the two pieces: the "If This" and the "Then That". First, let's configure the "If This" by selecting the Google Assistant option (you might be asked to link your Google account to IFTTT). In the next screen, although the "Say a simple phrase" option is more than enough to get the job done, the "Say a phrase with a text ingredient" option is preferred as it will be a lot more flexible when it comes to further customizing our voice commands.
+and creating a new applet boils down to defining the two pieces: the "If This" and the "Then That". 
+
+So let's configure the "If This" first by selecting the Google Assistant option (you might be asked to link your Google account to IFTTT). In the next screen, although the "Say a simple phrase" option is more than enough to get the job done, the "Say a phrase with a text ingredient" option is preferred as it will be a lot more flexible when it comes to further customizing our voice commands.
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/3.jpg" />

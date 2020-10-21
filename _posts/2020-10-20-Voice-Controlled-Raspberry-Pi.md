@@ -26,7 +26,7 @@ To my surprise, there doesn't seem to be a satisfactory end-to-end tutorial anyw
 
 Okay Google, pause Kodi.
 
-Before we start, here is a list of all the hardwares/sofwares that we will need:
+But before we get started, here is a list of all the hardwares/sofwares that we will need:
 * [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)
 * [Webhook](https://github.com/adnanh/webhook)
 * [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding)

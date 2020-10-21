@@ -116,13 +116,7 @@ As the name implies, every applet of IFTTT follows the "If This Then That" struc
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/1.jpg" />
 </div>
 
-and creating a new applet boils down to defining the two pieces: "If This" and "Then That". First, configure the "If This" part and choose the Google Assistant option. You might be asked to link your Google account to IFTTT.
-
-<div align="center">
-  <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/2.jpg" />
-</div>
-
-Although the "Say a simple phrase" option is more than enough to get our job done, the "Say a phrase with a text ingredient" option will be a lot more flexible in terms of further customizing our voice commands.
+and creating a new applet boils down to defining the two pieces: "If This" and "Then That". First, configure the "If This" part and choose the Google Assistant option (you might be asked to link your Google account to IFTTT). In the next screen, although the "Say a simple phrase" option is more than enough to get the job done, the "Say a phrase with a text ingredient" option is preferred as it will be a lot more flexible when it comes to further customizing our voice commands.
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/3.jpg" />
@@ -134,13 +128,7 @@ That brings us to the trigger configuration. I use "kodi" as my keyword, followe
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/4.jpg" />
 </div>
 
-Next, on the "Then That" piece, what we want to choose is the webhook service
-
-<div align="center">
-  <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/5.jpg" />
-</div>
-
-that we've created in the previous step, with the exact action being configurable for future development:
+Next, on the "Then That" piece, what we want to choose is the webhook service that we've created in the previous step, with the exact action being configurable for future development:
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />
@@ -156,7 +144,7 @@ Okay Google, Kodi play!
 
 ## Putting It All Together
 
-As you might have guessed by now, your voice can literally be as powerful as your computer is. The toolchain we've established so far makes it possible to tigger almost any action of our choice with almost any words of our choice. The best part is, all the extra development work will only need to happen locally inside the ```pictrl``` script. That said, at the end of the day, what to do with such limitless possibility might be a matter of user experience.
+As you might have guessed by now, your voice can literally be as powerful as your computer is. The toolchain we've established so far makes it possible to tigger almost any action of our choice with almost any words of our choice. The best part is, all the extra development work will only need to happen locally inside the ```pictrl``` script. That said, at the end of the day, what to do with such limitless possibility might be a matter of user experience so please let me know what your mileage turns out to be.
 
 ## Appendix
 ### Install all the softwares needed

@@ -33,9 +33,9 @@ Before we start, here is a list of all the hardwares/sofwares that will be used:
 * [Google Assistant](https://assistant.google.com/) (or any voice assistant that IFTTT supports for that matter)
 
 ## Media Playback Controls - A Typical Use Case
-For those who are not familiar, Kodi is an all-in-one media player. For starter, it integrates almost all video streaming services you can think of into a unified interface, be it YouTube, Netflix or even Google Drive. In addition to its core functionalities, Kodi supports extensions that can do much more through installing add-ons. Did I mention that it's open source as well?
+For those who are not familiar, Kodi is an all-in-one media player. For starter, it integrates almost all video streaming services you can think of into a unified interface, be it YouTube, Netflix or even Google Drive. In addition to its core functionalities, Kodi supports extensions that can do much more through the installation of add-ons. Did I mention that it's open source as well?
 
-Kodi also shines when it comes to controls. Define the following command ```/usr/local/bin/pictrl```
+Kodi also shines in the controls department. On top of the keyboard/mouse, web interface or TV remote option, the ```kodi-send``` command lets you control the player with in command line. For example, if we are interested in replicating the play button, we only need to create the following script ```/usr/local/bin/pictrl```
 
 ```sh
 #!/bin/sh
@@ -47,7 +47,7 @@ then
 fi
 ```
 
-Since play and pause are basically the same command in different contexts, we also get the pause function for free.
+and it's ready to roll. Since play and pause are basically the same command in different contexts, we also get the pause function for free.
 
 **Milestone**: now your can use ```pictrl play``` in the command line interface (or over SSH) to play/pasue the video on your Raspberry Pi.
 
@@ -99,10 +99,10 @@ In case you don't have admin control over your modem (which is unfortunately tru
 
 For most home internet users, chances are that thier public IP addresses aren't static. With each reboot of the modem, a new IP address will be assigned which makes it annoying if you are looking for a more permanent solution. Don't worry - dynamic DNS services such as FreeDNS can come to the rescue. These services essentially maintain a list that maps domain (or subdomain) names to IP addresses, and each user tells them to update the list whenever the IP address changes. To do this, run the following command at Raspberry Pi's startup:
 ```bash
-wget https://freedns.afraid.org/dynamic/update.php?[token]
+wget https://freedns.afraid.org/dynamic/update.php?[yourtokenhere]
 ```
 
-If all goes well, instead of changing ```http://publicipaddress``` each time the modem restarts, a new and permanent name ```http://domainname``` is all one has to remember.
+If all goes well, instead of changing ```http://publicipaddress``` each time the modem restarts, a new and permanent name ```http://domainname``` is all we have to remember.
 
 **Milestone**: now your can use the link ```http://domainname:port/hooks/pictrl?action=play``` on any device on the internet to control your video player.
 
@@ -134,13 +134,13 @@ That brings us to the trigger configuration. I use "kodi" as my keyword, followe
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/4.jpg" />
 </div>
 
-On the "Then That" piece, what we want to choose is the webhook service
+Next, on the "Then That" piece, what we want to choose is the webhook service
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/5.jpg" />
 </div>
 
-that we've created in the previous step, with the exact action being configurable for future expansion:
+that we've created in the previous step, with the exact action being configurable for future development:
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />
@@ -156,7 +156,7 @@ Okay Google, Kodi play!
 
 ## Putting It All Together
 
-The possibility is literally limitless.
+As you might have guessed, your voice can literally be as powerful as your computer is. The toolchain we've established so far makes it possible to tigger certain actions with certain words. The possibility is limitless, 
 
 ## Appendix
 ### Install all the softwares needed

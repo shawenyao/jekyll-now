@@ -55,7 +55,7 @@ fi
 
 and it's ready to roll. Since play and pause are basically the same command in different contexts, we also get the pause function for free.
 
-**Milestone**: now your can use ```pictrl play``` in the command line interface (or over SSH) to play/pasue the video on your Raspberry Pi.
+**Milestone**: now you can use ```pictrl play``` in the command line interface (or over SSH) to play/pasue the video on your Raspberry Pi.
 
 ## Webhook - Listening and Responding to a Web Request
 
@@ -91,7 +91,7 @@ sudo systemctl enable webhook
 
 Note that for such a service that is intended to be accessible over the internet (as will become true in the next step), it's probably a good idea to authenticate the identity of the requestor in some form. For example, you can ask the requestor to submit a token that only a trusted user knows along with the request itself.
 
-**Milestone**: now your can use the link ```http://localipaddress:port/hooks/pictrl?action=play``` on any device within the same network to control your Kodi player.
+**Milestone**: now you can use the link ```http://localipaddress:port/hooks/pictrl?action=play``` on any device within the same network to control your Kodi player.
 
 ## Port Forwarding - Exposing Local Service to the Public
 
@@ -99,7 +99,7 @@ A local IP address, obviously, isn't visible outside the local network. To fix t
 
 In case you don't have admin control over your modem (which is unfortunately true in my case), [Webhook Relay](https://webhookrelay.com/) can be helpful although its free tier only supports up to 150 "relays" per month.
 
-**Milestone**: now your can use the link ```http://publicipaddress:port/hooks/pictrl?action=play``` on any device on the internet to control your video player.
+**Milestone**: now you can use the link ```http://publicipaddress:port/hooks/pictrl?action=play``` on any device on the internet to control your video player.
 
 ## Dynamic DNS - Your Raspberry Pi's Permanent Domain Name
 
@@ -110,7 +110,7 @@ wget https://freedns.afraid.org/dynamic/update.php?[yourtokenhere]
 
 If all goes well, instead of changing ```http://publicipaddress``` each time the modem restarts, a new and permanent name ```http://domainname``` is all we have to remember.
 
-**Milestone**: now your can use the link ```http://domainname:port/hooks/pictrl?action=play``` on any device on the internet to control your video player.
+**Milestone**: now you can use the link ```http://domainname:port/hooks/pictrl?action=play``` on any device on the internet to control your video player.
 
 ## IFTTT - Connecting to A Voice Assistant
 
@@ -142,7 +142,7 @@ Next, on the "Then That" piece, what we want to choose is the webhook service th
 
 Save and continue. That's it - our first IFTTT applet has just become fully operational.
 
-**Final milestone**: now you can say the following magic words to play (or pause) your video on your Raspberry Pi's Kodi player:
+**Final milestone**: now you can say the following magic words to play (or pause) the video on your Raspberry Pi's Kodi player:
 
 ```bash
 Okay Google, Kodi play!

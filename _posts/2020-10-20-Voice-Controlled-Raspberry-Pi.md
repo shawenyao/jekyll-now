@@ -134,7 +134,7 @@ Next, on the "Then That" piece, what we want to choose is the webhook service th
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />
 </div>
 
-Save and continue. That's it - our first IFTTT applet has become fully operational.
+Save and continue. That's it - our first IFTTT applet has just become fully operational.
 
 **Milestone**: now you can say the following magic words to play (or pause) your video on your Raspberry Pi's Kodi player:
 

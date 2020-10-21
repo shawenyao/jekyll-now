@@ -145,7 +145,7 @@ Okay Google, Kodi play!
 ## Putting It All Together
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/IFTTT/logo.png" />
+  <img src="https://shawenyao.github.io/Photos/IFTTT/logo2.png" />
 </div>
 
 As you might have noticed by now, your voice can literally be as powerful as your computer is. The toolchain we've established so far makes it possible to invoke almost any action of our choice with almost any words of our choice. The best part is, all the extra development work will only need to happen locally inside the ```pictrl``` script. That said, what to do with such limitless possibility might be a matter of user experience at the end of the day, so please let me know what your mileage turns out to be.

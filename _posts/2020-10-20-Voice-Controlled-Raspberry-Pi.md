@@ -20,11 +20,11 @@ Yet another tutorial.
 > “Any sufficiently advanced technology is indistinguishable from magic.”
 > ― Arthur C. Clarke, Profiles of the Future: An Inquiry into the Limits of the Possible
 
-Ever since Raspberry Pi came into my world, I have been exploring better ways to interact with it. Take Kodi the media player for example - yes, keyboard and mouse are fine; yes, its native web interface is super powerful; yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor that makes me wish for a hands-free experience. And that's what I am going to do today, i.e. controlling Kodi media playback with a voice assistant.
+Ever since Raspberry Pi came into my world, I have been exploring better ways to interact with it. Take Kodi the media player for example - yes, keyboard and mouse are fine; yes, its native web interface is super powerful; yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor that makes me wish for a hands-free experience. Actually, a little Google search leads me to all the bits and pieces to get the job done, and that's what I am show today - a voice-controlled Raspberry Pi.
 
 Okay Google, pause Kodi.
 
-Before we start, here is a list of all the hardwares/sofwares that will be used:
+Before we start, here is a list of all the hardwares/sofwares that we will need:
 * [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)
 * [Webhook](https://github.com/adnanh/webhook)
 * [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding)
@@ -35,7 +35,7 @@ Before we start, here is a list of all the hardwares/sofwares that will be used:
 ## Media Playback Controls - A Typical Use Case
 For those who are not familiar, Kodi is an all-in-one media player. For starter, it integrates almost all video streaming services you can think of into a unified interface, be it YouTube, Netflix or even Google Drive. In addition to its core functionalities, Kodi supports extensions that can do much more through the installation of add-ons. Did I mention that it's open source as well?
 
-Kodi also shines in the controls department. On top of the keyboard/mouse, web interface or TV remote option, the ```kodi-send``` command lets you control the player with in command line. For example, if we are interested in replicating the play button, we only need to create the following script ```/usr/local/bin/pictrl```
+Kodi also shines in the controls department. On top of the keyboard/mouse, web interface or TV remote option, the ```kodi-send``` command lets the user control the player in command line. For example, if we are interested in replicating the play button, we only need to create the following script ```/usr/local/bin/pictrl```
 
 ```sh
 #!/bin/sh
@@ -53,7 +53,7 @@ and it's ready to roll. Since play and pause are basically the same command in d
 
 ## Webhook - Listening and Responding to a Web Request
 
-How are. Webook is a cool piece of technology that enables responding to http requests with custom callbacks. 
+Next up we are going to trigger that ```pictrl``` script with an http request. For that, we need webhook, a cool piece of technology that enables responding to http requests with custom callbacks. 
 
 To start using webhook, first create the configuration file ```/etc/webhook.conf```:
 ```json
@@ -78,18 +78,18 @@ that points a new webhook instance to the ```pictrl``` command. After that, the 
 sudo systemctl start webhook
 ```
 
-or can be auto-started upon startup by running:
+or auto-started upon startup by running:
 ```bash
 sudo systemctl enable webhook
 ```
 
-Note that for such a service that will be accessible over the internet (as it will be the next step), it's probably a good idea to authenticate the identity of the requestor in some form. For example, you can ask the requestor to provide a token that only a trusted user knows along with the request itself.
+Note that for such a service that will be accessible over the internet (as it will be in the next step), it's probably a good idea to authenticate the identity of the requestor in some form. For example, you can ask the requestor to submit a token that only a trusted user knows along with the request itself.
 
 **Milestone**: now your can use the link ```http://localipaddress:port/hooks/pictrl?action=play``` on any device within the same network to control your Kodi player.
 
 ## Port Forwarding - Exposing Local Service to the Public
 
-A local IP address, obviously, isn't visible outside the local network. To fix the problem, it's usually required to log on to your modem/router as admin and configure what's known as a port forwarding. From then on, instead of using ```http://localipaddress:port``` locally, we can call ```http://publicipaddress:port``` over the internet and the request will be directed to the same place.
+A local IP address, obviously, isn't visible outside the local network. To fix the problem, it's usually necessary to log on to your modem/router as admin and configure what's known as a port forwarding. From then on, instead of using ```http://localipaddress:port``` locally, we can call ```http://publicipaddress:port``` over the internet and the request will be directed to the same place.
 
 In case you don't have admin control over your modem (which is unfortunately true in my case), [Webhook Relay](https://webhookrelay.com/) can be helpful although its free tier only supports up to 150 "relays" per month.
 
@@ -97,7 +97,7 @@ In case you don't have admin control over your modem (which is unfortunately tru
 
 ## Dynamic DNS - Your Raspberry Pi's Permanent Domain Name
 
-For most home internet users, chances are that thier public IP addresses aren't static. With each reboot of the modem, a new IP address will be assigned which makes it annoying if you are looking for a more permanent solution. Don't worry - dynamic DNS services such as FreeDNS can come to the rescue. These services essentially maintain a list that maps domain (or subdomain) names to IP addresses, and each user tells them to update the list whenever the IP address changes. To do this, run the following command at Raspberry Pi's startup:
+For most home internet users, chances are that thier public IP addresses aren't static. With each reboot of the modem, a new IP address will be assigned which makes it annoying when you are looking for a more permanent solution. Don't worry - dynamic DNS services such as FreeDNS can come to the rescue. These services essentially maintain a list that maps domain (or subdomain) names to IP addresses, and each user tells them to update the list whenever the IP address changes. To do this, run the following command at Raspberry Pi's startup:
 ```bash
 wget https://freedns.afraid.org/dynamic/update.php?[yourtokenhere]
 ```
@@ -156,7 +156,7 @@ Okay Google, Kodi play!
 
 ## Putting It All Together
 
-As you might have guessed, your voice can literally be as powerful as your computer is. The toolchain we've established so far makes it possible to tigger certain actions with certain words. The possibility is limitless, 
+As you might have guessed by now, your voice can literally be as powerful as your computer is. The toolchain we've established so far makes it possible to tigger almost any action of our choice with almost any words of our choice. The best part is, all the extra development work will only need to happen locally inside the ```pictrl``` script. That said, at the end of the day, what to do with such limitless possibility might be a matter of user experience.
 
 ## Appendix
 ### Install all the softwares needed

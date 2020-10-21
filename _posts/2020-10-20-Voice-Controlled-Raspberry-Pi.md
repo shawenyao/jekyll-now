@@ -35,7 +35,13 @@ Okay Google, pause Kodi and let's get started.
 ## Media Playback Controls - A Typical Use Case
 For those who are unfamiliar with the name, Kodi is an all-in-one media center. For starter, it integrates almost every video streaming service on earth into a unified interface, be it YouTube, Netflix or even Google Drive. In addition to its core functionalities as a media player, Kodi supports extensions that can do much more through the installation of add-ons. Did I mention that it has a lovely weather widget? 
 
-Kodi also shines in the input department. On top of the keyboard/mouse, web interface or TV remote option, the ```kodi-send``` command lets the user control the player via command line. For example, if we are interested in replicating pressing the play button, we only need to create the following script ```/usr/local/bin/pictrl```
+Kodi also shines in the input department. On top of the keyboard/mouse, web interface or TV remote option, the ```kodi-send``` command lets the user control the player via command line. For example, if we are interested in replicating the effect of pressing the play button, we only need to need to run:
+
+```bash
+kodi-send --action="PlayerControl(play)"
+```
+
+To wrap it in a shell, let's create the following script ```/usr/local/bin/pictrl```
 
 ```sh
 #!/bin/sh

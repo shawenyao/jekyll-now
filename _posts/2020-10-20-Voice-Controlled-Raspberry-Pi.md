@@ -25,7 +25,7 @@ Ever since Raspberry Pi came into my world, I have been exploring better ways to
 To my great surprise, there doesn't seem to be a satisfactory end-to-end tutorial anywhere that suits my need. However, that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi. Before we dive into the technical mumbo jumbo, here is a list of all the hardware/sofware that we will need:
 * [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)
 * [Webhook](https://github.com/adnanh/webhook)
-* [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding)
+* [Port forwarding](https://en.wikipedia.org/wiki/Port_forwarding)
 * [FreeDNS](https://freedns.afraid.org/dynamic/)
 * [IFTTT](https://ifttt.com/)
 * [Google Assistant](https://assistant.google.com/) (or any voice assistant that IFTTT supports for that matter)

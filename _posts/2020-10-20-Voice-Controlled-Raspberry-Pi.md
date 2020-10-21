@@ -6,7 +6,7 @@ tag:
   - voice assistant
   - smart home
 comments: true
-draft: true
+draft: false
 berry: true
 new: true
 ---

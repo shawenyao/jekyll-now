@@ -20,9 +20,9 @@ Okay Google, pause Kodi.
 > “Any sufficiently advanced technology is indistinguishable from magic.”
 > ― Arthur C. Clarke, Profiles of the Future: An Inquiry into the Limits of the Possible
 
-Ever since Raspberry Pi came into my world, I have been exploring better ways to interact with it. Take Kodi the media player for example - yes, keyboard and mouse are fine; yes, its native web interface is super powerful; and yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor abd open source nature that just make me wish for a hands-free experience. 
+Ever since Raspberry Pi came into my world, I have been exploring better ways to interact with it. Take Kodi the media player for example - yes, keyboard and mouse are fine; yes, its native web interface is super powerful; and yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor (as well as its open source nature perhaps) that just makes me wish for a hands-free experience. 
 
-To my surprise, there doesn't seem to be a satisfactory end-to-end tutorial anywhere that suits my need. However, that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi. Before we get started, here is a list of all the hardwares/sofwares that we will need:
+To my surprise, there doesn't seem to be a satisfactory end-to-end tutorial anywhere that suits my need. However, that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi. Before we get started, here is a list of all the hardware/sofware that we will need:
 * [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)
 * [Webhook](https://github.com/adnanh/webhook)
 * [Port Forwarding](https://en.wikipedia.org/wiki/Port_forwarding)
@@ -97,7 +97,7 @@ In case you don't have admin control over your modem (which is unfortunately tru
 
 ## Dynamic DNS - Your Raspberry Pi's Permanent Domain Name
 
-For most home internet users, chances are that thier public IP addresses aren't static. With each reboot of the modem, a new IP address will be assigned which makes it annoying when you are looking for a more permanent solution. Don't worry - dynamic DNS services such as FreeDNS can come to the rescue. These services essentially maintain a list that maps domain (or subdomain) names to IP addresses, and each user tells them to update the list whenever the IP address changes. To do this, run the following command at Raspberry Pi's startup:
+For most home internet users, chances are that tier public IP addresses aren't static. With each reboot of the modem, a new IP address will be assigned which makes it annoying when you are looking for a more permanent solution. Don't worry - dynamic DNS services such as FreeDNS can come to the rescue. These services essentially maintain a list that maps domain (or subdomain) names to IP addresses, and each user tells them to update the list whenever the IP address changes. To do this, run the following command at Raspberry Pi's startup:
 ```bash
 wget https://freedns.afraid.org/dynamic/update.php?[yourtokenhere]
 ```
@@ -147,7 +147,7 @@ Okay Google, Kodi play!
 As you might have noticed by now, your voice can literally be as powerful as your computer is. The toolchain we've established so far makes it possible to invoke almost any action of our choice with almost any words of our choice. The best part is, all the extra development work will only need to happen locally inside the ```pictrl``` script. That said, at the end of the day, what to do with such limitless possibility might be a matter of user experience so please let me know what your mileage turns out to be.
 
 ## Appendix
-### Install all the softwares needed
+### Install all the software needed
 ```bash
 sudo apt install kodi
 sudo apt install kodi-eventclients-kodi-send

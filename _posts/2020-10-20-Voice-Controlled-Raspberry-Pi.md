@@ -22,7 +22,7 @@ Okay Google, pause Kodi.
 
 Ever since Raspberry Pi came into my world, I have been exploring better ways to interact with it. Take Kodi the media player for example - yes, keyboard and mouse are fine; yes, the native web interface is super powerful; and yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor (and, of course, its open source nature) that just makes me wish for a hands-free experience. 
 
-Ideally, I would like my Google Home/Google Assistant to pick up my voice command, send it over to the Raspberry Pi and tell it to do something useful. To my great surprise, there doesn't seem to be a satisfactory end-to-end solution anywhere that suits my need. However, that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi. Before we dive into the technical mumbo jumbo, here is a quick rundown of all the hardware/sofware that we need:
+Ideally, I would like my Google Home Mini/Google Assistant to pick up my voice command, send it over to the Raspberry Pi and tell it to do something useful. To my great surprise, there doesn't seem to be a satisfactory end-to-end solution anywhere that suits my need. However, that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi. Before we dive into the technical mumbo jumbo, here is a quick rundown of all the hardware/sofware that we need:
 * [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)
 * [Webhook](https://github.com/adnanh/webhook)
 * [Port forwarding](https://en.wikipedia.org/wiki/Port_forwarding)

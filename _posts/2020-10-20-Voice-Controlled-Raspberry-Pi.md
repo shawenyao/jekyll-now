@@ -114,7 +114,7 @@ If all goes well, instead of changing ```http://publicipaddress``` each time the
 
 ## IFTTT - Connecting to A Voice Assistant
 
-IFTTT, short for "If This Then That", provides a convenient way to create a hub that connects a variety of services (including voice assistants) where they can interact with each another based on a set of user-defined rules (called applets). As of the time of writing, IFTTT allows each user to create up to 3 applets for its free tier. As the name implies, every applet follows the "If This Then That" structure:
+IFTTT, short for "If This Then That", provides a convenient way to create a hub that connects a variety of services (including voice assistants) where they can interact with each another based on a set of user-defined rules (called applets). At the time of writing, IFTTT allows each user to create up to 3 applets for its free tier. As the name implies, every applet follows the "If This Then That" structure:
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/1.jpg" />

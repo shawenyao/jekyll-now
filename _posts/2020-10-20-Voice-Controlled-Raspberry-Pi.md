@@ -128,7 +128,7 @@ That brings us to the trigger configuration. I use "kodi" as my keyword, followe
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/4.jpg" />
 </div>
 
-Next, on the "Then That" piece, what we want to choose is the webhook service that we've created in the previous step, with the exact action being configurable for future development:
+Next, on the "Then That" piece, what we want to choose is the webhook service that we've created in the previous step, with the exact action being configurable for future development's sake:
 
 <div align="center">
   <img width="50%" height="50%" src="https://shawenyao.github.io/Photos/IFTTT/6.jpg" />

@@ -41,7 +41,7 @@ Kodi also shines in the input department. On top of the keyboard/mouse, web inte
 kodi-send --action="PlayerControl(play)"
 ```
 
-To wrap it in a shell, let's create the following script ```/usr/local/bin/pictrl```
+To wrap it in a shell, let's create the following script ```/usr/local/bin/pictrl```:
 
 ```sh
 #!/bin/sh

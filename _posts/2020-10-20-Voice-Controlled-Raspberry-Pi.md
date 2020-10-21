@@ -22,7 +22,7 @@ Okay Google, pause Kodi.
 
 Ever since Raspberry Pi came into my world, I have been exploring better ways to interact with it. Take Kodi the media player for example - yes, keyboard and mouse are fine; yes, the native web interface is super powerful; and yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor (as well as its open source nature perhaps) that just makes me wish for a hands-free experience. 
 
-To my great surprise, there doesn't seem to be a satisfactory end-to-end tutorial anywhere that suits my need. However, that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi. Before we dive into the technical mumbo jumbo, here is a list of all the hardware/sofware that we will need:
+To my great surprise, there doesn't seem to be a satisfactory end-to-end tutorial anywhere that suits my need. However, that's about to change - please join me in my quest to build a voice-controlled Raspberry Pi. Before we dive into the technical mumbo jumbo, here is a quick rundown of all the hardware/sofware that we will need:
 * [Raspberry Pi](https://www.raspberrypi.org/) and [Kodi](https://kodi.tv/)
 * [Webhook](https://github.com/adnanh/webhook)
 * [Port forwarding](https://en.wikipedia.org/wiki/Port_forwarding)
@@ -148,7 +148,7 @@ Okay Google, Kodi play!
   <img src="https://shawenyao.github.io/Photos/IFTTT/logo2.png" />
 </div>
 
-As you might have noticed by now, your voice can literally be as powerful as your computer is. The toolchain we've established so far makes it possible to invoke almost any action of our choice with almost any words of our choice. The best part is, all the extra development work will only need to happen locally inside the ```pictrl``` script. That said, what to do with such limitless possibility might be a matter of user experience at the end of the day, so please let me know what your mileage turns out to be.
+As you might have noticed by now, your voice can literally be as powerful as your computer is. The toolchain we've explored so far makes it possible to invoke almost any action of our choice with almost any words of our choice. What's more, all the addtional development work will only need to happen locally inside the ```pictrl``` script. Last but not least, what to do with such limitless possibility might be a matter of user experience at the end of the day, so please let me know what your mileage turns out to be.
 
 ## Appendix
 ### Install all the software needed on the Raspberry Pi

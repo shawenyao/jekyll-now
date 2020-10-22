@@ -164,5 +164,6 @@ sudo apt install kodi-eventclients-kodi-send
 sudo apt install webhook
 ```
 
-Update Oct 22, 2020: Included discussion on other solutions when port forwarding is not an option. Thanks to Mike Foden (@mikefoden) for bringing up ngrok.
+<br>
 
+Update Oct 22, 2020: Included discussion on other solutions when port forwarding is not an option. Thanks to Mike Foden (@mikefoden) for bringing up ngrok.

@@ -59,7 +59,7 @@ and it's ready to roll. Since play and pause are basically the same command in d
 
 ## Webhook - Listening and Responding to a Web Request
 
-Next up we are going to trigger that ```pictrl``` script with an http request. For that, we are going to use webhook, a cool piece of technology that enables responding to http requests with custom callbacks. 
+Next up we are going to trigger that ```pictrl``` script with an http request. For that, we will use webhook, a cool piece of technology that enables responding to http requests with custom callbacks. 
 
 To enable webhook, first create the configuration file ```/etc/webhook.conf```:
 ```json

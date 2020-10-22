@@ -130,8 +130,8 @@ Table 2: Selling on the Optimal Island
 
 <br>
 
-Update May 4th, 2020: Previously-inaccurate statement regarding randomness of turnip price has been corrected. Thanks to Chau-Wai Wong.
+Update May 4, 2020: Previously-inaccurate statement regarding randomness of turnip price has been corrected. Thanks to Chau-Wai Wong.
 
-Update May 6th, 2020: Included discussion on the cases where people use price discovery app to pinpoint the best price available and what if somebody has infinite number of friends. Thanks to Freya Yi.
+Update May 6, 2020: Included discussion on the cases where people use price discovery app to pinpoint the best price available and what if somebody has infinite number of friends. Thanks to Freya Yi.
 
 _This is Part II of my Animal Crossing post series. For Part I, see [here](/Where-is-My-Island/); for Part III, see [here](/Fossil-Completionists-Guidebook/)_.

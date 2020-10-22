@@ -97,7 +97,7 @@ Note that for such a service that is intended to be accessible over the internet
 
 A local IP address, obviously, isn't visible outside the local network. To fix the problem, it's generally required to log on to your modem/router as admin and configure what's known as port forwarding. From then on, instead of using ```http://localipaddress:port``` locally, we can call ```http://publicipaddress:port``` over the internet and the request will be directed to the same place.
 
-In case you don't have admin control over your modem (which is unfortunately true in my case), [Webhook Relay](https://webhookrelay.com/) can be helpful although its free tier only supports up to 150 "relays" per month.
+In case you don't have admin control over your modem (which is unfortunately true in my case), [Webhook Relay](https://webhookrelay.com/) can be helpful although its free tier only supports up to 150 "relays" per month. Another service called [ngrok](https://ngrok.com/) can achieve similar . Other solutions include a dedicated VPN/VPS that supports port forwarding (but they usually cost money,too).
 
 **Milestone**: now you can use the link ```http://publicipaddress:port/hooks/pictrl?action=play``` on any device that's connected to the internet to control your video player.
 
@@ -163,3 +163,6 @@ sudo apt install kodi
 sudo apt install kodi-eventclients-kodi-send
 sudo apt install webhook
 ```
+
+Update Oct 22, 2020: Included discussion of other solutions when port forwarding is not an option. Thanks to Mike Foden (@mikefoden) for bringing up ngrok.
+

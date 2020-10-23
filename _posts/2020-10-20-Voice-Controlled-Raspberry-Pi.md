@@ -95,7 +95,7 @@ Note that for such a service that is intended to be accessible over the internet
 
 ## Port Forwarding - Exposing Local Service to the Public
 
-A local IP address, obviously, isn't visible outside the local network. To fix the problem, it's generally required to log on to your modem/router as admin and configure what's known as port forwarding. From then on, instead of using ```http://localipaddress:port``` locally, we can call ```http://publicipaddress:port``` over the internet and the request will be directed to the same place.
+A local IP address, by definition, isn't visible outside the local network. To fix the problem, it's generally required to log on to your modem/router as admin and configure what's known as port forwarding. From then on, instead of using ```http://localipaddress:port``` locally, we can call ```http://publicipaddress:port``` over the internet and the request will be directed to the same place.
 
 In case you don't have admin control over your modem (which is unfortunately true in my case), [Webhook Relay](https://webhookrelay.com/) can be helpful although its free tier only supports up to 150 "relays" per month. Another service called [ngrok](https://ngrok.com/) can be equally effective, with the catch being no permanent subdomain support for the free tier users. Other solutions include a dedicated VPN/VPS that allows for port forwarding. You see, they all cost money if you want the optimal experience.
 

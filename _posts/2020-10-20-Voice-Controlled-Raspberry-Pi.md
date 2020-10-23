@@ -55,7 +55,7 @@ fi
 
 and it's ready to roll. Since play and pause are basically the same command in different contexts, we also get the pause function for free.
 
-**Milestone**: now you can use ```pictrl play``` in the command line interface (or over SSH) to play/pasue the video on your Raspberry Pi.
+**Milestone**: now you can use ```pictrl play``` in the command line interface (or over SSH) to play (or pasue) the video on your Raspberry Pi.
 
 ## Webhook - Listening and Responding to a Web Request
 

@@ -154,7 +154,7 @@ Okay Google, Kodi play!
   <img src="https://shawenyao.github.io/Photos/IFTTT/logo2.png" />
 </div>
 
-As you might have noticed by now, your voice can be literally as powerful as your computer is. The toolchain we've explored so far makes it possible to invoke almost any action of our choice with almost any words of our choice. What's more, any additional development will only need to happen locally inside the ```pictrl``` script, so it's easily scalable if we want our Raspberry Pi to learn a new trick. Last but not least, what to do with such limitless possibility might be a matter of user experience at the end of the day, so please let me know what your mileage turns out to be.
+As you might have noticed by now, your voice can be literally as powerful as your computer is. The toolchain we've explored so far makes it possible to invoke almost any action of our choice with almost any words of our choice. What's more, any additional development will only need to happen locally inside the ```pictrl``` dispatcher, so it's easily scalable if we want our Raspberry Pi to learn a new trick. Last but not least, what to do with such limitless possibility might be a matter of user experience at the end of the day, so please let me know what your mileage turns out to be.
 
 ## Appendix
 ### Install all the software packages mentioned above

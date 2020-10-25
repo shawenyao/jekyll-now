@@ -10,7 +10,8 @@ brick: true
 new: true
 ---
 
-##
+With slot for charging cable.
+
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Lego Phone Stand/final.JPG" />
 </div>
@@ -35,3 +36,5 @@ new: true
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Lego Phone Stand/5_2x.png" />
 </div>
+
+To download a pdf copy, click [here](https://shawenyao.github.io/Photos/Lego%20Phone%20Stand/phone%20stand.pdf).

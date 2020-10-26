@@ -10,7 +10,7 @@ brick: true
 new: true
 ---
 
-With slot for charging cable.
+With charging cable slot.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Lego Phone Stand/final.JPG" />

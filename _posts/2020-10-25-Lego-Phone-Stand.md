@@ -37,4 +37,4 @@ With charging cable slot.
   <img src="https://shawenyao.github.io/Photos/Lego Phone Stand/5_2x.png" />
 </div>
 
-Instructions created with [Bricklink Studio](https://www.bricklink.com/v3/studio/download.page). To download a pdf copy, click [here](https://shawenyao.github.io/Photos/Lego%20Phone%20Stand/phone%20stand.pdf).
+Instructions created with [Bricklink Studio](https://www.bricklink.com/v3/studio/download.page). To download a PDF copy, click [here](https://shawenyao.github.io/Photos/Lego%20Phone%20Stand/phone%20stand.pdf).

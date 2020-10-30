@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
   
     {% comment %} skip posts 1) marked as draft or 2) has no tag or 3) doesn't have the specific tag {% endcomment %}
-    {% if (post.draft or post.tags.size == 0 %}
+    {% if (post.draft or post.tags.size == 0) %}
         {% continue %}
     {% endif %}
   

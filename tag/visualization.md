@@ -1,5 +1,5 @@
 ---
 layout: index_by_tag
 tag: visualization
-permalink: /blog/tag/visualization/
+permalink: /tag/visualization/
 ---

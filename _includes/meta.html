@@ -11,12 +11,10 @@
     <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
 
-{{ page.tag }}
-
     {% if page.tag %}
-    <meta name="author" content="{{ site.name }}" />
-    {% else %}
     <meta name="author" content="{{ site.name }} @ {{ page.tag.upcase }}" />
+    {% else %}
+    <meta name="author" content="{{ site.name }}" />
     {% endif %}
 
     {% if page.title %}

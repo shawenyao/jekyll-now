@@ -4,6 +4,7 @@ title: Map of Coronavirus
 tag:
   - visualization
   - map
+  - r
 ads: false
 comments: true
 map: true

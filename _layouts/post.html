@@ -9,7 +9,7 @@ layout: default
   <div>
     <ul class="tag_list_in_post">
       {% for tag in page.tags %}
-      <a class="tag_list_link">{{ tag }}</a>
+      <a class="tag_list_link" href="{{ site.baseurl }}/tag/{{ tag }}/">{{ tag }}</a>
       {% endfor %}
     </ul>
   </div>

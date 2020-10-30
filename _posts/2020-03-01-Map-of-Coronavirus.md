@@ -3,7 +3,7 @@ layout: post
 title: Map of Coronavirus
 tag:
   - visualization
-  - leaflet
+  - map
 ads: false
 comments: true
 map: true

@@ -4,9 +4,10 @@ layout: default
 
 <div class="posts">
 
+  {% comment %} filter for a specific tag {% endcomment %}
   {% for post in site.tags["r"] %}
   
-    {% comment %} skip posts 1) marked as draft or 2) has no tag or 3) doesn't have the specific tag {% endcomment %}
+    {% comment %} skip posts that are marked as draft {% endcomment %}
     {% if post.draft %}
         {% continue %}
     {% endif %}

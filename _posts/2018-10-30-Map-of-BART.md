@@ -3,6 +3,7 @@ layout: post
 title: Map of BART
 tag:
   - visualization
+  - map
   - r
 comments: true
 map: true

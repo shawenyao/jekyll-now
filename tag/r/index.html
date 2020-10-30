@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
   {{ site.tags }}
-  {% for post in in site.tags["r"] %}
+  {% for post in in site.tags["R"] %}
   
     {% comment %} skip posts 1) marked as draft or 2) has no tag or 3) doesn't have the specific tag {% endcomment %}
     {% if post.draft %}

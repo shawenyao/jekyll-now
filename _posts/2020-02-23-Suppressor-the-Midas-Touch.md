@@ -3,7 +3,7 @@ layout: post
 title: Suppressor&#58 The Midas Touch
 tag:
   - maths
-  - R
+  - r
 draft: false
 comments: true
 maths: true

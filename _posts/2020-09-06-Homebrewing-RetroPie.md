@@ -3,7 +3,6 @@ layout: post
 title: Homebrewing RetroPie
 tag:
   - bash
-  - retropie
   - raspberry pi
 comments: true
 keyboard: true

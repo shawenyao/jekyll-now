@@ -1,5 +1,5 @@
 ---
 layout: rss_by_tag
-tag: r
+tag: finance
 permalink: /rss/r.xml
 ---

@@ -1,5 +1,5 @@
 ---
-layout: rss_by_tag
+layout: feed_by_tag
 tag: r
-permalink: /rss/r.xml
+permalink: /feed/r.xml
 ---

@@ -6,7 +6,7 @@ layout: null
 <link href="{{ site.url }}/rss/{{ page.tag }}.xml" rel="self" type="application/atom+xml"/>
 <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
 <updated>{{ site.time }}</updated>
-<id>h{{ site.url }}/rss/{{ page.tag }}.xml</id>
+<id>{{ site.url }}/rss/{{ page.tag }}.xml</id>
 <title type="html">{{ site.name }}}</title>
 <subtitle>{{ site.description }}</subtitle>
 {% comment %} filter for a specific tag {% endcomment %}
@@ -17,7 +17,7 @@ layout: null
     {% endif %}
 <entry>
 <title type="html">{{ post.title }}</title>
-<link href="https://www.shawenyao.com/Lego-Phone-Stand/" rel="alternate" type="text/html" title="{{ post.title }}"/>
+<link href="{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title }}"/>
 <published>{{ post.date }}</published>
 <updated>{{ post.date }}</updated>
 <id>{{ post.url }}</id>

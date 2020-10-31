@@ -16,7 +16,7 @@ layout: null
       {% continue %}
     {% endif %}
 <entry>
-<title type="html">{{ post.title.to_s.gsub "&", /&amp;/ }}</title>
+<title type="html">{{ post.title.to_s.gsub /&/, "&amp;" }}</title>
 <link href="{{ site.url }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title }}"/>
 <published>{{ post.date }}</published>
 <updated>{{ post.date }}</updated>

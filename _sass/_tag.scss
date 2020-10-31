@@ -13,6 +13,21 @@ a.tag_list_link:hover{
   color:#444;
 }
 
+a.tag_list_link_highlight{
+  border-left:2px solid #ccc;
+  color:#597aff;
+  font-size:18px;
+  font-variant:small-caps;
+  margin:0;
+  padding:0 9px;
+  text-transform:lowercase;
+  cursor:pointer;
+}
+
+a.tag_list_link_highlight:hover{
+  color:##0032fa;
+}
+
 ul.tag_list_in_post{
   display:inline;
   margin-left:15px;

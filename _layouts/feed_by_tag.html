@@ -3,10 +3,10 @@ layout: null
 ---
 <feed xmlns="http://www.w3.org/2005/Atom">
 <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-<link href="{{ site.url }}/rss/{{ page.tag }}.xml" rel="self" type="application/atom+xml"/>
+<link href="{{ site.url }}/feed/{{ page.tag }}.xml" rel="self" type="application/atom+xml"/>
 <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
 <updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>{{ site.url }}/rss/{{ page.tag }}.xml</id>
+<id>{{ site.url }}/feed/{{ page.tag }}.xml</id>
 <title type="html">{{ site.name }}</title>
 <subtitle>{{ site.description }}</subtitle>
 {% comment %} filter for a specific tag {% endcomment %}

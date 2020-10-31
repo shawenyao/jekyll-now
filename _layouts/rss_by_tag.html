@@ -17,11 +17,11 @@ layout: null
     {% endif %}
 <entry>
 <title type="html">{{ post.title }}</title>
-<link href="{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title }}"/>
+<link href="{{ site.url }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title }}"/>
 <published>{{ post.date }}</published>
 <updated>{{ post.date }}</updated>
-<id>{{ post.url }}</id>
-<content type="html" xml:base="{{ post.url }}">{{ page.content }}</content>
+<id>{{ site.url }}{{ post.url }}</id>
+<content type="html" xml:base="{{ site.url }}{{ post.url }}">{{ page.content }}</content>
 <author>
 <name/>
 </author>

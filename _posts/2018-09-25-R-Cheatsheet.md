@@ -3,8 +3,8 @@ layout: post
 title: R Cheatsheet
 tag:
   - r
-comments: false
-ads: false
+comments: true
+ads: true
 keyboard: true
 ---
 

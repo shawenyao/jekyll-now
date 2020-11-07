@@ -4,7 +4,6 @@ title: Visualization of Stochastic Processes
 tag:
   - visualization
   - maths
-  - r
 comments: true
 dog: true
 thumbsup: true

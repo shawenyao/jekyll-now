@@ -35,7 +35,11 @@ Twinkle twinkle little star
 ## Galactic Center
 
 <div align="center">
-  <img src="https://shawenyao.github.io/R/output/milky_way/plot_4_galactic_center.jpg" />
+  <img src="https://shawenyao.github.io/R/output/milky_way/plot_4_galactic_center_unit.jpg" />
+</div>
+
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/milky_way/plot_5_galactic_center.jpg" />
 </div>
 
 ## Putting It All Together

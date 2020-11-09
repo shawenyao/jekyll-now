@@ -53,7 +53,7 @@ spiral_arm <- tibble(
   )
 ```
 
-Now, what if we want more than one spiral arm? Simply repeat the above and add a constant to theta for rotation purposes:
+Now, what if we want more than one spiral arm? One idea would be to repeat the process above and add a constant to theta for rotation purposes:
 
 ```r
 spiral_arms <- lapply(
@@ -80,7 +80,7 @@ That gives us the skeleton upon which the galaxy is going to be built:
 
 ## Fleshing out the Skeleton
 
-Stars rarely align exactly on a line. Instead, they exhibit some degree of duality between individual randomness and collective predictability. We can jitter the points vertically and horizontally to achieve similar effects. If there isn't enough observation, reuse the same data frame!
+Stars rarely align exactly on a line. Instead, they exhibit some degree of duality between individual randomness and collective predictability. We can jitter the points vertically and horizontally to achieve similar effects. If there aren't enough points, reuse the same data frame!
 
 ```r
 stars <- sprial_arms %>% 
@@ -91,21 +91,23 @@ stars <- sprial_arms %>%
   )
 ```
 
-The standard deviation of the added noise controls the dispersion of how far a start tends to diverge from its spiral. In R, shape number 8 gives us the star-shaped we want.
+The standard deviation of the noise controls the dispersion of how far a star tends to diverge from its spiral arm. In R's graphical device, shape number 8 gives us the star-shaped point we want.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />
 </div>
 
+There seems to be a problem - why don't the stars shine?
+
 ## Twinkle Twinkle Little Star
 
-Black isn't a great choice of color for stars.
+Obviously, black isn't the greatest choice of color for stars.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
 </div>
 
-randomly samping the color space with replacement
+randomly sampling from the color space with replacement
 
 ```r
 stars <- stars %>%
@@ -114,23 +116,27 @@ stars <- stars %>%
   )
 ```
 
-In fact, we can do the same for the size and the transparaency of the stars, as well as adding multiple layers of halo effect to make our galaxy more vibrant.
+In fact, we can do the same for the size and the transparaency of the stars, i.e., either sample values from a predefined set (e.g., random sizes) or let it correlate with some feature (e.g., transparency proportional to the radius). Adding multiple layers of halo effect also helps with introducing the illusion of a vibrant galayx.
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
-  geom_point(data = stars, size = star_halo_size1, shape = 8) +
-  geom_point(data = stars, size = star_halo_size2, shape = 8) +
+  geom_point(data = stars, size = star_halo_size1, color = "white", shape = 8) +
+  geom_point(data = stars, size = star_halo_size2, color = "white", shape = 8) +
   geom_point(data = stars, size = stars$size, alpha = stars$alpha, color = stars$color, shape = 8) +
   theme(panel.background = element_rect(fill = background_color))
 ```
 
-This
+When all is being thrown onto a dark canvas, .
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />
 </div>
 
+Look how far we've come since the skeleton, but something is still missing.
+
 ## Galactic Center
+
+At the heart of the Milky Way lies the brightest region of our galaxy - the galactic center. From a purely visual standpoint, it looks like an tilted oval spanning from lower left to upper right.
 
 $$
 \begin{cases}
@@ -138,6 +144,8 @@ x = a \\
 y = \rho a + \sqrt{1 - \rho ^ 2} b \\
 \end{cases}
 $$
+
+where $a$ and $b$ are independent normally distributed random variables.
 
 ```r
 gc <- tibble(
@@ -169,10 +177,10 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
 
 ## Putting It All Together
 
-From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. Most of the credit goes to our friend randomness who creats a sense of guided unpredictability, and our choices of color palette, transparency, shape and size all come together in harmony after various trials and errors.
+From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to creat a sense of guided unpredictability, and our choices of color palette, transparency, shape and size all come together in harmony after various trials and errors.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />
 </div>
 
-I highly recommend viewing the image in its [native](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg) resolution. You can also find [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html), [source](https://github.com/shawenyao/R/blob/master/main/milky_way/milky_way_plot_large.R), [Part II](/Milky-Way-Meets-Harmonograph/), or [merchandise](https://displate.com/displate/712287?art=5be7f871363ea).
+I highly recommend viewing the image in its [native](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg) resolution. You can also find [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html), [source](https://github.com/shawenyao/R/blob/master/main/milky_way/milky_way_plot_large.R), [part two](/Milky-Way-Meets-Harmonograph/), or [merchandise](https://displate.com/displate/712287?art=5be7f871363ea).

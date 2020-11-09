@@ -31,7 +31,7 @@ $$
 r = \theta ^ k
 $$
 
-Equivalently, the Cartesian coordinates are given by:
+Equivalently, the Cartesian coordinates would be:
 
 $$
 \begin{cases}
@@ -39,6 +39,8 @@ x = \theta ^ k \cos{\theta} \\
 y = \theta ^ k \sin{\theta} \\
 \end{cases}
 $$
+
+In the language of tidyverse, once we have the desired range of $\theta$, the full set of points can be created by:
 
 ```r
 spiral_arm <- tibble(
@@ -51,7 +53,7 @@ spiral_arm <- tibble(
   )
 ```
 
-What if we want more than one spiral arm? Simply repeat the above and each time, add a constant to theta for rotation purposes:
+Now, what if we want more than one spiral arm? Simply repeat the above and add a constant to theta for rotation purposes:
 
 ```r
 spiral_arms <- lapply(
@@ -78,7 +80,7 @@ That gives us the skeleton upon which the galaxy is going to be built:
 
 ## Fleshing out the Skeleton
 
-jitter
+Stars rarely align exactly on a line. Instead, they exhibit some degree of duality between individual randomness and collective predictability. We can jitter the points vertically and horizontally to achieve similar effects. If there isn't enough observation, reuse the same data frame!
 
 ```r
 stars <- sprial_arms %>% 
@@ -89,7 +91,7 @@ stars <- sprial_arms %>%
   )
 ```
 
-dispersed. Shape number 8.
+The standard deviation of the added noise controls the dispersion of how far a start tends to diverge from its spiral. In R, shape number 8 gives us the star-shaped we want.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />
@@ -118,7 +120,8 @@ In fact, we can do the same for the size and the transparaency of the stars, as 
 ggplot(sprial_arms, aes(x = x, y = y)) +
   geom_point(data = stars, size = star_halo_size1, shape = 8) +
   geom_point(data = stars, size = star_halo_size2, shape = 8) +
-  geom_point(data = stars, size = stars$size, alpha = stars$alpha, color = stars$color, shape = 8)
+  geom_point(data = stars, size = stars$size, alpha = stars$alpha, color = stars$color, shape = 8) +
+  theme(panel.background = element_rect(fill = background_color))
 ```
 
 This
@@ -156,7 +159,8 @@ Again, let's pick the color palette best matching that of a burning core.
 ggplot(sprial_arms, aes(x = x, y = y)) +
   geom_point(data = gc, size = gc_halo_size1, alpha = gc_halo_alpha1, color = "gold", shape = 8) +
   geom_point(data = gc, size = gc_halo_size2, alpha = gc_halo_alpha2, color = "gold", shape = 8) +
-  geom_point(data = gc, size = gc$size, alpha = gc$alpha, color = gc$color, shape = 8)
+  geom_point(data = gc, size = gc$size, alpha = gc$alpha, color = gc$color, shape = 8) +
+  theme(panel.background = element_rect(fill = background_color))
 ```
 
 <div align="center">
@@ -165,7 +169,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
 
 ## Putting It All Together
 
-From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. Randomness is truly our friend in creating a sense of guided unpredictability, and our choices of color palette, transparency, shape and size all come together in harmony (after various trials and errors).
+From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. Most of the credit goes to our friend randomness who creats a sense of guided unpredictability, and our choices of color palette, transparency, shape and size all come together in harmony after various trials and errors.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />

@@ -16,7 +16,7 @@ Twinkle twinkle little star.
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_0_demo.jpg" />
 </div>
 
-A few years ago, I posted.
+A few years ago, I [posted](/Milky-Way/) about creating a procedurally generated Milky Way.
 
 ## Spiral Arms
 
@@ -68,3 +68,6 @@ burning core.
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />
 </div>
+
+View [original](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg), [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html) or [buy](https://displate.com/displate/712287?art=5be7f871363ea), or read [Part II](/Milky-Way-Meets-Harmonograph/).
+

@@ -51,7 +51,7 @@ tibble(
   )
 ```
 
-What if we want more than 1 spiral arm? Simply repeat the above N times and each time, add a constant to theta in order to rotate the polar coordinates:
+What if we want more than 1 spiral arm? Simply repeat the above N times and each time, add a constant to theta for rotation purposes:
 
 ```r
 lapply(

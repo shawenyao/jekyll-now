@@ -25,11 +25,13 @@ I
 
 ## Spiral Arms
 
-[Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral) makes a really nice basis for the skeletons of the spiral arms . In polar coordinates,
+[Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral) makes a really nice basis for the skeletons of the spiral arms . In polar coordinates, the curve is given by:
 
 $$
 r = \theta ^ k
 $$
+
+Equivalently, the Cartesian coordinates are given by:
 
 $$
 \begin{cases}

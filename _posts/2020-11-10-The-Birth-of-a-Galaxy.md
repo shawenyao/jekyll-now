@@ -31,6 +31,13 @@ $$
 r = \theta ^ k
 $$
 
+$$
+\begin{cases}
+x = \theta ^ k \cos{\theta} \\ 
+y = \theta ^ k \sin{\theta} \\
+\end{cases}
+$$
+
 ```r
 tibble(
   theta = seq(from = theta_from, to = theta_to, length.out = theta_length)

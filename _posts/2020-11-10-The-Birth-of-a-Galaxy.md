@@ -17,13 +17,15 @@ Twinkle twinkle little star.
 </div>
 _Image by [NASA/JPL-Caltech/R. Hurt](https://solarsystem.nasa.gov/resources/285/the-milky-way-galaxy/)_
 
-A few years ago, I [posted](/Milky-Way/) about creating a procedurally generated Milky Way. Note that the goal here aesthetic appeal rather than scientific accuracy.
+A few years ago, I [posted](/Milky-Way/) an image of procedurally generated Milky Way without explaining how. Note that the goal here aesthetic appeal rather than scientific accuracy.
 
 ## Problem Formulation
 
+I
+
 ## Spiral Arms
 
-[Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral) makes really basis for the skeletons of the spiral arms . In polar coordinates,
+[Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral) makes a really nice basis for the skeletons of the spiral arms . In polar coordinates,
 
 $$
 r = \theta ^ k
@@ -65,6 +67,8 @@ Again, let's pick the color palette that best matches that of a burning core.
 </div>
 
 ## Putting It All Together
+
+From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />

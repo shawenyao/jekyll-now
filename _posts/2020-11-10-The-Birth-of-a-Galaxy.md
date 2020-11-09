@@ -10,7 +10,7 @@ keyboard: true
 new: true
 ---
 
-Twinkle twinkle little star.
+Universe by tidyverse.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_0_demo.jpg" />
@@ -70,7 +70,7 @@ spiral_arms <- lapply(
   bind_rows()
 ```
 
-That gives us the skeleton upon which the galaxy will be built:
+That gives us the skeleton upon which the galaxy is going to be built:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_1_spiral_arms_skeleton.jpg" />
@@ -87,7 +87,7 @@ stars <- sprial_arms %>%
   )
 ```
 
-
+dispersed
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
@@ -104,6 +104,8 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
 </div>
+
+Multiple layers of halo effect.
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
@@ -124,6 +126,16 @@ x = a \\
 y = \rho a + \sqrt{1 - \rho ^ 2} b \\
 \end{cases}
 $$
+
+```r
+tibble(
+    x = rnorm(gc_intensity, sd = gc_sd_x)
+) %>% 
+  mutate(
+    y = gc_rho * x + sqrt(1 - gc_rho ^ 2) * rnorm(n(), sd = gc_sd_y),
+    color = gc_color %>% sample(size = n(), replace = TRUE)
+  )
+```
 
 Again, let's pick the color palette best matching that of a burning core.
 

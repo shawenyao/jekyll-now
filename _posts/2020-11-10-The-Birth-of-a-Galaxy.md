@@ -132,7 +132,7 @@ Lo and behold. When all is being thrown onto a dark canvas, we've got ourselves 
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />
 </div>
 
-Before we move on, let's take a momment to appreciate how far we've come since drawing the skeleton. However, something is still missing.
+Before we move on, let's take a momment to appreciate how far we've come since drawing the skeleton. However, something is missing.
 
 ## Galactic Center
 

@@ -101,7 +101,7 @@ There seems to be a problem - why don't the stars shine?
 
 ## Twinkle Twinkle Little Star
 
-Obviously, black isn't the greatest choice of color for stars.
+Obviously, black isn't the greatest choice of color when it comes to stars.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
@@ -116,7 +116,7 @@ stars <- stars %>%
   )
 ```
 
-In fact, we can do the same for the size and the transparaency of the stars, i.e., either sample values from a predefined set (e.g., random sizes) or let it correlate with some feature (e.g., transparency proportional to the radius). Adding multiple layers of halo effect also helps with introducing the illusion of a vibrant galayx.
+In fact, we can do the same for the size and the transparency of the stars, i.e., either sample values from a predefined set (e.g., random sizes) or let it correlate with some feature (e.g., transparency proportional to the radius). Adding multiple layers of halo effect also helps with introducing the illusion of a vibrant galaxy.
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
@@ -126,7 +126,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
   theme(panel.background = element_rect(fill = background_color))
 ```
 
-When all is being thrown onto a dark canvas, .
+When all is being thrown onto a dark canvas, we've got ourselves a galaxy.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />
@@ -136,7 +136,9 @@ Look how far we've come since the skeleton, but something is still missing.
 
 ## Galactic Center
 
-At the heart of the Milky Way lies the brightest region of our galaxy - the galactic center. From a purely visual standpoint, it looks like an tilted oval spanning from lower left to upper right.
+At the heart of the Milky Way lies the brightest region of our galaxy - the galactic center. From a purely visual standpoint, it looks like a tilted oval spanning from lower left to upper right.
+
+This isn't hard to find in geometry. Recall multivariate normal distribution?
 
 $$
 \begin{cases}
@@ -163,6 +165,8 @@ Again, let's pick the color palette best matching that of a burning core.
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_4_galactic_center_unit.jpg" />
 </div>
 
+And as usual, we pull the usual trick of color, size, transparency as well as halo effects.
+
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
   geom_point(data = gc, size = gc_halo_size1, alpha = gc_halo_alpha1, color = "gold", shape = 8) +
@@ -171,13 +175,15 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
   theme(panel.background = element_rect(fill = background_color))
 ```
 
+
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_5_galactic_center.jpg" />
 </div>
 
 ## Putting It All Together
 
-From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to creat a sense of guided unpredictability, and our choices of color palette, transparency, shape and size all come together in harmony after various trials and errors.
+From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, and our choices of color palette, transparency, shape and size all come together in harmony after various trials and errors.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />

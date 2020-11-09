@@ -23,7 +23,7 @@ A few years ago, I [posted](/Milky-Way/) about creating a procedurally generated
 
 ## Spiral Arms
 
-Coincedentally, [Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral) makes really basis for the skeletons of the spiral arms . In polar coordinates,
+[Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral) makes really basis for the skeletons of the spiral arms . In polar coordinates,
 
 $$
 r = \theta ^ k
@@ -70,4 +70,4 @@ Again, let's pick the color palette that best matches that of a burning core.
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />
 </div>
 
-View [original](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg), [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html), [source](https://github.com/shawenyao/R/blob/master/main/milky_way/milky_way_plot_large.R), read [Part II](/Milky-Way-Meets-Harmonograph/), or [buy](https://displate.com/displate/712287?art=5be7f871363ea).
+I highly recommend viewing the image in its [native](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg) resolution. You can also find [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html), [source](https://github.com/shawenyao/R/blob/master/main/milky_way/milky_way_plot_large.R), [Part II](/Milky-Way-Meets-Harmonograph/), or [merchandise](https://displate.com/displate/712287?art=5be7f871363ea).

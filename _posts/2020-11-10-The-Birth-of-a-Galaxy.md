@@ -15,14 +15,15 @@ Twinkle twinkle little star.
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_0_demo.jpg" />
 </div>
+_Image by [NASA/JPL-Caltech/R. Hurt (SSC/Caltech)](https://solarsystem.nasa.gov/resources/285/the-milky-way-galaxy/) _
 
 A few years ago, I [posted](/Milky-Way/) about creating a procedurally generated Milky Way.
 
+## Problem Formulation
+
 ## Spiral Arms
 
-Skeleton.
-
-[Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral), . In polar coordinates,
+Coincedentally, [Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral) makes really basis for the skeletons of the spiral arms . In polar coordinates,
 
 $$
 r = \theta ^ k
@@ -38,8 +39,6 @@ $$
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
 </div>
 
-Twinkle twinkle little star
-
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />
 </div>
@@ -53,11 +52,13 @@ y = \rho a + \sqrt{1 - \rho ^ 2} b \\
 \end{cases}
 $$
 
+Again, let's pick the color palette that best matches that of a burning core.
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_4_galactic_center_unit.jpg" />
 </div>
 
-burning core.
+
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_5_galactic_center.jpg" />
@@ -69,5 +70,4 @@ burning core.
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />
 </div>
 
-View [original](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg), [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html) or [buy](https://displate.com/displate/712287?art=5be7f871363ea), or read [Part II](/Milky-Way-Meets-Harmonograph/).
-
+View [original](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg), [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html), [source](https://github.com/shawenyao/R/blob/master/main/milky_way/milky_way_plot_large.R), read [Part II](/Milky-Way-Meets-Harmonograph/), or [buy](https://displate.com/displate/712287?art=5be7f871363ea).

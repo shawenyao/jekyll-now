@@ -78,6 +78,15 @@ That gives us the skeleton upon which the galaxy will be built:
 
 ## Fleshing out the Skeleton
 
+```r
+stars <- sprial_arms %>% 
+  slice(rep(row_number(), star_intensity)) %>% 
+  mutate(
+    x = x + rnorm(n(), sd = width),
+    y = y + rnorm(n(), sd = width)
+  )
+```
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />
 </div>
@@ -106,8 +115,6 @@ Again, let's pick the color palette best matching that of a burning core.
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_4_galactic_center_unit.jpg" />
 </div>
-
-
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_5_galactic_center.jpg" />

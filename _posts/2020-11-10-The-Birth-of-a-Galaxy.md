@@ -41,7 +41,7 @@ y = \theta ^ k \sin{\theta} \\
 $$
 
 ```r
-tibble(
+spiral_arm <- tibble(
   theta = seq(from = theta_from, to = theta_to, length.out = theta_length)
 ) %>% 
   mutate(
@@ -54,7 +54,7 @@ tibble(
 What if we want more than 1 spiral arm? Simply repeat the above N times and each time, add a constant to theta for rotation purposes:
 
 ```r
-lapply(
+spiral_arms <- lapply(
   list(id = seq_len(num_of_arms)),
   function(id, theta_from, theta_to, arm_width){
     tibble(
@@ -74,6 +74,12 @@ That gives us the skeleton upon which the galaxy will be built:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_1_spiral_arms_skeleton.jpg" />
+</div>
+
+## Fleshing out the Skeleton
+
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />
 </div>
 
 ## Let It Shine

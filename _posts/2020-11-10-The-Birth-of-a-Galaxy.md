@@ -15,9 +15,9 @@ Twinkle twinkle little star.
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_0_demo.jpg" />
 </div>
-_Image by NASA/JPL-Caltech/R. Hurt_
+_Image by [NASA/JPL-Caltech/R. Hurt](https://solarsystem.nasa.gov/resources/285/the-milky-way-galaxy/)_
 
-A few years ago, I [posted](/Milky-Way/) about creating a procedurally generated Milky Way.
+A few years ago, I [posted](/Milky-Way/) about creating a procedurally generated Milky Way. Note that the goal here aesthetic appeal rather than scientific accuracy.
 
 ## Problem Formulation
 

@@ -12,6 +12,9 @@ new: true
 
 Twinkle twinkle little star.
 
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/milky_way/plot_0_demo.jpg" />
+</div>
 
 A few years ago, I posted.
 
@@ -53,6 +56,8 @@ $$
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_4_galactic_center_unit.jpg" />
 </div>
+
+burning core.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_5_galactic_center.jpg" />

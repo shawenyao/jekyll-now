@@ -97,17 +97,17 @@ The standard deviation of the noise controls the dispersion of how far a star te
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />
 </div>
 
-There seems to be a problem - why don't the stars shine?
+There seems to be one problem - why don't the stars shine?
 
 ## Twinkle Twinkle Little Star
 
-Obviously, black isn't the greatest choice of color when it comes to stars.
+Obviously, black isn't the greatest choice of color when it comes to stars. It's a subjective call but personally I prefer these:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
 </div>
 
-randomly sampling from the color space with replacement
+Next, colors can be attached to the stars by randomly sampling from the color space with replacement.
 
 ```r
 stars <- stars %>%
@@ -116,7 +116,7 @@ stars <- stars %>%
   )
 ```
 
-In fact, we can do the same for the size and the transparency of the stars, i.e., either sample values from a predefined set (e.g., random sizes) or let it correlate with some feature (e.g., transparency proportional to the radius). Adding multiple layers of halo effect also helps with introducing the illusion of a vibrant galaxy.
+In fact, we can do the randomize other attributes of the stars as well, i.e., either by sampling values from a predefined set (e.g., random sizes of the stars) or letting it correlate with some feature (e.g., transparency should be proportional to the radius from the center). Adding multiple layers of halo effect also helps with introducing the illusion of a vibrant galaxy.
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
@@ -132,11 +132,11 @@ When all is being thrown onto a dark canvas, we've got ourselves a galaxy.
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />
 </div>
 
-Look how far we've come since the skeleton, but something is still missing.
+Look how far we've come since drawing the skeleton, but something is still missing.
 
 ## Galactic Center
 
-At the heart of the Milky Way lies the brightest region of our galaxy - the galactic center. From a purely visual standpoint, it looks like a tilted oval spanning from lower left to upper right.
+At the heart of the Milky Way lies the brightest region of our galaxy, the Galactic Center. From a purely visual standpoint, it looks like a tilted oval spanning from bottom left to top right.
 
 This isn't hard to find in geometry. Recall multivariate normal distribution?
 
@@ -147,7 +147,7 @@ y = \rho a + \sqrt{1 - \rho ^ 2} b \\
 \end{cases}
 $$
 
-where $a$ and $b$ are independent normally distributed random variables.
+where $a$ and $b$ are independent normally distributed random variables. This should give us a way to generate data points similar in shape to the Galactic Center:
 
 ```r
 gc <- tibble(
@@ -159,13 +159,13 @@ gc <- tibble(
   )
 ```
 
-Again, let's pick the color palette best matching that of a burning core.
+Again, let's pick the color palette best matching that of a burning furnace:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_4_galactic_center_unit.jpg" />
 </div>
 
-And as usual, we pull the usual trick of color, size, transparency as well as halo effects.
+As usual, we pull the trick of color, size, transparency as well as halo effect:
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
@@ -175,7 +175,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
   theme(panel.background = element_rect(fill = background_color))
 ```
 
-
+Between you and me, who would have thought that something as massive as the Galactic Center is actually two Gaussian variables in disguise?
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_5_galactic_center.jpg" />
@@ -183,7 +183,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
 
 ## Putting It All Together
 
-From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, and our choices of color palette, transparency, shape and size all come together in harmony after various trials and errors.
+From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability. Moreover, our choices of color palette, transparency, shape and size all come together in harmony after various trials and errors.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />

@@ -13,9 +13,18 @@ new: true
 How to become a data artist.
 
 
+A few years ago, I posted.
+
 ## Spiral Arms
 
 Skeleton.
+
+[Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral), . In polar coordinates,
+
+$$
+r = \theta ^ k
+$$
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_1_spiral_arms_skeleton.jpg" />
 </div>

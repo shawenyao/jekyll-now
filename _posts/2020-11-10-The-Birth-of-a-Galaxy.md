@@ -87,9 +87,11 @@ stars <- sprial_arms %>%
   )
 ```
 
+
+
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
-  geom_point(data = stars, color = "black", shape = 8)  + 
+  geom_point(data = stars, color = "black", shape = 8) + 
   coord_fixed()
 ```
 
@@ -102,6 +104,13 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
 </div>
+
+```r
+ggplot(sprial_arms, aes(x = x, y = y)) +
+  geom_point(data = stars, size = star_halo_size1, alpha = stars$alpha * star_alpha_adj1, color = "white", shape = 8) +
+  geom_point(data = stars, size = star_halo_size2, alpha = stars$alpha * star_alpha_adj2, color = "white", shape = 8) +
+  geom_point(data = stars, size = stars$size, alpha = stars$alpha, color = stars$color, shape = 8) 
+```
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />

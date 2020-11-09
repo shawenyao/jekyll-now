@@ -87,6 +87,12 @@ stars <- sprial_arms %>%
   )
 ```
 
+```r
+ggplot(sprial_arms, aes(x = x, y = y)) +
+  geom_point(data = stars, color = "black", shape = 8)  + 
+  coord_fixed()
+```
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />
 </div>

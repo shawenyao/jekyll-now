@@ -78,6 +78,8 @@ That gives us the skeleton upon which the galaxy is going to be built:
 
 ## Fleshing out the Skeleton
 
+jitter
+
 ```r
 stars <- sprial_arms %>% 
   slice(rep(row_number(), star_intensity)) %>% 
@@ -87,7 +89,7 @@ stars <- sprial_arms %>%
   )
 ```
 
-dispersed
+dispersed. Shape number 8.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />
@@ -95,11 +97,22 @@ dispersed
 
 ## Twinkle Twinkle Little Star
 
+Black isn't a great choice of color for stars.
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
 </div>
 
-Multiple layers of halo effect.
+randomly samping the color space with replacement
+
+```r
+stars <- stars %>%
+  mutate(
+    color = star_colors %>% sample(size = n(), replace = TRUE)
+  )
+```
+
+In fact, we can do the same for the size and the transparaency of the stars, as well as adding multiple layers of halo effect to make our galaxy more vibrant.
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
@@ -129,7 +142,7 @@ gc <- tibble(
 ) %>% 
   mutate(
     y = gc_rho * x + sqrt(1 - gc_rho ^ 2) * rnorm(n(), sd = gc_sd_y),
-    color = gc_color %>% sample(size = n(), replace = TRUE)
+    color = gc_colors %>% sample(size = n(), replace = TRUE)
   )
 ```
 

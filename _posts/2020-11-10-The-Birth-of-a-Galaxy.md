@@ -89,11 +89,6 @@ stars <- sprial_arms %>%
 
 dispersed
 
-```r
-ggplot(sprial_arms, aes(x = x, y = y)) +
-  geom_point(data = stars, color = "black", shape = 8)
-```
-
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />
 </div>

@@ -45,19 +45,22 @@ tibble(
 What if we want more than 1 spiral arm? Simply repeat the above N times and each time, add a constant to theta in order to rotate the polar coordinates:
 
 ```r
+get_spiral_arm <- function(id){
+  tibble(
+    id = id,
+    theta = seq(from = theta_from, to = theta_to, length.out = theta_length)
+  ) %>% 
+    mutate(
+      r = theta ^ theta_power,
+      x = r * cos(theta + 2 * pi * (id + rnorm(1, sd = arm_sd_x)) / num_of_arms),
+      y = r * sin(theta + 2 * pi * (id + rnorm(1, sd = arm_sd_y)) / num_of_arms)
+    )
+}
+
 lapply(
   list(id = seq_len(num_of_arms)),
-  function(id){
-    tibble(
-      id = id,
-      theta = seq(from = theta_from, to = theta_to, length.out = theta_length)
-    ) %>% 
-      mutate(
-        r = theta ^ theta_power,
-        x = r * cos(theta + 2 * pi * (id + rnorm(1, sd = arm_sd_x)) / num_of_arms),
-        y = r * sin(theta + 2 * pi * (id + rnorm(1, sd = arm_sd_y)) / num_of_arms)
-      )
-  }) %>% 
+  get_spiral_arms
+) %>% 
   bind_rows()
 ```
 

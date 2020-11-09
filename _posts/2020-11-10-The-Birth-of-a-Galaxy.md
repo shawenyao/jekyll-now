@@ -155,7 +155,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
 
 ## Putting It All Together
 
-From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. Randomness is truly our friend in creating the illusion of controlled predictability, and our choice of colors/transparency/shape/size all after various trials and errors.
+From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. Randomness is truly our friend in creating the illusion of controlled predictability, and our choices of color palette, transparency, shape and size all come together harmoniously (after various trials and errors).
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />

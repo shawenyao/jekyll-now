@@ -146,8 +146,7 @@ Again, let's pick the color palette best matching that of a burning core.
 ggplot(sprial_arms, aes(x = x, y = y)) +
   geom_point(data = gc, size = gc_halo_size1, alpha = gc_halo_alpha1, color = "gold", shape = 8) +
   geom_point(data = gc, size = gc_halo_size2, alpha = gc_halo_alpha2, color = "gold", shape = 8) +
-  geom_point(data = gc, size = gc$size, alpha = gc$alpha, color = gc$color, shape = 8) + 
-  coord_fixed()
+  geom_point(data = gc, size = gc$size, alpha = gc$alpha, color = gc$color, shape = 8)
 ```
 
 <div align="center">

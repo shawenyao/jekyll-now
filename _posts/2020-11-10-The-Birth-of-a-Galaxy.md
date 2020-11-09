@@ -72,7 +72,7 @@ spiral_arms <- lapply(
   bind_rows()
 ```
 
-That gives us the skeleton upon which the galaxy is going to be built.
+That gives us the skeleton upon which the galaxy is going to be born.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_1_spiral_arms_skeleton.jpg" />
@@ -101,13 +101,13 @@ There seems to be one problem - why don't the stars shine?
 
 ## Twinkle Twinkle Little Star
 
-Obviously, black isn't the greatest choice of color when it comes to stars. It's a subjective call but personally I prefer these:
+Obviously, black isn't the greatest choice of color when it comes to stars. It's a subjective call but personally I would rather they are colored this way:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
 </div>
 
-Next, colors can be attached to the stars by randomly sampling from the color space with replacement.
+Fortunately, the new colors can be assigned to the stars by randomly sampling from the color space with replacement.
 
 ```r
 stars <- stars %>%
@@ -116,7 +116,7 @@ stars <- stars %>%
   )
 ```
 
-In fact, we can do the randomize other attributes of the stars as well, i.e., either by sampling values from a predefined set (e.g., random sizes of the stars) or letting it correlate with some feature (e.g., transparency should be proportional to the radius from the center). Adding multiple layers of halo effect also helps with introducing the illusion of a vibrant galaxy.
+In fact, we can do the randomize other attributes of the stars as well, i.e., either by sampling values from a predefined set (e.g., random sizes of the stars) or letting it correlate with some feature (e.g., transparency/alpha should be proportional to the radius from the center). Adding multiple layers of halo effect also helps with introducing the illusion of a vibrant galaxy.
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
@@ -126,7 +126,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
   theme(panel.background = element_rect(fill = background_color))
 ```
 
-Lo and behold. When all is being thrown onto a dark canvas, we've got ourselves a galaxy.
+Lo and behold - when all is being thrown onto a dark canvas, we've got ourselves a galaxy.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />
@@ -138,7 +138,7 @@ Before we move on, let's take a momment to appreciate how far we've come since d
 
 At the heart of the Milky Way lies the brightest region of our galaxy, the [Galactic Center](https://en.wikipedia.org/wiki/Galactic_Center). From a purely visual standpoint, it looks like a tilted oval spanning from bottom left to top right.
 
-Voila - this isn't hard to find in geometry. Recall multivariate normal distribution?
+Voila - this isn't an hard-to-find shape in geometry. Recall multivariate normal distribution?
 
 $$
 \begin{cases}
@@ -158,13 +158,13 @@ gc <- tibble(
   )
 ```
 
-Again, let's pick the color palette best matching that of a burning furnace:
+Again, let's pick the color palette that best matches that of a burning furnace:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_4_galactic_center_unit.jpg" />
 </div>
 
-As usual, we pull the trick of color, size, transparency as well as halo effect:
+As usual, we pull the trick of randomized assignment of color, size, transparency as well as halo effect:
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +

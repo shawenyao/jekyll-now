@@ -15,7 +15,7 @@ Twinkle twinkle little star.
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_0_demo.jpg" />
 </div>
-_Image by [NASA/JPL-Caltech/R. Hurt (SSC/Caltech)](https://solarsystem.nasa.gov/resources/285/the-milky-way-galaxy/) _
+_Image by NASA/JPL-Caltech/R. Hurt_
 
 A few years ago, I [posted](/Milky-Way/) about creating a procedurally generated Milky Way.
 

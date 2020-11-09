@@ -25,7 +25,7 @@ I
 
 ## Spiral Arms
 
-[Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral) makes a really nice basis for the skeletons of the spiral arms . In polar coordinates, the curve is given by:
+At first glance, [Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral) bears remarkable resemblance to the spiral arms. In polar coordinates, the curve is given by:
 
 $$
 r = \theta ^ k
@@ -69,6 +69,8 @@ lapply(
   }) %>% 
   bind_rows()
 ```
+
+That gives us the skeleton upon which the galaxy will be built:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_1_spiral_arms_skeleton.jpg" />

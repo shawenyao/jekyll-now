@@ -43,6 +43,13 @@ Twinkle twinkle little star
 
 ## Galactic Center
 
+$$
+\begin{cases}
+x = a \\ 
+y = \rho a + \sqrt{1 - \rho ^ 2} b \\
+\end{cases}
+$$
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_4_galactic_center_unit.jpg" />
 </div>

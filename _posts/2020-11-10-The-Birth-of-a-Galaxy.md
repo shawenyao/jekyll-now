@@ -136,9 +136,9 @@ Before we move on, let's take a momment to appreciate how far we've come since d
 
 ## Galactic Center
 
-At the heart of the Milky Way lies the brightest region of our galaxy, the Galactic Center. From a purely visual standpoint, it looks like a tilted oval spanning from bottom left to top right.
+At the heart of the Milky Way lies the brightest region of our galaxy, the [Galactic Center](https://en.wikipedia.org/wiki/Galactic_Center). From a purely visual standpoint, it looks like a tilted oval spanning from bottom left to top right.
 
-This isn't hard to find in geometry. Recall multivariate normal distribution?
+Voila - this isn't hard to find in geometry. Recall multivariate normal distribution?
 
 $$
 \begin{cases}

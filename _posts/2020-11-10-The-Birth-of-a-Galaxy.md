@@ -182,7 +182,7 @@ Between you and me, who would have thought that something as massive as the Gala
 
 ## Putting It All Together
 
-From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability. Moreover, our choices of color palette, transparency, shape and size all come together in harmony after various trials and errors.
+From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability. Moreover, our choices of color palette, transparency, shape and size all seem to have come together in harmony after various trials and errors.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />

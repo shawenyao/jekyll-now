@@ -154,8 +154,7 @@ gc <- tibble(
     x = rnorm(gc_intensity, sd = gc_sd_x)
 ) %>% 
   mutate(
-    y = gc_rho * x + sqrt(1 - gc_rho ^ 2) * rnorm(n(), sd = gc_sd_y),
-    color = gc_colors %>% sample(size = n(), replace = TRUE)
+    y = gc_rho * x + sqrt(1 - gc_rho ^ 2) * rnorm(n(), sd = gc_sd_y)
   )
 ```
 

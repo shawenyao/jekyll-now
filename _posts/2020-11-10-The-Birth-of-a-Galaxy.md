@@ -45,22 +45,20 @@ tibble(
 What if we want more than 1 spiral arm? Simply repeat the above N times and each time, add a constant to theta in order to rotate the polar coordinates:
 
 ```r
-get_spiral_arm <- function(id){
-  tibble(
-    id = id,
-    theta = seq(from = theta_from, to = theta_to, length.out = theta_length)
-  ) %>% 
-    mutate(
-      r = theta ^ theta_power,
-      x = r * cos(theta + 2 * pi * (id + rnorm(1, sd = arm_sd_x)) / num_of_arms),
-      y = r * sin(theta + 2 * pi * (id + rnorm(1, sd = arm_sd_y)) / num_of_arms)
-    )
-}
-
+num_of_arms <- 4
 lapply(
   list(id = seq_len(num_of_arms)),
-  get_spiral_arms
-) %>% 
+  function(id, theta_from, theta_to, arm_width){
+    tibble(
+      id = id,
+      theta = seq(from = theta_from, to = theta_to, length.out = theta_length)
+    ) %>% 
+      mutate(
+        r = theta ^ theta_power,
+        x = r * cos(theta + 2 * pi * id / num_of_arms),
+        y = r * sin(theta + 2 * pi * id / num_of_arms)
+      )
+  }) %>% 
   bind_rows()
 ```
 
@@ -101,7 +99,7 @@ Again, let's pick the color palette best matching that of a burning core.
 
 ## Putting It All Together
 
-From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. Randomness is truly our friend to create an illusion of controlled predictability, and our choice of colors/transparency/shape/size all after various trials and errors.
+From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. Randomness is truly our friend in creating the illusion of controlled predictability, and our choice of colors/transparency/shape/size all after various trials and errors.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />

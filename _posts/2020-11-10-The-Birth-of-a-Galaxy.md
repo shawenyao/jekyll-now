@@ -93,7 +93,7 @@ dispersed
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />
 </div>
 
-## Let It Shine
+## Twinkle Twinkle Little Star
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />

@@ -72,7 +72,7 @@ spiral_arms <- lapply(
   bind_rows()
 ```
 
-That gives us the skeleton upon which the galaxy is going to be built:
+That gives us the skeleton upon which the galaxy is going to be built.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_1_spiral_arms_skeleton.jpg" />
@@ -91,7 +91,7 @@ stars <- sprial_arms %>%
   )
 ```
 
-The standard deviation of the noise controls the dispersion of how far a star tends to diverge from its spiral arm. In R's graphical device, shape number 8 gives us the star-shaped point we want.
+There are two moving parts here. First, the intensity variable controls overall how many stars will be created. On the other hand, the standard deviation of the noise governs the dispersion of how far a star tends to diverge from its spiral arm. Also note that according R's plotting convention, shape number 8 gives us the star-shaped point we want.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />

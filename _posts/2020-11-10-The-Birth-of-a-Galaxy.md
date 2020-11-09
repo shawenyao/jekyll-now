@@ -12,3 +12,6 @@ new: true
 
 How to become a data artist.
 
+<div align="center">
+  <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />
+</div>

@@ -185,7 +185,7 @@ Between you and me, who would have thought that there's something Gaussian all o
 
 ## Putting It All Together
 
-From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not with out careful choices of color palette, transparency, shape and size.
+From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not with out the careful choices of color palette, transparency, shape and size.
 
 Trials and errors.
 

@@ -17,11 +17,18 @@ Universe by tidyverse.
 </div>
 _Image by [NASA/JPL-Caltech/R. Hurt](https://solarsystem.nasa.gov/resources/285/the-milky-way-galaxy/)_
 
-A few years ago, I [posted](/Milky-Way/) an image of procedurally generated Milky Way without explaining how. Note that the goal here aesthetic appeal rather than scientific accuracy.
+A few years ago, I [posted](/Milky-Way/) an image of a procedurally generated Milky Way. 
 
-## Problem Formulation
 
-I
+## Getting Started
+
+Find the functional form that best approximates the looks of Milky Way.
+
+Structually, the Milky Way consists of a few spiral arms spinning around the center, which are in turn made up of teeny-tiny little stars.
+
+R and tidyverse. Namely, dplyr and ggplot.
+
+Note that the goal here aesthetic appeal rather than scientific accuracy.
 
 ## Spiral Arms
 
@@ -182,7 +189,9 @@ Between you and me, who would have thought the Galactic Center's middle name is 
 
 ## Putting It All Together
 
-From someone who lacks training in cosmology in any meaningful way, the end product works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability. Moreover, our choices of color palette, transparency, shape and size all seem to have come together in harmony after various trials and errors.
+From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not with out careful choices of color palette, transparency, shape and size.
+
+Trials and errors.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />

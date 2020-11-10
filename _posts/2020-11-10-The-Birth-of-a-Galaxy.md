@@ -100,11 +100,11 @@ There are two moving parts here. First, the intensity variable controls overall 
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />
 </div>
 
-There seems to be one problem - why don't the stars shine?
+There seems to be one problem though - why don't the stars shine?
 
 ## Twinkle Twinkle Little Star
 
-Obviously, black isn't the greatest choice of color when it comes to stars. It's a subjective call but personally I would rather they are colored this way:
+As it turns out, black isn't the greatest choice of color when it comes to stars. It's a subjective call but personally I would rather they are colored like these:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
@@ -119,7 +119,7 @@ stars <- stars %>%
   )
 ```
 
-In fact, we can randomize other attributes of the stars as well, i.e., either by sampling values from a predefined set (e.g., random sizes of the stars) or letting it correlate with some feature (e.g., transparency/alpha should be proportional to the radius from the center). Adding multiple layers of halo effect also helps with introducing the illusion of a vibrant galaxy.
+In fact, we can further randomize other attributes of the stars as well, i.e., either by sampling values from a predefined set (e.g., random sizes of the stars) or letting it correlate with some feature (e.g., transparency/alpha should be proportional to the radius from the center). Adding multiple layers of halo effect also helps with introducing the illusion of a vibrant galaxy.
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
@@ -129,7 +129,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
   theme(panel.background = element_rect(fill = background_color))
 ```
 
-Lo and behold - when all is being drawn onto a dark canvas, we've got ourselves a galaxy.
+The halos are effectively a few extra stars at the same exact place, just bigger in size and lower in opacity. It's a simple technique but it works wonders. Lo and behold - when all is being drawn onto a dark canvas, we've got ourselves a galaxy.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />

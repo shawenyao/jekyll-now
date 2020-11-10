@@ -22,13 +22,9 @@ A few years ago, I [posted](/Milky-Way/) an image of a procedurally generated Mi
 
 ## Getting Started
 
-Find the functional form that best approximates the looks of Milky Way.
+Structually, the Milky Way consists of a few spiral arms spinning around the center, which are in turn made up of teeny-tiny little stars. So, finding the functional form that best approximates the looks of the Milky Way.
 
-Structually, the Milky Way consists of a few spiral arms spinning around the center, which are in turn made up of teeny-tiny little stars.
-
-R and tidyverse. Namely, dplyr and ggplot.
-
-Note that the goal here aesthetic appeal rather than scientific accuracy.
+The tools that we will be using here are R and tidyverse (namely, dplyr and ggplot). Note that the goal is to aim for aesthetic appeal rather than scientific accuracy.
 
 ## Spiral Arms
 

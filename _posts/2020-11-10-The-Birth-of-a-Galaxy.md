@@ -164,7 +164,7 @@ Again, let's pick the color palette that best matches that of a burning furnace:
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_4_galactic_center_unit.jpg" />
 </div>
 
-As usual, we pull the trick of randomized assignment of color, size, transparency as well as halo effect:
+As usual, we pull the trick of randomized assignment of color, size, transparency as well as the halo effect:
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
@@ -174,7 +174,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
   theme(panel.background = element_rect(fill = background_color))
 ```
 
-Between you and me, who would have thought that something as massive as the Galactic Center is actually two Gaussian variables in disguise?
+Between you and me, who would have thought the Galactic Center's middle name is actually Gaussian?
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_5_galactic_center.jpg" />

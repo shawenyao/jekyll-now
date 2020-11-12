@@ -22,7 +22,7 @@ A few years ago, I [posted](/Milky-Way/) an image of a procedurally generated Mi
 
 ## Getting Started
 
-Structually, the Milky Way consists of a few spiral arms spinning around the center, which are in turn made up of teeny-tiny little stars. So, finding the functional form that best approximates the looks of the Milky Way.
+Structurally, the Milky Way consists of a few spiral arms spinning around the center, which are in turn made up of teeny-tiny little stars. So, finding the functional form that best approximates the looks of the Milky Way.
 
 The tools that we will be using here are R and tidyverse (namely, dplyr and ggplot). Note that the goal is to shoot for aesthetic appeal rather than scientific accuracy.
 
@@ -94,7 +94,7 @@ stars <- sprial_arms %>%
   )
 ```
 
-There are two moving parts here. First, the intensity variable controls overall how many stars will be created. On the other hand, the standard deviation of the noise governs the dispersion of how far a star tends to diverge from its spiral arm. Also note that according R's plotting convention, shape number 8 gives us the star-shaped point we want.
+There are two moving pieces in the equation. First, the intensity variable controls overall how many stars will be created. On the other hand, the standard deviation of the noise governs the dispersion of how far a star tends to diverge from its spiral arm. Also, according R's plotting convention, shape number 8 gives us the star-shaped point we want.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />
@@ -135,13 +135,13 @@ The halos are effectively nothing more than a few extra stars at the same exact 
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />
 </div>
 
-Before we move on, let's take a momment to appreciate how far we've come since drawing the skeleton. However, something is still missing.
+Before we move on, let's take a moment to appreciate how far we've come since drawing the skeleton. However, something is still missing.
 
 ## Galactic Center
 
-At the heart of the Milky Way lies the brightest region of our galaxy, the [Galactic Center](https://en.wikipedia.org/wiki/Galactic_Center). From a purely visual standpoint, it looks like a tilted oval spanning from bottom left to top right.
+At the heart of the Milky Way lies the brightest region of our galaxy, the [Galactic Center](https://en.wikipedia.org/wiki/Galactic_Center). From a purely visual standpoint, it looks like a tilted oval spanning from bottom left to top right. 
 
-Actually, This isn't an hard-to-find shape in geometry. Recall multivariate normal distribution?
+Actually, that isn't an hard-to-find shape in geometry. Recall multivariate normal distribution?
 
 $$
 \begin{cases}
@@ -150,7 +150,7 @@ y = \rho a + \sqrt{1 - \rho ^ 2} b \\
 \end{cases}
 $$
 
-where $a$ and $b$ are independent normally distributed random variables. This should give us a way to generate data points similar in shape to the Galactic Center:
+where $a$ and $b$ are independent normally distributed random variables. This should give us a way to generate points similar in shape to the Galactic Center:
 
 ```r
 gc <- tibble(
@@ -185,7 +185,7 @@ Between you and me, who would have thought that there's something Gaussian all o
 
 ## Putting It All Together
 
-From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not with out the careful choices of color palette, transparency, shape and size.
+From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not without the careful choices of color palette, transparency, shape and size.
 
 Trials and errors.
 

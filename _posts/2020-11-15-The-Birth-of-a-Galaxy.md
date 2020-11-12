@@ -17,7 +17,7 @@ Universe by tidyverse.
 </div>
 _Image by [NASA/JPL-Caltech/R. Hurt](https://solarsystem.nasa.gov/resources/285/the-milky-way-galaxy/)_
 
-There is no denying that some of the most awe-inspiring photos ever taken can be found in astrophotography. It is along those lines that a few years ago, I posted about my attempt at a procedurally generated [Milky Way](/Milky-Way/). Since then, the same methodology has been applied to [harmonograph](/Milky-Way-Meets-Harmonograph/). Sit tight because today, the mission is to document my journey to infinity and beyond. 
+There is no denying that some of the most awe-inspiring photos ever taken can be found in astrophotography. In a low-cost attempt at capturing the same magic, I posted about an image of a procedurally generated [Milky Way](/Milky-Way/) a few years ago. Since then, the same methodology has been applied to [harmonograph](/Milky-Way-Meets-Harmonograph/). Sit tight because today, the mission is to document my journey to infinity and beyond. 
 
 The idea is simple enough. Structurally, the Milky Way consists of a couple of spiral arms spinning around its center, which in turn are all made up of numerous teeny-tiny little stars. In the absence of any space telescope, how can we create pictures that look reasonably close to the galaxy? Fortunately, we have really powerful tools (specifically R and tidyverse/ggplot) at our disposal. Note that the focus here is aesthetic beauty rather than scientific accuracy.
 

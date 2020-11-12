@@ -99,13 +99,13 @@ There seems to be one problem though - why don't the stars shine?
 
 ## Twinkle Twinkle Little Star
 
-As it turns out, black isn't the greatest choice of color when it comes to stars. It's a subjective call but personally, I would rather that they are colored like these:
+As it turns out, black isn't the greatest choice of color when it comes to stars. It's a subjective call but personally, I would rather that they are colored this way:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
 </div>
 
-In , the new colors can be assigned to the stars by randomly sampling from the color space with replacement.
+Even then, none of the new colors alone can bring the kind of vitality and liveliness that we've come to expect from a photo. Instead, the color palette can be assigned to the stars by randomly sampling from the color space with replacement.
 
 ```r
 stars <- stars %>%

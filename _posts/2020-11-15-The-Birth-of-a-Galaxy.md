@@ -163,7 +163,7 @@ Again, let's pick the color palette that best matches that of a burning furnace:
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_4_galactic_center_unit.jpg" />
 </div>
 
-And as usual, we pull the trick of randomized assignment of color, size, transparency as well as the halo effect:
+And as usual, we pull the trick of randomized assignment of color, size, transparency in addition to the halo effect:
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +

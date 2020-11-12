@@ -114,7 +114,7 @@ stars <- stars %>%
   )
 ```
 
-In fact, we can further randomize other attributes of the stars as well, i.e., either by sampling values from a predefined set (e.g., random sizes for the stars) or letting it correlate with some feature (e.g., transparency being proportional to the radius from the center). Adding multiple layers of halo effect also helps in terms of introducing the illusion of a vibrant galaxy.
+In fact, we can further randomize other attributes of the stars as well, i.e., either by sampling values from a predefined set (e.g., random sizes for the stars) or letting it correlate with some feature (e.g., opacity being inversely proportional to the radius from the center). Adding multiple layers of halo effect also helps in terms of introducing the illusion of a vibrant galaxy.
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +

@@ -136,7 +136,7 @@ Before we move on, let's take a moment to appreciate how far we've come since sk
 
 At the heart of the Milky Way lies the brightest region of our galaxy, the [Galactic Center](https://en.wikipedia.org/wiki/Galactic_Center), the jewel in the crown. From a purely visual standpoint, it looks like a tilted oval spanning from bottom left to top right, shining and fiery. 
 
-But guess what, by no means is it a hard-to-find shape in geometry. Recall multivariate normal distribution?
+But guess what, by no means is it a hard-to-find pattern in geometry. Recall multivariate normal distribution?
 
 $$
 \begin{cases}
@@ -162,7 +162,7 @@ Again, let's pick the color palette that best matches that of a burning furnace:
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_4_galactic_center_unit.jpg" />
 </div>
 
-As usual, we pull the trick of randomized assignment of color, size, transparency as well as the halo effect:
+And as usual, we pull the trick of randomized assignment of color, size, transparency as well as the halo effect:
 
 ```r
 ggplot(sprial_arms, aes(x = x, y = y)) +
@@ -180,9 +180,9 @@ Between you and me, who would have thought that there's something Gaussian all o
 
 ## Putting It All Together
 
-From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works stunningly well. Serene and peaceful; dazzling yet profound. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not without careful choices of color palette, transparency, shape and size. To do it justice, I highly recommend viewing the image in its [native](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg) resolution.
+From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works stunningly well. Serene and peaceful; dazzling yet profound; whispering to the void for an eternity. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not without careful choices of color palette, transparency, shape and size. To do it justice, I highly recommend viewing the image in its [native](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg) resolution.
 
-Last but not least, the appeal obviously goes beyond the Milky Way. As long as we've made up our mind about an object's functional form (and maybe a new color palette), everything else can be reused. This bodes well for other system, constellation or galaxy that we want to give a try and please feel free to let me know if you would like to see Andromeda next.
+Last but not least, the appeal obviously goes beyond the Milky Way. As long as we've made up our mind about an object's functional form (and maybe a new color palette that goes with it), everything else should still hold. This bodes well for other system, constellation or galaxy that we want to give a try and please feel free to let me know if you would like to see Andromeda next.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />

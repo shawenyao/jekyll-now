@@ -89,7 +89,7 @@ stars <- sprial_arms %>%
   )
 ```
 
-There are two moving pieces in the equation. First, the intensity variable controls overall how many stars will be created. On the other hand, the standard deviation of the noise governs the dispersion of how far a star tends to diverge from its spiral arm. Also, in R's plotting convention, shape number 8 gives us the star-shaped point we want.
+There are two moving pieces in the equation. First, the intensity variable controls overall how many stars will be created. On the other hand, the standard deviation of the noise governs the dispersion of how far a star tends to diverge from its spiral arm. Also, in R's plotting convention, shape number 8 will give us that star-shaped point we want.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3.0_spiral_arms.jpg" />

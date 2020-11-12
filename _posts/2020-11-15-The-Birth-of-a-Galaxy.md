@@ -187,7 +187,7 @@ Between you and me, who would have thought that there's something Gaussian all o
 
 From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not without our careful choices of color palette, transparency, shape and size.
 
-Last but not least, the framework obviously goes beyond the Milky Way. As long as we've made up our mind about ab object's functional form (and maybe a new color palette), everything else can be resused. This bodes well for other system, constellation or galaxy that we want to give a try and please feel free to let me know if you would like to see Andromeda next.
+Last but not least, the framework obviously goes beyond the Milky Way. As long as we've made up our mind about an object's functional form (and maybe a new color palette), everything else can be resused. This bodes well for other system, constellation or galaxy that we want to give a try and please feel free to let me know if you would like to see Andromeda next.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />

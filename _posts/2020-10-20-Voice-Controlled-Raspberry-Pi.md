@@ -105,7 +105,7 @@ In case you don't have admin control over your modem (which is unfortunately tru
 
 For most internet users at home, chances are that their public IP addresses aren't static. With each reboot of the modem, a new address will be assigned by the ISP which makes it annoying if you are looking for a more permanent solution. Don't worry - dynamic DNS services such as FreeDNS can come to the rescue. These services essentially maintain a list that maps the domain (or subdomain) names to their corresponding IP addresses, and each user tells them to update the list whenever the IP address changes. To automate this, run the following command at Raspberry Pi's startup:
 ```bash
-wget https://freedns.afraid.org/dynamic/update.php?[yourtokenhere]
+curl https://freedns.afraid.org/dynamic/update.php?[yourtokenhere]
 ```
 
 If all goes well, instead of changing ```http://publicipaddress``` each time the modem restarts, a new and permanent name ```http://domainname``` is all we have to remember.

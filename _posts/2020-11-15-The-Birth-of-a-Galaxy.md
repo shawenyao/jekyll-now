@@ -105,7 +105,7 @@ As it turns out, black isn't the greatest choice of color when it comes to stars
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
 </div>
 
-Even then, no color alone can bring the kind of vitality and liveliness that we've come to expect from a photo. Instead, each star gets assigned its own color by randomly sampling from the color space (with replacement):
+Even then, no color alone can bring the kind of vitality and liveliness that we've come to expect from a photo. Ideally, each star should be assigned its own color by randomly sampling from the color space (with replacement):
 
 ```r
 stars <- stars %>%
@@ -124,7 +124,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
   theme(panel.background = element_rect(fill = background_color))
 ```
 
-The halos are effectively nothing more than a few extra stars at the same exact place, just bigger in size and lower in opacity. It's a rather simple technique but sometimes it works wonders. When all is being drawn onto a dark canvas, we've got ourselves a galaxy.
+The halos are effectively nothing more than a few extra points at the same exact place, just bigger in size and lower in opacity. It's a rather simple technique but sometimes it works wonders. When all is being drawn onto a dark canvas, we've got ourselves a galaxy.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />
@@ -136,7 +136,7 @@ Before we move on, let's take a moment to appreciate how far we've come since sk
 
 At the heart of the Milky Way lies the brightest region of our galaxy, the [Galactic Center](https://en.wikipedia.org/wiki/Galactic_Center), the jewel in the crown. From a purely visual standpoint, it looks like a tilted oval spanning from bottom left to top right, shining and fiery. 
 
-But guess what, by no means is it a hard-to-find pattern in geometry. Recall multivariate normal distribution?
+But guess what, by no means is it an obscure pattern in geometry. Recall multivariate normal distribution?
 
 $$
 \begin{cases}

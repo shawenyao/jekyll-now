@@ -22,7 +22,7 @@ A few years ago, I [posted](/Milky-Way/) an image of a procedurally generated Mi
 
 ## Getting Started
 
-Structurally, the Milky Way consists of a few spiral arms spinning around the center, which are in turn made up of teeny-tiny little stars. So, finding the functional form that best approximates the looks of the Milky Way.
+Structurally, the Milky Way consists of a few spiral arms spinning around the center, which are in turn made up of teeny-tiny little stars. So let's embark on our journey in finding the functions that best approximates the looks of the Milky Way.
 
 The tools that we will be using here are R and tidyverse (namely, dplyr and ggplot). Note that the goal is to shoot for aesthetic appeal rather than scientific accuracy.
 
@@ -129,7 +129,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
   theme(panel.background = element_rect(fill = background_color))
 ```
 
-The halos are effectively nothing more than a few extra stars at the same exact place, just bigger in size and lower in opacity, a simple visual technique that works wonders. Lo and behold - when all is being drawn onto a dark canvas, we've got ourselves a galaxy.
+The halos are effectively nothing more than a few extra stars at the same exact place, just bigger in size and lower in opacity. It's a rather simple technique but sometimes it works wonders. Lo and behold - when all is being drawn onto a dark canvas, we've got ourselves a galaxy.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />
@@ -185,9 +185,9 @@ Between you and me, who would have thought that there's something Gaussian all o
 
 ## Putting It All Together
 
-From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not without the careful choices of color palette, transparency, shape and size.
+From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not without our careful choices of color palette, transparency, shape and size.
 
-Trials and errors.
+Last but not least, the framework obviously goes beyond the Milky Way. As long as we've made up our mind about ab object's functional form (and maybe a new color palette), everything else can be resused. This bodes well for other system, constellation or galaxy that we want to give a try and please feel free to let me know if you would like to see Andromeda next.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />

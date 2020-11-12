@@ -24,7 +24,7 @@ The idea is simple enough. Structurally, the Milky Way consists of a couple of s
 
 ## Spiral Arms
 
-Named after the Greek mathematician, the [Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral) bears a remarkable resemblance to the spiral arms (from a top-down perspective at least). In polar coordinates, the curve is given by:
+Named after the Greek mathematician, the [Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral) bears a remarkable resemblance to the spiral arms (from a top-down perspective at least) of the Milky Way. In polar coordinates, the curve is given by:
 
 $$
 r = \theta ^ k

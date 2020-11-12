@@ -19,7 +19,7 @@ _Image by [NASA/JPL-Caltech/R. Hurt](https://solarsystem.nasa.gov/resources/285/
 
 There is no denying that some of the most awe-inspiring photos ever taken can be found in astrophotography. In a low-cost attempt at capturing that magic, I posted an image of a procedurally generated [Milky Way](/Milky-Way/) a few years ago. Since then, the same methodology has been applied to [harmonograph](/Milky-Way-Meets-Harmonograph/). Sit tight because today, our mission is to document my journey to infinity and beyond. 
 
-The idea is simple enough. Structurally, the Milky Way consists of a couple of spiral arms spinning around its center, which in turn are all made up of numerous teeny-tiny little stars. In the absence of any space telescope, how can we create pictures that look reasonably close to the galaxy? Fortunately, we have really powerful tools (specifically R and tidyverse/ggplot) at our disposal. Note that the focus here is aesthetic beauty rather than scientific accuracy.
+The idea is simple enough. Structurally, the Milky Way consists of a couple of spiral arms spinning around its center, which in turn are all made up of numerous teeny-tiny little stars. In the absence of a space telescope, how can we create pictures that look reasonably close to the galaxy? Fortunately, we have really powerful tools (specifically, R and tidyverse/ggplot) at our disposal. Note that the focus here is aesthetic beauty rather than scientific accuracy.
 
 ## Spiral Arms
 

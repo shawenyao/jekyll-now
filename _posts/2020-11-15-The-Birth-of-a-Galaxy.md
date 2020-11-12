@@ -173,7 +173,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
   theme(panel.background = element_rect(fill = background_color))
 ```
 
-Between you and me, who would have thought that there's something Gaussian all over the galaxy?
+Between you and me, who would have thought that there's something Gaussian to be found all over the galaxy?
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_5_galactic_center.jpg" />

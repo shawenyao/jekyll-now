@@ -70,7 +70,7 @@ spiral_arms <- lapply(
   bind_rows()
 ```
 
-That gives us the skeleton upon which the galaxy is going to be born.
+Lo and behold - Archimedes has given us the skeleton upon which the galaxy will be born.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_1_spiral_arms_skeleton.jpg" />
@@ -124,7 +124,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
   theme(panel.background = element_rect(fill = background_color))
 ```
 
-The halos are effectively nothing more than a few extra stars at the same exact place, just bigger in size and lower in opacity. It's a rather simple technique but sometimes it works wonders. Lo and behold - when all is being drawn onto a dark canvas, we've got ourselves a galaxy.
+The halos are effectively nothing more than a few extra stars at the same exact place, just bigger in size and lower in opacity. It's a rather simple technique but sometimes it works wonders. When all is being drawn onto a dark canvas, we've got ourselves a galaxy.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />

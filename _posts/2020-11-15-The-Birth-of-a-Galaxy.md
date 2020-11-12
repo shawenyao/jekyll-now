@@ -181,7 +181,7 @@ Between you and me, who would have thought that there's something Gaussian to be
 
 ## Putting It All Together
 
-From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works stunningly well. Serene and peaceful, dazzling yet profound, it breathes and chants, whispering into the void for an eternity. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not without careful choices of color palette, transparency, shape and size. To do it justice, I highly recommend viewing the image in its [native](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg) resolution.
+From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works stunningly well. Serene and peaceful, dazzling yet profound, it breathes, chants and whispers, into the void for an eternity. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not without careful choices of color palette, transparency, shape and size. To do it justice, I highly recommend viewing the image in its [native](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg) resolution.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large2.jpg" />

@@ -17,14 +17,9 @@ Universe by tidyverse.
 </div>
 _Image by [NASA/JPL-Caltech/R. Hurt](https://solarsystem.nasa.gov/resources/285/the-milky-way-galaxy/)_
 
-A few years ago, I [posted](/Milky-Way/) an image of a procedurally generated Milky Way. 
+There is no denying that some of the most awe-inspiring photos ever taken can be found in astrophotography. It is along those lines that a few years ago, I posted about my attempt at a procedurally generated [Milky Way]](/Milky-Way/). Since then, the same methodology has been applied to [harmonograph](/Milky-Way-Meets-Harmonograph/). Sit tight because today, my mission is to document the journey to infinity and beyond. 
 
-
-## Getting Started
-
-Structurally, the Milky Way consists of a few spiral arms spinning around the center, which are in turn made up of teeny-tiny little stars. So let's embark on our journey in finding the functions that best approximates the looks of the Milky Way.
-
-The tools that we will be using here are R and tidyverse (namely, dplyr and ggplot). Note that the goal is to shoot for aesthetic appeal rather than scientific accuracy.
+The idea is simple enough. Structurally, the Milky Way consists of a couple of spiral arms spinning around its center, which in turn are all made up of numerous teeny-tiny little stars. In the absence of any space telescope, how can we create pictures that look reasonably close to the galaxy? Fortunately, we have really powerful tools (namely R and tidyverse/ggplot) at our disposal. Note that the focus here is aesthetic beauty rather than scientific accuracy.
 
 ## Spiral Arms
 
@@ -83,7 +78,7 @@ That gives us the skeleton upon which the galaxy is going to be born.
 
 ## Fleshing out the Skeleton
 
-Stars rarely align on a line. Instead, they exhibit some degree of duality between individual randomness and collective predictability. We can jitter the points vertically and horizontally to achieve similar effects. If there aren't enough points, reuse the same data frame!
+Stars rarely align on a line. Instead, they exhibit some degree of duality between individual randomness and collective predictability. We can jitter the points vertically and horizontally with white noises to achieve similar effects. If there aren't enough points, reuse the same data frame!
 
 ```r
 stars <- sprial_arms %>% 
@@ -104,13 +99,13 @@ There seems to be one problem though - why don't the stars shine?
 
 ## Twinkle Twinkle Little Star
 
-As it turns out, black isn't the greatest choice of color when it comes to stars. It's a subjective call but personally I would rather they are colored like these:
+As it turns out, black isn't the greatest choice of color when it comes to stars. It's a subjective call but personally, I would rather that they are colored like these:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
 </div>
 
-Fortunately, the new colors can be assigned to the stars by randomly sampling from the color space with replacement.
+In , the new colors can be assigned to the stars by randomly sampling from the color space with replacement.
 
 ```r
 stars <- stars %>%
@@ -187,10 +182,10 @@ Between you and me, who would have thought that there's something Gaussian all o
 
 From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not without careful choices of color palette, transparency, shape and size. To do it justice, I highly recommend viewing the image in its [native](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg) resolution.
 
-Last but not least, the appeal obviously goes beyond the Milky Way. As long as we've made up our mind about an object's functional form (and maybe a new color palette), everything else can be resused. This bodes well for other system, constellation or galaxy that we want to give a try and please feel free to let me know if you would like to see Andromeda next.
+Last but not least, the appeal obviously goes beyond the Milky Way. As long as we've made up our mind about an object's functional form (and maybe a new color palette), everything else can be reused. This bodes well for other system, constellation or galaxy that we want to give a try and please feel free to let me know if you would like to see Andromeda next.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />
 </div>
 
-You can also find [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html), [source](https://github.com/shawenyao/R/blob/master/main/milky_way/milky_way_plot_large.R), [part two](/Milky-Way-Meets-Harmonograph/), or [merchandise](https://displate.com/displate/712287?art=5be7f871363ea).
+You can also find [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html), [source](https://github.com/shawenyao/R/blob/master/main/milky_way/milky_way_plot_large.R), or [merchandise](https://displate.com/displate/712287?art=5be7f871363ea).

@@ -105,7 +105,7 @@ As it turns out, black isn't the greatest choice of color when it comes to stars
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_2_star_unit.jpg" />
 </div>
 
-Even then, none of the new colors alone can bring the kind of vitality and liveliness that we've come to expect from a photo. Instead, each star gets assigned its own color by randomly sampling from the color space (with replacement):
+Even then, none of the colors alone can bring the kind of vitality and liveliness that we've come to expect from a photo. Instead, each star gets assigned its own color by randomly sampling from the color space (with replacement):
 
 ```r
 stars <- stars %>%

@@ -51,7 +51,7 @@ spiral_arm <- tibble(
   )
 ```
 
-This should get the job done nicely. Now, what if we want more than one spiral arms? One solution would be to repeat the process several times and add a constant to theta for rotation purposes:
+This should get the job done nicely. Now, what if we want more than one spiral arm? One solution would be to repeat the process several times and add a constant to theta for rotation purposes:
 
 ```r
 spiral_arms <- lapply(

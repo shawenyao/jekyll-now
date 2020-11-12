@@ -130,7 +130,7 @@ The halos are effectively nothing more than a few extra stars at the same exact 
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />
 </div>
 
-Before we move on, let's take a moment to appreciate how far we've come since drawing the skeleton. However, something is still missing.
+Before we move on, let's take a moment to appreciate how far we've come since sketching the skeleton. However, something is still missing.
 
 ## Galactic Center
 

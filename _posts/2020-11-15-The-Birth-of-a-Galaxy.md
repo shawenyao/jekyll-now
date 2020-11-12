@@ -6,7 +6,7 @@ tag:
   - r
 comments: true
 draft: true
-keyboard: true
+galaxy: true
 new: true
 ---
 

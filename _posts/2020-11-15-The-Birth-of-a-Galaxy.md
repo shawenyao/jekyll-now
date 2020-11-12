@@ -78,7 +78,7 @@ Lo and behold - Archimedes has given us the skeleton upon which a galaxy will be
 
 ## Fleshing out the Skeleton
 
-Stars rarely align on a line. Instead, they exhibit some degree of duality between individual randomness and collective predictability. We can jitter the points vertically and horizontally with white noises to achieve similar effects. If there aren't enough points, reuse the same data frame!
+Stars rarely align on a line. Instead, they exhibit some degree of duality of individual randomness and collective predictability. We can jitter the points vertically and horizontally with white noises to achieve similar effects. If there aren't enough points, reuse the same data frame!
 
 ```r
 stars <- sprial_arms %>% 

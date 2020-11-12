@@ -136,7 +136,7 @@ Before we move on, let's take a moment to appreciate how far we've come since sk
 
 At the heart of the Milky Way lies the brightest region of our galaxy, the [Galactic Center](https://en.wikipedia.org/wiki/Galactic_Center), the jewel in the crown. From a purely visual standpoint, it looks like a tilted oval spanning from bottom left to top right, shining and dazzling. 
 
-Actually, by no means is that a hard-to-find shape in geometry. Recall multivariate normal distribution?
+Guess what, by no means is that a hard-to-find shape in geometry. Recall multivariate normal distribution?
 
 $$
 \begin{cases}

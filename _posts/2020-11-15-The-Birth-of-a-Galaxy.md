@@ -3,6 +3,7 @@ layout: post
 title: The Birth of a Galaxy
 tag:
   - visualization
+  - maths
   - r
 comments: true
 draft: true

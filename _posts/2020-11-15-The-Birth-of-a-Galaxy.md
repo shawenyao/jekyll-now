@@ -78,7 +78,7 @@ Lo and behold - Archimedes has given us the skeleton upon which a galaxy will be
 
 ## Fleshing out the Skeleton
 
-Stars rarely align on a line. Instead, they exhibit some degree of duality of individual randomness and collective predictability. We can jitter the points vertically and horizontally with white noises to achieve similar effects. If there aren't enough points, reuse the same data frame!
+Stars rarely align on a line. Instead, they exhibit some degree of duality of individual randomness and collective predictability. We can jitter the points vertically and horizontally with white noises to achieve similar effects. If there aren't enough points, reuse the exisiting ones!
 
 ```r
 stars <- sprial_arms %>% 
@@ -134,7 +134,7 @@ Before we move on, let's take a moment to appreciate how far we've come since sk
 
 ## Galactic Center
 
-At the heart of the Milky Way lies the brightest region of our galaxy, the [Galactic Center](https://en.wikipedia.org/wiki/Galactic_Center). From a purely visual standpoint, it looks like a tilted oval spanning from bottom left to top right. 
+At the heart of the Milky Way lies the brightest region of our galaxy, the [Galactic Center](https://en.wikipedia.org/wiki/Galactic_Center), the jewel in the crown. From a purely visual standpoint, it looks like a tilted oval spanning from bottom left to top right, shining and dazzling. 
 
 Actually, by no means is that a hard-to-find shape in geometry. Recall multivariate normal distribution?
 

@@ -125,7 +125,7 @@ ggplot(sprial_arms, aes(x = x, y = y)) +
   theme(panel.background = element_rect(fill = background_color))
 ```
 
-The halos are effectively nothing more than a few extra points at the exact same places, albeit bigger in size and lower in opacity. It's a simple technique but sometimes it works wonders. When all is being said and drawn, we've got ourselves a galaxy.
+The halos are effectively nothing more than a few extra points in white at the exact same places, albeit bigger in size and lower in opacity. It's a simple technique but sometimes it works wonders. When all is being said and drawn, we've got ourselves a galaxy.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_3_spiral_arms.jpg" />

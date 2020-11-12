@@ -70,7 +70,7 @@ spiral_arms <- lapply(
   bind_rows()
 ```
 
-Lo and behold - Archimedes has given us the skeleton upon which the galaxy will be born.
+Lo and behold - Archimedes has given us the skeleton upon which a galaxy will be born.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/milky_way/plot_1_spiral_arms_skeleton.jpg" />

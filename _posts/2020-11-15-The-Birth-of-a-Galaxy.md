@@ -185,7 +185,7 @@ Between you and me, who would have thought that there's something Gaussian all o
 
 ## Putting It All Together
 
-From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not without our careful choices of color palette, transparency, shape and size.
+From a self-proclaimed data artist who lacks training in cosmology in any meaningful way, the end result works surprisingly well. In all fairness, most of the credit goes to our friend randomness who manages to create a sense of guided unpredictability, although not without our careful choices of color palette, transparency, shape and size. To do it justice, I highly recommend viewing the image in its [native](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg) resolution.
 
 Last but not least, the appeal obviously goes beyond the Milky Way. As long as we've made up our mind about an object's functional form (and maybe a new color palette), everything else can be resused. This bodes well for other system, constellation or galaxy that we want to give a try and please feel free to let me know if you would like to see Andromeda next.
 
@@ -193,4 +193,4 @@ Last but not least, the appeal obviously goes beyond the Milky Way. As long as w
   <img src="https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg" />
 </div>
 
-I highly recommend viewing the image in its [native](https://shawenyao.github.io/R/output/milky_way/milky_way_large.jpg) resolution. You can also find [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html), [source](https://github.com/shawenyao/R/blob/master/main/milky_way/milky_way_plot_large.R), [part two](/Milky-Way-Meets-Harmonograph/), or [merchandise](https://displate.com/displate/712287?art=5be7f871363ea).
+You can also find [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html), [source](https://github.com/shawenyao/R/blob/master/main/milky_way/milky_way_plot_large.R), [part two](/Milky-Way-Meets-Harmonograph/), or [merchandise](https://displate.com/displate/712287?art=5be7f871363ea).

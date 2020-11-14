@@ -10,4 +10,4 @@ An enthusiast of [data visualization](/tag/visualization/), solving [mathematica
 
 <br>
 
-_Powered by `jekyll-now` and hosted on `Github Pages`_
+_Powered by `Jekyll Now` and hosted on `Github Pages`_

@@ -18,6 +18,8 @@ Universe by tidyverse.
 </div>
 _Image by [NASA/JPL-Caltech/R. Hurt](https://solarsystem.nasa.gov/resources/285/the-milky-way-galaxy/)_
 
+_In celebration of my first appearance on [R-Bloggers](https://r-bloggers.com)_
+
 There is no denying that some of the most awe-inspiring photos ever taken can be found in astrophotography. In my low-cost attempt at capturing that magic a few years ago, I posted an image of a procedurally generated [Milky Way](/Milky-Way/). Since then, the same methodology has been applied to [harmonograph](/Milky-Way-Meets-Harmonograph/). Today, sit tight because our mission is to document my journey to infinity and beyond. 
 
 The idea is simple enough. Structurally, the Milky Way consists of a couple of spiral arms spinning around its center, all of which are in turn made up of numerous teeny-tiny little stars. In the absence of a space telescope, how can we create something that looks reasonably close to the galaxy? Fortunately, we have a few pretty powerful tools at our disposal (specifically, R and tidyverse/ggplot). Note that the focus here is aesthetic pleasingness rather than scientific accuracy.

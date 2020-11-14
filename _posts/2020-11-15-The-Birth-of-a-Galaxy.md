@@ -18,6 +18,8 @@ Universe by tidyverse.
 </div>
 _Image by [NASA/JPL-Caltech/R. Hurt](https://solarsystem.nasa.gov/resources/285/the-milky-way-galaxy/)_
 
+<br>
+
 _In celebration of my first appearance on [R-Bloggers](https://www.r-bloggers.com)_
 
 There is no denying that some of the most awe-inspiring photos ever taken can be found in astrophotography. In my low-cost attempt at capturing that magic a few years ago, I posted an image of a procedurally generated [Milky Way](/Milky-Way/). Since then, the same methodology has been applied to [harmonograph](/Milky-Way-Meets-Harmonograph/). Today, sit tight because our mission is to document my journey to infinity and beyond. 

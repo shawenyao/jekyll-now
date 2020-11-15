@@ -7,7 +7,7 @@ tag:
 comments: true
 draft: false
 brick: true
-new: true
+new: false
 ---
 
 With charging cable slot.

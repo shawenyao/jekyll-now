@@ -6,7 +6,7 @@ tag:
   - maths
   - r
 comments: true
-draft: true
+draft: false
 galaxy: true
 new: true
 ---

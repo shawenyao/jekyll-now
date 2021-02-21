@@ -12,5 +12,5 @@ new: true
 Goodbye another day.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/0W4A6461.jpg" />
+  <img src="https://shawenyao.github.io/Photos/0W4A6461.JPG" />
 </div>

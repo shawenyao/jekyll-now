@@ -11,5 +11,5 @@ photography: true
 An alternate look at the hotel occupancy rate.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/2020.07.01 Heart/heart.jpg" />
+  <img src="https://shawenyao.github.io/Photos/0W4A6133.jpg" />
 </div>

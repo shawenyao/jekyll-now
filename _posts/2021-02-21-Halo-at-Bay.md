@@ -6,7 +6,7 @@ tag:
 comments: true
 draft: false
 photography: true
-new: true
+new: false
 ---
 
 Goodbye another day.

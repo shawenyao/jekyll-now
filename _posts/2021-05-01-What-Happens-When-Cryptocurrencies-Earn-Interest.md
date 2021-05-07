@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What Happens When Cryptocurrencies Earn Interest?
+title: What Happens When Cryptocurrencies Earn Interest
 tag:
   - defi
   - finance

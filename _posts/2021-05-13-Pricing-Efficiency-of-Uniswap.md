@@ -11,7 +11,7 @@ new: true
 ---
 Constant product formula vs. order book.
 
-Obviously, the two cannot be too far apart. Otherwise, it creates actionable arbitrage opportunity if the spread remains positive on an after-transaction-cost basis.
+Obviously, the two cannot be too far apart. Otherwise, it creates actionable arbitrage opportunity if the spread is wide enough to remain positive on an after-transaction-cost basis.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot1_uniswap_vs_exchange.png" />

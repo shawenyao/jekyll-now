@@ -37,7 +37,7 @@ For most of the time, the price ratio on Uniswap is well within 1% of the "actua
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot3_uniswap_vs_exchange_distribution.png" />
 </div>
 
-This could be partially explained by the fact the USDC-USDT pool is the worst funded one of them all.
+This could be partially explained by the fact the USDC-USDT pool is the worst funded one of all 5 liquidity pools above.
 
 
 ## Conclusions

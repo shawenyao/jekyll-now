@@ -11,6 +11,8 @@ new: true
 ---
 Constant product formula vs. order book.
 
+In the previous [post](/Dynamics-of-Liquidity-Pool-Returns-A-Uniswap-Example/), we discussed the way by which an automated market maker (AMM) such as Uniswap determines market price. The fundamental mechanism underlying the decentralized exchange is known as the constant product formula, which states that given a certain supply of asset X and Y in the liqudity pool, the product of their outstanding balances should be a constant.
+
 Obviously, the law of one price dictates that the two cannot be too far apart. Otherwise, it creates actionable arbitrage opportunity if the spread is wide enough to remain positive on an after-transaction-cost basis.
 
 ## Data Feeds

@@ -47,7 +47,9 @@ This could be partially explained by the fact the USDC-USDT pool is the worst fu
 
 ## Appendix
 
-### Summary statistics: price ratio difference %
+### Summary Statistics: 
+
+Price ratio difference %:
 
 | pair | mean | sd | t |
 |---|---|---|---|
@@ -57,7 +59,7 @@ This could be partially explained by the fact the USDC-USDT pool is the worst fu
 | DAI-ETH | 0.02% | 0.0055 | 0.03930 |
 | USDC-USDT | 0.09% | 0.0035 | 0.2540 |
 
-### Sample query
+### Sample Query
 
 The historical liquidity pool balances of the BTC/ETH pair on Uniswap (powered by the [Graph](https://thegraph.com/explorer/subgraph/uniswap/uniswap-v2)):
 

@@ -11,7 +11,7 @@ new: true
 ---
 Constant product formula vs. order book.
 
-Obviously, the two cannot be too far apart. Otherwise, it creates actionable arbitrage opportunity if the spread is wide enough to remain positive on an after-transaction-cost basis.
+Obviously, the law of one price dictates that the two cannot be too far apart. Otherwise, it creates actionable arbitrage opportunity if the spread is wide enough to remain positive on an after-transaction-cost basis.
 
 ## Data Feeds
 

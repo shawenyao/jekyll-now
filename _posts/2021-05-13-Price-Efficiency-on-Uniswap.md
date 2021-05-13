@@ -35,16 +35,6 @@ The divergence is more clearly visible on a difference % scale:
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot3_uniswap_vs_exchange_distribution.png" />
 </div>
 
-
-| pair | mean | sd | t |
-|---|---|---|---|
-| BTC-ETH | 0.0004 | 0.0045 | 0.0916 |
-| USDT-ETH | -0.0004 | 0.0053 | -0.0767 |
-| USDC-ETH | -0.0002 | 0.0319 | -0.0070 |
-| DAI-ETH | 0.0002 | 0.0055 | 0.03930 |
-| USDC-USDT | 0.0009 | 0.0035 | 0.2540 |
-
-
 This could be partially explained by the fact the USDC-USDT pool is the worst funded one of them all.
 
 <div align="center">
@@ -55,7 +45,19 @@ This could be partially explained by the fact the USDC-USDT pool is the worst fu
 
 ## Appendix
 
-Sample query: the historical liquidity pool balances of the BTC/ETH pair on Uniswap (powered by the [Graph](https://thegraph.com/explorer/subgraph/uniswap/uniswap-v2))
+### Summary statistics: price ratio difference %
+
+| pair | mean | sd | t |
+|---|---|---|---|
+| BTC-ETH | 0.04% | 0.0045 | 0.0916 |
+| USDT-ETH | -0.04% | 0.0053 | -0.0767 |
+| USDC-ETH | -0.02% | 0.0319 | -0.0070 |
+| DAI-ETH | 0.02% | 0.0055 | 0.03930 |
+| USDC-USDT | 0.09% | 0.0035 | 0.2540 |
+
+### Sample query
+
+The historical liquidity pool balances of the BTC/ETH pair on Uniswap (powered by the [Graph](https://thegraph.com/explorer/subgraph/uniswap/uniswap-v2)):
 
 ```json
 {

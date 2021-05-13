@@ -59,7 +59,7 @@ Sample query: the historical liquidity pool balances of the BTC/ETH pair on Unis
 {
   pairDayDatas(
     first: 1000,
-  	orderBy: date, 
+    orderBy: date, 
     orderDirection: desc, 
     where: { 
       pairAddress: "0xbb2b8038a1640196fbe3e38816f3e67cba72d940"

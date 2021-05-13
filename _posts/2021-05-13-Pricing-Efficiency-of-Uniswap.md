@@ -11,7 +11,8 @@ new: true
 ---
 Constant product formula vs. order book.
 
-Obviously, the two cannot be too far apart. Otherwise, it creates actionable arbitrage opportunity if the spread outweighs on a after-transaction-cost basis.
+Obviously, the two cannot be too far apart. Otherwise, it creates actionable arbitrage opportunity if the spread remains positive on an after-transaction-cost basis.
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot1_uniswap_vs_exchange.png" />
 </div>
@@ -23,6 +24,8 @@ Obviously, the two cannot be too far apart. Otherwise, it creates actionable arb
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot3_uniswap_vs_exchange_distribution.png" />
 </div>
+
+This could be partially explained by the fact the USDC-USDT pool is the worst funded one of them all.
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot4_uniswap_vs_exchange_reserve.png" />

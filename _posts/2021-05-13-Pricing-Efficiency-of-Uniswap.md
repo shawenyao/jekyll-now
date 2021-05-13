@@ -17,6 +17,8 @@ Obviously, the two cannot be too far apart. Otherwise, it creates actionable arb
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot1_uniswap_vs_exchange.png" />
 </div>
 
+The divergence is more clearly visible on a difference % scale:
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot2_uniswap_vs_exchange_diff.png" />
 </div>

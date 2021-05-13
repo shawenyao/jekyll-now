@@ -47,7 +47,7 @@ This could be partially explained by the fact the USDC-USDT pool is the worst fu
 
 ## Appendix
 
-### Summary Statistics: 
+### Summary Statistics
 
 Price ratio difference %:
 

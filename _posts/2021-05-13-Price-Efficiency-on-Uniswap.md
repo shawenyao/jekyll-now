@@ -29,6 +29,8 @@ The divergence is more clearly visible on a difference % scale:
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot2_uniswap_vs_exchange_diff.png" />
 </div>
 
+For most of the time, the price ratio on Uniswap is well within 1% of the "actual" value, i.e., the one quoted on order-book-style exchanges.
+
 ## A Closer Look
 
 <div align="center">

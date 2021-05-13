@@ -7,7 +7,7 @@ tag:
 comments: true
 draft: false
 finance: true
-new: true
+new: false
 ---
 If money never sleeps, why should the cryptos?
 

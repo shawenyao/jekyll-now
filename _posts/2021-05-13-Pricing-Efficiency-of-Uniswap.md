@@ -13,6 +13,10 @@ Constant product formula vs. order book.
 
 Obviously, the two cannot be too far apart. Otherwise, it creates actionable arbitrage opportunity if the spread is wide enough to remain positive on an after-transaction-cost basis.
 
+## Data Feeds
+
+## Price Discovery: Uniswap vs Exchange
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot1_uniswap_vs_exchange.png" />
 </div>
@@ -23,6 +27,8 @@ The divergence is more clearly visible on a difference % scale:
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot2_uniswap_vs_exchange_diff.png" />
 </div>
 
+## A Closer Look
+
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot3_uniswap_vs_exchange_distribution.png" />
 </div>
@@ -32,3 +38,5 @@ This could be partially explained by the fact the USDC-USDT pool is the worst fu
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot4_uniswap_vs_exchange_reserve.png" />
 </div>
+
+## Conclusions

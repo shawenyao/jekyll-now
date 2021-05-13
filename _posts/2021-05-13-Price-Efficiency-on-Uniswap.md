@@ -43,7 +43,7 @@ This could be partially explained by the fact the USDC-USDT pool is the worst fu
 
 ## Appendix
 
-### Query: the historical liquidity pool balances of the BTC/ETH pair on Uniswap
+### Sample query: the historical liquidity pool balances of the BTC/ETH pair on Uniswap (powered by the [Graph](https://thegraph.com/explorer/subgraph/uniswap/uniswap-v2))
 ```json
 {
   pairDayDatas(

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pricing Efficiency of Uniswap
+title: Price Efficiency on Uniswap
 tag:
   - defi
   - finance

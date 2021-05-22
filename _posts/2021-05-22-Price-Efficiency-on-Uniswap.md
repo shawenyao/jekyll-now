@@ -13,7 +13,7 @@ Constant product formula vs. order book.
 
 In the previous [post](/Dynamics-of-Liquidity-Pool-Returns-A-Uniswap-Example/), we discussed the way by which an automated market maker (AMM) such as Uniswap determines market price. As mentioned, the fundamental mechanism underlying the decentralized exchange is known as the constant product formula, which states that given a certain supply of asset X and Y in the liquidity pool, the product of their outstanding balances should be a constant. This differs drastically from how traditional electronic exchanges such as NYSE, NASDAQ or even Coinbase functions, where buyers and sellers place their bid/ask prices to form order books, from which assets are priced.
 
-Obviously, the law of one price dictates that under certain conditions, the price of the same asset must be the same everywhere - otherwise, it creates actionable arbitrage opportunity across markets. In practice, however, many market imperfections, i.e., trade frictions, prevent the principle from holding true. For example, the feasibility of the arbitrage trade depends on how much each transaction costs, how long the settlement might take, or how easy it is to move capital around. Nonetheless, arbitrageurs can still step in and take advantage of the difference if the spread is wide enough to remain positive on an after-cost basis.
+Obviously, the law of one price dictates that under certain conditions, the price of the same asset must be the same everywhere - otherwise, it creates actionable arbitrage opportunity across markets. In practice, however, many market imperfections, i.e., trade frictions, prevent the principle from holding true. For example, the feasibility of the arbitrage trade depends on how much each transaction costs, how long the settlement takes, or how easy it is to move capital around. Nonetheless, arbitrageurs can still step in and take advantage of the difference if the spread is wide enough to remain positive on an after-cost basis.
 
 So how do the two stack up against each other? Let's take a look at where they've been over Uniswap V2's one year history.
 
@@ -29,7 +29,7 @@ By design of Uniswap, prices are always quoted in the context of an asset pair, 
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot1_uniswap_vs_exchange.png" />
 </div>
 
-The divergence is more clearly visible on a price ratio spread % scale:
+The divergence is more clearly visible on a price ratio spread % scale, using prices from exhcanges as the denominator:
 
 <div align="center">
   <img src="https://shawenyao.github.io/R/output/uniswap_vs_exchange/plot2_uniswap_vs_exchange_diff.png" />
@@ -49,7 +49,7 @@ Notably, the USDC-USDT pair shows the biggest divergence. This could be partiall
 
 ## Conclusions
 
-Uniswap is still somewhat a niche exchange - that is, even in the crypto space. On a relative basis, the "traditional" exchanges such as Binance and Coinbase offer far greater liquidity (i.e., far better market depth) than Uniswap does. As a matter of fact, the price ratio spread is a reflection of the "additional" friction to trade on Uniswap today due to the limited liquidity it offers compared to Binance or Coinbase.
+Uniswap is still somewhat a niche exchange - that is, even in the crypto space. On a relative basis, the "traditional" exchanges such as Binance and Coinbase offer far greater liquidity (i.e., better market depth) than Uniswap does. To some extent, the price ratio spread is a reflection of the "additional" friction to trade on Uniswap today due to the limited liquidity it offers compared to Binance or Coinbase. It is by no means a deal-breaker though, as some would argue that it's worthwhile trade-off in exchange for no more central counterparty, full on-chain transparency, as well as the chance to get the UNI governance token.
 
 ## Appendix
 

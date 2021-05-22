@@ -5,7 +5,7 @@ tag:
   - defi
   - finance
 comments: true
-draft: true
+draft: false
 finance: true
 new: true
 ---

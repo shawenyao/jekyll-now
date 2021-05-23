@@ -49,7 +49,7 @@ Notably, the USDC-USDT pair shows the biggest divergence. This could be partiall
 
 ## Conclusions
 
-Uniswap is still a somewhat niche exchange - that is, even in the crypto space. On a relative basis, the "traditional" exchanges such as Binance and Coinbase offer far greater liquidity (i.e., better market depth) than Uniswap does. To some extent, the price ratio spread is a reflection of the "additional" friction to trade on Uniswap today due to the limited liquidity it offers compared to Binance or Coinbase. It is by no means a deal-breaker though, as some would argue that it's worthwhile trade-off in exchange for no more central counterparty, full on-chain transparency, as well as the chance to get the UNI governance token.
+Uniswap is still a somewhat niche exchange - that is, even in the crypto space. On a relative basis, the "traditional" exchanges such as Binance and Coinbase offer greater liquidity (i.e., better market depth) than Uniswap does. To some extent, the price ratio spread is a reflection of the "additional" friction to trade on Uniswap today due to the limited liquidity it offers compared to Binance or Coinbase. It is by no means a deal-breaker though, as some would argue that the trade-off is worth it in light of the full on-chain transparency, the absence of central counterparty, as well as the chance to win the UNI governance token.
 
 ## Appendix
 

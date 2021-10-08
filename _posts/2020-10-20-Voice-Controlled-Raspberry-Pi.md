@@ -89,7 +89,7 @@ or auto-started upon startup by running:
 sudo systemctl enable webhook
 ```
 
-Note that for such a service that is intended to be accessible over the internet (as will become true in the next step), it's probably a good idea to authenticate the identity of the requestor in some form. For example, you can ask the requestor to submit a token that only a trusted user knows along with the request itself.
+Note that for such a service that is intended to be accessible over the internet (as will become true in the next step), it's probably a good idea to authenticate the identity of the requester in some form. For example, you can ask the requester to submit a token that only a trusted user knows along with the request itself.
 
 **Milestone**: now you can use the link ```http://localipaddress:port/hooks/pictrl?action=play``` on any device within the same network to control your Kodi player.
 

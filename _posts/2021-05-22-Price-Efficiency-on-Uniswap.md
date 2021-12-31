@@ -7,7 +7,7 @@ tag:
 comments: true
 draft: false
 finance: true
-new: true
+new: false
 ---
 Constant product formula vs. order book.
 

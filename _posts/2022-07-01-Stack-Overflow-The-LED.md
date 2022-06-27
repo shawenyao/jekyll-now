@@ -6,7 +6,7 @@ tag:
   - python
   - smart home
 comments: true
-draft: true
+draft: false
 keyboard: true
 new: true
 ---

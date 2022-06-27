@@ -13,9 +13,13 @@ new: true
 
 Good artists copy. Great artists steal. Greatest artists copy, then paste.
 
+Originally inspired by a meme, Stack Overflow recently started shipping for its `The Key V2` macropad. On top of the signature 3-button layout, V2 added support for RGB lightning, enabling it to function not only as an input device, but an output one as well. In this post, we are going to make the keyboard shine whenever there are any unread notifications.
+
+A quick rundown of all the mumbo jumbos:
 * [Stack Overflow The Key](https://drop.com/buy/stack-overflow-the-key-v2-macropad): A Stack-Overflow-branded macropad with 3 buttons, dedicated to performing copy and paste by default (i.e., CTRL, C and V). V2 added RGB support.
 * [QMK (Quantum Mechanical Keyboard)](https://docs.qmk.fm/#/): An open-source protocol adopted by a variety of mechanical keyboards.
 * [Vial](https://get.vial.today/): An QMK fork that comes with a GUI and easier configurability.
+* [HID (Human Interface Device)](https://en.wikipedia.org/wiki/Human_interface_device): A USB protocol to send information between input devices and computers. Also, a Python package by the same name.
 * [Windows Runtime (WinRT)](https://en.wikipedia.org/wiki/Windows_Runtime): A set of Windows APIs.
 
 ## Controlling Lighting
@@ -46,6 +50,8 @@ dev.close()
 
 Mode 14 happens to be Rainbow Swirl. It has an eye-catching animation with plenty of colors, which makes it hard to ignore - an ideal candidate for the notification mode. 
 
+As for the HID device path, my keyboard actually gave me multiple values as `hid.enumerate()` suggested. Only one works - be prepared to find the right path by elimination.
+
 ## Listening to Notifications
 
 There's probably no better way to get the system-wide notification status than to ask the system itself. The `WinRT` APIs, accessible in Python via the `pywinrt` package makes it possible.
@@ -75,7 +81,7 @@ while True:
     listener = UserNotificationListener.get_current()
     notifications = await listener.get_notifications_async(NotificationKinds.TOAST)
 
-    # if there is any notification and the LED is not in notification mode
+    # if there is at least one notification and the LED is not in notification mode
     if len(notifications) >= 1 and notification_mode == False:
         # turn on notification mode
         notification_mode = True

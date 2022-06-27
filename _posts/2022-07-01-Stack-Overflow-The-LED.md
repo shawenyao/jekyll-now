@@ -4,8 +4,9 @@ title: Stack Overflow The LED
 tag:
   - windows
   - smart home
+  - python
 comments: true
-draft: false
+draft: true
 keyboard: true
 new: true
 ---
@@ -16,6 +17,8 @@ new: true
 * [Windows Runtime (WinRT)](https://en.wikipedia.org/wiki/Windows_Runtime): A set of Windows APIs.
 
 ## Controlling Lighting
+
+Reinventing the communication protocol between a PC and a keyboard isn't fun. Gladly, the Vial project already had it all figured out (see appendix). To control the lighting on the keyboard, a very specific message needs to be sent by the Python script:
 
 ```python
 import hid

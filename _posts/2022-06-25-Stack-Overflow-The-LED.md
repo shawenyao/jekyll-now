@@ -18,7 +18,7 @@ new: true
 
 ## Controlling Lighting
 
-Reinventing the communication protocol between a PC and a keyboard isn't fun. Gladly, the Vial project already had it all figured out (see appendix). After flashing the Vial-compatible firmware (see appendix), a very specific message needs to be sent by the Python script to control the lighting on the keyboard:
+Reinventing the communication protocol between a PC and a keyboard isn't fun. Gladly, the Vial project already had it all figured out (see appendix). After flashing the keyboard with the Vial-compatible firmware (see appendix), a very specific message needs to be sent by the Python script to control the lighting on the keyboard:
 
 ```python
 import hid

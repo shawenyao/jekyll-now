@@ -14,7 +14,7 @@ new: true
 Good artists copy. Great artists steal. Greatest artists copy, then paste.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/TheKeyV2/logo.png" />
+  <img src="https://shawenyao.github.io/Photos/TheKeyV2/logo.jpg" />
 </div>
 
 Originally inspired by a meme, Stack Overflow recently started shipping for its `The Key V2` macropad. On top of the signature 3-button layout, V2 added support for RGB lightning, enabling it to function not only as an input device, but an output one as well. In this post, we are going to make the keyboard shine whenever there are any unread notifications.

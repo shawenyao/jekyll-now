@@ -3,8 +3,8 @@ layout: post
 title: Stack Overflow The LED
 tag:
   - windows
-  - smart home
   - python
+  - smart home
 comments: true
 draft: true
 keyboard: true
@@ -45,6 +45,8 @@ dev.close()
 Mode 14 happens to be Rainbow Swirl. It has an eye-catching animation with plenty of colors, which makes it hard to ignore - an ideal candidate for notification purposes. We will call it the notification mode going forward.
 
 ## Listening to Notifications
+
+There's probably no better way to get the system-wide notification status than to ask the system itself. The `WinRT` APIs, accessible in Python via the `pywinrt` package makes it possible.
 
 ```python
 from winrt.windows.ui.notifications.management import UserNotificationListener

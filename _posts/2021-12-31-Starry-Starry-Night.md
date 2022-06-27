@@ -6,7 +6,7 @@ tag:
 comments: true
 draft: false
 photography: true
-new: false
+new: true
 ---
 
 Goodbye another year.

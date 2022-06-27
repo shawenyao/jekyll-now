@@ -13,6 +13,10 @@ new: true
 
 Good artists copy. Great artists steal. Greatest artists copy, then paste.
 
+<div align="center">
+  <img src="https://shawenyao.github.io/Photos/TheKeyV2/logo.png" />
+</div>
+
 Originally inspired by a meme, Stack Overflow recently started shipping for its `The Key V2` macropad. On top of the signature 3-button layout, V2 added support for RGB lightning, enabling it to function not only as an input device, but an output one as well. In this post, we are going to make the keyboard shine whenever there are any unread notifications.
 
 A quick rundown of all the mumbo jumbos:
@@ -93,6 +97,10 @@ while True:
         notification_mode = False
         toggle_notification_mode(on=notification_mode)
 ```
+
+<div align="center">
+  <img src="https://shawenyao.github.io/Photos/TheKeyV2/demo.gif" />
+</div>
 
 ## References
 * [Vial-compatible firmware for Stack Overflow The Key V2 by JetSerge](https://drop.com/buy/stack-overflow-the-key-v2-macropad/talk/2892369)

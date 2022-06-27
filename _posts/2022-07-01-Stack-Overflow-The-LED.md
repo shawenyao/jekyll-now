@@ -44,7 +44,7 @@ dev.write(b"\x00" + msg)
 dev.close()
 ```
 
-Mode 14 happens to be Rainbow Swirl. It has an eye-catching animation with plenty of colors, which makes it hard to ignore - an ideal candidate for notification purposes. We will call it the notification mode going forward.
+Mode 14 happens to be Rainbow Swirl. It has an eye-catching animation with plenty of colors, which makes it hard to ignore - an ideal candidate for the notification mode. 
 
 ## Listening to Notifications
 
@@ -61,7 +61,7 @@ print(len(notifications))
 ```
 
 ## Putting It All Together
-The final thing to do is to put the listener in a loop, check for states every couple seconds and depending on whether there are unread notifications or not, adjust RGB mode accordingly.
+The final thing to do is to put the listener in a loop, check for states every couple seconds and depending on whether there are unread notifications or not, adjust RGB mode accordingly. See appendix for the full script.
 
 ```python
 # turn off notification mode upon initialization
@@ -92,6 +92,7 @@ while True:
 * [Vial-compatible firmware for Stack Overflow The Key V2 by JetSerge](https://drop.com/buy/stack-overflow-the-key-v2-macropad/talk/2892369)
 * [Vial source code](https://github.com/vial-kb/vial-gui)
 * [How can I listen to Windows 10 notifications in Python?](https://stackoverflow.com/questions/64043297/how-can-i-listen-to-windows-10-notifications-in-python)
+* [Working example](https://github.com/shawenyao/the_key_v2/blob/main/control_leds.py)
 
 ## Appendix
 ### Install all the software packages mentioned above

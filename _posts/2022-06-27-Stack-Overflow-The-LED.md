@@ -71,7 +71,7 @@ print(len(notifications))
 ```
 
 ## Putting It All Together
-The remaining to-dos inlucde putting the listener in a loop and checking for status update every couple seconds. Depending on whether there are unread notifications or not, send the message to the keyboard in order to adjust RGB mode accordingly. See appendix for the full script.
+The remaining to-dos include putting the listener in a loop and checking for status update every couple seconds. Depending on whether there are unread notifications or not, send the message to the keyboard in order to adjust RGB mode accordingly. See appendix for the full script.
 
 ```python
 # turn off notification mode upon initialization

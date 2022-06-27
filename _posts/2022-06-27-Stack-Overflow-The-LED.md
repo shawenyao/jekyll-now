@@ -54,7 +54,7 @@ dev.close()
 
 Mode 14 happens to be Rainbow Swirl. It has an eye-catching animation with plenty of colors, which makes it hard to ignore - an ideal candidate for the notification mode. 
 
-As for the HID device path, my keyboard actually gave me multiple values as `hid.enumerate()` suggested. Only one works - be prepared to find the right path by elimination.
+As for the HID device path, my keyboard actually gave me four instances as `hid.enumerate()` suggested. Only one works - be prepared to find the right path by elimination.
 
 ## Listening to Notifications
 

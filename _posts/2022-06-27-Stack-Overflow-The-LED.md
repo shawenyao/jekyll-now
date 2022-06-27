@@ -11,7 +11,7 @@ keyboard: true
 new: true
 ---
 
-Good artists copy. Great artists steal. Greatest artists copy, then paste.
+"Good artists copy. Great artists steal. Greatest artists copy, then paste."
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/TheKeyV2/logo.jpg" />

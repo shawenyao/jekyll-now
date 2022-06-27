@@ -101,7 +101,7 @@ while True:
 Finally, enjoy!
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/TheKeyV2/demo.gif" />
+  <img src="https://shawenyao.github.io/Photos/TheKeyV2/demo.gif" style="max-width: 100%;height: auto;"/>
 </div>
 
 ## References

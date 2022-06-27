@@ -11,7 +11,7 @@ keyboard: true
 new: true
 ---
 
-> Good artists copy. Great artists steal. Greatest artists copy, then paste.
+Good artists copy. Great artists steal. Greatest artists copy, then paste.
 
 * [Stack Overflow The Key](https://drop.com/buy/stack-overflow-the-key-v2-macropad): A Stack-Overflow-branded macropad with 3 buttons, dedicated to performing copy and paste by default (i.e., CTRL, C and V). V2 added RGB support.
 * [QMK (Quantum Mechanical Keyboard)](https://docs.qmk.fm/#/): An open-source protocol to configure mechanical keyboard.

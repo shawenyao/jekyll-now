@@ -71,7 +71,7 @@ print(len(notifications))
 ```
 
 ## Putting It All Together
-The final thing to do is to put the listener in a loop, check for status every couple seconds. Depending on whether there are unread notifications or not, adjust RGB mode accordingly. See appendix for the full script.
+The remaining to-dos inlucde putting the listener in a loop and checking for status update every couple seconds. Depending on whether there are unread notifications or not, send the message to the keyboard adjust RGB mode accordingly. See appendix for the full script.
 
 ```python
 # turn off notification mode upon initialization
@@ -97,6 +97,8 @@ while True:
         notification_mode = False
         toggle_notification_mode(on=notification_mode)
 ```
+
+Finally, enjoy!
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/TheKeyV2/demo.gif" />

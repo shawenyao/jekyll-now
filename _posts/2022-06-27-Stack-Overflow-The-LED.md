@@ -17,7 +17,7 @@ Good artists copy. Great artists steal. Greatest artists copy, then paste.
   <img src="https://shawenyao.github.io/Photos/TheKeyV2/logo.jpg" />
 </div>
 
-Originally inspired by a meme, Stack Overflow recently started shipping for its `The Key V2` macropad. On top of the signature 3-button layout, V2 added support for RGB lightning, enabling it to function not only as an input device, but an output one as well. In this post, we are going to make the keyboard shine whenever there are any unread notifications.
+Originally inspired by a meme, Stack Overflow recently started shipping for its `The Key V2` macropad. On top of the signature 3-button layout, V2 added support for RGB lightning, enabling it to function not only as an input device but an output one as well. In this post, we are going to let the keyboard shine whenever there are any unread notifications.
 
 A quick rundown of all the mumbo jumbos:
 * [Stack Overflow The Key](https://drop.com/buy/stack-overflow-the-key-v2-macropad): A Stack-Overflow-branded macropad with 3 buttons, dedicated to performing copy and paste by default (i.e., CTRL, C and V). V2 added RGB support.
@@ -28,7 +28,7 @@ A quick rundown of all the mumbo jumbos:
 
 ## Controlling Lighting
 
-Reinventing the communication protocol between a PC and a keyboard isn't fun. Gladly, the Vial project already had it all figured out (see appendix). After flashing the keyboard with the Vial-compatible firmware (again, see appendix), a very specific message needs to be sent by the Python script to control the lighting on the keyboard:
+Reinventing the communication protocol between a PC and a keyboard isn't fun. Fortunately, the Vial project already had it all figured out (see appendix). After flashing the keyboard with the Vial-compatible firmware (again, see appendix), a very specific message needs to be sent by the Python script to control the lighting on the keyboard:
 
 ```python
 import hid
@@ -71,7 +71,7 @@ print(len(notifications))
 ```
 
 ## Putting It All Together
-The remaining to-dos inlucde putting the listener in a loop and checking for status update every couple seconds. Depending on whether there are unread notifications or not, send the message to the keyboard adjust RGB mode accordingly. See appendix for the full script.
+The remaining to-dos inlucde putting the listener in a loop and checking for status update every couple seconds. Depending on whether there are unread notifications or not, send the message to the keyboard in order to adjust RGB mode accordingly. See appendix for the full script.
 
 ```python
 # turn off notification mode upon initialization

@@ -54,6 +54,9 @@ print(len(notifications))
 ## Putting It All Together
 
 ## References
+* Vial-compatible [firmware](https://drop.com/buy/stack-overflow-the-key-v2-macropad/talk/2892369) for Stack Overflow The Key V2 by JetSerge
+* Vial [source code](https://github.com/vial-kb/vial-gui)
+* [How can I listen to Windows 10 notifications in Python?](https://stackoverflow.com/questions/64043297/how-can-i-listen-to-windows-10-notifications-in-python)
 
 ## Appendix
 ### Install all the software packages mentioned above

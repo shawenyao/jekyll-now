@@ -19,6 +19,16 @@ new: true
 
 ## Listening to Notifications
 
-## Conclusions
+## Putting It All Together
 
 ## References
+
+## Appendix
+### Install all the software packages mentioned above
+```bash
+pip install hid
+pip install winrt
+```
+
+### Configure hid
+Download the latest release of `hidapi-win.zip` from [GitHub](https://github.com/libusb/hidapi/releases), unzip and put `x64/hidapi.dll` into `C:\Windows\System32`

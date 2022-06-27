@@ -17,7 +17,39 @@ new: true
 
 ## Controlling Lighting
 
+```python
+import hid
+import struct
+
+# constants
+CMD_VIA_LIGHTING_SET_VALUE = 0x07
+QMK_RGBLIGHT_EFFECT = 0x81
+MSG_LEN = 32
+
+# hid device path
+# use hid.enumerate() to figure out
+PATH = b'\\\\?\\HID#VID_FEED&PID_6070&MI_01#7&36c4d81a&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+
+# change RGB mode to 2 (breathing)
+mode = 2
+msg = struct.pack(">BBB", CMD_VIA_LIGHTING_SET_VALUE, QMK_RGBLIGHT_EFFECT, mode)
+msg += b"\x00" * (MSG_LEN - len(msg))
+dev = hid.Device(path=PATH)
+dev.write(b"\x00" + msg)
+dev.close()
+```
+
 ## Listening to Notifications
+
+```python
+from winrt.windows.ui.notifications.management import UserNotificationListener
+from winrt.windows.ui.notifications import NotificationKinds
+
+# ask windows how many notifications there are
+listener = UserNotificationListener.get_current()
+notifications = await listener.get_notifications_async(NotificationKinds.TOAST)
+print(len(notifications))
+```
 
 ## Putting It All Together
 

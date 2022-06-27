@@ -54,7 +54,7 @@ As for the HID device path, my keyboard actually gave me multiple values as `hid
 
 ## Listening to Notifications
 
-There's probably no better way to get the system-wide notification status than to ask the system itself. The `WinRT` APIs, accessible in Python via the `pywinrt` package makes it possible.
+There's probably no better way to get the system-wide notification status than to ask the system itself. The `WinRT` APIs, accessible in Python via the `pywinrt` package, makes it possible.
 
 ```python
 from winrt.windows.ui.notifications.management import UserNotificationListener

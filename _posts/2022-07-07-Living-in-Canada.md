@@ -11,7 +11,7 @@ new: true
 
 An American perspective.
 
-From 2019 to 2021, I had the pleasure of calling Toronto, Ontario my home for 2.5 years. During my stay, I began to come across various ways in which the Canadians behave differently from the Americans. Many of them were frankly eye-opening in an amusing way, so I hope my story will be a useful tip for anyone who decides to visit.
+From 2019 to 2021, I had the pleasure of calling Toronto, Ontario my home for 2.5 years. During my stay, I began to come across various ways in which the Canadians behave differently from the Americans. Many of them were frankly eye-opening in an amusing way.
 
 Don't get me wrong - for the most part, Canadians and Americans are _very_ similar. Obviously, both of them speak English. Both like to talk about sports, celebrities and politics. Both are friendly and care about their community. By and large, they are all nice people.
 

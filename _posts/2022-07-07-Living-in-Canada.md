@@ -21,7 +21,7 @@ Of course, there are also more subtle differences between two, and those are typ
 
 Speaking of financial services, one of the first things I decided to do after my arrival was to open a bank account. So, on my second day, I walked into a branch of TD Bank. An associate greeted me and offered to help.
 
-"Good news." she said, "We have reviewed your employment and income status, and we are glad to tell you that you are eligible for our Unlimited Chequing Account!"
+"Good news," she said, "We have reviewed your employment and income status, and we are glad to tell you that you are eligible for our Unlimited Chequing Account!"
 
 "Thank you - this is great. Can you remind me what that 'unlimited' means?"
 

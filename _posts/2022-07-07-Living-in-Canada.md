@@ -11,7 +11,7 @@ new: true
 
 An American perspective.
 
-From 2019 to 2021, I had the pleasure of calling Toronto my home for two and a half years. During my stay, I began to come across various ways in which the Canadians behave differently from the Americans, many of which were frankly eye-opening in an amusing way.
+From 2019 to 2021, I had the pleasure of calling Toronto my home for two and a half years. During my stay, I began to come across various ways in which the Canadians behave differently from the Americans - many of them were frankly eye-opening in an amusing way.
 
 Don't get me wrong - for the most part, Canadians and Americans are _very_ similar. Obviously, both of them speak English. Both like to talk about sports, celebrities and politics. Both are friendly and care about their community. By and large, they are all nice people.
 
@@ -27,7 +27,7 @@ Speaking of financial services, one of the first things I decided to do after my
 
 "Oh - it just means, you get to use your chequing account for an _unlimited_ number of times each month at no additional cost."
 
-I managed to keep smiling, but deep down, that smile froze. Back in the states, an act of such immeasurable generosity happened to be the _only_ kind of checking account I knew of. After all, what's the point of putting your money in a bank if you cannot spend it whenever and however you like it? Well, later I learned that the bigger, more systematic issue behind all this was the fact that the Canadian banking system is even more centralized than its American counterpart, so the "Big Five" in Canada can get away with charging a premium for essentially the same services. That's very unfortunate for those who have been "spoiled" by the American banks.
+I managed to keep smiling, but deep down, that smile froze. Back in the states, an act of such immeasurable generosity happened to be the _only_ kind of checking account I knew of. After all, what's the point of putting your money in a bank if you cannot spend it whenever and however you like it? Well, later I learned that the bigger, more systematic issue behind all this was the fact that the Canadian banking system is even more centralized than its American counterpart, so the "Big Five" in Canada can get away with charging a premium for essentially the same services. That's quite unfortunate for those who have been "spoiled" by the American banks.
 
 Things are even worse for those who have been spoiled by the American shopping experience. For perspective, the city of San Francisco charges a sales tax of approximately 8.5% and most Americans will tell you how crazy and unaffordable that is. Meanwhile, the Ontario province demands 13% so the way they see San Francisco is more like, hey look, _everything_ is 5% off. Not to mention the price differences because things are usually more expensive in Canada on a pre-tax basis already. The worst part of them all, and probably the number one reason why my mom would consider a peaceful Canadian life to be excruciatingly uneventful, has to be the promotions and the discounts, or rather, the lack thereof. While it isn't uncommon for a U.S. retailer to slash a product's sticker price by, say, 20% or more, especially during a big promotional week, deals of this kind are few and far between in Canada. Personally, I learned it the hard way.
 

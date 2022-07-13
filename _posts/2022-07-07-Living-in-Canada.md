@@ -13,7 +13,7 @@ An American perspective.
 
 From 2019 to 2021, I had the pleasure of calling Toronto my home for two and a half years. During my stay, I began to come across various ways in which the Canadians behave differently from the Americans - many of them were frankly eye-opening in an amusing way.
 
-Don't get me wrong - for the most part, Canadians and Americans are _very_ similar. Obviously, both of them speak English. Both like to talk about sports, celebrities and politics. Both are friendly and care about their community. By and large, they are all nice people.
+Don't get me wrong. For the most part, Canadians and Americans are _very_ similar. Obviously, both of them speak English. Both like to talk about sports, celebrities and politics. Both are friendly and care about their community. By and large, they are all nice people.
 
 But that’s not to say that the two are the same. Far from it. Probably the most visible difference between the two countries can be found in the system of measurement. Despite being a British Commonwealth nation, Canada uses the metric system as opposed to imperial. So instead of saying 60 miles per hour, you say 100 kilometers per hour. Instead of saying 70 Fahrenheit, you say 20 Celsius. And then there is the spelling. How do you spell "check" as in a checking account? In Canada, it is "cheque".
 

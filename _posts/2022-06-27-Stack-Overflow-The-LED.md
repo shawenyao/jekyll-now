@@ -28,7 +28,7 @@ A quick rundown of all the mumbo jumbos:
 
 ## Controlling Lighting
 
-Reinventing the communication protocol between a PC and a keyboard isn't fun. Fortunately, the Vial project already had it all figured out (see appendix). After flashing the keyboard with the Vial-compatible firmware (again, see appendix), a very specific message needs to be sent by the Python script to control the lighting on the keyboard:
+Reinventing the communication protocol between a PC and a keyboard isn't fun. Fortunately, the Vial project already had it all figured out (see references). After flashing the keyboard with the Vial-compatible firmware (again, see references), a very specific message needs to be sent by the Python script to control the lighting on the keyboard:
 
 ```python
 import hid
@@ -71,7 +71,7 @@ print(len(notifications))
 ```
 
 ## Putting It All Together
-The remaining to-dos include putting the listener in a loop and checking for status update every couple seconds. Depending on whether there are unread notifications or not, send the message to the keyboard in order to adjust RGB mode accordingly. See appendix for the full script.
+The remaining to-dos include putting the listener in a loop and checking for status update every couple seconds. Depending on whether there are unread notifications or not, send the message to the keyboard in order to adjust RGB mode accordingly. See references for the full script.
 
 ```python
 # turn off notification mode upon initialization

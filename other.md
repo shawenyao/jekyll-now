@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sep 22, 2022
+title: September 22, 2022
 permalink: /22922/
 ---
 

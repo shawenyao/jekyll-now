@@ -4,6 +4,8 @@ title: September 22, 2022
 permalink: /22922/
 ---
 
+> “Two drifters, off to see the world”
+
 <br>
 
 <div align="center">

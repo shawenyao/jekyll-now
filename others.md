@@ -9,7 +9,7 @@ permalink: /22922/
 </blockquote>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/DSC00282.jpg" />
+  <img src="https://shawenyao.github.io/Photos/Others/DSC00282.jpg" />
 </div>
 
 <br>

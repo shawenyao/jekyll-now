@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: page
 title: September 22, 2022
 permalink: /22922/
 ---
 
-> “Two drifters, off to see the world”
+<blockquote style="margin: 1.8em .8em;border-left: 2px solid #666;padding: 0.1em 1em;color: #666;">
+  <p>“Two drifters, off to see the world”</p>
+</blockquote>
 
 <br>
 

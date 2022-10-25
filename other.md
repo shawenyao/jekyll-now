@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: September 22, 2022
 permalink: /22922/
 ---

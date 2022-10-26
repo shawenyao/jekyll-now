@@ -5,7 +5,7 @@ permalink: /22922/
 ---
 
 <blockquote style="margin: 1.8em .8em;border-left: 2px solid #666;padding: 0.1em 1em;color: #666;font-size: 22px;font-style: italic;">
-  <p>“Two drifters, off to see the world”</p>
+  <p>Two drifters, off to see the world</p>
 </blockquote>
 
 <div align="center">

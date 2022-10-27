@@ -17,7 +17,7 @@ Okay Google, pause Kodi.
   <img src="https://shawenyao.github.io/Photos/IFTTT/logo.png" />
 </div>
 
-> “Any sufficiently advanced technology is indistinguishable from magic.”
+> Any sufficiently advanced technology is indistinguishable from magic.
 > ― Arthur C. Clarke, Profiles of the Future: An Inquiry into the Limits of the Possible
 
 Ever since Raspberry Pi came into my world, I have been exploring better ways to interact with it. Take Kodi the media player for example - yes, keyboard and mouse are fine; yes, the native web interface is super powerful; and yes, you can even use your TV remote directly if it's HDMI-CEC-compatible. But there's something about Raspberry Pi's small form factor (and perhaps its open source spirit) that just makes me wish for a hands-free experience. 

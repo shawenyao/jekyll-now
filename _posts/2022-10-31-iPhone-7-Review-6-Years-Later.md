@@ -24,7 +24,7 @@ On September 7, 2016, Tim Cook unveiled the iPhone 7 series in San Francisco. Th
 ## Headphone Jack
 One of the biggest controversies surrounding the launch of iPhone 7 was its headphone jack, or the absence of one. Phil Schiller, Apple's senior vice president of worldwide marketing, indeed sounded a little defensive when he took three whole minutes on stage characterizing it as a "courageous" move to challenge a long-established practice. Since then, Apple doubled down on the move with every subsequent iPhone release. The bet paid off.The Android camp fought back for a year or two before giving in eventually. Consumers have also learned to embrace the age of wireless audio, to the point where today, a headphone-jack-less phone has become all but the new default, at least among flagship smartphones on the market.
 
-| Phone | Year | Has a headphone jack? |
+| Model | Year | Have a headphone jack? |
 | --- | --- | --- |
 | iPhone 14 Series | 2022 | No |
 | Samsung Galaxy S22 Series | 2022 | No |

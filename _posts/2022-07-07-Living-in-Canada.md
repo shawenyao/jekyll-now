@@ -6,7 +6,7 @@ tag:
 comments: true
 draft: false
 random: true
-new: true
+new: false
 ---
 
 An American perspective.

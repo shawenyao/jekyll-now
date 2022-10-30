@@ -43,10 +43,10 @@ Six years later, biometrics-based identification as a whole have only become mor
 
 <div align="center">
   <div class="column">
-    <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_5810.jpg" />
+    <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_5810.jpg" style="width:100%" />
   </div>
   <div class="column">
-    <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_6477.jpg" />
+    <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_6477.jpg" style="width:100%" />
   </div>
 </div>
 

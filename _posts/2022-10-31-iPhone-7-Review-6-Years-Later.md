@@ -40,7 +40,7 @@ On September 7, 2016, Tim Cook unveiled the iPhone 7 series in San Francisco. Th
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/haptic.jpg" width="49%" /> 
 </p>
 
-_Left: Geekbench score of the A10 Fusion chip. Right: configuration screen of the haptic feedback._
+_Left: Geekbench score of the A10 Fusion chip; right: configuration screen of the haptic feedback_
 
 ## Headphone Jack
 One of the biggest controversies surrounding the launch of iPhone 7 was its headphone jack, or the absence of one. Phil Schiller, Apple's senior vice president of worldwide marketing, indeed sounded a little defensive when he took three whole minutes on stage characterizing it as a "courageous" move to challenge a long-established practice. Since then, Apple doubled down on the practice with every subsequent iPhone release. The bet paid off.The Android camp fought back for a year or two before giving in eventually. Consumers have also learned to embrace the age of wireless audio, to the point where today, a headphone-jack-less phone has become all but the new default, at least among flagship smartphones on the market.
@@ -87,7 +87,7 @@ Battery is where the 6-year old phone truly shows its age. In 2016, iPhone 7 was
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/battery.jpg" width="49%" />
 </p>
 
-_Left: Geekbench score of the A10 Fusion chip under CPU throttling conditions. Right: battery health after 6 years of degradation._
+_Left: Geekbench score of the A10 Fusion chip under CPU throttling conditions; right: battery health after 6 years of degradation_
 
 ## Wrap-up
 It was neither as incremental as the iPhone 8 one year later, nor as radical as the iPhone X one year later as well.

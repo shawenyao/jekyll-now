@@ -12,8 +12,8 @@ new: true
 Reliving 2016.
 
 <p float="left" align="middle">
-  <img src="https://shawenyao.github.io/Photos/iPhone 7/Portrait/IMG_0670.jpg" width="49%" />
-  <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/home_screen.jpg" width="49%" /> 
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/Portrait/IMG_0669.jpg" width="49%" />
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/lock_screen.jpg" width="49%" /> 
 </p>
 
 _iPhone 7 running iOS 15.7_
@@ -25,8 +25,18 @@ I picked up my iPhone 7 Jet Black 128GB model for $749 plus tax on October 16, 2
 
 With the release of iOS 16 in September 2022, Apple officially dropped its support for the iPhone 7 series, concluding the lifecycle of the 2016 product - well, so did I. Today, I will be taking one last look at the phone in my pocket for the longest time, revisiting its launch, design choices and 6-year service, as well as hints of its influence on the products that followed, before locking it up in the pantheon of digital history.
 
+<p float="left" align="middle">
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/Portrait/IMG_0670.jpg" width="49%" />
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/home_screen.jpg" width="49%" /> 
+</p>
+
 ## Launch
 On September 7, 2016, Tim Cook unveiled the iPhone 7 series in San Francisco. The next lineup in the iPhone family included the regular iPhone 7 and the bigger iPhone 7 plus. Either model came equipped with an A10 Fusion chip that was, in Apple's words, 40% faster than its predecessor A9 found in the iPhone 6s or iPhone 6s Plus. Both of them also featured 12-megapixel camera capable of optical image stabilization, something only available to the Plus model previously, but the 7 Plus model offered one additional 12-megapixel telephoto camera and portrait mode to create bokeh in photos. In addition, the iPhone 7 series introduced a haptic home button, stereo speakers, and a water-and-dust-resistant body, all for the first time on an iPhone.
+
+<p float="left" align="middle">
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/geekbench1.jpg" width="49%" />
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/haptic.jpg" width="49%" /> 
+</p>
 
 ## Headphone Jack
 One of the biggest controversies surrounding the launch of iPhone 7 was its headphone jack, or the absence of one. Phil Schiller, Apple's senior vice president of worldwide marketing, indeed sounded a little defensive when he took three whole minutes on stage characterizing it as a "courageous" move to challenge a long-established practice. Since then, Apple doubled down on the practice with every subsequent iPhone release. The bet paid off.The Android camp fought back for a year or two before giving in eventually. Consumers have also learned to embrace the age of wireless audio, to the point where today, a headphone-jack-less phone has become all but the new default, at least among flagship smartphones on the market.
@@ -67,6 +77,11 @@ Six years later, biometrics-based identification as a whole have only become mor
 
 ## Reliability
 Battery is where the 6-year old phone truly shows its age. In 2016, iPhone 7 was claimed to have longest battery life ever in an iPhone. It became so bad that in the last years or so, I wouldn't dare leaving my place without a power bank for an extended period of time.
+
+<p float="left" align="middle">
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/battery.jpg" width="49%" />
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/geekbench2.jpg" width="49%" /> 
+</p>
 
 ## Wrap-up
 It was neither as incremental as the iPhone 8 one year later, nor as radical as the iPhone X one year later as well.

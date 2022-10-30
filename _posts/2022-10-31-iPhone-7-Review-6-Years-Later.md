@@ -4,7 +4,7 @@ title: iPhone 7 Review&#58 6 Years Later
 tag:
   - random
 comments: true
-draft: true
+draft: false
 phone: true
 new: true
 ---

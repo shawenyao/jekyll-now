@@ -8,7 +8,7 @@ tag:
 comments: true
 draft: false
 keyboard: true
-fire: true
+hot: true
 ---
 
 "Good artists copy. Great artists steal. Greatest artists copy, then paste."

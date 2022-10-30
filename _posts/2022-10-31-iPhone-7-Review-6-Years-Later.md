@@ -105,10 +105,16 @@ _iPhone 7 running iOS 15.7 (lock screen)_
 
 ## Read more
 Wikipedia, "[iPhone 7](https://en.wikipedia.org/wiki/IPhone_7)"
+
 YouTube, "[Apple – September Event 2016](https://www.youtube.com/watch?v=NS0txu_Kzl8)"
+
 The Verge, "[iPhone 7 Review](https://www.theverge.com/a/apple-iphone-7-review-vs-iphone-7-plus)"
+
 The Verge, "[Taking the headphone jack off phones is user-hostile and stupid](https://www.theverge.com/circuitbreaker/2016/6/21/11991302/iphone-no-headphone-jack-user-hostile-stupid)"
+
 Wikipedia, "[Batterygate](https://en.wikipedia.org/wiki/Batterygate)"
+
 Wikipedia, "[Planned obsolescence](https://en.wikipedia.org/wiki/Planned_obsolescence)"
+
 The Verge, "[Apple apologizes for iPhone slowdown drama, will offer $29 battery replacements for a year](https://www.theverge.com/2017/12/28/16827248/apple-iphone-battery-replacement-price-slow-down-apology)"
 

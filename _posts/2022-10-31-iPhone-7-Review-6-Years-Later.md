@@ -9,6 +9,8 @@ draft: false
 new: true
 ---
 
+What held up and what did not.
+
 > It's the best iPhone that we have ever created.  <br>
 > ― Tim Cook, at the Apple Special Event on September 7, 2016
 

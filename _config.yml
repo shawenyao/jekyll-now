@@ -93,5 +93,5 @@ exclude:
   - README.md
   - CNAME
 
-# render future posts
+# Render future posts
 future: true

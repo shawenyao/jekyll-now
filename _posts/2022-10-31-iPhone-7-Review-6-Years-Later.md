@@ -46,23 +46,15 @@ Six years later, biometrics-based identification as a whole have only become mor
   <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_6477.jpg" width="49%" /> 
 </p>
 
-<div align="center">
-  <div class="column">
-    <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_7199.jpg" />
-  </div>
-  <div class="column">
-    <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_9121.jpg" />
-  </div>
-</div>
+<p float="left" align="middle">
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_7199.jpg" width="49%" />
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_9121.jpg" width="49%" /> 
+</p>
 
-<div align="center">
-  <div class="column">
-    <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_6038.jpg" />
-  </div>
-  <div class="column">
-    <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_9145.jpg" />
-  </div>
-</div>
+<p float="left" align="middle">
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_6038.jpg" width="49%" />
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_9145.jpg" width="49%" /> 
+</p>
 
 ## Reliability
 Battery is where the 6-year old phone truly shows its age. In 2016, iPhone 7 was claimed to have longest battery life ever in an iPhone. It became so bad that in the last years or so, I wouldn't dare leaving my place without a power bank for an extended period of time.

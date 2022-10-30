@@ -44,4 +44,5 @@ Six years later, biometrics-based identification as a whole have only become mor
 ## Reliability
 Battery is where the 6-year old phone truly shows its age. In 2016, iPhone 7 was claimed to have longest battery life ever in an iPhone. It became so bad that in the last years or so, I wouldn't dare leaving my place without a power bank for an extended period of time.
 
-
+## Wrap-up
+It was neither as incremental as the iPhone 8 nor as radical as the iPhone X a year later.

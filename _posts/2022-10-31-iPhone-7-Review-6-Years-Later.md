@@ -30,7 +30,7 @@ With the release of iOS 16 in September 2022, Apple officially dropped its suppo
 _iPhone 7 running iOS 15.7 (home screen)_
 
 ## Launch
-On September 7, 2016, Tim Cook unveiled the iPhone 7 series at the Bill Graham Civic Auditorium in San Francisco. The next lineup in the iPhone family included the regular iPhone 7 and the bigger iPhone 7 plus. Either model came equipped with an A10 Fusion chip that was, in Apple's words, 40% faster than its predecessor A9 found in the iPhone 6s or iPhone 6s Plus. Both of them also featured 12-megapixel camera capable of optical image stabilization, something only available to the Plus model previously, but the 7 Plus model offered one additional 12-megapixel telephoto camera and portrait mode to create bokeh in photos. In addition, the iPhone 7 series introduced a haptic home button, stereo speakers, and a water-and-dust-resistant body, all for the first time on an iPhone.
+On September 7, 2016, Tim Cook unveiled the iPhone 7 series at the Bill Graham Civic Auditorium in San Francisco. The next lineup in the iPhone family included the regular iPhone 7 and the bigger iPhone 7 plus. Either model came equipped with an A10 Fusion chip that was, in Apple's words, 40% faster than its predecessor A9 found in the iPhone 6s or iPhone 6s Plus. Both of them also featured a 12-megapixel camera capable of optical image stabilization, something only available to the Plus model previously, but the 7 Plus model offered one additional 12-megapixel telephoto camera and portrait mode to create bokeh in photos. In addition, the iPhone 7 series introduced a haptic home button, stereo speakers, and a water-and-dust-resistant body, all for the first time on an iPhone.
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/geekbench1.jpg" width="49%" />
@@ -39,7 +39,7 @@ On September 7, 2016, Tim Cook unveiled the iPhone 7 series at the Bill Graham C
 _Geekbench score of the A10 Fusion chip (when battery is sufficiently charged)_
 
 ## Headphone Jack
-One of the biggest controversies surrounding the launch of iPhone 7 was its headphone jack, or the absence of one. Phil Schiller, Apple's senior vice president of worldwide marketing, indeed sounded a little defensive when he took three whole minutes on stage characterizing it as a "courageous" move to challenge the long-established practice. Since then, Apple doubled down on the design with every subsequent iPhone release. The bet paid off.The Android camp fought back for a year or two before giving in eventually. Consumers have also learned to embrace the age of wireless audio, to the point where today, a headphone-jack-less phone has become all but the new default, at least among flagship smartphones on the market. It all began with this phone.
+One of the biggest controversies surrounding the launch of iPhone 7 was its headphone jack, or the absence of one. Phil Schiller, Apple's senior vice president of worldwide marketing, indeed sounded a little defensive when he took three whole minutes on stage characterizing it as a "courageous" move to challenge the long-established practice. Since then, Apple doubled down on the design with every subsequent iPhone release. The bet paid off.The Android camp fought back for a year or two before giving in eventually. Consumers have also learned to embrace the age of wireless audio, to the point where today, a headphone-jack-less phone has become all but the new default, at least among flagship smartphones on the market. History will remember that it all began with this phone.
 
 | Model | Year | Have a headphone jack? |
 | --- | --- | --- |
@@ -64,7 +64,7 @@ _Configuration of the strength of the haptic feedback_
 Meanwhile, biometrics-based identification as a whole has only become more ubiquitous than ever six years later. The Touch ID technology that began with iPhone 5s (2015), along with its extension, Face ID introduced with iPhone X (2017), made it virtually impossible to go back to a time when the safety of data in your phone meant having to type a passcode each time it needed to be unlocked. Between the two though, I still have a slight preference for Touch ID, due to its versatility and the attention-free unlocking experience.
 
 ## Camera
-iPhone 7 12-megapixel camera, the same pixel count as iPhone 6s that would remain unchallenged until the iPhone 14 Pro line in 2022.
+iPhone 7 has a 12-megapixel camera, the pixel count of which was first introduced with the iPhone 6s series a year earlier and from there, remained unchanged until the iPhone 14 Pro line in 2022. Quality-wise, it's what you can expect from an entry-level model of iPhone. It shoots sharp pictures with vibrant color under well-lit conditions. At night, the camera could still impress you with its optical image stablization, but it might take a few attempts to get it perfect.
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_6038.jpg" width="49%" />
@@ -72,8 +72,8 @@ iPhone 7 12-megapixel camera, the same pixel count as iPhone 6s that would remai
 </p>
 
 <p float="left" align="middle">
-  <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_5810.jpg" width="49%" />
   <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_6477.jpg" width="49%" /> 
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_5810.jpg" width="49%" />
 </p>
 
 <p float="left" align="middle">
@@ -82,7 +82,7 @@ iPhone 7 12-megapixel camera, the same pixel count as iPhone 6s that would remai
 </p>
 
 ## Reliability
-Battery is where the 6-year old phone truly shows its age. In 2016, iPhone 7 was claimed to have longest battery life ever in an iPhone. That. In fact, it has become so bad in the last year or so that I wouldn't dare going outside without a power bank for an extended period of time.
+Battery is where the 6-year old phone truly shows its weakness. In 2016, iPhone 7 was claimed to have longest battery life ever in an iPhone, which feels surreal today. In fact, the battery health has become so concerning that in the past year or so, I wouldn't dare going outside without a power bank for an extended period of time. The worst part is that the phone seems to have lost its ability to gauge how much juice is left in the battery. Sometimes it will still go on for a few hours with a terrifying "1%" in the top-right corner, reminding me of its age.
 
 Shortly after iPhone 7's launch, battery emerged at the center of a controversy dubbed "batterygate". For years there had been anecdotal evidence suggesting that older models of iPhone became increasingly slower with each iOS upgrade, leading people to speculate that it was a concious decision at Apple to encourage people toward buying a new one, a practice known as "planned obsolescence". The batterygate culminated with Apple's apology in December 2017 where it promised to offer battery replacements at a reduced cost for a year and better transparency on battery and performance management in the future. Today, battery-induced performance throttling is still very much a thing. The phone performs about 40-50% slower when the system decides so, even without entering low battery mode.
 
@@ -94,7 +94,7 @@ Shortly after iPhone 7's launch, battery emerged at the center of a controversy 
 _Left: battery health after 6 years of degradation; right: Geekbench score of the A10 Fusion chip under CPU throttling conditions_
 
 ## Wrap-up
-iPhone 7 was okay. It was neither as incremental as the iPhone 8 one year later, nor as radical as the iPhone X one year later as well. The lack of headphone jack hasn't been as big of a deal as many of the critics argued it was back then.
+iPhone 7 was okay. It was neither as incremental as the iPhone 8 one year later, nor as radical as the iPhone X one year later as well. The lack of headphone jack hasn't been as big of a deal as many of the critics argued it would be back then.
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Portrait/IMG_0669.jpg" width="49%" />

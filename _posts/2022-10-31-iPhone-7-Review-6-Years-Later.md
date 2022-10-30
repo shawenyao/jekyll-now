@@ -5,7 +5,7 @@ tag:
   - random
 comments: true
 phone: true
-draft: false
+draft: true
 new: true
 ---
 
@@ -19,7 +19,7 @@ I picked up my iPhone 7 Jet Black 128GB model for $749 plus tax on October 16, 2
 With the release of iOS 16 in September 2022, Apple officially dropped its support for the iPhone 7 series, concluding the lifecycle of the 2016 product - well, so did I. Today, I will be taking one last look at the phone in my pocket for the longest time, revisiting its launch, design choices and 6-year service, as well as hints of its influence on the products that followed, before locking it up in the pantheon of digital history.
 
 ## Launch
-On September 7, Tim Cook unveiled the iPhone 7 series in San Francisco. The next lineup in the iPhone family included the regular iPhone 7 and the bigger iPhone 7 plus. Either model of iPhone 7 came with an A10 Fusion chip that was 40% faster than its predecessor A9 found in the iPhone 6s or iPhone 6s Plus. Both of them also featured 12-megapixel camera capable of optical image stabilization, something only available to the Plus model previously, but the 7 Plus model had one additional 12-megapixel telephoto camera built-in. In addition, the iPhone 7 series introduced a haptic home button, stereo speakers, and a water-and-dust-resistant body, all for the first time on an iPhone.
+On September 7, Tim Cook unveiled the iPhone 7 series in San Francisco. The next lineup in the iPhone family included the regular iPhone 7 and the bigger iPhone 7 plus. Either model came equipped with an A10 Fusion chip that was 40% faster than its predecessor A9 found in the iPhone 6s or iPhone 6s Plus. Both of them also featured 12-megapixel camera capable of optical image stabilization, something only available to the Plus model previously, but the 7 Plus model had one additional 12-megapixel telephoto camera built-in. In addition, the iPhone 7 series introduced a haptic home button, stereo speakers, and a water-and-dust-resistant body, all for the first time on an iPhone.
 
 ## Headphone Jack
 One of the biggest controversies surrounding the launch of iPhone 7 was its headphone jack, or the absence of one. To defend the decision, Phil Schiller, senior vice president of worldwide marketing, took three whole minutes on stage characterizing it as a "courageous" move to challenge a long-established practice. Since then, Apple doubled down on the move with every subsequent iPhone release. The Android camp fought back for a year or two before giving in eventually. Today, a headphone-jack-less phone has become all but the new default, at least among flagship smartphones on the market.

@@ -15,6 +15,7 @@ Reliving 2016.
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Portrait/IMG_0670.jpg" width="49%" />
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/home_screen.jpg" width="49%" /> 
 </p>
+
 _iPhone 7 running iOS 15.7_
 
 > It's the best iPhone that we have ever created.  <br>
@@ -38,6 +39,7 @@ One of the biggest controversies surrounding the launch of iPhone 7 was its head
 | Google Pixel 7 Series | 2022 | No |
 | OnePlus 10 Seires | 2022 | No |
 | Moto Edge+ | 2022 | No |
+
 _An incomplete survey of major smartphones on the market in 2022_
 
 ## Home Button and Touch ID

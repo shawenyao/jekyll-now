@@ -28,8 +28,9 @@ One of the biggest controversies surrounding the launch of iPhone 7 was its head
 | --- | --- | --- |
 | iPhone 14 Series | 2022 | No |
 | Samsung Galaxy S22 Series | 2022 | No |
+| Samsung Galaxy Z Flip 4 & Z Fold 4 | 2022 | No |
 | Google Pixel 7 Series | 2022 | No |
-| OnePlus 10T & 10 Pro | 2022 | No |
+| OnePlus 10 Seires | 2022 | No |
 | Moto Edge+ | 2022 | No |
 
 ## Home Button and Touch ID

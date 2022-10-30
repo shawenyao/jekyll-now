@@ -12,7 +12,7 @@ new: true
 Reliving 2016.
 
 <p float="left" align="middle">
-  <img src="https://shawenyao.github.io/Photos/iPhone 7/Portrait/IMG_0672.jpg" width="49%" />
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/Portrait/IMG_0672.jpg"/>
 </p>
 
 > It's the best iPhone that we have ever created.  <br>

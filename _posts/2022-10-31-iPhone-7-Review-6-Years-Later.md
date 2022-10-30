@@ -42,8 +42,8 @@ Six years later, biometrics-based identification as a whole have only become mor
 12-megapixel camera, the same pixel count of which was only recently outdone by the iPhone 14 Pro line (2022).
 
 <p float="left" align="middle">
-  <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_5810.jpg" width="100" />
-  <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_6477.jpg" width="100" /> 
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_5810.jpg" width="49%" />
+  <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_6477.jpg" width="49%" /> 
 </p>
 
 <div align="center">

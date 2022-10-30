@@ -64,7 +64,7 @@ _Configuration of the strength of the haptic feedback_
 Meanwhile, biometrics-based identification as a whole has only become more ubiquitous than ever six years later. The Touch ID technology that began with iPhone 5s (2015), along with its extension, Face ID introduced with iPhone X (2017), made it virtually impossible to go back to a time when the safety of data in your phone meant having to type a passcode each time it needed to be unlocked. Between the two though, I still have a slight preference for Touch ID, due to its versatility and the attention-free unlocking experience.
 
 ## Camera
-iPhone 7 has a 12-megapixel camera, the pixel count of which was first introduced with the iPhone 6s series a year earlier and from there, remained unchanged until the iPhone 14 Pro line in 2022. Quality-wise, it's what you can expect from an entry-level model of iPhone. It shoots sharp pictures with vibrant color under well-lit conditions. At night, the camera could still impress you with its optical image stablization, but it might take a few attempts to get it perfect.
+iPhone 7 has a 12-megapixel camera, the pixel count of which was first introduced with the iPhone 6s series a year earlier and from there, remained unchanged until the iPhone 14 Pro line in 2022. Quality-wise, it's what you can expect from an entry-level model of iPhone. It shoots sharp pictures with vibrant color under well-lit conditions. At night, the camera could still impress you with its optical image stablization, but it might take a few attempts to get the perfect shot.
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_6038.jpg" width="49%" />
@@ -82,7 +82,7 @@ iPhone 7 has a 12-megapixel camera, the pixel count of which was first introduce
 </p>
 
 ## Reliability
-Battery is where the 6-year old phone truly shows its weakness. In 2016, iPhone 7 was claimed to have longest battery life ever in an iPhone, which feels surreal today. In fact, the battery health has become so concerning that in the past year or so, I wouldn't dare going outside without a power bank for an extended period of time. The worst part is that the phone seems to have lost its ability to gauge how much juice is left in the battery. Sometimes it will still go on for a few hours with a terrifying "1%" in the top-right corner, reminding me of its age.
+Battery is where the 6-year old phone truly shows its weakness. In 2016, iPhone 7 was claimed to have longest battery life ever in an iPhone, which feels surreal today. In fact, the battery health has become so concerning that in the past year or so, I wouldn't dare going outside without a power bank for an extended period of time. The worst part is that the phone seems to have lost its ability to gauge how much juice is left in the battery. Sometimes it can still go on for a few hours with a terrifying "1%" in the top-right corner, reminding me of its age.
 
 Shortly after iPhone 7's launch, battery emerged at the center of a controversy dubbed "batterygate". For years there had been anecdotal evidence suggesting that older models of iPhone became increasingly slower with each iOS upgrade, leading people to speculate that it was a concious decision at Apple to encourage people toward buying a new one, a practice known as "planned obsolescence". The batterygate culminated with Apple's apology in December 2017 where it promised to offer battery replacements at a reduced cost for a year and better transparency on battery and performance management in the future. Today, battery-induced performance throttling is still very much a thing. The phone performs about 40-50% slower when the system decides so, even without entering low battery mode.
 
@@ -94,7 +94,7 @@ Shortly after iPhone 7's launch, battery emerged at the center of a controversy 
 _Left: battery health after 6 years of degradation; right: Geekbench score of the A10 Fusion chip under CPU throttling conditions_
 
 ## Wrap-up
-iPhone 7 was okay. It was neither as incremental as the iPhone 8 one year later, nor as radical as the iPhone X one year later as well. The lack of headphone jack hasn't been as big of a deal as many of the critics argued it would be back then.
+iPhone 7 was okay. It was neither as incremental as the iPhone 8 one year later, nor as radical as the iPhone X one year later as well. The lack of headphone jack hasn't been as big of a deal as many critics argued it would be back then. The haptic engine rendered the home button the ultimate form of its former iterations.
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Portrait/IMG_0669.jpg" width="49%" />
@@ -103,7 +103,7 @@ iPhone 7 was okay. It was neither as incremental as the iPhone 8 one year later,
 
 _iPhone 7 running iOS 15.7 (lock screen)_
 
-## Read more
+## Read More
 Wikipedia, "[iPhone 7](https://en.wikipedia.org/wiki/IPhone_7)"
 
 YouTube, "[Apple – September Event 2016](https://www.youtube.com/watch?v=NS0txu_Kzl8)"

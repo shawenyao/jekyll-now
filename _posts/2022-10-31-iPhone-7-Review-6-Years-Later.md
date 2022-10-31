@@ -86,14 +86,14 @@ Battery is where the 6-year-old phone truly shows its weakness. In 2016, iPhone 
 
 Shortly after iPhone 7's launch, the battery of an iPhone would emerge at the center of a controversy dubbed "batterygate". For years there had been anecdotal evidence suggesting that older models of iPhone became increasingly slower with each iOS upgrade, leading people to speculate that it was a conscious decision by Apple to encourage people to buy a new one prematurely, a practice known as "planned obsolescence". The batterygate culminated with Apple's apology in December 2017 in which the company promised to offer battery replacements at a reduced cost for a year and better transparency on battery and performance management in the future. Today, battery-induced performance throttling is still very much a thing. The phone performs about 40-50% slower when the system decides so, even without entering low battery mode.
 
-Last but not least, about two years ago, the lightning port on my iPhone 7 lost its clutch power, resulting in a rather unstable connection between the cable and the body. This has led to more than a handful of frustrations when charging or driving, or charging while driving. It is not necessarily a problem worth fixing at this point. With USB-C iPhones heavily rumored, the lightning port might have finally run its course, following the footsteps of its predecessor, the 30-pin dock connector last seen on an iPhone 4s (2011).
-
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/battery.jpg" width="49%" />
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/geekbench2.jpg" width="49%" /> 
 </p>
 
 _Left: battery health after 6 years of degradation; right: Geekbench score of the A10 Fusion chip under CPU throttling conditions_
+
+Last but not least, about two years ago, the lightning port on my iPhone 7 lost its clutch power, resulting in a rather unstable connection between the cable and the body. This has led to more than a handful of frustrations when charging or driving, or charging while driving. It is not necessarily a problem worth fixing at this point. With USB-C iPhones heavily rumored, the lightning port might have finally run its course, following the footsteps of its predecessor, the 30-pin dock connector last seen on an iPhone 4s (2011).
 
 ## Wrap-up
 iPhone 7 was okay. The lack of headphone jack never became as big of a deal as many critics argued back then. The haptic engine made the home button the ultimate form of its former selves. The camera was sufficient for daily usage. Software support was average by iPhone's standard (which means pretty good). It was neither as incremental as the iPhone 8 (2017), nor as radical as the iPhone X (2017). It was Apple doing what it does best - building a product, and building it "at the intersection of technology and liberal arts".

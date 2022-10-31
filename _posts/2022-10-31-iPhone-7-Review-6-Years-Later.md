@@ -53,7 +53,7 @@ One of the biggest controversies surrounding the launch of iPhone 7 was its head
 _An incomplete survey of major smartphones on the market in 2022_
 
 ## Home Button and Touch ID
-The removal of a headphone jack, according to Phil Schiller, freed up enough of the precious internal space in order to make room for another ingenious design: an immoveable yet clicky home button. Gone were the mechanical home buttons common to all iPhones prior, probably one of the most vulnerable parts of the hardware. The new, improved home button was physically incapable of movement of any sorts, but the "taptic engine" inside would instead provide a subtle, vibrational feedback whenever the home button was pressed. The end result was an unmistakable impression of tactile "clicky-ness". It just felt right.
+The removal of a headphone jack, according to Phil Schiller, freed up enough of the precious internal space in order to make room for another ingenious design: an immoveable yet clicky home button. Gone were the mechanical home buttons common to all iPhones prior, probably one of the most vulnerable parts of the hardware. The new, improved button was physically incapable of movement of any sorts, but the "taptic engine" inside would instead provide a subtle, vibrational feedback whenever the home button was pressed. The end result was an unmistakable impression of tactile "clicky-ness". It just felt right.
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/haptic.jpg" width="49%" /> 
@@ -61,7 +61,7 @@ The removal of a headphone jack, according to Phil Schiller, freed up enough of 
 
 _Configuration of the strength of the haptic feedback_
 
-Meanwhile, biometrics-based identification as a whole has only become more ubiquitous than ever six years later. The Touch ID technology that began with iPhone 5s (2015), along with its extension, Face ID introduced with iPhone X (2017), made it virtually impossible to go back to a time when the safety of data in your phone meant having to type a passcode each time it needed to be unlocked. Between the two though, I still have a slight preference for Touch ID, due to its versatility and the attention-free unlocking experience.
+Meanwhile, biometrics-based identification as a whole has only become more ubiquitous than ever six years later. The Touch ID technology that began with iPhone 5s (2015), along with its successor, Face ID introduced with iPhone X (2017), made it virtually impossible to go back to a time when the safety of data in your phone meant having to type a passcode each time it needed to be unlocked. Between the two though, I still have a slight preference for Touch ID, due to its versatility and the attention-free unlocking experience.
 
 ## Camera
 iPhone 7 has a 12-megapixel camera, the pixel count of which was first introduced with the iPhone 6s series a year earlier and from there, remained unchanged until the iPhone 14 Pro line in 2022. Quality-wise, it's what you can expect from an entry-level model of iPhone. It shoots sharp pictures with vibrant color under well-lit conditions. At night, the camera can still impress you with its optical image stabilization, but it might take a few attempts to get the perfect shot.

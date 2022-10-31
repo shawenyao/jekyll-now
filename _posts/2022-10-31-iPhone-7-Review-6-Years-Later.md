@@ -5,7 +5,7 @@ tag:
   - random
 comments: true
 phone: true
-draft: true
+draft: false
 new: true
 ---
 

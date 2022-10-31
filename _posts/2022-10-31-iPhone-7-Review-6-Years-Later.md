@@ -105,7 +105,7 @@ iPhone 7 was okay. The lack of headphone jack never became as big of a deal as m
 
 _iPhone 7 running iOS 15.7 (lock screen)_
 
-## Read More
+## References
 Wikipedia, "[iPhone 7](https://en.wikipedia.org/wiki/IPhone_7)"
 
 YouTube, "[Apple – September Event 2016](https://www.youtube.com/watch?v=NS0txu_Kzl8)"

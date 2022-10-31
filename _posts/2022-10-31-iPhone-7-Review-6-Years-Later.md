@@ -96,7 +96,7 @@ Last but not least, about two years ago, the lightning port on my iPhone 7 lost 
 _Left: battery health after 6 years of degradation; right: Geekbench score of the A10 Fusion chip under CPU throttling conditions_
 
 ## Wrap-up
-iPhone 7 was okay. The lack of headphone jack never became as big of a deal as many critics argued back then. The haptic engine made the home button the ultimate form of its former selves. The camera was sufficient for daily usage. Software support was average by iPhone's standard (which means pretty good). It was neither as incremental as the iPhone 8 (2017), nor as radical as the iPhone X (2017). It was Apple doing what it does best - building a product, and doing it "at the intersection of technology and liberal arts".
+iPhone 7 was okay. The lack of headphone jack never became as big of a deal as many critics argued back then. The haptic engine made the home button the ultimate form of its former selves. The camera was sufficient for daily usage. Software support was average by iPhone's standard (which means pretty good). It was neither as incremental as the iPhone 8 (2017), nor as radical as the iPhone X (2017). It was Apple doing what it does best - building a product, and building it "at the intersection of technology and liberal arts".
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Portrait/IMG_0669.jpg" width="49%" />

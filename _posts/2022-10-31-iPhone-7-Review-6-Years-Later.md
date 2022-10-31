@@ -18,7 +18,7 @@ Reliving 2016.
 > It's the best iPhone that we have ever created. <br>
 > ― Tim Cook, at the Apple Special Event on September 7, 2016
 
-I picked up my iPhone 7 Jet Black 128GB model for $749 plus tax on October 16, 2016 to replace my battery-swelling iPhone 5. As my daily driver, it managed to do its job decently for the most part of the next 6 years, serving as the primary access point to phone/video calls, social networks and the Internet in general, although it did begin to struggle toward its final days.  
+I picked up an iPhone 7 Jet Black 128GB model for $749 plus tax on October 16, 2016 to replace my battery-swelling iPhone 5. As my daily driver of the next 6 years, it managed to do its job decently for the most part, serving as the primary access point to phone/video calls, social networks and the Internet in general, although it did begin to struggle toward its final days.  
 
 With the release of iOS 16 in September 2022, Apple officially dropped its support for the iPhone 7 series, concluding the lifecycle of the 2016 product - well, so did I. Today, I will be taking one last look at the phone in my pocket for the longest time, revisiting its launch, design choices and 6-year service, as well as hints of its influence on the products that followed, before locking it away in the pantheon of digital history.
 
@@ -30,7 +30,7 @@ With the release of iOS 16 in September 2022, Apple officially dropped its suppo
 _iPhone 7 running iOS 15.7 (home screen)_
 
 ## Launch
-On September 7, 2016, Tim Cook unveiled the iPhone 7 series at the Bill Graham Civic Auditorium in San Francisco. The next lineup in the iPhone family included the regular iPhone 7 and the bigger iPhone 7 plus. Either model came equipped with an A10 Fusion chip that was, in Apple's words, 40% faster than its predecessor A9 found in the iPhone 6s or iPhone 6s Plus. Both of them also featured a 12-megapixel camera capable of optical image stabilization, something only available to the Plus model previously, but the 7 Plus model offered one additional 12-megapixel telephoto camera and portrait mode to create bokeh in photos. In addition, the iPhone 7 series introduced a haptic home button, stereo speakers, and a water-and-dust-resistant body, all for the first time on an iPhone.
+On September 7, 2016, Tim Cook unveiled the iPhone 7 series at the Bill Graham Civic Auditorium in San Francisco. The next lineup in the iPhone family would includ the regular iPhone 7 and the bigger iPhone 7 plus. Either model came equipped with an A10 Fusion chip that was, in Apple's words, 40% faster than its predecessor A9 found in the iPhone 6s (2015) or iPhone 6s Plus (2015). Both of them also featured a 12-megapixel camera capable of optical image stabilization, something only available to the Plus model previously, but the 7 Plus model offered one additional 12-megapixel telephoto camera and portrait mode to create bokeh in photos. In addition, the iPhone 7 series introduced a haptic home button, stereo speakers, and a water-and-dust-resistant body, all for the first time on an iPhone.
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/geekbench1.jpg" width="49%" />
@@ -64,7 +64,7 @@ _Configuration of the strength of the haptic feedback_
 Meanwhile, biometrics-based identification as a whole has only become more ubiquitous than ever six years later. The Touch ID technology that began with iPhone 5s (2015), along with its extension, Face ID introduced with iPhone X (2017), made it virtually impossible to go back to a time when the safety of data in your phone meant having to type a passcode each time it needed to be unlocked. Between the two though, I still have a slight preference for Touch ID, due to its versatility and the attention-free unlocking experience.
 
 ## Camera
-iPhone 7 has a 12-megapixel camera, the pixel count of which was first introduced with the iPhone 6s series a year earlier and from there, remained unchanged until the iPhone 14 Pro line in 2022. Quality-wise, it's what you can expect from an entry-level model of iPhone. It shoots sharp pictures with vibrant color under well-lit conditions. At night, the camera could still impress you with its optical image stabilization, but it might take a few attempts to get the perfect shot.
+iPhone 7 has a 12-megapixel camera, the pixel count of which was first introduced with the iPhone 6s series a year earlier and from there, remained unchanged until the iPhone 14 Pro line in 2022. Quality-wise, it's what you can expect from an entry-level model of iPhone. It shoots sharp pictures with vibrant color under well-lit conditions. At night, the camera can still impress you with its optical image stabilization, but it might take a few attempts to get the perfect shot.
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/iPhone 7/IMG_6038.jpg" width="49%" />
@@ -82,11 +82,11 @@ iPhone 7 has a 12-megapixel camera, the pixel count of which was first introduce
 </p>
 
 ## Durability
-Battery is where the 6-year-old phone truly shows its weakness. In 2016, iPhone 7 was claimed to have longest battery life ever in an iPhone, which feels surreal today. In fact, the battery health has become so concerning that in the past year or so, I wouldn't dare going outside without a power bank for an extended period of time. The worst part is that the phone seems to have lost its ability to gauge how much juice is left in the battery. Sometimes it can still go on for a few hours with a terrifying "1%" in the top-right corner, reminding me of its age.
+Battery is where the 6-year-old phone truly shows its weakness. In 2016, iPhone 7 was claimed to have longest battery life ever in an iPhone, which feels surreal today. In fact, the battery health has become so concerning that in the past year or so, I wouldn't dare going outside without a power bank for an extended period of time. The worst part is that the phone seems to have lost its ability to gauge how much juice is left in the battery. Sometimes it can still go on for a few more hours with a terrifying "1%" in the top-right corner, reminding me of its age.
 
-Shortly after iPhone 7's launch, battery emerged at the center of a controversy dubbed "batterygate". For years there had been anecdotal evidence suggesting that older models of iPhone became increasingly slower with each iOS upgrade, leading people to speculate that it was a conscious decision by Apple to encourage people toward buying a new one, a practice known as "planned obsolescence". The batterygate culminated with Apple's apology in December 2017 where it promised to offer battery replacements at a reduced cost for a year and better transparency on battery and performance management in the future. Today, battery-induced performance throttling is still very much a thing. The phone performs about 40-50% slower when the system decides so, even without entering low battery mode.
+Shortly after iPhone 7's launch, the battery of an iPhone would emerge at the center of a controversy dubbed "batterygate". For years there had been anecdotal evidence suggesting that older models of iPhone became increasingly slower with each iOS upgrade, leading people to speculate that it was a conscious decision by Apple to encourage people to buy a new one prematurely, a practice known as "planned obsolescence". The batterygate culminated with Apple's apology in December 2017 where it promised to offer battery replacements at a reduced cost for a year and better transparency on battery and performance management in the future. Today, battery-induced performance throttling is still very much a thing. The phone performs about 40-50% slower when the system decides so, even without entering low battery mode.
 
-One last thing - about two years ago, the lightning port on my iPhone 7 lost its clutch power, resulting in a rather unstable connection between the cable and the body. This has led to more than a handful frustrations when charging or driving, or charging while driving. It is not necessarily a problem worth fixing at this point. With USB-C iPhones heavily rumored, the lightning port has finally run its course, following the footsteps of its predecessor, the 30-pin dock connector last seen on an iPhone 4s. 
+Last but not least, about two years ago, the lightning port on my iPhone 7 lost its clutch power, resulting in a rather unstable connection between the cable and the body. This has led to more than a handful of frustrations when charging or driving, or charging while driving. It is not necessarily a problem worth fixing at this point. With USB-C iPhones heavily rumored, the lightning port has finally run its course, following the footsteps of its predecessor, the 30-pin dock connector last seen on an iPhone 4s (2011).
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Screenshots/battery.jpg" width="49%" />
@@ -96,7 +96,7 @@ One last thing - about two years ago, the lightning port on my iPhone 7 lost its
 _Left: battery health after 6 years of degradation; right: Geekbench score of the A10 Fusion chip under CPU throttling conditions_
 
 ## Wrap-up
-iPhone 7 was okay. It was neither as incremental as the iPhone 8 one year later, nor as radical as the iPhone X one year later as well. The lack of headphone jack hasn't been as big of a deal as many critics argued back then. The haptic engine rendered the home button the ultimate form of its former iterations. 
+iPhone 7 was okay. The lack of headphone jack never became as big of a deal as many critics argued back then. The haptic engine made the home button the ultimate form of its former iterations. The camera was sufficient for daily usage. Software support was average by iPhone's standard (which means pretty good). It was neither as incremental as the iPhone 8 (2017), nor as radical as the iPhone X (2017). It was Apple doing what it does best - building a product at "the intersection of technology and liberal arts".
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/iPhone 7/Portrait/IMG_0669.jpg" width="49%" />
@@ -109,6 +109,8 @@ _iPhone 7 running iOS 15.7 (lock screen)_
 Wikipedia, "[iPhone 7](https://en.wikipedia.org/wiki/IPhone_7)"
 
 YouTube, "[Apple – September Event 2016](https://www.youtube.com/watch?v=NS0txu_Kzl8)"
+
+Engadget, "[iPhone 7 and 7 Plus review: Apple (mostly) plays it safe](https://www.engadget.com/2016-09-13-iphone-7-and-7-plus-review.html)"
 
 The Verge, "[iPhone 7 Review](https://www.theverge.com/a/apple-iphone-7-review-vs-iphone-7-plus)"
 

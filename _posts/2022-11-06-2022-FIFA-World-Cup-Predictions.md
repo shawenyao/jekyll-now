@@ -8,6 +8,7 @@ tag:
 comments: true
 draft: true
 football: true
+new: true
 ---
 
 Colley's method strikes again.

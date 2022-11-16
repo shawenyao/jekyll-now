@@ -6,7 +6,7 @@ tag:
   - maths
   - sports
 comments: true
-draft: true
+draft: false
 football: true
 new: true
 ---

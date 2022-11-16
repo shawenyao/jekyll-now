@@ -6,7 +6,7 @@ tag:
 comments: true
 phone: true
 draft: false
-new: true
+new: false
 ---
 
 Reliving 2016.

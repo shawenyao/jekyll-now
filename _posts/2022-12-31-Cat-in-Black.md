@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Cat Who Stares
+title: Cat in Black
 tag:
   - photography
 comments: true

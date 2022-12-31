@@ -6,7 +6,7 @@ tag:
 comments: true
 draft: false
 photography: true
-new: false
+new: true
 ---
 
 "Time spent with cats is never wasted."

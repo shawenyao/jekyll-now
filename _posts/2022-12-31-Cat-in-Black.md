@@ -4,7 +4,7 @@ title: Cat in Black
 tag:
   - photography
 comments: true
-draft: true
+draft: false
 photography: true
 new: false
 ---

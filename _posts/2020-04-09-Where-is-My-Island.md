@@ -46,7 +46,7 @@ There's yet one more challenge before we can pull this off in Animal Crossing. B
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/002.jpg" />
 </div>
 
-This baby will set you back 3000 Nook Miles, but oh boy is it worth every mile. Since I am reasonably confident that it's made of little cubes, the playground gym forms some kind of _orthonormal basis_ in a three-dimensional coordinate system when being placed on the ground, allowing distance to be estimated reliably on a relative basis.
+This baby will set you back 3000 Nook Miles, but oh boy is it worth every penny. Since I am reasonably confident that it's made of little cubes, the playground gym forms some kind of _orthonormal basis_ in a three-dimensional coordinate system when being placed on the ground, allowing distance to be estimated reliably on a relative basis.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Animal Crossing/003.jpg" />

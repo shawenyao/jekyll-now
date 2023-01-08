@@ -45,7 +45,7 @@ A detailed guide can be found at [freva.com](https://www.freva.com/pir-motion-se
   <img src="https://shawenyao.github.io/Photos/Light/2.png" />
 </div>
 
-There is an obvious problem with the previous design. The fact that the two sensors work independently and memoryless means once the light is turned on, further movement cannot extend the duration of the lightning.
+There is an obvious problem with such design. The fact that the two sensors work independently and memoryless means once the light is turned on, further movement cannot extend the duration of the lightning.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Light/problem.png" />

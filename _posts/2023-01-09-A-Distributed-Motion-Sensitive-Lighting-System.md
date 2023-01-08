@@ -24,13 +24,13 @@ _Image created by author using Google Slides. Left: Raspberry Pi 4 Model B; righ
 ## Design 1: Motion Sensor 101
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/light/1.png" />
+  <img src="https://shawenyao.github.io/Photos/Light/1.png" />
 </div>
 
 ## Design 2: Distributed Motion Sensors
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/light/2.png" />
+  <img src="https://shawenyao.github.io/Photos/Light/2.png" />
 </div>
 
 ## Design 3: Coordinating the Sensors
@@ -38,11 +38,11 @@ _Image created by author using Google Slides. Left: Raspberry Pi 4 Model B; righ
 There is an obvious problem with the previous design. The fact that the two sensors work independently and memoryless means once the light is turned on, further movement cannot extend the duration of the lightning.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/light/problem.png" />
+  <img src="https://shawenyao.github.io/Photos/Light/problem.png" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/light/3.png" />
+  <img src="https://shawenyao.github.io/Photos/Light/3.png" />
 </div>
 
 ## Life Hack

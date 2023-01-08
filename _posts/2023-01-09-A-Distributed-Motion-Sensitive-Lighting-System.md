@@ -25,7 +25,7 @@ Many. Ideally, the system should have low power consumption and offer on-the-go 
 
 ## Smart Home Basics
 
-## Design 1: Motion Sensor 101
+## Design 1: Motion Sensing 101
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Light/1.png" />
@@ -50,6 +50,10 @@ There is an obvious problem with the previous design. The fact that the two sens
 </div>
 
 ## Life Hacks
+
+False trigger. 
+
+Cats.
 
 ## Appendix
 

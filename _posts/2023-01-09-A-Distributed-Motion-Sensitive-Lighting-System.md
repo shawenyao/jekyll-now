@@ -37,13 +37,13 @@ Many. Ideally, the system should have low power consumption and offer on-the-go 
   <img src="https://shawenyao.github.io/Photos/Light/2.png" />
 </div>
 
-## Design 3: Coordinating the Sensors
-
 There is an obvious problem with the previous design. The fact that the two sensors work independently and memoryless means once the light is turned on, further movement cannot extend the duration of the lightning.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Light/problem.png" />
 </div>
+
+## Design 3: Coordinating the Sensors
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Light/3.png" />

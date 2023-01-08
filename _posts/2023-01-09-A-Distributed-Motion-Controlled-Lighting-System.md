@@ -67,11 +67,12 @@ In the final design, the Pico Ws no longer assume to role of triggering the logi
 
 ## Life Hacks
 
-In my experience, the PIR sensor is usually sensitive enough to real human movement (true positive). On the other hand, stairs light turning on randomly, especially at night, has become a bigger issue. Is it the cat? Should I call 911? Or, could it simply be a false positive? None of them seems a pleasant thought exactly. The situation persisted for a few nights, until -
+In my experience, the PIR sensor is usually sensitive enough to real human movement (true positive). On the contrary, stairs light randomly turning on, especially at night, has become a bigger challenge. Is it the cat? Should I call 911? Or, could it simply be a false positive? None of them seems a pleasant thought exactly. The situation persisted for a few nights, until -
 
 
 
-To my great surprise, the paper scroll does an extraordinarily good job at getting rid of the false alarms, by virtue of limiting the range of the sensor's visibility. What's more, since I positioned the scroll to point upward, my cat can no longer trigger the sensor - yet another unexpected yet delightful side effect.
+To my great surprise, the paper scrolls do an extraordinarily good job at getting rid of the false alarms, by virtue of limiting the range of the sensor's visibility. Furthermore, ever since I unintentionally left them pointing upward one time, the system has literally turned a blind eye to my cat's loitering - yet another unexpected yet delightful side effect.
 
 ## Appendix
-* [Repository](https://github.com/shawenyao/light)
+### Code repository
+[https://github.com/shawenyao/light](https://github.com/shawenyao/light)

@@ -81,7 +81,7 @@ In my experience, the PIR sensor is usually sensitive enough to real human movem
   <img src="https://shawenyao.github.io/Photos/Light/hack.jpg" />
 </div>
 
-To my great surprise, the paper scrolls do an extraordinarily good job at getting rid of the false alarms, by virtue of limiting the range of the sensor's visibility. Furthermore, ever since I accidentally left them pointing upward one time, the system has literally turned a blind eye to my cat's loitering - yet another unexpected yet delightful side effect.
+To my great surprise, a simple scroll of paper works wonders at getting rid of the false alarms, by virtue of limiting the range of the sensor's visibility. Furthermore, ever since I accidentally left it pointing upward one time, the system has literally turned a blind eye to my cat's loitering - yet another unexpected but delightful side effect.
 
 ## Appendix
 ### Code repository

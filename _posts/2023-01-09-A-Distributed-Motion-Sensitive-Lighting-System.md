@@ -25,11 +25,11 @@ Many. Ideally, the system should have low power consumption and offer on-the-go 
 
 ## Smart Home Basics
 
-[Rasperry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi). The 4th generation, Raspberry Pi 4 Model B, is by far the most powerful Raspberry Pi with a quad-core CPU running at 1.5GHz. The newest entry to the Raspberry Pi family, [Pico W](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/), is a microcontroller capable of of running [MicroPython](https://en.wikipedia.org/wiki/MicroPython) and access the Internet.
+For this project, we will be relying on a few [Rasperry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) computers. The 4th generation, Raspberry Pi 4 Model B, is by far the most powerful Raspberry Pi with a quad-core CPU clocking in at 1.5GHz. The newest entry to the Raspberry Pi family, [Pico W](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/), is a microcontroller capable of of running [MicroPython](https://en.wikipedia.org/wiki/MicroPython) and access the Internet.
 
 Smart plugs come next. These are essentially Wi-Fi-enabled switches that can be turned on or off via an API, rendering non-smart devices such as a floor lamp "smart". For example, TP-Link offers many choices under the brand [Kasa](https://www.kasasmart.com/us/products/smart-plugs). Programmatic control of the Kasa smart plugs is made possible by the [python-kasa](https://github.com/python-kasa/python-kasa) library.
 
-Last but certainly not least, there's the motion sensor itself. The HC-SR505 senor, a type of [passive infrared (PIR) sensor](https://en.wikipedia.org/wiki/Passive_infrared_sensor), gets the job done nicely.
+Last but certainly not least, there's the motion sensor itself. The HC-SR505 senor, a type of [passive infrared (PIR) sensor](https://en.wikipedia.org/wiki/Passive_infrared_sensor), can get the job done nicely.
 
 ## Design 1: Motion Sensing 101
 

@@ -25,7 +25,7 @@ I have been looking for the optimal, most hassle-free way to control my stairs l
 
 ## Smart Home Basics
 
-For this project, I will be utilizing various [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) computers. The 4th generation, Raspberry Pi 4 Model B, is by far the most powerful Raspberry Pi with a quad-core CPU clocking in at 1.5GHz. The newest entry to the Raspberry Pi family, Pico W, is a microcontroller capable of of running [MicroPython]([https://en.wikipedia.org/wiki/MicroPython](https://micropython.org/)) and accessing the Internet, and will be serving as the bridge between the main Raspberry Pi unit and the motion sensor.
+For this project, I will be utilizing various [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) computers. The 4th generation, Raspberry Pi 4 Model B, is by far the most powerful Raspberry Pi with a quad-core CPU clocking in at 1.5GHz. The newest entry to the Raspberry Pi family, Pico W, is a microcontroller capable of running [MicroPython]([https://en.wikipedia.org/wiki/MicroPython](https://micropython.org/)) and accessing the Internet, and will be serving as the bridge between the main Raspberry Pi unit and the motion sensor.
 
 Smart plugs are next. These are essentially Wi-Fi-enabled switches that can be turned on or off via an API, rendering non-smart devices such as a floor lamp "smart". For example, TP-Link offers many choices under the brand [Kasa](https://www.kasasmart.com/us/products/smart-plugs). Programmatic control of the Kasa smart plugs is made possible by the [python-kasa](https://github.com/python-kasa/python-kasa) library.
 

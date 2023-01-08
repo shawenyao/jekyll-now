@@ -25,6 +25,12 @@ Many. Ideally, the system should have low power consumption and offer on-the-go 
 
 ## Smart Home Basics
 
+[Rasperry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi). The newest entry to the Raspberry Pi family, [Pico W](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/).
+
+Smart plug. For example, [Kasa](https://www.kasasmart.com/us/products/smart-plugs).
+
+Last but certainly not least, there's the motion sensor itself. I am using the HC-SR505 senor, a type of [passive infrared (PIR) sensor](https://en.wikipedia.org/wiki/Passive_infrared_sensor).
+
 ## Design 1: Motion Sensing 101
 
 <div align="center">

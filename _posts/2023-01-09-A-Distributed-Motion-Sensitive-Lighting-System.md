@@ -33,6 +33,8 @@ Last but certainly not least, there's the motion sensor itself. I am using the H
 
 ## Design 1: Motion Sensing 101
 
+A detailed guide can be found at [freva.com](https://www.freva.com/pir-motion-sensor-on-a-raspberry-pi-pico/).
+
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Light/1.png" />
 </div>

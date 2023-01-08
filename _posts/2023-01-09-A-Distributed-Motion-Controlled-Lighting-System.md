@@ -25,7 +25,7 @@ While [voice control](https://www.shawenyao.com/Voice-Controlled-Raspberry-Pi/) 
 
 ## Smart Home Basics
 
-For this project, we will be relying on various [Rasperry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) computers. The 4th generation, Raspberry Pi 4 Model B, is by far the most powerful Raspberry Pi with a quad-core CPU clocking in at 1.5GHz. The newest entry to the Raspberry Pi family, [Pico W](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/), is a microcontroller capable of of running [MicroPython](https://en.wikipedia.org/wiki/MicroPython) and accessing the Internet, and will be serving as the bridge between the main Raspberry Pi unit and the motion sensor.
+For this project, we will be relying on various [Rasperry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) computers. The 4th generation, Raspberry Pi 4 Model B, is by far the most powerful Raspberry Pi with a quad-core CPU clocking in at 1.5GHz. The newest entry to the Raspberry Pi family, [Pico W](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/), is a microcontroller capable of of running [MicroPython]([https://en.wikipedia.org/wiki/MicroPython](https://micropython.org/)) and accessing the Internet, and will be serving as the bridge between the main Raspberry Pi unit and the motion sensor.
 
 Smart plugs are next. These are essentially Wi-Fi-enabled switches that can be turned on or off via an API, rendering non-smart devices such as a floor lamp "smart". For example, TP-Link offers many choices under the brand [Kasa](https://www.kasasmart.com/us/products/smart-plugs). Programmatic control of the Kasa smart plugs is made possible by the [python-kasa](https://github.com/python-kasa/python-kasa) library.
 
@@ -55,7 +55,7 @@ Now, the light turns on when I go upstairs - that's all good. But sooner or late
   <img src="https://shawenyao.github.io/Photos/Light/problem.png" />
 </div>
 
-There is a problem with such design, however. The fact that the two sensors work **independently** and **memorylessly** also brings a pretty serious inconvenience. If I decide to stay on the stairs, there's no way for the system to extend the duration of the lighting. For instance, after my movement is picked up by the first sensor, the light is set to stay on for a predetermined amount of time, however generous that amount is. Even if another sensor (or the same one, for the matter) detects further motion, its signal will be useless since it merely tries to turn on a light that is already on, or off when it's already off. The design calls for an upgrade.
+There is a problem with such design, however. The fact that the two sensors work **independently** and **memorylessly** brings a serious inconvenience. If I decide to stay on the stairs, there's no way for the system to extend the duration of the lighting. For instance, after my movement is picked up by the first sensor, the light is set to stay on for a predetermined amount of time, however generous that amount is. Even if another sensor (or the same one, for the matter) detects further motion, its signal will be useless since it merely tries to turn on a light that is already on, or off when it's already off. The system calls for an upgrade.
 
 ## Design 3: Coordinating the Sensors
 
@@ -63,13 +63,15 @@ There is a problem with such design, however. The fact that the two sensors work
   <img src="https://shawenyao.github.io/Photos/Light/3.png" />
 </div>
 
-
+In the final design, the Pico Ws no longer assume to role of triggering the logic to control lights. Instead, they focus on one thing and one thing alone: sending the signals detected by the PIR sensor to the server. The server logs the timestamp at which the last motion is reported. A new process, an infinite loop, repeatedly triggers a piece of logic that compares the current time with the timestamp of last motion. If the difference is within the duration for which the light is meant to be turned on but the light is somehow off, it turns the light on. If the difference is greater than the duration but the light is on, it turns it off. In otherwords, the system has memory now. As a result, any detected motion will reset the countdown to lights off, enabling a much more intuitive user experience.
 
 ## Life Hacks
 
-False trigger. 
+In my experience, the PIR sensor is usually sensitive enough to real human movement (true positive). On the other hand, stairs light turning on randomly, especially at night, has become a bigger issue. Is it the cat? Should I call 911? Or, could it simply be a false positive? None of them is exactly a pleasant thought. That is, until -
 
-Cats.
+
+
+To my great surprise, the paper scroll does an extraordinarily good job at eliminating the false alarms, by virtue of limiting the range of the sensor's visibility. What's more, since I positioned the scroll to point upward, my cat can no longer trigger the sensor - yet another unexpected yet delightful side effect.
 
 ## Appendix
 * [Repository](https://github.com/shawenyao/light)

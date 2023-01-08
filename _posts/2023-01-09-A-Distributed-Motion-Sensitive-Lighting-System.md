@@ -17,9 +17,13 @@ Fiat lux.
   <img src="https://shawenyao.github.io/Photos/Raspberry Pi/all.png" />
 </div>
 
-_Image created by author using Google Slides. Left: Raspberry Pi 4 Model B; right: Raspberry Pi Pico W._
+_Image created by the author using Google Slides. Left: Raspberry Pi 4 Model B; right: Raspberry Pi Pico W._
 
 <br>
+
+Many. Ideally, the system should have low power consumption and offer on-the-go configurability.
+
+## Smart Home Basics
 
 ## Design 1: Motion Sensor 101
 
@@ -45,7 +49,7 @@ There is an obvious problem with the previous design. The fact that the two sens
   <img src="https://shawenyao.github.io/Photos/Light/3.png" />
 </div>
 
-## Life Hack
+## Life Hacks
 
 ## Appendix
 

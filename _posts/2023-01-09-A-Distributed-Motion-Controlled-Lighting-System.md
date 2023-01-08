@@ -29,7 +29,7 @@ For this project, I will be utilizing various [Raspberry Pi](https://en.wikipedi
 
 Smart plugs are next. These are essentially Wi-Fi-enabled switches that can be turned on or off via an API, rendering non-smart devices such as a floor lamp "smart". For example, TP-Link offers many choices under the brand [Kasa](https://www.kasasmart.com/us/products/smart-plugs). Programmatic control of the Kasa smart plugs is made possible by the [python-kasa](https://github.com/python-kasa/python-kasa) library.
 
-Last but certainly not least, there's the motion sensor itself. The HC-SR505 senor, a type of [passive infrared (PIR) sensor](https://en.wikipedia.org/wiki/Passive_infrared_sensor), can get the job done nicely.
+Last but certainly not least, there's the motion sensor itself. The HC-SR505 sensor, a type of [passive infrared (PIR) sensor](https://en.wikipedia.org/wiki/Passive_infrared_sensor) for instance, can get the job done nicely.
 
 ## Design 1: Motion Sensing 101
 
@@ -55,7 +55,7 @@ Now, the light turns on when I go upstairs - that's all good. But sooner or late
   <img src="https://shawenyao.github.io/Photos/Light/problem.png" />
 </div>
 
-There is a problem with such design, however. The fact that the two sensors work _independently_ and _memorylessly_ brings a serious inconvenience. If I decide to stay on the stairs, there's no way for the system to extend the duration of the lighting. For instance, after my movement is picked up by the first sensor, the light is set to stay on for a predetermined amount of time (however generous that amount is). Even if another sensor (or the same one, for the matter) detects further motion, its signal will be useless since it merely tries to turn on a light that is already on, or off when it's already off. The system calls for an upgrade.
+There is a problem with such design, however. The fact that the two sensors work _independently_ and _memorylessly_ brings a serious inconvenience. If I decide to stay on the stairs, there's no way for the system to extend the duration of the lighting. For example, after my movement is picked up by the first sensor, the light is set to stay on for a predetermined amount of time (however generous that amount is). Even if another sensor (or the same one, for the matter) detects further motion, its signal will be useless since it merely tries to turn on a light that is already on, or off when it's already off. The system calls for an upgrade.
 
 ## Design 3: Coordinating the Sensors
 

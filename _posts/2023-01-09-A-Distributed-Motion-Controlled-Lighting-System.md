@@ -67,7 +67,7 @@ In the final design, the Pico Ws no longer assume to role of triggering the logi
 
 ## Life Hacks
 
-In my experience, the PIR sensor is usually sensitive enough to real human movement (true positive). On the other hand, stairs light turning on randomly, especially at night, has become a bigger issue. Is it the cat? Should I call 911? Or, could it simply be a false positive? None of them seems exactly a pleasant thought. The situation persisted for a few nights, until -
+In my experience, the PIR sensor is usually sensitive enough to real human movement (true positive). On the other hand, stairs light turning on randomly, especially at night, has become a bigger issue. Is it the cat? Should I call 911? Or, could it simply be a false positive? None of them seems a pleasant thought exactly. The situation persisted for a few nights, until -
 
 
 

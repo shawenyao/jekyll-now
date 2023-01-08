@@ -25,7 +25,7 @@ Many. Ideally, the system should have low power consumption and offer on-the-go 
 
 ## Smart Home Basics
 
-[Rasperry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi). The newest entry to the Raspberry Pi family, [Pico W](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/).
+[Rasperry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi). The newest entry to the Raspberry Pi family, [Pico W](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/), is a microcontroller capable of of running [MicroPython](https://en.wikipedia.org/wiki/MicroPython) and Internet access.
 
 Smart plugs come next. These are essentially Wi-Fi-enabled switches that can be turned on or off via an API, rendering non-smart devices such as a lamp "smart". For example, TP-Link offers many choices under the brand [Kasa](https://www.kasasmart.com/us/products/smart-plugs). Programmatic control of the Kasa smart plugs is made possible by the [python-kasa](https://github.com/python-kasa/python-kasa) library.
 

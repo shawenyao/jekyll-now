@@ -25,7 +25,7 @@ Many. Ideally, the system should have low power consumption and offer on-the-go 
 
 ## Smart Home Basics
 
-For this project, we will be relying on various [Rasperry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) computers. The 4th generation, Raspberry Pi 4 Model B, is by far the most powerful Raspberry Pi with a quad-core CPU clocking in at 1.5GHz. The newest entry to the Raspberry Pi family, [Pico W](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/), is a microcontroller capable of of running [MicroPython](https://en.wikipedia.org/wiki/MicroPython) and access the Internet.
+For this project, we will be relying on various [Rasperry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) computers. The 4th generation, Raspberry Pi 4 Model B, is by far the most powerful Raspberry Pi with a quad-core CPU clocking in at 1.5GHz. The newest entry to the Raspberry Pi family, [Pico W](https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/), is a microcontroller capable of of running [MicroPython](https://en.wikipedia.org/wiki/MicroPython) and accessing the Internet, and will be serving as the bridge between the main Raspberry Pi unit and the motion sensor.
 
 Smart plugs come next. These are essentially Wi-Fi-enabled switches that can be turned on or off via an API, rendering non-smart devices such as a floor lamp "smart". For example, TP-Link offers many choices under the brand [Kasa](https://www.kasasmart.com/us/products/smart-plugs). Programmatic control of the Kasa smart plugs is made possible by the [python-kasa](https://github.com/python-kasa/python-kasa) library.
 

@@ -71,7 +71,7 @@ In my experience, the PIR sensor is usually sensitive enough to real human movem
 
 
 
-To my great surprise, the paper scroll does an extraordinarily good job at eliminating the false alarms, by virtue of limiting the range of the sensor's visibility. What's more, since I positioned the scroll to point upward, my cat can no longer trigger the sensor - yet another unexpected yet delightful side effect.
+To my great surprise, the paper scroll does an extraordinarily good job at getting rid of the false alarms, by virtue of limiting the range of the sensor's visibility. What's more, since I positioned the scroll to point upward, my cat can no longer trigger the sensor - yet another unexpected yet delightful side effect.
 
 ## Appendix
 * [Repository](https://github.com/shawenyao/light)

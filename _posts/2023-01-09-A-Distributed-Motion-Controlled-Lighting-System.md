@@ -49,7 +49,7 @@ Currently, the second Pi is a must because the MicroPython environment available
   <img src="https://shawenyao.github.io/Photos/Light/2.png" />
 </div>
 
-Now, the light turns on when I go upstairs - that's all good. But sooner or later, I might have to come downstairs and wish the light turned on as well. So comes a third unit, another Raspberry Pico W placed at the top of the stairs. Everything that worked before should continue to work with the same setup and the same code, only that now there are two triggers. When I go upstairs, the bottom sensor detects me and turns on the light. In a few seconds, the sensor upstairs also sees me and wants to turn on the light, but it doesn't matter as the light is already on - vice versa. Moreover, the system can scale easily - any number of additional Pico W/PIR sensor can be added or removed.
+Now, the light turns on when I go upstairs - that's all good. But sooner or later, I might have to come downstairs and wish the light turned on as well. So comes a third unit, another Raspberry Pico W placed at the top of the stairs. Everything that worked before should continue to work with the same setup and the same code, only that now there are two triggers. When I go upstairs, the bottom sensor detects me and turns on the light. In a few seconds, the sensor upstairs also sees me and wants to turn on the light, but it doesn't matter as the light is already on - vice versa. Moreover, the system can scale easily - any number of additional Pico Ws/PIR sensors can be added or removed.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Light/problem.png" />

@@ -71,7 +71,7 @@ In the final design, the two Pico Ws no longer assume to role of triggering the 
   <img src="https://shawenyao.github.io/Photos/Light/demo.gif" style="width:100%;height:auto;"/>
 </div>
 
-From my own experience using it, the PIR sensor proves to be sensitive enough to any real human movement (true positive). On the contrary, stairs light randomly turning on, especially at night, has become a bigger concern. Is it the cat? Should I call 911? Or, could it simply be a false positive? None of them seems a pleasant thought exactly. The issue haunted me for a couple nights, until -
+From my own experience using it, the PIR sensor proves to be sensitive enough to any real human movement (true positive). On the contrary, stairs light randomly turning on, especially at night, has become a bigger concern. Is it the cat? Should I call 911? Or, could it simply be a false positive? None of them can be called a pleasant thought at 2 a.m. The issue haunted me for a couple nights, until -
 
 ## Life Hacks
 

@@ -67,15 +67,13 @@ In the final design, the Pico Ws no longer assume to role of triggering the logi
 
 ## Demo
 
-
-
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Light/demo.gif" style="width:100%;height:auto;"/>
 </div>
 
-## Life Hacks
-
 In my experience, the PIR sensor is usually sensitive enough to real human movement (true positive). On the contrary, stairs light randomly turning on, especially at night, has become a bigger concern. Is it the cat? Should I call 911? Or, could it simply be a false positive? None of them seems a pleasant thought exactly. The situation persisted for a few nights, until -
+
+## Life Hacks
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Light/hack.jpg" />

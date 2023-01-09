@@ -81,8 +81,6 @@ In my experience, the PIR sensor is usually sensitive enough to real human movem
 
 _Left: Raspberry Pi Pico W and HC-SR505 sensor; right: Raspberry Pi Pico W and HC-SR505 sensor with a scroll of paper._
 
-<br>
-
 To my great surprise, a simple scroll of paper works wonders at getting rid of the false alarms, by virtue of limiting the range of the sensor's visibility. Furthermore, ever since I accidentally left it pointing upward one time, the system has literally turned a blind eye to my cat's loitering - yet another unexpected but delightful side effect.
 
 ## Appendix

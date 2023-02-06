@@ -25,13 +25,19 @@ _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128
 https://api.bart.gov/api/etd.aspx?cmd=etd&orig=MONT&dir=n&key={api_key}&json=y
 ```
 
+For some reason, the official `urequests` library that comes with the MicroPython firmware has HTTP/1.0 hardcoded. In fact, the fix could be as simple as changing
+
 ```python
 s.write(b"%s /%s HTTP/1.0\r\n" % (method, path))
 ```
 
+to
+
 ```python
 s.write(b"%s /%s HTTP/1.1\r\n" % (method, path))
 ```
+
+on [line 94](https://github.com/micropython/micropython-lib/blob/master/python-ecosys/urequests/urequests.py#L94).
 
 ## Controlling Text Sizes
 

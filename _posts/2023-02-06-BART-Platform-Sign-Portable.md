@@ -31,6 +31,7 @@ Generally, the original BART platform sign loops through four different layouts.
 
 ## Display Setup
 
+For more information, here is an excellent [guide](https://www.tomshardware.com/how-to/oled-display-raspberry-pi-pico) from Tom's Hardware.
 
 ## Getting Real-Time Depature Estimates
 
@@ -56,7 +57,7 @@ in addition to a few touches at the end to parse the JSON response correctly.
 
 ## Controlling Text Sizes
 
-Changing the font size can be without an operating system, bytearray
+Without an operating system, changing text fonts or sizes isn't as straightforward. To solve the problem, Peter Hinch has developed a wonderful [solution](https://github.com/peterhinch/micropython-font-to-py), which to my understanding represents some character-by-character images of the font that are cleverly encoded in a bytearray form.
 
 ```python
 # various fonts

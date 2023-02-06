@@ -57,7 +57,7 @@ in addition to a few touches at the end to parse the JSON response correctly.
 
 ## Controlling Text Sizes
 
-Without an operating system, changing text fonts or sizes isn't as straightforward. To solve the problem, Peter Hinch has developed a wonderful [solution](https://github.com/peterhinch/micropython-font-to-py), which to my understanding represents some character-by-character images of the font that are cleverly encoded in a bytearray form.
+Without an operating system, changing text fonts or sizes isn't as straightforward. To solve the problem, Peter Hinch has developed a wonderful [solution](https://github.com/peterhinch/micropython-font-to-py), which to my understanding represents some sort of character-by-character images of the font that are cleverly encoded in a bytearray form. Once the `Writer` class is initialized with such bytearray:
 
 ```python
 # various fonts
@@ -65,6 +65,8 @@ font6_writer = writer.Writer(oled, font6, verbose=False)
 font10_writer = writer.Writer(oled, font10, verbose=False)
 courier20_writer = writer.Writer(oled, courier20, verbose=False)
 ```
+
+it can then be used to print arbitrary text to the OLED screen:
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/BART-OLED/arriving.jpg" width="49%" />

@@ -84,5 +84,5 @@ _Left: Raspberry Pi Pico W and HC-SR505 sensor; right: Raspberry Pi Pico W and H
 To my great surprise, a simple scroll of paper works wonders at getting rid of the false alarms, by virtue of limiting the range of the sensor's visibility. Furthermore, ever since I accidentally left it pointing upward, the system has literally turned a blind eye to my cat's loitering, an unexpected yet delightful side effect that brings closure to this matter.
 
 ## Appendix
-### Code repository
+### Code Repository
 [https://github.com/shawenyao/light](https://github.com/shawenyao/light)

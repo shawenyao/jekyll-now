@@ -60,6 +60,8 @@ A Raspberry Pi Pico W doesn't have an internal battery to keep the clock running
 https://worldtimeapi.org/api/ip
 ```
 
+The response contains information needed to set the initial value of the onboard real time clock.
+
 ```python
 # set initial time based on worldtimeapi.org
 rtc = machine.RTC()

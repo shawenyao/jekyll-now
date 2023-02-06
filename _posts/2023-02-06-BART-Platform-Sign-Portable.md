@@ -19,6 +19,8 @@ BART PSP™.
 
 _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128x64 OLED Display._
 
+Authenticity is another goal. Wouldn't be so cool if the portable sign looks and feels just like the original?
+
 ## Getting Real-Time Depature Estimates
 
 ```
@@ -41,6 +43,13 @@ on [line 94](https://github.com/micropython/micropython-lib/blob/master/python-e
 
 ## Controlling Text Sizes
 
+```python
+# various fonts
+font6_writer = writer.Writer(oled, font6, verbose=False)
+font10_writer = writer.Writer(oled, font10, verbose=False)
+courier20_writer = writer.Writer(oled, courier20, verbose=False)
+```
+
 ## Displaying Time
 
 A Raspberry Pi Pico W doesn't have an internal battery to keep the clock running after power off, so without 
@@ -55,7 +64,7 @@ rtc = machine.RTC()
 rtc.datetime((year, month, day, weekday, hours, minutes, seconds, subseconds))
 ```
 
-`rtc.datetime()`
+After initialization, `rtc.datetime()` will return the current date and time.
 
 ## Putting It All Together
 

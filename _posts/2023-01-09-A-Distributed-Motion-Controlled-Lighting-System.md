@@ -14,7 +14,7 @@ new: true
 Fiat lux.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/Raspberry Pi/all.png" />
+  <img src="https://shawenyao.github.io/Photos/Raspberry Pi/4b&picow.png" />
 </div>
 
 _Image created by author on Google Slides. Left: Raspberry Pi 4 Model B; right: Raspberry Pi Pico W._

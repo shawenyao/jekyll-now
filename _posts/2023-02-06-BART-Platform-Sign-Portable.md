@@ -65,6 +65,11 @@ font10_writer = writer.Writer(oled, font10, verbose=False)
 courier20_writer = writer.Writer(oled, courier20, verbose=False)
 ```
 
+<p float="left" align="middle">
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/schedule.jpg" width="49%" />
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/arrival.jpg" width="49%" /> 
+</p>
+
 ## Displaying Time
 
 A Raspberry Pi Pico W doesn't have an internal battery to keep the clock running constantly, so we will need an authority to tell time upon boot up. This requires a call to `worldtimeapi.org`, where it will automatically deal with timezone conversion depending on user's IP:
@@ -82,6 +87,10 @@ rtc.datetime((year, month, day, weekday, hours, minutes, seconds, subseconds))
 ```
 
 After initialization, `rtc.datetime()` will return the current date and time.
+
+<p float="left" align="middle">
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/clock.jpg" width="49%" />
+</p>
 
 ## Putting It All Together
 

@@ -21,7 +21,7 @@ _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128
 
 <br>
 
-Authenticity is another goal. Wouldn't be so cool if the portable sign looks and feels just like the original?
+Authenticity would be another appeal. Wouldn't be so cool if the portable sign looks and feels just like the original?
 
 ## BART Platform Sign
 
@@ -31,7 +31,7 @@ Authenticity is another goal. Wouldn't be so cool if the portable sign looks and
 https://api.bart.gov/api/etd.aspx?cmd=etd&orig=MONT&dir=n&key={api_key}&json=y
 ```
 
-For some reason, the official `urequests` library that comes with the MicroPython firmware has HTTP/1.0 hardcoded. In fact, the fix could be as simple as changing
+For some reason, the official `urequests` library that comes with the MicroPython firmware has HTTP/1.0 hardcoded. Cloudflare (by which the domain `bart.gov` is protected) doesn't like it and will instantly shut down any connection request as such. This calls for a fix in the `request()` function in `urequests`. In fact, it could be as something simple as changing [line 94](https://github.com/micropython/micropython-lib/blob/master/python-ecosys/urequests/urequests.py#L94) from
 
 ```python
 s.write(b"%s /%s HTTP/1.0\r\n" % (method, path))
@@ -42,8 +42,6 @@ to
 ```python
 s.write(b"%s /%s HTTP/1.1\r\n" % (method, path))
 ```
-
-on [line 94](https://github.com/micropython/micropython-lib/blob/master/python-ecosys/urequests/urequests.py#L94).
 
 ## Controlling Text Sizes
 

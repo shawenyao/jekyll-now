@@ -21,7 +21,7 @@ _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128
 
 ## BART API
 
-## Controlling Font Sizes
+## Controlling Text Sizes
 
 ## Displaying Time
 

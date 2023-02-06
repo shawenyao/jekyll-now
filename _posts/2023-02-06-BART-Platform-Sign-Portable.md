@@ -37,16 +37,16 @@ Generally, the original BART platform sign loops through four different layouts.
 BART offers real-time depature estimates via its API. 
 
 ```
-https://api.bart.gov/api/etd.aspx?cmd=etd&orig={station_name}&dir={direction}&key={api_key}&json=y
+https://api.bart.gov/api/etd.aspx?cmd=etd&orig={station}&dir={direction}&key={key}&json=y
 ```
 
-This would have been a breeze, if not for one caveat. For some reason, the official `urequests` library that comes with the MicroPython firmware has HTTP/1.0 hardcoded. Cloudflare, by which the domain `bart.gov` is protected, doesn't like it very much and will instantly shut down any connection attempt as such. This calls for a modification in the `request()` function in `urequests`. Fortunately, after playing with the script, I realize that the fix could be something as simple as changing [line 94](https://github.com/micropython/micropython-lib/blob/master/python-ecosys/urequests/urequests.py#L94) from
+This would have been a breeze, if not for one caveat. For some reason, the official `urequests` library that comes with the MicroPython firmware has HTTP/1.0 hardcoded. Cloudflare, by which the domain `bart.gov` is protected, doesn't like it very much and will instantly shut down any connection attempt as such. This calls for a modification in the `request()` function in `urequests`. Fortunately, after playing with the script, I realize that the fix could be something as simple as changing [line 94](https://github.com/micropython/micropython-lib/blob/master/python-ecosys/urequests/urequests.py#L94) from:
 
 ```python
 s.write(b"%s /%s HTTP/1.0\r\n" % (method, path))
 ```
 
-to
+to:
 
 ```python
 s.write(b"%s /%s HTTP/1.1\r\n" % (method, path))
@@ -67,7 +67,7 @@ courier20_writer = writer.Writer(oled, courier20, verbose=False)
 
 ## Displaying Time
 
-A Raspberry Pi Pico W doesn't have an internal battery to keep the clock running constantly, so we will need an authority to tell time upon boot up. This requires a call to `worldtimeapi.org`, where it will automatically deal with timezone conversion depending on user's IP
+A Raspberry Pi Pico W doesn't have an internal battery to keep the clock running constantly, so we will need an authority to tell time upon boot up. This requires a call to `worldtimeapi.org`, where it will automatically deal with timezone conversion depending on user's IP:
 
 ```
 https://worldtimeapi.org/api/ip

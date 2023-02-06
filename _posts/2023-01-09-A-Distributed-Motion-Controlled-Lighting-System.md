@@ -65,7 +65,7 @@ There is a problem with such design, however. The fact that the two sensors work
 
 In the final design, the two Pico Ws no longer assume to role of triggering the logic to control the light. Instead, they focus on one thing and one thing alone: sending the signals detected by the PIR sensor to the server. The server logs the timestamp at which the last motion is reported. A new process on the Raspberry Pi 4, an infinite loop, repeatedly triggers a piece of logic that compares the current time with the timestamp of last motion. If the difference is within the duration for which the light is meant to be turned on but the light happens to be off, it turns the light on. If the difference is greater than the duration but the light is on, it turns it off. In other words, the system has _memory_ now. As a result, any detected motion will reset the countdown to lights out, enabling a much more intuitive user experience.
 
-## Demo
+## Putting It All Together
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Light/demo.gif" style="width:100%;height:auto;"/>

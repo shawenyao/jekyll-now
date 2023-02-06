@@ -35,7 +35,7 @@ For more information, here is an excellent [guide](https://www.tomshardware.com/
 
 ## Getting Real-Time Depature Estimates
 
-BART offers real-time depature estimates via its API. 
+BART offers real-time depature estimates via its [API](https://api.bart.gov/). 
 
 ```
 https://api.bart.gov/api/etd.aspx?cmd=etd&orig={station}&dir={direction}&key={key}&json=y

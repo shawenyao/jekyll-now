@@ -32,5 +32,5 @@ _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128
 </div>
 
 ## Appendix
-### Code repository
-[https://github.com/shawenyao/light](https://github.com/shawenyao/bart-oled)
+### Code Repository
+[[https://github.com/shawenyao/light](https://github.com/shawenyao/bart-oled)](https://github.com/shawenyao/bart-oled)

@@ -19,7 +19,7 @@ BART PSP™.
 
 _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128x64 OLED Display._
 
-## BART API
+## Getting Real-Time Estimates from BART
 
 ## Controlling Text Sizes
 

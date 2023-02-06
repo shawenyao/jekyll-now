@@ -19,8 +19,18 @@ BART PSP™.
 
 _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128x64 OLED Display._
 
+## BART API
+
+## Controlling Font Sizes
+
+## Displaying Time
+
 ## Demo
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/BART-OLED/demo.gif" style="width:100%;height:auto;"/>
 </div>
+
+## Appendix
+### Code repository
+[https://github.com/shawenyao/light](https://github.com/shawenyao/bart-oled)

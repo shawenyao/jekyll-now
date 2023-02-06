@@ -19,6 +19,8 @@ BART PSP™.
 
 _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128x64 OLED Display._
 
+<br>
+
 Authenticity is another goal. Wouldn't be so cool if the portable sign looks and feels just like the original?
 
 ## BART Platform Sign

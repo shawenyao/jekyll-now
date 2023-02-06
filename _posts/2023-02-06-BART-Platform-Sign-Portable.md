@@ -27,7 +27,7 @@ Authenticity would be another appeal. Wouldn't be so cool if the portable sign l
 
 ## BART Platform Sign, the Original
 
-Generally, the original BART platform sign loops through four different layouts. First, there's the estimated wait time screen between trains, which can span multiple screens by itself. This is often followed by a second type of display, BART Service Advisories, usually regarding an annoucement of a train outage, cancellation, or just a friendly reminder from the police asking you to pay attention to your belongings. Third, a full-screen display showing the destination kicks in when a train enters a platform. Finally, a digital clock pops up from time to time.
+Generally, the original BART platform sign loops through four different layouts. First, there's the estimated wait time screen between trains, which can span multiple screens by itself. This is often followed by a second type of display, BART Service Advisories, usually regarding an annoucement of a train outage, cancellation, or just a friendly reminder from the police asking you to pay attention to your belongings. Third, a full-screen display of the destination kicks in when a train enters a platform. Finally, a digital clock pops up from time to time.
 
 ## Display Setup
 

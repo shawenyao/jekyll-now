@@ -67,7 +67,7 @@ courier20_writer = writer.Writer(oled, courier20, verbose=False)
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/BART-OLED/schedule.jpg" width="49%" />
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/arrival.jpg" width="49%" /> 
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/arriving.jpg" width="49%" /> 
 </p>
 
 ## Displaying Time

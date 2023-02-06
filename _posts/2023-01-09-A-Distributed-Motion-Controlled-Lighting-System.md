@@ -8,7 +8,7 @@ tag:
 comments: true
 draft: False
 berry: true
-new: true
+new: false
 ---
 
 Fiat lux.

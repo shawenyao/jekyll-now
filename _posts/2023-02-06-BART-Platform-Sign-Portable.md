@@ -21,6 +21,8 @@ _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128
 
 <br>
 
+all too familiar.
+
 Authenticity would be another appeal. Wouldn't be so cool if the portable sign looks and feels just like the original?
 
 ## BART Platform Sign, the Original

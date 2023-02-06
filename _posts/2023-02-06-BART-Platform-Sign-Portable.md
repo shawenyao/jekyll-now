@@ -21,9 +21,25 @@ _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128
 
 ## Getting Real-Time Depature Estimates
 
+```
+https://api.bart.gov/api/etd.aspx?cmd=etd&orig=MONT&dir=n&key=xxx&json=y
+```
+
+```python
+s.write(b"%s /%s HTTP/1.0\r\n" % (method, path))
+```
+
+```python
+s.write(b"%s /%s HTTP/1.1\r\n" % (method, path))
+```
+
 ## Controlling Text Sizes
 
 ## Displaying Time
+
+```
+https://worldtimeapi.org/api/ip
+```
 
 ## Demo
 

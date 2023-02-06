@@ -43,6 +43,8 @@ to
 s.write(b"%s /%s HTTP/1.1\r\n" % (method, path))
 ```
 
+in addition to a few touches at the end to parse the JSON response correctly.
+
 ## Controlling Text Sizes
 
 ```python

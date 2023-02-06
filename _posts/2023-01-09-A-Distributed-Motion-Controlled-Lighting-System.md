@@ -6,7 +6,7 @@ tag:
   - smart home
   - python
 comments: true
-draft: False
+draft: false
 berry: true
 new: false
 ---

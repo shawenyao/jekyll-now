@@ -21,9 +21,7 @@ _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128
 
 <br>
 
-I like commuting by BART. It's fast, reliable and (relatively) carefree. Especially for its asking price, there isn't really a whole lot to complain about.
-
-Authenticity would be another appeal. Wouldn't be so cool if the portable sign looks and feels just like the original?
+I like commuting by BART. It's fast, reliable and (relatively) carefree. In fact, for its asking price, there isn't really a whole lot to complain about. But if there has to be one, it's probably going to be about the long wait between trains for some lines. Increasing the frequency of the trains is one solution, albeit a rather challenging one. Timing the train is another - a much more feasible one at that. With the help of Google Maps or the BART app, arrival and schedule info is readily available to inform trip planning. However, sometimes I just wish that there's a BART platform sign right outside my bedroom window.
 
 ## BART Platform Sign, the Original
 
@@ -33,13 +31,13 @@ Generally, the sign loops through four different layouts. First, there's the est
 
 ## Display Setup
 
-There are many affordable options when it comes to adding a display to a Raspberry Pi. For example, this 0.96-inch one can be had for about [$3 apiece](https://www.amazon.com/gp/product/B09T6SJBV5/). It features an 128x64 OLED display and should provide enough screen real estate for all the important information to be shown.
+There are many affordable options when it comes to adding a display to a Raspberry Pi. For example, this 0.96-inch one can be had for about [$3 apiece](https://www.amazon.com/gp/product/B09T6SJBV5/). It features an 128x64 OLED display and should provide enough screen real estate for all the important stuff to be rendered on a single screen.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Raspberry Pi/picow&oled2.png" />
 </div>
 
-For a detail instruction on how to setup the display, here is an excellent [guide](https://www.tomshardware.com/how-to/oled-display-raspberry-pi-pico) from Tom's Hardware.
+For a detail instruction on how to setup the display, [here](https://www.tomshardware.com/how-to/oled-display-raspberry-pi-pico) is an excellent guide from Tom's Hardware.
 
 ## Getting Real-Time Depature Estimates
 

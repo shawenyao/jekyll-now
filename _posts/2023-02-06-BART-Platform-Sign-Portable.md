@@ -37,6 +37,8 @@ There are many affordable options when it comes to adding a display to a Raspber
   <img src="https://shawenyao.github.io/Photos/Raspberry Pi/picow&oled2.png" />
 </div>
 
+_Wiring to connect an OLED screen to a Raspberry Pi Pico W_
+
 For a detail instruction on how to setup the display, [here](https://www.tomshardware.com/how-to/oled-display-raspberry-pi-pico) is an excellent guide from Tom's Hardware.
 
 ## Getting Real-Time Depature Estimates
@@ -79,6 +81,8 @@ it can then be used to print arbitrary text to the OLED screen:
   <img src="https://shawenyao.github.io/Photos/BART-OLED/schedule.jpg" width="49%" /> 
 </p>
 
+_An OLED screen displaying text in different font sizes. Left: train arriving; right: schedule information._
+
 ## Displaying Time
 
 A Raspberry Pi Pico W doesn't have an internal battery to keep the clock running constantly, so we will need an authority to tell time upon boot up. This requires a call to `worldtimeapi.org`, where it will automatically deal with timezone conversion depending on user's IP:
@@ -107,12 +111,16 @@ After initialization, `rtc.datetime()` will return the current date and time.
   <img src="https://shawenyao.github.io/Photos/BART-OLED/clock.jpg" width="49%" />
 </p>
 
+_An OLED screen displaying a digital clock._
+
 ## Putting It All Together
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/BART-OLED/demo.gif" style="width:100%;height:auto;"/>
 </div>
 
+_A BART Platform Sign Portable in action, train arriving._
+
 ## Appendix
-### Code Repository
+### Try It Yourself
 [https://github.com/shawenyao/bart-oled](https://github.com/shawenyao/bart-oled)

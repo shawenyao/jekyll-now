@@ -11,7 +11,7 @@ berry: true
 new: true
 ---
 
-An authentic BART experience that you can (literally) put on your desktop.
+An authentic, desktop BART experience.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Raspberry Pi/picow&oled.png" />

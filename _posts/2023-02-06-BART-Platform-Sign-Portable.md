@@ -47,7 +47,7 @@ BART offers real-time depature estimates via its [API](https://api.bart.gov/). A
 https://api.bart.gov/api/etd.aspx?cmd=etd&orig={station}&dir={direction}&key={key}&json=y
 ```
 
-will result in a list of incoming trains for a given station in a given direction being returned. This would have been a breeze if not for one caveat. For some reason, the official `urequests` library that comes with the MicroPython firmware has HTTP/1.0 hardcoded. Cloudflare, by which the domain `bart.gov` is protected, doesn't like it very much and will instantly shut down any connection attempt as such. This calls for a modification in the `request()` function in `urequests`. Fortunately, after playing with the script, I realize that the fix could be something as simple as changing [line 94](https://github.com/micropython/micropython-lib/blob/master/python-ecosys/urequests/urequests.py#L94) from:
+will result in a list of incoming trains for a given station in a given direction being returned. This would have been a breeze if not for one caveat. For some reason, the official `urequests` library that comes with the MicroPython firmware has HTTP/1.0 hardcoded. Cloudflare, by which the domain `bart.gov` is protected, doesn't like it very much and will instantly shut down any connection attempt as such. This calls for a modification in the `request()` function in `urequests`. Thankfully, after playing with the script, I realize that the fix could be something as simple as changing [line 94](https://github.com/micropython/micropython-lib/blob/master/python-ecosys/urequests/urequests.py#L94) from:
 
 ```python
 s.write(b"%s /%s HTTP/1.0\r\n" % (method, path))

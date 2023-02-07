@@ -31,15 +31,7 @@ Generally, the sign loops through four different layouts. First, there's the est
 
 ## Display Setup
 
-There are many affordable options when it comes to adding a display to a Raspberry Pi. For example, this 0.96-inch one can be had for about [$3 apiece](https://www.amazon.com/gp/product/B09T6SJBV5/). It features an 128x64 OLED display and should provide enough screen real estate for all the important stuff to be rendered on a single screen.
-
-<div align="center">
-  <img src="https://shawenyao.github.io/Photos/Raspberry Pi/picow&oled2.png" />
-</div>
-
-_Wiring to connect an 128x64 OLED display to a Raspberry Pi Pico W_
-
-For a detail instruction on how to setup the display, [here](https://www.tomshardware.com/how-to/oled-display-raspberry-pi-pico) is an excellent guide from Tom's Hardware.
+There are many affordable options when it comes to adding a display to a Raspberry Pi. For example, this 0.96-inch one can be had for about [$3 apiece](https://www.amazon.com/gp/product/B09T6SJBV5/). It features an 128x64 OLED display and should provide enough screen real estate for all the important stuff to be rendered on a single screen. For a detail instruction on how to use the display, [here](https://www.tomshardware.com/how-to/oled-display-raspberry-pi-pico) is an excellent guide from Tom's Hardware.
 
 ## Getting Real-Time Depature Estimates
 
@@ -65,7 +57,7 @@ in addition to a few touches at the end to parse the JSON response correctly.
 
 ## Controlling Text Sizes
 
-Without an operating system, changing text fonts or sizes isn't as straightforward. To solve the problem, Peter Hinch has developed a wonderful [solution](https://github.com/peterhinch/micropython-font-to-py), which to my understanding involves some sort of character-by-character images of the font that are cleverly encoded in a bytearray form. Once the `Writer` class is initialized with such bytearray:
+Without an operating system, changing text fonts or sizes isn't as straightforward. To solve the problem, Peter Hinch has developed a wonderful [solution](https://github.com/peterhinch/micropython-font-to-py), which to my understanding involves some sort of character-by-character bitmap of the font that are cleverly encoded in a bytearray form. Once the `Writer` class is initialized with such bytearray:
 
 ```python
 # various fonts
@@ -74,7 +66,7 @@ font10_writer = writer.Writer(oled, font10, verbose=False)
 courier20_writer = writer.Writer(oled, courier20, verbose=False)
 ```
 
-it can then be used to print arbitrary text to the OLED screen:
+it can then be used to print any arbitrary text to the OLED screen:
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/BART-OLED/arriving.jpg" width="49%" />

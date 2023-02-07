@@ -21,7 +21,7 @@ _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128
 
 <br>
 
-I like commuting by BART. It's fast, reliable and (relatively) carefree. In fact, for its asking price, there isn't really a whole lot to complain about. But if there has to be one, it's probably going to be about the long wait between trains for some lines. Increasing the frequency of the trains is one solution, albeit a rather challenging one. Timing the train is another - a much more feasible one at that. With the help of Google Maps or the BART app, arrival and schedule info is readily available to inform trip planning. However, sometimes I just wish that there's a BART platform sign right outside my bedroom window.
+I like commuting by BART. It's fast, reliable and (relatively) carefree. In fact, for its asking price, there isn't really a whole lot to complain about. But if there has to be one, it's probably going to be about the long wait between trains for some lines. Increasing the frequency of the trains is an obvious solution to the problem, albeit a rather challenging and expensive one. Timing the train is another, a much more feasible one at that. With the help of Google Maps or the BART app, arrival and schedule info is readily available to inform trip planning. However, sometimes I just wish that there's a BART platform sign right outside my bedroom window.
 
 ## BART Platform Sign, the Original
 

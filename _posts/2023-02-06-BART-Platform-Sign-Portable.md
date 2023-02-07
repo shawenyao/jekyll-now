@@ -21,7 +21,7 @@ _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128
 
 <br>
 
-I like commuting by BART. It's fast, reliable and (relatively) carefree. Indeed, for its asking price, there isn't really a whole lot to complain about. That said, if there has to be one, it's probably going to be about the long wait between trains for some lines. Adding more trains is an obvious solution to the problem, albeit a rather expensive one. Timing the train is another, a much more feasible one at that. In fact, with the help of the BART app or even Google Map, arrival and schedule info is readily available to inform trip planning. However, sometimes I just wish that there were a BART platform sign right outside my bedroom window. Yes, that would be so cool. Well, so unrealistic, too. Fortunately, the next best thing is very much doable with a little help from a Raspberry Pi Pico W.
+I like commuting by BART. It's fast, reliable and (relatively) carefree. Indeed, for its asking price, there isn't really a whole lot to complain about. That said, if there has to be one, it's probably going to be about the long wait between trains for some lines. Adding more trains is an obvious solution to the problem, albeit a rather expensive one. Timing the train is another, a much more feasible one at that. In fact, thanks to the BART app or even Google Map, arrival and schedule info is readily available to inform trip planning. However, sometimes I just wish that there were a BART platform sign right outside my bedroom window. Yes, that would be so cool. Well, so unrealistic, too. Fortunately, the next best thing is very much doable with a little help from a Raspberry Pi Pico W.
 
 ## BART Platform Sign, the Original
 

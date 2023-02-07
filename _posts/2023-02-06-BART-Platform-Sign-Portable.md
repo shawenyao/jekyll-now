@@ -33,15 +33,17 @@ Generally, the sign loops through four different layouts. First, there's the est
 
 ## Display Setup
 
+There are many affordable options when it comes to adding a display to a Raspberry Pi. For example, this 0.96-inch one can be had for about [$3 apiece](https://www.amazon.com/gp/product/B09T6SJBV5/). It features an 128x64 OLED display, which should provide enough screen real estate for all the important information to be shown.
+
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Raspberry Pi/picow&oled2.png" />
 </div>
 
-For more information, here is an excellent [guide](https://www.tomshardware.com/how-to/oled-display-raspberry-pi-pico) from Tom's Hardware.
+For a detail instruction on how to setup the display, here is an excellent [guide](https://www.tomshardware.com/how-to/oled-display-raspberry-pi-pico) from Tom's Hardware.
 
 ## Getting Real-Time Depature Estimates
 
-BART offers real-time depature estimates via its [API](https://api.bart.gov/). 
+BART offers real-time depature estimates via its [API](https://api.bart.gov/). A simple request
 
 ```
 https://api.bart.gov/api/etd.aspx?cmd=etd&orig={station}&dir={direction}&key={key}&json=y

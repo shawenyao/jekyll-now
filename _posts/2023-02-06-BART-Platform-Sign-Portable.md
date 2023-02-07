@@ -21,13 +21,13 @@ _Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128
 
 <br>
 
-all too familiar.
+I like commuting by BART. It's fast, reliable and (relatively) safe. For its price, there's really not a lot to complain about.
 
 Authenticity would be another appeal. Wouldn't be so cool if the portable sign looks and feels just like the original?
 
 ## BART Platform Sign, the Original
 
-Behold the original, real BART platform sign, a piece of display that's all too familiar in the eyes of the 145,700 riders (as of [Q3 2022](https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit)) everyday.
+Behold the original, real BART platform sign, a piece of display that looks all too familiar in the eyes of the 145,700 riders (as of [Q3 2022](https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit)) everyday.
 
 Generally, the sign loops through four different layouts. First, there's the estimated wait time screen between trains, which can span multiple screens by itself. This is often followed by a second type of display, BART Service Advisories, usually regarding an annoucement of a train outage, cancellation, or just a friendly reminder from the police asking you to pay attention to your belongings. Third, a full-screen display of the destination kicks in when a train enters a platform. Finally, a digital clock pops up from time to time.
 

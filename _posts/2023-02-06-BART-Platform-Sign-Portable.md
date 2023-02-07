@@ -17,7 +17,7 @@ An authentic, desktop BART experience.
   <img src="https://shawenyao.github.io/Photos/Raspberry Pi/picow&oled.png" />
 </div>
 
-_Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128x64 OLED Display._
+_Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128x64 OLED display._
 
 <br>
 
@@ -37,7 +37,7 @@ There are many affordable options when it comes to adding a display to a Raspber
   <img src="https://shawenyao.github.io/Photos/Raspberry Pi/picow&oled2.png" />
 </div>
 
-_Wiring to connect an OLED screen to a Raspberry Pi Pico W_
+_Wiring to connect an 128x64 OLED display to a Raspberry Pi Pico W_
 
 For a detail instruction on how to setup the display, [here](https://www.tomshardware.com/how-to/oled-display-raspberry-pi-pico) is an excellent guide from Tom's Hardware.
 

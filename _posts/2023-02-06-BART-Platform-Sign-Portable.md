@@ -11,7 +11,7 @@ berry: true
 new: true
 ---
 
-BART PSP™.
+An authentic BART experience that you can (literally) put on your desktop.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Raspberry Pi/picow&oled.png" />
@@ -32,6 +32,10 @@ Behold the original, real BART platform sign, a piece of display that looks all 
 Generally, the sign loops through four different layouts. First, there's the estimated wait time screen between trains, which can span multiple screens by itself. This is often followed by a second type of display, BART Service Advisories, usually regarding an annoucement of a train outage, cancellation, or just a friendly reminder from the police asking you to pay attention to your belongings. Third, a full-screen display of the destination kicks in when a train enters a platform. Finally, a digital clock pops up from time to time.
 
 ## Display Setup
+
+<div align="center">
+  <img src="https://shawenyao.github.io/Photos/Raspberry Pi/picow&oled2.png" />
+</div>
 
 For more information, here is an excellent [guide](https://www.tomshardware.com/how-to/oled-display-raspberry-pi-pico) from Tom's Hardware.
 

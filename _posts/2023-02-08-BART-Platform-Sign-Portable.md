@@ -98,7 +98,7 @@ _An OLED screen displaying text in different font sizes. Left: train arriving; r
 
 ## Displaying Time
 
-A Raspberry Pi Pico W doesn't have an internal battery to keep the clock running constantly, so we will need an authority to tell time upon boot up. This requires a call to `worldtimeapi.org`, where it will automatically deal with timezone conversion depending on user's IP:
+A Raspberry Pi Pico W doesn't have an internal battery to keep the clock running constantly, so we will need an authority to tell time upon boot up. This requires a call to `worldtimeapi.org`, where it will automatically deal with timezone conversion depending on the user's IP:
 
 ```
 https://worldtimeapi.org/api/ip

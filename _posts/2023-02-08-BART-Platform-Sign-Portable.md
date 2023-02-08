@@ -101,7 +101,7 @@ A Raspberry Pi Pico W doesn't have an internal battery to keep the clock running
 https://worldtimeapi.org/api/ip
 ```
 
-or fix the timezone with something like:
+or fix the time zone with something like:
 
 ```
 https://worldtimeapi.org/api/timezone/America/Los_Angeles

@@ -112,7 +112,7 @@ rtc.datetime((year, month, day, weekday, hours, minutes, seconds, subseconds))
 After initialization, `rtc.datetime()` will return the current date and time.
 
 <p float="left" align="middle">
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/clock.jpg" width="49%" />
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/clock.jpg" width="48%" />
 </p>
 
 _An OLED screen displaying a digital clock._

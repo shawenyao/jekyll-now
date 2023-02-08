@@ -28,16 +28,13 @@ I like commuting by BART. It's fast, (relatively) reliable and (mostly) stress-f
 Behold the original, real BART platform sign, a piece of display that looks all too familiar in the eyes of the 145,700 riders (as of [Q3 2022](https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit)) everyday -
 
 <p float="left" align="middle">
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/1.jpg" width="100%" />
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/1.jpg" width="48%" />
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/2.jpg" width="48%" /> 
 </p>
+
 <p float="left" align="middle">
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/2.jpg" width="100%" /> 
-</p>
-<p float="left" align="middle">
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/3.jpg" width="100%" />
-</p>
-<p float="left" align="middle">
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/4.jpg" width="100%" /> 
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/3.jpg" width="48%" />
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/4.jpg" width="48%" /> 
 </p>
 
 _Four types of platform sign layouts. From top to bottom: estimated wait time, BART Service Advisories, train arriving, digital clock._

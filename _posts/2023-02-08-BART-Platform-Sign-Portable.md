@@ -39,7 +39,7 @@ Behold the original, real BART platform sign, a piece of display that looks all 
 
 _Four types of platform sign layouts. Top left: estimated wait time; top right: BART Service Advisories; bottom left: train arriving; bottom right: digital clock._
 
-If you stare at it for a while, a pattern begins to emerge. Generally, the sign loops through four different layouts. First, there's the estimated wait time screen between trains, which can span multiple screens by itself. This is often followed by a second type of layout, BART Service Advisories, usually regarding an annoucement of a train outage, cancellation, or just a friendly reminder from the police asking you to pay attention to your belongings. Third, a full-screen display of the destination kicks in when a train enters the platform. Finally, a digital clock pops up from time to time. They are all useful in some way, with the possible exception of the second one which isn't that informative in my opinion.
+If you stare at it for a while, a pattern begins to emerge. Generally, the sign loops through four different layouts. First, there's the estimated wait time screen between trains, which can span multiple screens by itself. This is often followed by a second type of layout, BART Service Advisories, usually regarding an announcement of a train outage, cancellation, or just a friendly reminder from the police asking you to pay attention to your belongings. Third, a full-screen display of the destination kicks in when a train enters the platform. Finally, a digital clock pops up from time to time. They are all useful in some way, with the possible exception of the second one which isn't that informative in my opinion.
 
 ## Connecting a Display
 
@@ -51,9 +51,9 @@ There are many affordable options when it comes to adding a display to a Raspber
 
 _Raspberry Pi Pico W and OLED display. Left: Raspberry Pi Pico W; right: 128x64 OLED display. Image created by author on Google Slides._
 
-## Getting Real-Time Depature Estimates
+## Getting Real-Time Departure Estimates
 
-BART offers real-time depature estimates via its [API](https://api.bart.gov/). A simple HTTPS request to:
+BART offers real-time departure estimates via its [API](https://api.bart.gov/). A simple HTTPS request to:
 
 ```
 https://api.bart.gov/api/etd.aspx?cmd=etd&orig={station}&dir={direction}&key={key}&json=y
@@ -95,7 +95,7 @@ _An OLED screen displaying texts in different font sizes. Left: train arriving; 
 
 ## Displaying Time
 
-A Raspberry Pi Pico W doesn't have an internal battery to keep the clock running constantly, so we will need an authority to tell time upon boot up. This requires a call to `worldtimeapi.org`, where it will automatically deal with timezone conversion depending on the user's IP:
+A Raspberry Pi Pico W doesn't have an internal battery to keep the clock running constantly, so we will need an authority to tell time upon boot up. This requires a call to `worldtimeapi.org`, where it will automatically deal with time zone conversion depending on the user's IP:
 
 ```
 https://worldtimeapi.org/api/ip

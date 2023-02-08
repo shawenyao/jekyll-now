@@ -28,13 +28,13 @@ I like commuting by BART. It's fast, (relatively) reliable and (mostly) stress-f
 Behold the original, real BART platform sign, a piece of display that looks all too familiar in the eyes of the 145,700 riders (as of [Q3 2022](https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit)) everyday.
 
 <p float="left" align="middle">
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/1.jpg" width="49%" />
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/2.jpg" width="49%" /> 
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/1.jpg" width="48%" />
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/2.jpg" width="48%" /> 
 </p>
 
 <p float="left" align="middle">
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/3.jpg" width="49%" />
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/4.jpg" width="49%" /> 
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/3.jpg" width="48%" />
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/4.jpg" width="48%" /> 
 </p>
 
 _Four types of platform sign layouts._
@@ -81,8 +81,8 @@ courier20_writer = writer.Writer(oled, courier20, verbose=False)
 it can then be used to print any arbitrary text to the OLED screen:
 
 <p float="left" align="middle">
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/arriving.jpg" width="49%" />
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/schedule.jpg" width="49%" /> 
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/arriving.jpg" width="48%" />
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/schedule.jpg" width="48%" /> 
 </p>
 
 _An OLED screen displaying text in different font sizes. Left: train arriving; right: schedule information._

@@ -14,10 +14,10 @@ new: true
 An authentic, desktop BART experience.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/Raspberry Pi/picow&oled.png" />
+  <img src="https://shawenyao.github.io/Photos/BART-OLED/demo.gif" style="width:100%;height:auto;"/>
 </div>
 
-_Image created by author on Google Slides. Left: Raspberry Pi Pico W; right: 128x64 OLED display._
+_A BART Platform Sign Portable in action, train arriving._
 
 <br>
 
@@ -44,6 +44,12 @@ Generally, the sign loops through four different layouts. First, there's the est
 ## Connecting a Display
 
 There are many affordable options when it comes to adding a display to a Raspberry Pi. For example, this 0.96-inch one can be had for about [$3 apiece](https://www.amazon.com/gp/product/B09T6SJBV5/). It features an 128x64 OLED display and should provide enough screen real estate for all the important stuff to be rendered on a single screen. For a detail instruction on how to use the display, [here](https://www.tomshardware.com/how-to/oled-display-raspberry-pi-pico) is an excellent guide from Tom's Hardware.
+
+<div align="center">
+  <img src="https://shawenyao.github.io/Photos/Raspberry Pi/picow&oled.png" />
+</div>
+
+_Raspberry Pi Pico W and OLED display. Left: Raspberry Pi Pico W; right: 128x64 OLED display. Image created by author on Google Slides._
 
 ## Getting Real-Time Depature Estimates
 
@@ -119,11 +125,7 @@ _An OLED screen displaying a digital clock._
 
 ## Putting It All Together
 
-<div align="center">
-  <img src="https://shawenyao.github.io/Photos/BART-OLED/demo.gif" style="width:100%;height:auto;"/>
-</div>
 
-_A BART Platform Sign Portable in action, train arriving._
 
 ## Appendix
 ### Try It Yourself

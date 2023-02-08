@@ -25,7 +25,7 @@ I like commuting by BART. It's fast, (relatively) reliable and (mostly) stress-f
 
 ## BART Platform Sign, the Original
 
-Behold the original, real BART platform sign, a piece of display that looks all too familiar in the eyes of the 145,700 riders (as of [Q3 2022](https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit)) everyday -
+Behold the original, real BART platform sign, a piece of display that looks all too familiar to some 145,700 riders (as of [Q3 2022](https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit)) everyday -
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/BART-OLED/1.jpg" width="48%" />
@@ -126,6 +126,8 @@ _An OLED screen displaying a digital clock._
 ## Putting It All Together
 
 <video src="https://shawenyao.github.io/Photos/BART-OLED/demo.mp4" controls="controls" width="100%"></video>
+
+_A BART Platform Sign Portable in action, train arriving._
 
 ## Appendix
 ### Try It Yourself

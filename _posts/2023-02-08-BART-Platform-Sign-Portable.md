@@ -91,7 +91,7 @@ it can then be used to print any arbitrary text to the OLED screen:
   <img src="https://shawenyao.github.io/Photos/BART-OLED/schedule.jpg" width="48%" /> 
 </p>
 
-_An OLED screen displaying text in different font sizes. Left: train arriving; right: schedule information._
+_An OLED screen displaying texts in different font sizes. Left: train arriving; right: estimated wait time._
 
 ## Displaying Time
 

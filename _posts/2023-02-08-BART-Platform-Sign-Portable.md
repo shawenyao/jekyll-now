@@ -37,7 +37,7 @@ Behold the original, real BART platform sign, a piece of display that looks all 
   <img src="https://shawenyao.github.io/Photos/BART-OLED/4.jpg" width="48%" /> 
 </p>
 
-_Four types of platform sign layouts. From top to bottom: estimated wait time, BART Service Advisories, train arriving, digital clock._
+_Four types of platform sign layouts. Top left: estimated wait time; top right: BART Service Advisories; bottom left: train arriving; bottom right: digital clock._
 
 If you stare at it for a while, a pattern begins to emerge. Generally, the sign loops through four different layouts. First, there's the estimated wait time screen between trains, which can span multiple screens by itself. This is often followed by a second type of layout, BART Service Advisories, usually regarding an annoucement of a train outage, cancellation, or just a friendly reminder from the police asking you to pay attention to your belongings. Third, a full-screen display of the destination kicks in when a train enters the platform. Finally, a digital clock pops up from time to time. They are all useful in some way, with the possible exception of the second one which isn't that informative in my opinion.
 

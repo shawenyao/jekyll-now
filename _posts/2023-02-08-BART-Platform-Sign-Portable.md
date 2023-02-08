@@ -128,7 +128,7 @@ _An OLED screen displaying a digital clock._
 
 ## Putting It All Together
 
-[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/nTQUwghvy5Q)
+<video src="https://shawenyao.github.io/Photos/BART-OLED/demo.mov" controls="controls" width="100%"></video>
 
 ## Appendix
 ### Try It Yourself

@@ -17,7 +17,7 @@ An authentic, desktop BART experience.
   <img src="https://shawenyao.github.io/Photos/BART-OLED/demo.gif" style="width:100%;height:auto;"/>
 </div>
 
-_A BART Platform Sign Portable in action, train arriving._
+_BART Platform Sign Portable in action, train arriving._
 
 <br>
 
@@ -127,7 +127,7 @@ _An OLED screen displaying a digital clock._
 
 <video src="https://shawenyao.github.io/Photos/BART-OLED/demo.mp4" controls="controls" width="100%"></video>
 
-_A BART Platform Sign Portable in action, train arriving._
+_BART Platform Sign Portable in action, train arriving._
 
 ## Appendix
 ### Try It Yourself

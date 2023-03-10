@@ -37,7 +37,7 @@ Mom and Dad
 
 <br>
 
-<var><sup>1</sup></var> Universe, _Wikipedia_, [https://en.wikipedia.org/wiki/Universe](https://en.wikipedia.org/wiki/Universe), accessed March 2023.
+<sup>1</sup> Universe, _Wikipedia_, [https://en.wikipedia.org/wiki/Universe](https://en.wikipedia.org/wiki/Universe), accessed March 2023.
 
 <sup>2</sup> Earth, _Wikipedia_, [https://en.wikipedia.org/wiki/Earth](https://en.wikipedia.org/wiki/Earth), accessed March 2023.
 

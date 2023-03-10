@@ -8,7 +8,7 @@ tag:
 comments: true
 draft: false
 berry: true
-new: true
+new: false
 ---
 
 An authentic, desktop BART experience.

@@ -15,6 +15,8 @@ How's it going?
   <img src="https://shawenyao.github.io/Photos/Random/ws.jpg"/>
 </p>
 
+<br>
+
 Hello Willie,
 
 On a sunny afternoon a little less than 10 months ago, we became aware of your existence. We were thrilled to say the least. A tad uneasy, too. As clueless as we were, we then set off on a journey to prepare ourselves for your arrival. That brings us to, well, today.

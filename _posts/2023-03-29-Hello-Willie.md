@@ -23,7 +23,7 @@ On a sunny afternoon a little less than 10 months ago, we became aware of your e
 
 Today, we welcome you to this world. 
 
-It is a beautiful world. One full of natural wonders and man-made miracles. Right off the bat, you are already a descendant of a 13.8-billion-year-old universe<sup>1</sup>, a 4.5-billion-year-old planet<sup>2</sup> and a 6000-year-old civilization.<sup>3</sup> By the time you read this, a lot more surely will have changed. Will humans have become inter-planetary? How much faster will computers run? Will cars be driving themselves, finally? Will you, perhaps, become part of the change, just like we all did today?
+It is a beautiful world. One full of natural wonders and man-made miracles. Right off the bat, you are already a descendant of a 13.8-billion-year-old universe,<sup>1</sup> a 4.5-billion-year-old planet,<sup>2</sup> and a 6000-year-old civilization.<sup>3</sup> By the time you read this, a lot more surely will have changed. Will humans have become inter-planetary? How much faster will computers run? Will cars be driving themselves, finally? Will you, perhaps, become part of the change, just like we all did today?
 
 Today, we welcome you as the newest member of our small but growing family on Harvey Drive. Mom and Dad are what you might call nice people. Average, nice people. We came from a country across the Pacific Ocean, where your grandparents call home. There's also Disney the tabby cat, who joined us about 3 years earlier than you did. All of us enjoy keeping each other company, and we will make sure you are no exception.
 

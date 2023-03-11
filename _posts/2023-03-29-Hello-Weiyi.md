@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello Willie
+title: Hello Weiyi
 tag:
   - random
 comments: true
@@ -17,7 +17,7 @@ How's it going?
 
 <br>
 
-Hello Willie,
+Hello Weiyi,
 
 On a sunny afternoon a little less than 10 months ago, we became aware of your existence. We were thrilled to say the least. A tad uneasy, too. As clueless as we were, we then set off on a journey to prepare ourselves for your arrival. That brings us to, well, today.
 

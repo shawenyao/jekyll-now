@@ -9,7 +9,7 @@ draft: true
 new: true
 ---
 
-How's it going?
+It's our pleasure to meet you.
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/Random/ws.jpg"/>

@@ -13,7 +13,7 @@ new: true
 With bottle separator.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/Lego Baby Bottle Stand/final.JPG" />
+  <img src="https://shawenyao.github.io/Photos/Lego Baby Bottle Stand/final.jpg" />
 </div>
 
 ## Instructions

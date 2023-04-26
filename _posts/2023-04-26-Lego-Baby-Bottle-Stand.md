@@ -10,7 +10,7 @@ brick: true
 new: true
 ---
 
-With charging cable slot.
+With bottle separator.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Lego Baby Bottle Stand/final.JPG" />

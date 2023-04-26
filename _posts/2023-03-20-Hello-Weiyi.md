@@ -6,7 +6,7 @@ tag:
 comments: true
 random: true
 draft: false
-new: true
+new: false
 ---
 
 It's our pleasure to meet you.

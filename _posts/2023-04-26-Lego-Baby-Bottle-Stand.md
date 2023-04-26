@@ -5,7 +5,7 @@ tag:
   - lego
   - moc
 comments: true
-draft: true
+draft: false
 brick: true
 new: true
 ---

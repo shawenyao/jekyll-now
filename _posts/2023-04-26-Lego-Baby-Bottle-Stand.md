@@ -10,7 +10,7 @@ brick: true
 new: true
 ---
 
-With bottle separator.
+Mommy is the best - period. Meanwhile, daddy has been trying to help.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Lego Baby Bottle Stand/final.jpg" />

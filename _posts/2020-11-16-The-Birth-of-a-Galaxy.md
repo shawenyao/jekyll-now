@@ -193,4 +193,4 @@ From a self-proclaimed data artist who lacks training in cosmology in any meanin
 
 Last but not least, the appeal obviously goes beyond the Milky Way. As long as we've made up our mind about an object's functional form (and maybe a new color palette that goes with it), everything else should still hold. This bodes well for other system, constellation or galaxy that we want to give a try so please feel free to let me know if you would like to see Andromeda next.
 
-You can also find [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html), [source](https://github.com/shawenyao/R/blob/master/main/milky_way/milky_way_plot_large.R), or [merchandise](https://displate.com/displate/712287?art=5be7f871363ea).
+You can also find [animation](https://shawenyao.github.io/R/output/milky_way/animation.html), [video](https://shawenyao.github.io/R/output/milky_way/video.html), or [source](https://github.com/shawenyao/R/blob/master/main/milky_way/milky_way_plot_large.R).

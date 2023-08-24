@@ -2,8 +2,7 @@
 layout: post
 title: Double Pack
 tag:
-  - lego
-  - moc
+  - random
 comments: true
 random: true
 new: true

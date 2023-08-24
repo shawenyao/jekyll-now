@@ -7,7 +7,7 @@ tag:
 comments: true
 draft: false
 brick: true
-new: true
+new: false
 ---
 
 Mommy is the best - period. Meanwhile, daddy has been trying to help.

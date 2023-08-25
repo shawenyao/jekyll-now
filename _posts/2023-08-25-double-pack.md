@@ -3,6 +3,7 @@ layout: post
 title: Double Pack
 tag:
   - random
+  - graphic novel
 comments: true
 random: true
 new: true

@@ -1,5 +1,5 @@
 ---
 layout: index_by_tag
-tag: raspberry pi
+tag: graphic novel
 permalink: /tag/graphic novel/
 ---

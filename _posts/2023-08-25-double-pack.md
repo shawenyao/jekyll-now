@@ -3,7 +3,7 @@ layout: post
 title: Double Pack
 tag:
   - random
-  - graphic novel
+  - story on slides
 comments: true
 random: true
 new: true

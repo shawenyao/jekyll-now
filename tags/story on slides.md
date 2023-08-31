@@ -1,5 +1,5 @@
 ---
 layout: index_by_tag
-tag: graphic novel
+tag: story on slides
 permalink: /tag/story on slides/
 ---

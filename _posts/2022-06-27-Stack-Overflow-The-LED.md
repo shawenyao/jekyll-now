@@ -58,7 +58,7 @@ As for the HID device path, my keyboard actually gave me four instances as `hid.
 
 ## Listening to Notifications
 
-There's probably no better way to get the system-wide notification status than to ask the system itself. The `WinRT` APIs, accessible in Python via the `pywinrt` package, makes it possible.
+There's probably no better way to get the system-wide notification status than to ask the system itself. The `WinRT` APIs, accessible in Python via the `winrt` package, makes it possible.
 
 ```python
 from winrt.windows.ui.notifications.management import UserNotificationListener
@@ -119,3 +119,9 @@ pip install winrt
 
 ### Configure hid
 Download the latest release of `hidapi-win.zip` from [GitHub](https://github.com/libusb/hidapi/releases), unzip and put `x64/hidapi.dll` into `C:\Windows\System32`
+
+### Working with Python >=3.10
+Since there's no support for `winrt` for Python >=3.10 currently, `winsdk` can be used instead with minor code edits.
+```bash
+pip install winsdk
+```

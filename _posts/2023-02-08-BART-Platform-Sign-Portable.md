@@ -133,4 +133,6 @@ _BART Platform Sign Portable in action, train arriving._
 ### Try It Yourself
 [https://github.com/shawenyao/bart-oled](https://github.com/shawenyao/bart-oled)
 
+<br>
+
 Update October 12, 2023: As of September 2023, [legacy BART trains](https://www.bart.gov/about/projects/legacy) (the ones with 2 doors per car instead of 3) are no longer in service. As a result, where it used to say “2-door” or “3-door” on the platform sign now displays the color of the line.

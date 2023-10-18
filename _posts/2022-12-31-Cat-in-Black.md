@@ -9,7 +9,7 @@ photography: true
 new: false
 ---
 
-"Time spent with cats is never wasted."
+They say time spent with cats is never wasted.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/IMG_0584.jpg" />

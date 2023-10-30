@@ -9,7 +9,7 @@ random: true
 new: true
 ---
 
-A Walgreens Mystery
+An Amazon, UPS, and Leasing Office Mystery.
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Where Is My Package/1.png" />

@@ -28,7 +28,7 @@ Planetary motions on a microcontroller.
 ## Instructions
 * Connect the OLED display to the Raspberry Pi Pico on a breadboard
 * Download and flash the [MicroPython firmware](https://github.com/v923z/micropython-builder/releases)
-* Copy [source code](https://github.com/shawenyao/three-body) onto the Raspberry Pi Pico
+* Copy [main.py](https://github.com/shawenyao/three-body/blob/main/main.py) onto the Raspberry Pi Pico
 * Connect the Raspberry Pi Pico to a power source
 
 ## Putting It All Together

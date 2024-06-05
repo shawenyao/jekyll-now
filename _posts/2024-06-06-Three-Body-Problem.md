@@ -31,7 +31,7 @@ Planetary motions on a microcontroller.
 * Copy [main.py](https://github.com/shawenyao/three-body/blob/main/main.py) onto the Raspberry Pi Pico
 * Connect the Raspberry Pi Pico to a power source
 
-## Putting It All Together
+## Demo
 
 <video src="https://shawenyao.github.io/Photos/Three-Body/demo.mp4" controls="controls" width="100%"></video>
 

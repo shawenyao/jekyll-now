@@ -33,11 +33,7 @@ Planetary motions on a microcontroller.
 
 ## Putting It All Together
 
-<video src="https://shawenyao.github.io/Photos/BART-OLED/demo.mp4" controls="controls" width="100%"></video>
-
-_BART Platform Sign Portable in action, train arriving._
-
-<br>
+<video src="https://shawenyao.github.io/Photos/Three-Body/demo.mp4" controls="controls" width="100%"></video>
 
 ## References
 * Problem overview by [Wikipedia](https://en.wikipedia.org/wiki/Three-body_problem)

@@ -13,7 +13,6 @@ new: True
 
 Planetary motions on a microcontroller.
 
-
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/Three-Body/image.png" style="width:100%;height:auto;"/>
 </div>
@@ -27,9 +26,9 @@ Planetary motions on a microcontroller.
 * Power adapter or power bank x 1
 
 ## Instructions
-* Connect the OLED display to the Raspberry Pi Pico W on a breadboard
+* Connect the OLED display to the Raspberry Pi Pico on a breadboard
 * Download and flash the [MicroPython firmware](https://github.com/v923z/micropython-builder/releases)
-* Copy `*.py` in the repository onto the Raspberry Pi Pico
+* Copy [source code](https://github.com/shawenyao/three-body) onto the Raspberry Pi Pico
 * Connect the Raspberry Pi Pico to a power source
 
 ## Putting It All Together
@@ -37,9 +36,6 @@ Planetary motions on a microcontroller.
 <video src="https://shawenyao.github.io/Photos/BART-OLED/demo.mp4" controls="controls" width="100%"></video>
 
 _BART Platform Sign Portable in action, train arriving._
-
-## Source Code
-[https://github.com/shawenyao/three-body](https://github.com/shawenyao/three-body)
 
 <br>
 

@@ -11,7 +11,7 @@ berry: true
 new: True
 ---
 
-An authentic, desktop BART experience.
+Planetary motions on a microcontroller.
 
 
 <div align="center">
@@ -31,6 +31,17 @@ An authentic, desktop BART experience.
 * Download and flash the [MicroPython firmware](https://github.com/v923z/micropython-builder/releases)
 * Copy `*.py` in the repository onto the Raspberry Pi Pico
 * Connect the Raspberry Pi Pico to a power source
+
+## Putting It All Together
+
+<video src="https://shawenyao.github.io/Photos/BART-OLED/demo.mp4" controls="controls" width="100%"></video>
+
+_BART Platform Sign Portable in action, train arriving._
+
+## Source Code
+[https://github.com/shawenyao/three-body](https://github.com/shawenyao/three-body)
+
+<br>
 
 ## References
 * Problem overview by [Wikipedia](https://en.wikipedia.org/wiki/Three-body_problem)

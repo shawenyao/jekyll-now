@@ -6,7 +6,7 @@ tag:
   - story on slides
 comments: true
 random: true
-new: true
+new: false
 ---
 
 An Amazon, UPS, and Leasing Office Mystery

@@ -1,0 +1,28 @@
+---
+layout: page
+title: About
+permalink: /publications/
+---
+
+<br>
+
+Marco Di Maggio and Wenyao Sha. ["Uniswap: Decentralized Crypto Trading,"](https://www.hbs.edu/faculty/Pages/item.aspx?num=65541) Harvard Business School Case 224-082, May 2024.
+
+Marco Di Maggio and Wenyao Sha, ["Axie Infinity: Video Game Meets Blockchain,"](https://www.hbs.edu/faculty/Pages/item.aspx?num=65011) Harvard Business School Case 224-021, November 2023.
+
+Marco Di Maggio and Wenyao Sha, ["Ava Labs: Navigating the Next Blockchain,"](https://www.hbs.edu/faculty/Pages/item.aspx?num=64034) Harvard Business School Teaching Note 223-097, May 2023
+
+Marco Di Maggio and Wenyao Sha, ["Ava Labs: Navigating the Next Blockchain,"](https://www.hbs.edu/faculty/Pages/item.aspx?num=63228) Harvard Business School Case 223-027, November 2022. (Revised December 2022.)
+
+Marco Di Maggio and Wenyao Sha, ["Coinbase: The Exchange of the Cryptos,"](https://www.hbs.edu/faculty/Pages/item.aspx?num=61382) Harvard Business School Case 222-044, October 2021.
+
+Marco Di Maggio, Wenyao Sha and Nicolas Andreoulis, ["Awakening the Blockchain: An Overview of DeFi,"](https://www.hbs.edu/faculty/Pages/item.aspx?num=60843) Harvard Business School Background Note 222-001, August 2021.
+
+Marco Di Maggio, Nicholas Platias, Wenyao Sha and Nicolas Andreoulis, ["What Happens When Cryptocurrencies Earn Interest,"](https://hbr.org/2021/02/what-happens-when-cryptocurrencies-earn-interest) Harvard Business Review, February 2021.
+
+Wenyao Sha, Yongxin Zhu, Min Chen and Tian Huang, ["Statistical Learning for Anomaly Detection in Cloud Server Systems: A Multi-Order Markov Chain Framework,"](https://ieeexplore.ieee.org/abstract/document/7065233) IEEE Transactions on Cloud Computing, vol. 6, no. 2, pp. 401-413, 1 April-June 2018.
+
+Wenyao Sha, Yongxin Zhu, Tian Huang, Meikang Qiu, Yan Zhu and Qiannan Zhang, ["A Multi-Order Markov Chain Based Scheme for Anomaly Detection,"](https://ieeexplore.ieee.org/abstract/document/6605770) 2013 IEEE 37th Annual Computer Software and Applications Conference Workshops, Japan, 2013, pp. 83-88.
+
+<br>
+

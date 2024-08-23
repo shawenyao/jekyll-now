@@ -12,7 +12,7 @@ permalink: /publications/
  </h1>
  <div>
   <ul class="tag_list_in_post">
-    Marco Di Maggio. [","]() 
+    Marco Di Maggio
   </ul>
   <ul class="tag_list_in_post">
     Wenyao Sha

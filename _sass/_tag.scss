@@ -13,6 +13,22 @@ a.tag_list_link:hover{
   color:#444;
 }
 
+a.tag_list_link2{
+  border-left:2px solid #ccc;
+  color:#888;
+  font-size:18px;
+  font-variant:small-caps;
+  margin:0;
+  padding:0 9px;
+  text-transform:lowercase;
+  cursor:pointer;
+}
+
+a.tag_list_link2:hover{
+  color:#444;
+  cursor:default;
+}
+
 a.tag_list_link_highlight{
   border-left:2px solid #ccc;
   color:#597aff;

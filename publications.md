@@ -20,7 +20,7 @@ permalink: /publications/
    Harvard Business School Case 224-082, May 2024.
   </div>
  </article>
-</div
+</div>
  
  <div>
   <ul class="tag_list_in_post">

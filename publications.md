@@ -1,10 +1,7 @@
 ---
-layout: page
-title: Publications
+layout: default
 permalink: /publications/
 ---
-
-<br>
 
 <div class="posts">
  <article class="post">

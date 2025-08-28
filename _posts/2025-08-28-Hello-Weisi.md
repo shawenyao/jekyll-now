@@ -19,7 +19,7 @@ It's our pleasure to meet you, too.
 
 Hello Weisi,
 
-With your first cry, we welcome you to this world. We know there's a lot to take in. It must be so confusing, overwhelming and disorienting. You have been living in a dark, warm crib for the past nine and half months. What is with this weird, new place?
+With your first cry, we welcome you to this world. There's a lot to take in. We know it must be so confusing, overwhelming and disorienting. You have been living in a dark, warm crib for the past nine and half months. What is with this weird, new place?
 
 Weiyi, your older brother, had a similar experience two and a half years ago. Look where he is now. It won't be easy, but it will be fine. And did we mention that you are in luck? This time around, we are now what you might call experienced parents (or less inexperienced ones, at least). Gone are the clueless diaper changers. No more clumsy swaddle makers. Nor the frypan-burning chefs. We are proud to say that we know what we are doing today, hopefully.
 

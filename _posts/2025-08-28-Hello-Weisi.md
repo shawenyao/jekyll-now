@@ -25,7 +25,7 @@ Weiyi, your older brother, had a similar experience two and a half years ago. Lo
 
 But even though we have some clue about what's going on with you, it doesn't make it any less special. We will applaud your achievements. Your first smile will be savored for days to come. Your first word will result in another heated debate over whether it means dad or mom. Your first steps will be recorded at the highest definition possible just so that we can show every excruciating detail to anyone who cares to watch. We look forward to learning new ways of being a good parent with you.
 
-You joined our family today - for that, we will be forever grateful. We cannot begin to tell you how magical the feeling is to have the inevitability of our aging being accompanied by the delight of watching you grow. You have a beautiful life ahead of you. Make the most of it. 
+You joined our family today - for that, we will be forever grateful. We cannot begin to tell you how magical the feeling is to have the inevitability of our aging accompanied by the delight of watching you grow. You have a beautiful life ahead of you. Make the most of it. 
 
 Yours,
 

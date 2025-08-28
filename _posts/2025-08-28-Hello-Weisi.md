@@ -28,4 +28,5 @@ But even though we have some clue about what's going on with you, it doesn't mak
 You joined our family today - for that, we will be forever grateful. We cannot begin to tell you how magical the feeling is to have the inevitability of our aging being accompanied by the delight of watching you grow. You have an interesting life ahead of you. Make the most out of it. 
 
 Yours,
+
 Mom and Dad

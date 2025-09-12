@@ -16,7 +16,7 @@ permalink: /the-story-so-far/
   <img src="https://shawenyao.github.io/Photos/The Story So Far/1B.jpg" />
 </div>
 
-<br>
+<br><br>
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/The Story So Far/2A.jpg" />
@@ -26,7 +26,7 @@ permalink: /the-story-so-far/
   <img src="https://shawenyao.github.io/Photos/The Story So Far/2B.jpg" />
 </div>
 
-<br>
+<br><br>
 
 <div align="center">
   <img src="https://shawenyao.github.io/Photos/The Story So Far/3A.jpg" />
@@ -36,4 +36,4 @@ permalink: /the-story-so-far/
   <img src="https://shawenyao.github.io/Photos/The Story So Far/3B.jpg" />
 </div>
 
-<br>
+<br><br>

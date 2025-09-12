@@ -14,7 +14,7 @@ new: True
 Planetary motions on a microcontroller.
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/Three-Body/image.png" style="width:100%;height:auto;"/>
+  <img src="https://shawenyao.github.io/Photos/Three Body/image.png" style="width:100%;height:auto;"/>
 </div>
 
 ## Requirements
@@ -33,7 +33,7 @@ Planetary motions on a microcontroller.
 
 ## Demo
 
-<video src="https://shawenyao.github.io/Photos/Three-Body/demo.mp4" controls="controls" width="100%"></video>
+<video src="https://shawenyao.github.io/Photos/Three Body/demo.mp4" controls="controls" width="100%"></video>
 
 ## References
 * Problem overview by [Wikipedia](https://en.wikipedia.org/wiki/Three-body_problem)

@@ -36,4 +36,4 @@ permalink: /the-story-so-far/
   <img src="https://shawenyao.github.io/Photos/The Story So Far/3B.jpg" />
 </div>
 
-<br><br>
+<br>

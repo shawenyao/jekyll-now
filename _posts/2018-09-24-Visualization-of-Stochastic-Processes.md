@@ -54,7 +54,7 @@ $dX_t = a(b-X_t)dt + \sigma \sqrt{X_t}dW_t$
 <iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/08_CIR.html" style="border:none;height:500px;width:500px;"></iframe>
 
 ## Poisson Process
-$P(X_t = k) = e^{-\lambda t} \frac{(\lambda t) ^ k}{k,!}$
+$P(X_t = k) = e^{-\lambda t} \frac{(\lambda t) ^ k}{k!}$
 <iframe src="https://shawenyao.github.io/Visualization-of-Stochastic-Processes/html_output/09_poisson.html" style="border:none;height:500px;width:500px;"></iframe>
 
 ## Compensated Poisson Process

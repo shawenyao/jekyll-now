@@ -1,6 +1,7 @@
 ---
 layout: page
 title: The Story So Far
+permalink: /the-story-so-far/
 ---
 
 <blockquote style="margin: 1.8em .8em;border-left: 2px solid #666;padding: 0.1em 1em;color: #666;font-size: 22px;font-style: italic;">

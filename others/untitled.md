@@ -9,25 +9,25 @@ permalink: /untitled/
 </blockquote>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/Others/1A.png" />
+  <img src="https://shawenyao.github.io/Photos/Untitled/1A.png" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/Others/1B.png" />
+  <img src="https://shawenyao.github.io/Photos/Untitled/1B.png" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/Others/2A.png" />
+  <img src="https://shawenyao.github.io/Photos/Untitled/2A.png" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/Others/2B.png" />
+  <img src="https://shawenyao.github.io/Photos/Untitled/2B.png" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/Others/3A.png" />
+  <img src="https://shawenyao.github.io/Photos/Untitled/3A.png" />
 </div>
 
 <div align="center">
-  <img src="https://shawenyao.github.io/Photos/Others/3B.png" />
+  <img src="https://shawenyao.github.io/Photos/Untitled/3B.png" />
 </div>

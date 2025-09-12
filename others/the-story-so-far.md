@@ -18,6 +18,8 @@ permalink: /the-story-so-far/
   </div>
 </div>
 
+<br>
+
 <div style="background-color: #cdd9ff;">
   <div align="center">
     <img src="https://shawenyao.github.io/Photos/The Story So Far/2A.jpg" />
@@ -27,6 +29,8 @@ permalink: /the-story-so-far/
     <img src="https://shawenyao.github.io/Photos/The Story So Far/2B.jpg" />
   </div>
 </div>
+
+<br>
 
 <div style="background-color: #cdd9ff;">
   <div align="center">

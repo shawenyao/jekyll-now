@@ -8,7 +8,7 @@ permalink: /the-story-so-far/
   <p>Oh, dream maker</p>
 </blockquote>
 
-<div style="background-color: #D3D3D3;">
+<div style="background-color: #cdd9ff;">
   <div align="center">
     <img src="https://shawenyao.github.io/Photos/The Story So Far/1A.jpg" />
   </div>
@@ -20,22 +20,26 @@ permalink: /the-story-so-far/
 
 <br>
 
-<div align="center">
-  <img src="https://shawenyao.github.io/Photos/The Story So Far/2A.jpg" />
-</div>
-
-<div align="center">
-  <img src="https://shawenyao.github.io/Photos/The Story So Far/2B.jpg" />
+<div style="background-color: #cdd9ff;">
+  <div align="center">
+    <img src="https://shawenyao.github.io/Photos/The Story So Far/2A.jpg" />
+  </div>
+  
+  <div align="center">
+    <img src="https://shawenyao.github.io/Photos/The Story So Far/2B.jpg" />
+  </div>
 </div>
 
 <br>
 
-<div align="center">
-  <img src="https://shawenyao.github.io/Photos/The Story So Far/3A.jpg" />
-</div>
-
-<div align="center">
-  <img src="https://shawenyao.github.io/Photos/The Story So Far/3B.jpg" />
+<div style="background-color: #cdd9ff;">
+  <div align="center">
+    <img src="https://shawenyao.github.io/Photos/The Story So Far/3A.jpg" />
+  </div>
+  
+  <div align="center">
+    <img src="https://shawenyao.github.io/Photos/The Story So Far/3B.jpg" />
+  </div>
 </div>
 
 <br>

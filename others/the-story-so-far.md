@@ -8,7 +8,7 @@ permalink: /the-story-so-far/
   <p>Oh, dream maker</p>
 </blockquote>
 
-<div style="background:#D3D3D3">
+<div style="background-color: #D3D3D3;">
   <div align="center">
     <img src="https://shawenyao.github.io/Photos/The Story So Far/1A.jpg" />
   </div>

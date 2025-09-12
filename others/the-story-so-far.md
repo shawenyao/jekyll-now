@@ -9,13 +9,13 @@ permalink: /the-story-so-far/
 </blockquote>
 
 <div style="background:#D3D3D3">
-<div align="center">
-  <img src="https://shawenyao.github.io/Photos/The Story So Far/1A.jpg" />
-</div>
-
-<div align="center">
-  <img src="https://shawenyao.github.io/Photos/The Story So Far/1B.jpg" />
-</div>
+  <div align="center">
+    <img src="https://shawenyao.github.io/Photos/The Story So Far/1A.jpg" />
+  </div>
+  
+  <div align="center">
+    <img src="https://shawenyao.github.io/Photos/The Story So Far/1B.jpg" />
+  </div>
 </div>
 
 <br>

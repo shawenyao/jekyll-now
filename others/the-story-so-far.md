@@ -42,4 +42,14 @@ permalink: /the-story-so-far/
   </div>
 </div>
 
+<div style="background-color: #cdd9ff;">
+  <div align="center">
+    <img src="https://shawenyao.github.io/Photos/The Story So Far/4A.jpg" />
+  </div>
+  
+  <div align="center">
+    <img src="https://shawenyao.github.io/Photos/The Story So Far/4B.jpg" />
+  </div>
+</div>
+
 <br>

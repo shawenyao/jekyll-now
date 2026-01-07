@@ -18,7 +18,7 @@ As of today.
 
 <br>
 
-I consider it my lifetime mission to find the optimal desktop setup from both a productivity and aesthetic standpoint. There are two basic requirements: to maximize space utilization (especially vertically) and to minimize visual clutter (no visible cables, please). In other words, I need everything I need to be exactly where i need it to be, and everything else out of the way. It's a project that by definition will never see an end, but after years of trying, failing and repeating, at least here's something that makes me go, hey, I really wouldn't mind spending ten hours here a day.
+I consider it my lifetime mission to find the optimal desktop setup from both a productivity and aesthetic standpoint. There are two basic requirements: to maximize space utilization (especially vertically) and to minimize visual clutter (no visible cables, please). In other words, I need everything I need to be exactly where i need it to be, and everything else out of the way. It's a project that by definition will never see an end, but after years of trying, failing and repeating, at least here's something that makes me go, hey, I really wouldn't mind spending ten hours here, each and every day.
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/Desktop/0W4A6885.JPG"/>

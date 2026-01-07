@@ -54,7 +54,7 @@ I consider it my lifetime mission to find the optimal desktop setup from both a 
 
 9\. __ThinkPad X1 Carbon__ - work laptop
 
-10\. __Asus ROG Zephyrus M16__ - peronsal laptop; the lids of both laptops are in permanent closed state
+10\. __Asus ROG Zephyrus M16__ - peronsal laptop; the lids of both laptops are in permanent closed position
 
 11\. __Fezibo standing desk__ - useful in more ways than one: staying active, reducing back pain, saving space (chair can go under), etc.
 
@@ -84,7 +84,7 @@ I consider it my lifetime mission to find the optimal desktop setup from both a 
   <img src="https://shawenyao.github.io/Photos/Desktop/0W4A6886.JPG"/>
 </p>
 
-16\. __Nintendo Switch 2__ - I swear it's not always there
+16\. __Nintendo Switch 2__ - (I swear it's not always there)
 
 17\. __USB-C cable w/ magnetic adaptor__ - makes plugging/unplugging a one-handed operation; also doubles as a Switch 2 dock/fast charger
 

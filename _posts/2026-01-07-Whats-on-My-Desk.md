@@ -54,7 +54,7 @@ I have been looking for the best desktop setup that works for me. There are two 
 
 9\. __ThinkPad X1 Carbon__ - work laptop
 
-10\. __Asus ROG Zephyrus M16__ - peronsal laptop
+10\. __Asus ROG Zephyrus M16__ - peronsal laptop; the lids of both laptops are in permanent closed state
 
 11\. __Fezibo standing desk__ - useful in many ways: reducing back pain, saving space (chair can go under), etc.
 
@@ -66,7 +66,7 @@ I have been looking for the best desktop setup that works for me. There are two 
 
 12\. __Lego minifigure stand__ - seasonally rotating minifigure; also doubles as an extra monitor arm (to prevent wobbling)
 
-13\. __USB switch__ - a hardware shortcut to reconnect keyboard/mouse to the other PC
+13\. __USB switch__ - a hardware shortcut to reconnect keyboard/mouse to the other computer
 
 <br>
 

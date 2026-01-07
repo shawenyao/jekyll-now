@@ -54,7 +54,7 @@ I have been looking for the best desktop setup that works for me. There are two 
 
 9\. __ThinkPad X1 Carbon__ - work laptop
 
-10\. __ASUS ROG Zephyrus M16__ - peronsal laptop
+10\. __Asus ROG Zephyrus M16__ - peronsal laptop
 
 11\. __Fezibo standing desk__ - useful in many ways: reducing back pain, saving space (chair can go under), etc.
 

@@ -40,7 +40,7 @@ I have been looking for the best desktop setup that works for me. There are two 
 
 5\. __Das Keyboard 4 Professional__ - the oldest piece of hardware in the current lineup; still going strong in its 9th year
 
-6\. __Logitech G604__ - the perfect balance between style and function (however, the fact that this model has been discontinued concerns me)
+6\. __Logitech G604__ - the perfect balance between style and function (however, the fact that this particular model has been discontinued is concerning)
 
 <br>
 
@@ -56,7 +56,7 @@ I have been looking for the best desktop setup that works for me. There are two 
 
 10\. __Asus ROG Zephyrus M16__ - peronsal laptop; the lids of both laptops are in permanent closed state
 
-11\. __Fezibo standing desk__ - useful in many ways: reducing back pain, saving space (chair can go under), etc.
+11\. __Fezibo standing desk__ - useful in various ways: reducing back pain, saving space (chair can go under), etc.
 
 <br>
 

@@ -33,7 +33,7 @@ I have been looking for the best desktop setup that works for me. There are two 
 
 3. __Dell UltraSharp U2515H__ - secondary monitor (potrait orientation)
 4. __Sadness mug__ - any mug works, but I cannot resist the gloomy, chubby face
-5. __Das Keyboard 4 Professional__ - the oldest piece of hardware in my desktop lineup; still going strong in its 9th year
+5. __Das Keyboard 4 Professional__ - the oldest piece of hardware in the current lineup; still going strong in its 9th year
 6. __Logitech G604__ - the perfect balance between style and function (however, the fact that this model has been discontinued by Logitech concerns me)
 
 <p float="left" align="middle">

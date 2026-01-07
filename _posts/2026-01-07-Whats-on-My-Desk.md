@@ -74,7 +74,7 @@ I have been looking for the best desktop setup that works for me. There are two 
   <img src="https://shawenyao.github.io/Photos/Desktop/0W4A6880.JPG"/>
 </p>
 
-14\. __Light bar controller__ not an absolute necessity, but looks slick so I don't mind
+14\. __Light bar controller__ - not an absolute necessity, but looks slick so I don't mind
 
 15\. __Baseus Bass BP1 Pro__ - an astonishingly affordable alternative to AirPods Pro
 

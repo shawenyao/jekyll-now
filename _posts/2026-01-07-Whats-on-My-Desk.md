@@ -18,7 +18,7 @@ As of today.
 
 <br>
 
-I have been looking for the best desktop setup that works for me. There are two basic requirements: to maximize space utilization (especially vertically) and to minimize visual clutter (cables for example). In other words, I need everything i need to be exactly where i need it to be, and everything else out of the way. It's one of my evergreen projects that probably will never be completed, but at least it's finally in a state that makes me proud.
+I have been looking for the best desktop setup that works for me. There are two basic requirements: to maximize space utilization (especially vertically) and to minimize visual clutter (cables for example). In other words, I need everything i need to be exactly where i need it to be, and everything else out of the way. It's one of my evergreen projects that probably will never be completed, but at least it's finally in a state that makes me go, hey, I could really enjoy spending ten hours here a day.
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/Desktop/0W4A6885.JPG"/>
@@ -48,7 +48,7 @@ I have been looking for the best desktop setup that works for me. There are two 
   <img src="https://shawenyao.github.io/Photos/Desktop/0W4A6878.JPG"/>
 </p>
 
-7\. __Lisen Gooseneck Phone Holder__ - puts the phone where it needs to be (i.e., out of my reach)
+7\. __Lisen Gooseneck Phone Holder__ - puts the distractions where it belongs (i.e., out of my reach)
 
 8\. __iPhone 14 Pro__ - doubles as a webcam
 
@@ -56,7 +56,7 @@ I have been looking for the best desktop setup that works for me. There are two 
 
 10\. __ASUS ROG Zephyrus M16__ - peronsal laptop
 
-11\. __Fezibo standing desk__ - useful in so many ways: reducing back pain, saving space (chair can go under), etc.
+11\. __Fezibo standing desk__ - useful in many ways: reducing back pain, saving space (chair can go under), etc.
 
 <br>
 
@@ -64,7 +64,7 @@ I have been looking for the best desktop setup that works for me. There are two 
   <img src="https://shawenyao.github.io/Photos/Desktop/0W4A6874.JPG"/>
 </p>
 
-12\. __Lego minifigure stand__ - seasonally rotating minifigure; also doubles as a monitor arm to prevent wobbling
+12\. __Lego minifigure stand__ - seasonally rotating minifigure; also doubles as an extra monitor arm (to prevent wobbling)
 
 13\. __USB switch__ - a hardware shortcut to reconnect keyboard/mouse to the other PC
 

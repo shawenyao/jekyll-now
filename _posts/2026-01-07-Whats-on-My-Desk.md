@@ -24,7 +24,7 @@ I have been looking for the best desktop setup that works for me. There are two 
   <img src="https://shawenyao.github.io/Photos/Desktop/0W4A6885.JPG"/>
 </p>
 
-1. __BenQ ScreenBar Halo 2 LED Monitor Light Bar__ - main source of lighting
+1. __BenQ ScreenBar Halo 2 LED Monitor Light Bar__ - main source of light
 2. __LG UltraFine 32UP83A__ - main monitor
 
 <p float="left" align="middle">

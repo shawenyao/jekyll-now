@@ -18,7 +18,7 @@ As of today.
 
 <br>
 
-I have been looking for the best desktop setup that works for me. There are two basic requirements: to maximize space utilization (especially vertically) and to minimize visual clutter (no visible cables, please). In other words, I need everything i need to be exactly where i need it to be, and everything else out of the way. It's one of my evergreen projects that probably will never be completed, but at least it's finally in a state that makes me go, hey, I could really enjoy spending ten hours here a day.
+I have been looking for the best desktop setup that works for me. There are two basic requirements: to maximize space utilization (especially vertically) and to minimize visual clutter (no visible cables, please). In other words, I need everything I need to be exactly where i need it to be, and everything else out of the way. It's one of my evergreen projects that probably will never be completed, but at least it's finally in a state that makes me go, hey, I could really enjoy spending ten hours here a day.
 
 <p float="left" align="middle">
   <img src="https://shawenyao.github.io/Photos/Desktop/0W4A6885.JPG"/>

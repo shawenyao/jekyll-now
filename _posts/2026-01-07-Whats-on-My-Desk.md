@@ -38,7 +38,7 @@ I consider it my lifetime mission to find the optimal desktop setup from both a 
 
 4\. __Sadness mug__ - any mug works, but I just cannot resist the gloomy, chubby face
 
-5\. __Das Keyboard 4 Professional__ - the oldest piece of hardware in the current lineup; still going strong in its 9th year
+5\. __Das Keyboard 4 Professional__ - the oldest piece of hardware in the lineup; still going strong in its 9th year
 
 6\. __Logitech G604__ - the perfect balance between style and function (however, the fact that this particular model has been discontinued concerns me)
 

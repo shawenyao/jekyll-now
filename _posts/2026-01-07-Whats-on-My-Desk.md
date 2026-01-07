@@ -48,7 +48,7 @@ I consider it my lifetime mission to find the optimal desktop setup from both a 
   <img src="https://shawenyao.github.io/Photos/Desktop/0W4A6878.JPG"/>
 </p>
 
-7\. __Lisen Gooseneck Phone Holder__ - puts the distractions where it belongs (i.e., out of my reach)
+7\. __Lisen Gooseneck Phone Holder__ - puts the distractions where they belong (i.e., out of my reach)
 
 8\. __iPhone 14 Pro__ - doubles as a webcam
 

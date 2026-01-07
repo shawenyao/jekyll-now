@@ -86,7 +86,7 @@ I have been looking for the best desktop setup that works for me. There are two 
 
 16\. __Nintendo Switch 2__ - I swear it's not always there
 
-17\. __USB-C cable w/ magnetic adaptor__ - makes plugging/unplugging a one-handed operation; also doubles as Switch 2 dock/fast charger
+17\. __USB-C cable w/ magnetic adaptor__ - makes plugging/unplugging a one-handed operation; also doubles as a Switch 2 dock/fast charger
 
 <br>
 

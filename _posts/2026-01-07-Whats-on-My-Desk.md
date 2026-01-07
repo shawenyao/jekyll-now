@@ -56,7 +56,7 @@ I consider it my lifetime mission to find the optimal desktop setup from both a 
 
 10\. __Asus ROG Zephyrus M16__ - peronsal laptop; the lids of both laptops are in permanent closed state
 
-11\. __Fezibo standing desk__ - useful in various ways: reducing back pain, saving space (chair can go under), etc.
+11\. __Fezibo standing desk__ - useful in more ways than one: staying active, reducing back pain, saving space (chair can go under), etc.
 
 <br>
 

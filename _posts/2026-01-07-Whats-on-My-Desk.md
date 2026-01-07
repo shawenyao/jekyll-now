@@ -94,7 +94,7 @@ I consider it my lifetime mission to find the optimal desktop setup from both a 
   <img src="https://shawenyao.github.io/Photos/Desktop/IMG_5480.gif" style="width:100%;height:auto;"/>
 </div>
 
-_The best thing that happened to USB-C since USB-C in my opinion_
+_Magnetically attached USB-C dongle - the best thing that happened to USB-C since USB-C in my opinion_
 
 
 

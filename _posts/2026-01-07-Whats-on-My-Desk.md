@@ -24,7 +24,7 @@ I consider it my lifetime mission to find the optimal desktop setup from both a 
   <img src="https://shawenyao.github.io/Photos/Desktop/0W4A6885.JPG"/>
 </p>
 
-1\. __BenQ ScreenBar Halo 2 LED Monitor Light Bar__ - main source of light
+1\. __BenQ ScreenBar Halo 2 LED Monitor Light Bar__ - main source of lighting
 
 2\. __LG UltraFine 32UP83A__ - main monitor
 

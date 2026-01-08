@@ -64,7 +64,7 @@ I consider it my lifetime mission to find the optimal desktop setup from both a 
   <img src="https://shawenyao.github.io/Photos/Desktop/0W4A6874.JPG"/>
 </p>
 
-12\. __Lego minifigure stand__ - seasonally rotating minifigure; also doubles as an extra monitor arm to prevent wobbling
+12\. __Lego minifigure stand__ - display for a seasonally rotating minifigure; also doubles as an extra monitor arm to prevent wobbling
 
 13\. __USB switch__ - a hardware shortcut to reconnect keyboard/mouse to the other computer
 
